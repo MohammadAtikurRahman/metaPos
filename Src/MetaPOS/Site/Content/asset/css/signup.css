@@ -1,0 +1,168 @@
+/*form body css*/
+}
+
+img.logo.img-responsive {
+    width: 55%;
+}
+
+img.img-responsive.center-block {
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.have_account {
+    float: right;
+    margin: -3px 0px;
+    /* margin-left: 600px; */
+    margin-top: 15px;
+    color: #626262;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.have_account a {
+    color: #3fc380
+}
+
+.text-center {
+    text-align: center;
+    font-size: 20px;
+}
+
+.trail {
+    padding-top: 5%;
+}
+
+.retailer {
+    padding-top: 7%;
+    padding-bottom: 8%;
+}
+
+.form-design h3 {
+    /* margin-top: 30px; */
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.free-trail h1 {
+    color: #3fc380;
+    font-weight: normal;
+    font-size: 35px;
+    font-family: unset;
+}
+
+.free-trail p {
+    margin: 0 0 15px;
+    color: #404040;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.retail_header h4 {
+    font-size: 25px;
+    font-family: inherit;
+    font-weight: normal;
+    margin-bottom: -20px;
+    padding-bottom: -98px;
+}
+
+img.logo.img-responsive {
+    width: 60%;
+}
+
+/*
+.box {
+    background: #fff;
+    padding: 20px 13px;
+    -webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+    border-radius: 3px;
+}
+*/
+.box {
+    padding: 20px 13px;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer
+}
+
+.box:hover {
+    background: #EAF6EB;
+    padding: 20px 13px;
+    border: 1px solid #3fc380;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.9s
+}
+
+.box a i {
+    font-size: 59px;
+    color: #585858;
+    margin-left: 31%;
+    margin-top: 0px;
+    padding-bottom: 6%;
+}
+
+.first_row {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.second_row {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+/*
+.second_row {
+    padding-left: 20%;
+    padding-right: 0%;
+    padding-top: 2%;
+}
+*/
+
+
+.retail-feature {
+    padding-top: 5%;
+}
+
+.signup-form {
+    padding-bottom: 10%
+}
+
+.mynav {
+    padding: 10px 120px;
+    border-bottom: 1px solid #ddd
+}
+
+.btnRegister {
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 2.3%;
+    background: #13d485fa;
+    color: #fff;
+    font-weight: 600;
+    font-family: inherit;
+    width: 100%;
+    cursor: pointer;
+}
+
+.custom-control-label {
+    margin-top: 30px;
+    margin-left: 19px;
+    display: contents;
+}
+
+.label {
+    margin-left: 100px
+}
+
+.custom-control.custom-checkbox {
+    text-align: center;
+}
+
+/*form body css*/
+

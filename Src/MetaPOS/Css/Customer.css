@@ -1,0 +1,35 @@
+﻿.btnPay > i.fa.fa-shopping-cart {
+    font-size: 22px;
+    padding: 8px 0px 5px 15px;
+}
+
+.gCus { margin-bottom: 10px; }
+
+.dataWiseSearch { float: right; }
+
+.dateWiseSearch { float: right; }
+
+.customer-filter { float: right; }
+
+.paydueCustom { width: 60% !important; }
+
+.btn-pay-opening-due { float: left; }
+
+.opening-due {
+    margin-top: 7px !important;
+    display: inline-block;
+}
+
+.customer-action a {
+    float: left !important;
+    width: 20%;
+}
+
+.cusType tr {
+    float: left;
+    width: 40%;
+}
+
+.paymentHistory .form-inline {
+        margin-top: 15px;
+}

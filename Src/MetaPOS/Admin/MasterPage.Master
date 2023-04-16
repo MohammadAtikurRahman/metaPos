@@ -1,0 +1,248 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="MetaPOS.Admin.MasterPage" %>
+
+<%@ Register Src="~/Admin/Controller/Header.ascx" TagPrefix="uc1" TagName="Header" %>
+<%@ Register Src="~/Admin/Controller/Sidebar.ascx" TagPrefix="uc1" TagName="Sidebar" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title>metaPOS -
+        <asp:ContentPlaceHolder ID="id" runat="server"></asp:ContentPlaceHolder>
+    </title>
+
+    <!-- Meta Section -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="../wwwroot/favicon.ico" type="image/x-icon" />
+
+    <!-- Css References -->
+    
+    <link href="<%= ResolveUrl("~/wwwroot/lib/bootstrap/css/bootstrap.min.css") %>" rel="stylesheet" />
+    <%--<link href="<%= ResolveUrl("~/wwwroot/lib/datatable/css/datatables.min.css") %>" rel="stylesheet" />--%>
+    <link href="<%= ResolveUrl("~/wwwroot/lib/datatable/css/datatable-bootstrap.min.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/wwwroot/lib/jquery/jquery-ui.min.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/wwwroot/lib/datatable/css/datatable-buttons.min.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/wwwroot/lib/font-awesome/css/font-awesome.min.css") %>" rel="stylesheet" />
+    
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/wwwroot/css/bootstrap-multiselect.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/wwwroot/css/animate.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/wwwroot/css/designer.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/wwwroot/css/grid-details-view-design.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/wwwroot/css/responsive.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/wwwroot/css/sidebar.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/wwwroot/css/notification.css") %>" rel="stylesheet" />
+    
+    <!-- Js References -->
+    <script src="<%= ResolveUrl("~/wwwroot/lib/jquery/external/jquery/jquery-3.3.1.min.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/lib/bootstrap/js/bootstrap.min.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/js/alert-box.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/lib/modernizr/modernizr.custom.js") %>"></script>
+
+    <!-- Toastr message -->
+    <script src="<%= ResolveUrl("~/wwwroot/lib/toastr/toastr.min.js") %>"></script>
+    <link href="<%= ResolveUrl("~/wwwroot/lib/toastr/toastr.min.css") %>" rel="stylesheet" />
+    
+    
+    <link href="<%= ResolveUrl("~/wwwroot/lib/datatable/select2.min.css") %>" rel="stylesheet" />
+    <script src="<%= ResolveUrl("~/wwwroot/lib/datatable/select2.min.js") %>"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">metaPOS - A Business Solution</asp:ContentPlaceHolder>
+</head>
+
+<body class="scrollBody" style="background: #F0F3F4; overflow-y: scroll;">
+    <form id="form1" runat="server">
+        <asp:Button runat="server" ID="btnEnterPress" Visible="False" />
+
+        <div class="metapos-loading disNone" id="metaposloading">Loading&#8230;</div>
+
+        <div class="container-fluid">
+            <label id="lblAccess" class="disNone"></label>
+
+            <div class="page-container">
+                <div class="row">
+                    <uc1:Header runat="server" ID="Header" />
+                </div>
+                <div class="row">
+                    <uc1:Sidebar runat="server" ID="Sidebar" />
+                    <asp:ScriptManager ID="ScriptManager1" runat="server" AsyncPostBackTimeout="360000" EnablePartialRendering="true" ></asp:ScriptManager>
+                    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                        <ContentTemplate>
+                            <div class="content">
+                                <%-- col-md-10 col-sm-10 col-xs-10 --%>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="messagealert" id="alert_container"></div>
+                                    </div>
+                                </div>
+                                <asp:ContentPlaceHolder ID="contentBody" runat="server">
+                                </asp:ContentPlaceHolder>
+
+                            </div>
+                        </ContentTemplate>
+                    </asp:UpdatePanel>
+                </div>
+            </div>
+        </div>
+        <asp:HiddenField ID="addOptGlobal" runat="server" />
+        <asp:HiddenField ID="editOptGlobal" runat="server" />
+        <asp:HiddenField ID="deleteOptGlobal" runat="server" />
+        <asp:HiddenField ID="branchIdGlobal" runat="server" />
+        <asp:HiddenField ID="roleIdGlobal" runat="server" />
+        <asp:HiddenField ID="userRightGlobal" runat="server" />
+        <asp:HiddenField ID="currentDatetimeGlobal" runat="server" />
+        <asp:HiddenField ID="storeIdGlobal" runat="server" />
+        <asp:HiddenField ID="storeExpiryDate" runat="server" />
+        <asp:HiddenField ID="expiryNotification" runat="server" />
+        <asp:HiddenField ID="accessPagesGlobal" runat="server" />
+        <asp:HiddenField ID="companyName" runat="server"/>
+        <asp:HiddenField ID="companyDomain" runat="server"/>
+        <asp:HiddenField ID="companyEmail" runat="server"/>
+
+        
+
+        <!-- Delete Action Modal -->
+        <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h3 class="modal-title"><% =Resources.Language.Lbl_location_delete_action %></h3>
+                    </div>
+                    <div class="modal-body">
+                        <h4><% =Resources.Language.Lbl_location_are_you_sure_want_to_delete %></h4>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="JavaScript:void(0);" id="btnDelete" class="btn btn-danger"><% =Resources.Language.Btn_location_ok %></a>
+                        <a href="JavaScript:void(0);" data-dismiss="modal" aria-hidden="true" class="btn btn-default"><% =Resources.Language.Btn_location_cancel%></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Delete Action Modal -->
+        <div class="modal fade" id="restoreModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h3 class="modal-title"><% =Resources.Language.Lbl_location_restore_action %></h3>
+                    </div>
+                    <div class="modal-body">
+                        <h4>Are you sure want to restore?</h4>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="JavaScript:void(0);" id="btnRestore" class="btn btn-danger"><% =Resources.Language.Btn_location_ok %></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Delete Action Modal -->
+        <div class="modal fade margin-top-15-persent" id="errorMsgModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title errorMsgTitle">Error</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p id="errorMsgTxt"></p>
+                    </div>
+                    <div class="modal-footer">
+                        <p style="font-size: 15px; float: left">Please contact with your support team - <a href="http://metaposbd.com">metaPOS</a></p>
+                        <a style="font-size: 15px" href="#" onclick="window.history.back();return false;">Back</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Js References -->
+    <script src="<%= ResolveUrl("~/wwwroot/js/initilize.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/js/main.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/js/sidebar.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/js/navbar.js?v=0.001") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/js/validation.js") %>"></script>
+<%--<script src="<%= ResolveUrl("~/wwwroot/js/language/language-bn.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/js/language/language-config.js") %>"></script>--%>
+    <script src="<%= ResolveUrl("~/wwwroot/js/language/language-config.js?v=0.003") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/js/twakto.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/js/tostr-message.js") %>"></script>
+
+
+    <script src="<%= ResolveUrl("~/wwwroot/lib/jquery/jquery.metisMenu.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/lib/jquery/jquery-ui.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/lib/jquery/jquery.cookie.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/lib/jquery/jquery.validate.min.js") %>"></script>
+
+
+    
+    <script src="<%= ResolveUrl("~/wwwroot/lib/moment/moment.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/lib/moment/moment-timezone-with-data.min.js") %>"></script>
+    
+   
+     <script src="<%= ResolveUrl("~/wwwroot/lib/datatable/js/datatables.min.js?v=0.0001") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/lib/datatable/js/datatable-jquery.min.js?v=0.0001") %>"></script>
+     <script src="<%= ResolveUrl("~/wwwroot/lib/datatable/js/datatable-bootstrap.min.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/lib/datatable/js/datatable-buttons.min.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/lib/datatable/js/datatable-buttons-print.min.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/lib/datatable/js/datatable-buttons-excel-jszip.min.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/lib/datatable/js/datatable-buttons-flash.min.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/lib/datatable/js/datatable-buttons-html5.min.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/lib/datatable/js/datatable-select.min.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/lib/datatable/js/datatable-buttons-pdfmake.min.js") %>"></script>
+    <script src="<%= ResolveUrl("~/wwwroot/lib/datatable/js/datatable-buttons-pdf-vfs-fonts.js") %>"></script>   
+    <script src="<%= ResolveUrl("~/wwwroot/lib/bootstrap/js/bootstrap-multiselect.js") %>"></script>
+
+    
+   <!-- Offline -->
+    <script src="<%= ResolveUrl("~/Offline/scripts/app/offline-init.js?v=0.012") %>"></script>
+    <script src="<%= ResolveUrl("~/Offline/sw_pages.js?v=0.040") %>"></script>
+
+    <script type="text/javascript">
+        var prm = Sys.WebForms.PageRequestManager.getInstance();
+        prm.add_initializeRequest(initRequest);
+        prm.add_endRequest(endRequest);
+
+        prm.add_endRequest(function (s, e) {
+            var head = document.getElementsByTagName("head")[0];
+            var script = document.createElement('script');
+            //script.src = '/Admin/LocalizationBundle/Scripts/language-config.js';
+            script.type = 'text/javascript';
+            head.appendChild(script);
+        });
+
+        // Intialize opeation control variable
+        var addAccess = $("#<%= addOptGlobal.ClientID %>").val();
+        var editAccess = $("#<%= editOptGlobal.ClientID %>").val();
+        var deleteAccess = $("#<%= deleteOptGlobal.ClientID %>").val();
+        var roleIdGlobal = $("#<%= roleIdGlobal.ClientID %>").val();
+        var branchIdGlobal = $("#<%= branchIdGlobal.ClientID %>").val();
+        var userRightGlobal = $("#<%= userRightGlobal.ClientID %>").val();
+        var currentDatetimeGlobal = $("#<%= currentDatetimeGlobal.ClientID %>").val();
+        var accessPagesGlobal = $("#<%= accessPagesGlobal.ClientID %>").val();
+        var expiryDate = $("#<%= storeExpiryDate.ClientID %>").val();
+        var expiryNotify = $("#<%= expiryNotification.ClientID %>").val();
+        $(window).on("load", function () {
+            mainChange();
+        });
+
+        // Remove ASP PANEL form Page
+        $('.pnl_module').contents().unwrap();
+
+    </script>
+    
+
+</body>
+</html>

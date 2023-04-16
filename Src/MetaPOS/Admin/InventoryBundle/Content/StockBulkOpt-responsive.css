@@ -1,0 +1,123 @@
+﻿
+@media screen and (max-width : 480px) {
+   .content{
+        width:100%;
+    }
+   .purchaseMarginTop{
+       margin-top:10px;
+   }
+   .totalAmountMargin{
+    margin-left: -5px;
+    margin-right: -15px;
+   }
+   .padding-zero{
+       padding-left: 0px;
+   }
+  .width-purchase-adjustment {
+    width: 99% !important;
+   }
+  .padding-top-10{
+      padding-top:10px;
+   }
+  .warentyFloat-left {
+    float: left;
+   }
+   .stock-btn-saveAll{
+    margin-right: 0px;
+    margin-left: 15px;
+   }
+   .saveAll-cencel-btn{
+       padding: 0px 0px 15px 0px;
+       padding-bottom: 60px;
+   }
+}
+
+/*Small devices (landscape phones, 481px and up) col-xs-12*/
+@media  screen and (min-width : 481px) and (max-width : 767px) {
+   .content{
+        width:100%;
+    }
+   .purchaseMarginTop{
+       margin-top:10px;
+   }
+   .totalAmountMargin{
+    margin-left: -5px;
+    margin-right: -15px;
+   }
+   .padding-zero{
+       padding-left: 0px;
+   }
+   .width-purchase-adjustment {
+    width: 99% !important;
+   }
+   .padding-top-10{
+      padding-top:10px;
+   }
+   .warentyFloat-left {
+    float: left;
+   }
+   .stock-btn-saveAll{
+    margin-right: 0px;
+    margin-left: 15px;
+   }
+   .saveAll-cencel-btn{
+       padding: 0px 0px 15px 0px;
+       padding-bottom: 60px;
+   }
+
+}
+/* Small Devices, Tablets col-sm-12*/
+@media  screen and (min-width : 768px) and (max-width: 991px) {
+   .totalAmountMargin{
+    margin-left: -5px;
+    margin-right: -15px;
+   }
+   .padding-zero{
+       padding-left: 0px;
+   }
+  .width-purchase-adjustment {
+    width: 99% !important;
+   }
+  .padding-top-10{
+      padding-top:10px;
+  }
+  .warentyFloat-left {
+    float: left;
+  }
+   .stock-btn-saveAll{
+    margin-right: 0px;
+    margin-left: 15px;
+   }
+   .saveAll-cencel-btn{
+       padding: 0px 0px 15px 0px;
+       padding-bottom: 60px;
+   }
+}
+
+/*Medium Devices, Desktops col-md-12     and (max-width: 1199px) */ 
+@media screen and (min-width : 992px) {
+   .totalAmountMargin{
+    margin-left: -2px;
+    margin-right: -15px;
+   }
+   .padding-zero{
+       padding-left: 0px;
+   }
+  .width-purchase-adjustment {
+    width: 99% !important;
+   }
+  .padding-top-10{
+      padding-top:10px;
+  }
+   .stock-btn-saveAll{
+    margin-right: 0px;
+    margin-left: 15px;
+   }
+   .saveAll-cencel-btn{
+       padding: 0px 0px 15px 0px;
+       padding-bottom: 60px;
+   }
+   .margin-write-20{
+       margin-right:-20%;
+   }
+}

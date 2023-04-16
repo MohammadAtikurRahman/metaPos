@@ -1,0 +1,19 @@
+﻿
+.mGrid th:last-child, .mGrid th:nth-last-child(2), .mGrid th:nth-last-child(3) { width: 0; }
+
+.mGrid td { padding: 8px !important; }
+
+.control-label { text-align: left !important; }
+
+.CRglyIconPosition { margin-left: 10px; }
+
+.mGrid tr:last-child td { padding: 7px 7px 7px 11px !important; }
+
+.expiry-preview-all input {
+    margin-right: 5px !important;
+}
+
+.expiry-preview-all label {
+    font-size: 12px !important;
+    text-transform: capitalize;
+}

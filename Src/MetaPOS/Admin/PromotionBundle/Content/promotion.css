@@ -1,0 +1,101 @@
+﻿body { }
+
+.sms-tab {
+    
+}
+
+#divMessageHistory {
+    background: #fff;
+    margin: 15px 0px 0px 0;
+    padding: 5px 10px;
+}
+
+#divMessageHistory .title {
+    font-size: 30px;        
+    font-weight: 500;
+}
+
+#divMessageHistory .btnResize {
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 6px;
+    margin-top: 5px;
+    float: right;
+        
+    width: auto !important;
+}
+
+.sms-content { padding: 10px 0; }
+
+.mGrid tr td { padding: 7px 7px 7px 11px !important; }
+
+.sms-text {  }
+
+.btn-sms { padding-top: 60px; }
+
+.ContactList {
+    max-height: 379px;
+    overflow-y: scroll;
+    float: left;
+}
+
+.fa-modem {
+    padding-left: 6px;
+    font-size: 20px;
+}
+
+#divSearchPanel {
+    padding-bottom: 15px;
+    display: -webkit-box;
+}
+
+#divListPanel {
+    background: #fff;
+    padding: 20px 15px 12px;
+}
+
+.group-section { padding-bottom: 30px; }
+
+.group-section label { text-align: left; }
+
+
+.btn-info.active, .btn-info:focus {
+    background-color: #e67e22;
+    border-color: #e67e22;
+}
+
+.modal-body {
+    position: relative;
+    padding: 25px 35px 15px;
+}
+
+.action a { padding-right: 5px; }
+
+.aoT {
+    color: #222;
+    background-color: white;
+    font-size: 13px;
+    margin: 0;
+    outline: none;
+    padding: 4px 1px 4px 2px;
+    resize: none;
+    -webkit-box-sizing: border-box;
+    height: 35px;
+    width: 100%;
+}
+ .btn-space {
+     margin-left: 5px;
+ }
+ .lblForSpace {
+      display: block;
+  margin-bottom: 10px;
+     padding-right: 10px;
+ }
+
+#showMedium h3 {
+    margin: 0;
+}
+
+.sms-rate{
+    font-size: 18px; font-family: "Times New Roman";
+}

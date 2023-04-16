@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px/1.4 monospace, serif;
+    position: absolute;
+}
+
+.main-body {
+    width: 290px;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    float: left;
+}
+
+
+.invoice-header {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.invoice-title {
+    margin-bottom: 5px;
+    font-size: 10px;
+    border: 1px solid #000;
+    padding: 4px 10px;
+    display: inline-block;
+}
+
+.brand-name h1 {
+    font-family: monospace, serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.brand-logo {
+    width: 200px;
+    color: #fff;
+    font-size: 22px;
+    float: left;
+    position: absolute;
+}
+
+    .brand-logo img {
+        width: auto;
+        height: 100px;
+        padding: 20px 0 0 15px;
+        left: 0;
+        top: 0;
+    }
+
+.customer-detail {
+    width: 50%;
+    float: left;
+}
+
+.billing-detail {
+    width: 50%;
+    float: right;
+    text-align: -webkit-right;
+}
+
+table.item {
+    border-collapse: collapse;
+}
+
+    table.item td,
+    table th {
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+
+.item {
+    clear: both;
+    width: 100%;
+    margin: 30px 0 0 0;
+    border: 1px solid black;
+}
+
+    .item th {
+        background: #eee;
+    }
+
+    .item tr td {
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .item th {
+        width: 10%;
+    }
+
+        .item th:last-child,
+        .item td:last-child {
+            text-align: right;
+            /* padding: 0px 15px 0px 0px; */
+        }
+
+        /* .item th:nth-child(1),
+.item td:nth-child(1) {
+    width: 5%;
+} */
+
+        .item th:nth-child(1),
+        .item td:nth-child(1) {
+            width: 50%;
+            text-align: left;
+            /* padding: 0px 0px 0px 10px; */
+        }
+
+        .item th:nth-child(2), .item td:nth-child(2) {
+            text-align: left;
+            width: 40%;
+        }
+
+.account-table th:last-child,
+.account-table td:last-child {
+    text-align: right;
+    /* padding: 0px 15px 0px 0px; */
+}
+
+
+.content-table {
+    margin: 10px 0px;
+}
+
+    .content-table td:nth-child(1),
+    .content-table td:nth-child(2) {
+        /* padding: 0px 10px; */
+        font-weight: bold;
+    }
+
+.item th:nth-child(1),
+.item td:nth-child(1) {
+    width: 5%;
+    text-align: left;
+    /* padding: 0px 0px 0px 10px; */
+}
+
+
+.invoice-account {
+    /*
+    width: 50%;
+    float: right;
+*/
+    text-align: -webkit-right;
+}
+
+
+
+.signature-area {
+    display: block;
+    margin: 50px 0px;
+}
+
+    .signature-area hr {
+        width: 200px;
+        margin: 0px 30px;
+        margin-bottom: 5px;
+        border-top: 1px solid #333;
+        color: #333;
+        background: #333;
+    }
+
+
+.customer-area {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+    .customer-area p {
+        margin-left: 60px;
+    }
+
+.authorized-area {
+    float: right;
+    width: 50%;
+    text-align: -webkit-right;
+}
+
+    .authorized-area p {
+        margin-right: 50px;
+    }
+
+    .authorized-area hr {
+        /*    margin-left: 300px;*/
+    }
+
+.invoice-footer {
+    margin: -20px 0px;
+    display: inline-table;
+    margin: 0 auto;
+}
+
+.devs-tag {
+    padding: 10px 0px;
+}
+
+.barcode_area {
+    width: 40%;
+    float: left;
+    height: 120px;
+}
+
+.barcode {
+    width: 100%;
+}
+
+.disNone {
+    display: none;
+}
+
+.content-table {
+    float: right;
+}
+
+.brand-info {
+    padding-bottom: 10px;
+}
+
+.float-left {
+    float: left;
+}
+
+
+
+
+
+
+

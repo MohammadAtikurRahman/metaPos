@@ -1,0 +1,939 @@
+@media only screen and (max-width: 500px) {
+    .carousel {
+        margin-left: 15px;
+        margin-right: 15px
+    }
+
+    .navbar-default {
+        background: #fff
+    }
+
+    .navbar-default.affix {
+        background: #fff;
+        color: #fff
+    }
+
+    header {
+        height: 585px;
+        width: 111%;
+    }
+
+    header .header-content {
+        text-align: left;
+        padding: 130px 0 0;
+    }
+
+    header .header-content .header-content-inner {
+        max-width: none;
+        margin: 0px;
+        position: absolute;
+        top: 100%;
+        transform: translateY(-20%);
+        padding: 70px 27px;
+    }
+
+    header .header-content .header-content-inner h1 {
+        font-size: 36px;
+        font-family: "SolaimanLipi";
+    }
+
+    header .header-content .header-content-inner h1 span {
+        font-size: 22px;
+    }
+
+    header .header-content .header-content-inner h2 {
+        font-size: 16px;
+        color: #3fc380
+    }
+
+    header .device-container {
+        max-width: none;
+        max-height: calc(0vh);
+        margin: 100px auto 0;
+    }
+
+    .screen {
+        display: none;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    /* start responsive */
+
+    section.main-features {
+        /* margin-top: 100px; */
+        width: 111%
+    }
+
+    section .section_heading {
+        margin-left: 0px
+    }
+
+
+    .target_client {
+        background: #f8f9fa;
+        width: 111%
+    }
+
+    .main-features .feature-item1 {
+        background: #fff;
+        margin-top: 20px;
+        height: 180px;
+        border-radius: 3px;
+        padding: 10px 0 0;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.26);
+        -webkit-transition: box-shadow .5s cubic-bezier(.4, 0, .2, 1);
+        transition: box-shadow .5s cubic-bezier(.4, 0, .2, 1);
+    }
+
+    section .section_heading h2 {
+        font-size: 17px;
+        margin: 0 0 20px;
+        color: #404040;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+
+    .feature-item1 img {
+        margin-bottom: 57px
+    }
+
+    .feature-item1 p {
+        margin-top: -36px;
+        font-size: 21px
+    }
+
+    section.version .app-name {
+        font-weight: 500;
+        font-size: 70px;
+        padding: 0;
+        line-height: 1;
+        font-family: "SolaimanLipi";
+    }
+
+    section.version .version-name {
+        font-weight: 500;
+        font-size: 40px;
+        padding: 0;
+        line-height: 2;
+    }
+
+    .add_new {
+        font-size: 18px;
+        margin-bottom: 20px
+    }
+
+    .updated {
+        font-size: 18px;
+    }
+
+    .pricing {
+        width: 111%
+    }
+
+    .trusted-by {
+        width: 111%
+    }
+
+    .item p {
+        font-size: 16px
+    }
+
+    .get-demo {
+        width: 111%
+    }
+
+    .footer {
+        width: 111%
+    }
+
+    .footer_bottom {
+        width: 111%
+    }
+
+    .client_testimonials {
+        background: #fff;
+        margin-left: 45px
+    }
+
+    .my-design {
+        width: 111%
+    }
+
+    .contact_us_box {
+        margin-top: 40px
+    }
+
+    .heading-content {
+        margin-top: 100px;
+        max-width: 410px;
+        padding: 90px 0 110px;
+        margin-left: 0px;
+    }
+
+    .carousel-control.right {
+        right: -10px;
+        top: -3px;
+    }
+
+    .carousel-control.left {
+        left: -10px;
+        top: -3px
+    }
+
+    .pricing_option2 p {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .pricing_option p {
+        margin-top: -40px
+    }
+
+    #my-design .app-name {
+        font-size: 65px
+    }
+
+    .carousel-inner {
+        height: 200px;
+        background: #f8f9fa;
+        margin-top: 5px;
+    }
+
+    #quote-carousel .carousel-control {
+        background: none;
+        color: #3fc380;
+        font-size: 2.3em;
+        text-shadow: none;
+        margin-top: 70x;
+    }
+
+    #quote-carousel {
+        padding: 0 10px 30px 10px;
+        background: #fff
+    }
+
+    .slider2 {
+        background: #fff
+    }
+
+    ul.nav.nav-tabs {
+        border-bottom: none;
+        margin-left: -100px;
+    }
+
+    .new_item {
+        height: 240px
+    }
+
+    .new_item2 {
+        height: 290px
+    }
+
+    .new_item3 {
+        height: 380px
+    }
+
+    .section-heading h3 {
+        font-size: 17px
+    }
+
+    .trusted_item {
+        margin-bottom: 20px
+    }
+
+    section.get-demo button {
+        padding: 10px 10px;
+    }
+
+    .basic {
+        border-bottom: 2px solid #d1e4ea
+    }
+
+    .standard {
+        border-bottom: 2px solid #d1e4ea;
+        background: #e2f7ff
+    }
+
+    .advance {
+        border-bottom: 2px solid #d1e4ea
+    }
+
+    .premium {
+        background: #e2f7ff
+    }
+
+    .plan_header {
+        font-size: 45px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-family: 'Atma', cursive;
+        color: #000;
+    }
+
+    .pricing_plan_box sup {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.1;
+        display: inline-block;
+        vertical-align: top;
+        top: 0;
+        margin: 12px 0 0 3px;
+        font-family: 'Atma', cursive;
+        color: #3fc380;
+    }
+
+    .pricing_plan_box sub {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.2;
+        display: inline-block;
+        vertical-align: bottom;
+        bottom: 0;
+        margin-bottom: 4px;
+        margin-left: 5px;
+    }
+
+    .pricing_plan_box b {
+        font-size: 35px;
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: -4px;
+        display: inline-block;
+        vertical-align: top;
+        font-family: 'Atma', cursive;
+    }
+
+    /*
+    .header_image img {
+        margin-top: -100px;
+        width: 110%;
+        margin-left: 22px;
+    }
+*/
+    /*
+    .header_image img {
+        margin-top: -80px;
+        width: 114%;
+        margin-left: 0px;
+    }
+*/
+
+    section.get-demo button {
+        background-color: #3fc380;
+        padding: 10px 15px;
+        color: #fff;
+    }
+
+    /*logo slider css*/
+    img.metaedu_logo.img-responsive.center-block2 {
+        margin-top: 6%;
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    img.health_logo.img-responsive.center-block2 {
+        margin-top: 15%;
+        width: 90%;
+        margin-left: 4%;
+    }
+
+    img.metatailor_logo.img-responsive.center-block2 {
+        margin-top: 9%;
+        width: 60%;
+        margin-left: 18%;
+    }
+
+    img.metaerp_logo.img-responsive.center-block2 {
+        margin-top: 11%;
+        width: 70%;
+        margin-left: 14%;
+    }
+
+    img.metasms_logo.img-responsive.center-block2 {
+        margin-top: 3%;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    section.other_products {
+        width: 111%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .navbar-right {
+        margin-top: 0px
+    }
+
+    .carousel {
+        margin-left: 15px;
+        margin-right: 15px
+    }
+
+    .navbar-default {
+        background: #fff
+    }
+
+    .navbar-default.affix {
+        background: #fff;
+        color: #fff
+    }
+
+    header {
+        height: 585px;
+        width: 111%;
+    }
+
+    header .header-content {
+        text-align: left;
+        padding: 130px 0 0;
+    }
+
+    header .header-content .header-content-inner {
+        max-width: none;
+        margin: 0px;
+        position: absolute;
+        top: 100%;
+        transform: translateY(-20%);
+        padding: 70px 27px;
+    }
+
+    header .header-content .header-content-inner h1 {
+        font-size: 36px;
+        font-family: "SolaimanLipi";
+    }
+
+    header .header-content .header-content-inner h1 span {
+        font-size: 22px;
+    }
+
+    header .header-content .header-content-inner h2 {
+        font-size: 16px;
+        color: #3fc380
+    }
+
+    header .device-container {
+        max-width: none;
+        max-height: calc(0vh);
+        margin: 100px auto 0;
+    }
+
+    .screen {
+        display: none;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    /* start responsive */
+
+    section.main-features {
+        width: 111%
+    }
+
+    section .section_heading {
+        margin-left: 0px
+    }
+
+    .target_client {
+        background: #f8f9fa;
+        width: 109%
+    }
+
+    .main-features .feature-item1 {
+        background: #fff;
+        margin-top: 20px;
+        height: 180px;
+        border-radius: 3px;
+        padding: 10px 0 0;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.26);
+        -webkit-transition: box-shadow .5s cubic-bezier(.4, 0, .2, 1);
+        transition: box-shadow .5s cubic-bezier(.4, 0, .2, 1);
+    }
+
+    section .section_heading h2 {
+        font-size: 17px;
+        margin: 0 0 20px;
+        color: #404040;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+
+    .feature-item1 img {
+        margin-bottom: 57px
+    }
+
+    .feature-item1 p {
+        margin-top: -36px;
+        font-size: 18px
+    }
+
+    section.version .app-name {
+        font-weight: 500;
+        font-size: 70px;
+        padding: 0;
+        line-height: 1;
+        font-family: "SolaimanLipi";
+    }
+
+    section.version .version-name {
+        font-weight: 500;
+        font-size: 40px;
+        padding: 0;
+        line-height: 2;
+    }
+
+    .add_new {
+        font-size: 18px;
+        margin-bottom: 20px
+    }
+
+    .updated {
+        font-size: 18px;
+    }
+
+    .pricing {
+        width: 111%;
+        background:
+    }
+
+    .trusted-by {
+        width: 111%
+    }
+
+
+    /* width for 768 */
+    .target_client {
+        background: #f8f9fa;
+        width: 111%;
+    }
+
+    /* width for 768 */
+    .item p {
+        font-size: 16px
+    }
+
+    .get-demo {
+        width: 111%
+    }
+
+    .expl_features {
+        width: 111%
+    }
+
+    .footer {
+        width: 111%
+    }
+
+    .footer_bottom {
+        width: 111%
+    }
+
+    .client_testimonials {
+        background: #fff;
+        margin-left: 45px
+    }
+
+    .my-design {
+        width: 111%
+    }
+
+    .contact_us_box {
+        margin-top: 40px
+    }
+
+    .heading-content {
+        margin-top: 100px;
+        max-width: 410px;
+        padding: 90px 0 110px;
+        margin-left: 0px;
+    }
+
+    .carousel-control.right {
+        right: -10px;
+        top: -3px;
+    }
+
+    .carousel-control.left {
+        left: -10px;
+        top: -3px
+    }
+
+    .pricing_option2 p {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .pricing_option p {
+        margin-top: -30px
+    }
+
+    #my-design .app-name {
+        font-size: 65px
+    }
+
+    .carousel-inner {
+        height: 200px;
+        background: #f8f9fa;
+        margin-top: 5px;
+    }
+
+    #quote-carousel .carousel-control {
+        background: none;
+        color: #3fc380;
+        font-size: 2.3em;
+        text-shadow: none;
+        margin-top: 70x;
+    }
+
+    #quote-carousel {
+        padding: 0 10px 30px 10px;
+        background: #fff
+    }
+
+    .slider2 {
+        background: #fff
+    }
+
+    ul.nav.nav-tabs {
+        border-bottom: none;
+        margin-left: -70px;
+    }
+
+    .new_item {
+        height: 240px
+    }
+
+    .new_item2 {
+        height: 290px
+    }
+
+    .new_item3 {
+        height: 380px
+    }
+
+    .section-heading h3 {
+        font-size: 17px
+    }
+
+    .trusted_item {
+        margin-bottom: 20px
+    }
+
+    section.get-demo button {
+        padding: 10px 10px;
+    }
+
+    .basic {
+        border-bottom: 2px solid #d1e4ea
+    }
+
+    .standard {
+        border-bottom: 2px solid #d1e4ea;
+        background: #e2f7ff
+    }
+
+    .advance {
+        border-bottom: 2px solid #d1e4ea
+    }
+
+    .premium {
+        background: #e2f7ff
+    }
+
+
+    .plan_header {
+        font-size: 45px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        font-family: 'Atma', cursive;
+        color: #000;
+    }
+
+    .pricing_plan_box sup {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.1;
+        display: inline-block;
+        vertical-align: top;
+        top: 0;
+        margin: 12px 0 0 3px;
+        font-family: 'Atma', cursive;
+        color: #3fc380;
+    }
+
+    .pricing_plan_box sub {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.2;
+        display: inline-block;
+        vertical-align: bottom;
+        bottom: 0;
+        margin-bottom: 4px;
+        margin-left: 5px;
+    }
+
+    .pricing_plan_box b {
+        font-size: 35px;
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: -4px;
+        display: inline-block;
+        vertical-align: top;
+        font-family: 'Atma', cursive;
+    }
+
+    .btn-xl {
+        padding: 14px 30px;
+        font-size: 18px;
+        transition: .3s ease-out;
+    }
+
+    section.breadcrumb {
+        width: 111%;
+    }
+
+    .feature_bottom {
+        background: #f8f9fa;
+    }
+
+    section#pricing_details {
+        margin-left: 11%;
+    }
+
+    .table-responsive {
+        width: 127%;
+        margin-bottom: 15px;
+        margin-left: -13.6%;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+
+    .navbar-right {
+        margin-top: 0px;
+    }
+
+    .row.feature_bottom {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /*logo slider css*/
+
+    .main-features p {
+        font-size: 20px;
+        line-height: 2.6em;
+        margin-top: -30px;
+    }
+
+    /*
+    .header_image img {
+        margin-top: 15%;
+        height: 100%;
+        width: 120%;
+        margin-left: -5%;
+        margin-top: -80px;
+    }
+*/
+
+}
+
+@media only screen and (max-width: 768px)and (min-width: 500px) {
+    img.health_logo.img-responsive.center-block2 {
+        margin-top: 3%;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    img.metaedu_logo.img-responsive.center-block2 {
+        margin-top: 0%;
+        width: 58%;
+        margin-left: 20%;
+    }
+
+    img.metatailor_logo.img-responsive.center-block2 {
+        margin-top: 1%;
+        width: 40%;
+        margin-left: 29%;
+    }
+
+    img.metaerp_logo.img-responsive.center-block2 {
+        margin-top: 1%;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    img.metasms_logo.img-responsive.center-block2 {
+        margin-top: 6%;
+        width: 47%;
+        margin-left: 28%;
+    }
+
+    section.other_products {
+        width: 111%;
+    }
+
+}
+
+@media only screen and (max-width: 500px)and (min-width: 360px) {
+    img.health_logo.img-responsive.center-block2 {
+        margin-top: 12%;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    img.metaedu_logo.img-responsive.center-block2 {
+        margin-top: 10%;
+        width: 58%;
+        margin-left: 20%;
+    }
+
+    img.metatailor_logo.img-responsive.center-block2 {
+        margin-top: 10%;
+        width: 40%;
+        margin-left: 29%;
+    }
+
+    img.metaerp_logo.img-responsive.center-block2 {
+        margin-top: 11%;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    img.metasms_logo.img-responsive.center-block2 {
+        margin-top: 14%;
+        width: 45%;
+        margin-left: 28%;
+    }
+
+    .custom_cell {
+        margin-left: -5%;
+    }
+}
+
+@media only screen and (max-width: 990px)and (min-width: 500px) {
+
+    .header_image img {
+        margin-top: -80px;
+        width: 114%;
+        margin-left: 0px
+    }
+
+    .heading-content {
+        margin-top: 100px;
+        max-width: 410px;
+        padding: 90px 0 110px;
+        margin-left: 75px;
+    }
+}
+
+@media only screen and (max-width: 333px) {
+    #my-design .app-name {
+        font-size: 47px;
+    }
+
+    #my-design .version-name {
+        font-weight: 500;
+        font-size: 40px;
+        padding: 0;
+        line-height: 2;
+        margin-bottom: 20px;
+    }
+
+    #my-design .section_heading h2 {
+        font-size: 16px;
+        margin: 0 0 20px;
+        color: #fff;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+
+    .item p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1198px) {
+    .text-center {
+        font-size: 16px
+    }
+}
+
+@media only screen and (max-width: 984px) {
+    .btn-xl {
+        padding: 12px 30px;
+        font-size: 18px;
+        transition: .3s ease-out;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .main-features p {
+        font-size: 18px;
+        line-height: 2.6em;
+    }
+}
+
+@media only screen and (max-width: 988px) {}
+
+/*CUSTOM RESPONSIVE CSS*/
+
+@media only screen and (max-width: 991px) and (min-width: 767px) {}
+
+@media only screen and (max-width: 860px) and (min-width: 768px) {
+
+    .pricing {
+        width: 109.5%
+    }
+
+    .trusted-by {
+        width: 109.5%
+    }
+
+
+    /* width for 768 */
+    .target_client {
+        width: 109.5%
+    }
+
+    /* width for 768 */
+    .item p {
+        font-size: 16px
+    }
+
+    .get-demo {
+        width: 109.5%
+    }
+
+    .expl_features {
+        width: 109.5%
+    }
+
+    .footer {
+        width: 109.5%
+    }
+
+    .footer_bottom {
+        width: 109.5%
+    }
+
+    .client_testimonials {
+        background: #fff;
+        margin-left: 45px
+    }
+
+    .my-design {
+        width: 109.5%
+    }
+
+    section.main-features {
+        width: 109.5%
+    }
+}

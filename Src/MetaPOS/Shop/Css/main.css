@@ -1,0 +1,127 @@
+﻿/* Header, Footer, Menu */
+
+body { }
+
+/* Header */
+
+.header { text-align: center; }
+
+.pos-logo { }
+
+.pos-logo h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: #000;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.pos-logo h1 a {
+    text-decoration: none;
+    color: #ccb716;
+    letter-spacing: -4px;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.slogan {
+    font-size: 15px;
+    display: block;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 5px;
+    color: #000;
+}
+
+/* Footer */
+
+.footer { background: #0B6269; }
+
+.footer-bottom {
+    text-align: center;
+    margin: 4em 0 0;
+}
+
+.address { margin-top: 2em; }
+
+.fo-grid1 p {
+    font-size: 1.2em;
+    line-height: 2em;
+    color: #fff;
+}
+
+.fo-grid1 p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.copy-right { padding: 35px 0; }
+
+.copy-right p {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.callToAction { padding: 20px 0; }
+
+.callToAction a {
+    border: 2px solid #0bbc46;
+    padding: 6px;
+    border-radius: 14px;
+    color: #0bbc46;
+    font-size: 15px;
+}
+
+
+.subtitle { margin: 0 0 2em 0; }
+
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+}
+
+.fancy span {
+    display: inline-block;
+    position: relative;
+}
+
+.fancy span:before,
+.fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    top: 0;
+    width: 600px;
+}
+
+.fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+
+.contactMobile { padding-left: 10px; }
+
+
+.callToAction p {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.ws_images ul li img {
+    width: 100%;
+    height: auto;
+}

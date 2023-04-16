@@ -1,0 +1,18 @@
+﻿
+.sectionBreadcrumb {
+    padding: 20px 0px 5px 0px;
+}
+
+.select-to-clear input {
+    margin-right: 5px;
+}
+
+
+.select-to-clear b {
+    font-size: 18px;
+}
+
+.select-to-clear label{
+    font-weight:300;
+    text-transform: capitalize;
+}

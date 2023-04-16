@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Print - MetaPOS</title>
+
+    <script type="text/javascript" src="Assets/Js/jquery.js"></script>
+    <style>
+        .print_div {
+            width: 40.0mm;
+            height: 25.5mm;
+            text-align: center;
+        }
+
+        p {
+            font-weight: 800;
+            font-family: monospace;
+            margin-bottom: 2px;
+            margin-left: 20px;
+        }
+
+        .name {
+            font-size: 14px;
+                        /*padding: 1px 25px;*/
+        }
+
+        .code {
+            margin-left: -10px;
+        }
+
+        .price_m {
+            font-size: 16px;
+            margin-top: -5px;
+                        /*padding: 1px 30px;*/
+        }
+
+        .print_div {
+           /* -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+            */
+        }
+
+        @media print {
+            @page {
+                size: 38.0mm 25mm;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="print_div">
+        <p class="name">EMG 136 HG 26</p>
+        <img src="" alt="" style="" class="code">
+        <p class="price_m">TK:<span class="price">160.00</span></p>
+    </div>
+
+
+
+
+
+    <script>
+        if (window.location.search.split('?').length > 1) {
+
+
+            // Base url
+            var url = location.href;
+            var baseUrl = url.substring(0, url.indexOf('/', 14)) + "/";
+
+            // URL: URL + ?name=product_name&&code=ZZ-001202&&price=104.00
+            
+
+            //window.print() + "<br>";
+
+
+
+            for (var i = 0; i < 10; i++) {
+                var urlParams = new URLSearchParams(window.location.search);
+
+                var name = urlParams.get('name');
+                var price = urlParams.get('price');
+                var code = urlParams.get('code');
+
+
+                $(".code").attr("src", "" + baseUrl + "admin/BarcodeTool/images/" + code + ".png");
+                $('.name').html(name);
+                $('.price').html(price);
+                window.print();
+            }
+           
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>

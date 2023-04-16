@@ -1,0 +1,215 @@
+
+.btnAddToCart {
+    margin-left: -10px;
+}
+/**
+ * Flexdatalist custom
+ * style for properties text
+ */
+.flexdatalist-results span:not(:first-child):not(.highlight) {
+    padding-left: 10px;
+    display: inline-block;
+    font-size: 80%;
+    color: rgba(0, 0, 0, 0.50);
+}
+
+.flexdatalist-results li.active span:not(:first-child):not(.highlight) {
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.flexdatalist-results li span.highlight {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #000;
+    background: yellow;
+}
+
+.item .item-qty::before {
+    content: "Qty: ( ";
+}
+
+.item .item-qty::after {
+    content: ")";
+}
+
+
+.item .item-salePrice::before {
+    content: "Sale Price: ( ";
+}
+
+
+.item .item-salePrice::after {
+    content: ")";
+}
+
+.disNone {
+    display: none;
+}
+
+/* int product name width */
+.cart_item th:nth-child(2),
+.cart_item td:nth-child(2) {
+    width: 40%;
+    text-align: left;
+}
+
+
+/* item details style */
+
+.item_details {
+    margin-top: 5px;
+}
+
+    .item_details p {
+        font-size: 11px;
+        margin: 2px 0px;
+    }
+
+    .item_details span {
+        color: #828181;
+    }
+
+.tblAccounting input {
+    margin: 2px 0px;
+}
+
+.tblAccounting td,
+.table th {
+    padding: 4px;
+    vertical-align: middle;
+    border-top: none;
+}
+
+
+table#tblHeader {
+    margin: 0px !important;
+}
+
+tbody#cart_body {
+    /* display: table-caption; */
+    display: block;
+    height: calc(100vh - 225px) !important;
+    overflow-y: scroll;
+    height: 300px;
+    width: 100%;
+}
+
+.product_cart {
+    padding: 10px 0px;
+}
+/*.text-right{
+    text-align: right;
+}*/
+
+body {
+    background: #f5f6f8;
+    font-size: 14px;
+}
+
+
+
+span#txtDisAmt {
+    color: #17c671;
+    font-size: 12px;
+}
+
+.onoffswitch {
+    position: relative;
+    width: 51px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    margin-top: 5px !important;
+    margin-left: -20px !important;
+}
+
+.onoffswitch-checkbox {
+    display: none;
+}
+
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #17C671;
+    border-radius: 12px;
+}
+
+.onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+    .onoffswitch-inner:before,
+    .onoffswitch-inner:after {
+        display: block;
+        float: left;
+        width: 50%;
+        height: 20px;
+        padding: 0;
+        line-height: 20px;
+        font-size: 12px;
+        color: white;
+        font-family: Trebuchet, Arial, sans-serif;
+        font-weight: bold;
+        box-sizing: border-box;
+    }
+
+    .onoffswitch-inner:before {
+        content: "%";
+        padding-left: 10px;
+        background-color: #17c671;
+        color: #FFFFFF;
+    }
+
+    .onoffswitch-inner:after {
+        content: "৳";
+        padding-right: 10px;
+        background-color: #EEEEEE;
+        color: #999999;
+        text-align: right;
+    }
+
+.onoffswitch-switch {
+    display: block;
+    width: 13px;
+    margin: 3.5px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 27px;
+    border: 2px solid #17C671;
+    border-radius: 12px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+
+code {
+    font-size: .75rem;
+    padding: 0px !important;
+}
+
+button#btnAddCustomer {
+    margin-left: -20px;
+}
+
+.profile {
+    width: 250px;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 8px;
+}
+
+.text-color-red {
+    color: red;
+}

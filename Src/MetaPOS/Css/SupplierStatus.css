@@ -1,0 +1,12 @@
+﻿body { }
+
+.supStaPad {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.StatLeft { text-align: left !important; }
+
+.mGrid td { padding: 9px 7px 9px 11px !important; }
+
+.mGrid th:last-child, .mGrid th:nth-last-child(2), .mGrid th:nth-last-child(3) { width: 128px !important; }

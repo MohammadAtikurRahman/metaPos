@@ -1,0 +1,20 @@
+﻿.import-section {
+    padding: 50px;
+}
+
+.label-required{
+    color:red;
+}
+
+.header-load-panel{
+    padding: 20px 0;
+    padding-bottom: 70px;
+}
+
+    .product-data-title{
+       float: left;
+    }
+
+    .btn-import-product{
+        float:right;
+    }

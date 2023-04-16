@@ -1,0 +1,14 @@
+﻿.control-label { text-align: left !important; }
+
+.mGrid th:last-child, .mGrid th:nth-last-child(2) { width: 76px !important; }
+
+.mGrid th:nth-last-child(3) { width: auto !important; }
+
+.glyIconPosition {
+    margin-left: 8px !important;
+    padding-left: 12px !important;
+}
+
+.mGrid tr:last-child td { padding: 7px 7px 7px 11px !important; }
+
+.ReturnfieldHeight2 { height: 325px; }

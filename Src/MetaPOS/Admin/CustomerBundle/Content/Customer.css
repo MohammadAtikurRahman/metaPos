@@ -1,0 +1,63 @@
+﻿body {
+}
+
+
+.ledger-report {
+}
+
+.ledger-report-customer-name {
+    padding: 5px 0 10px 0;
+}
+
+#contentBody_rblCusType tr {
+    padding-right: 15px;
+    float: left;
+}
+
+
+.customer-dropdown .dropdown-menu {
+    left: auto;
+    right: 0 !important;
+}
+
+
+.customer-dropdown a {
+    cursor: pointer;
+}
+
+#dataListTable {
+    width: 100% !important;
+}
+
+
+.multiselect {
+    padding: 5px;
+    font-size: 12px;
+}
+
+
+.multiselect-container label.checkbox {
+    font-size: 11px;
+}
+
+div.dt-buttons {
+    position: relative;
+    float: right !important;
+}
+
+#contentBody_upSummery {
+    float: right;
+}
+
+#filterPanel div.dt-button-collection {
+    width: 70px;
+    left: 0 !important;
+}
+
+#filterPanel button.dt-button:active:not(.disabled):hover:not(.disabled),
+#filterPanel button.dt-button.active:not(.disabled):hover:not(.disabled),
+#filterPanel div.dt-button:active:not(.disabled):hover:not(.disabled),
+#filterPanel div.dt-button.active:not(.disabled):hover:not(.disabled),
+#filterPanel a.dt-button:active:not(.disabled):hover:not(.disabled),
+#filterPanel a.dt-button.active:not(.disabled):hover:not(.disabled) { box-shadow: none; }
+.action a { padding-right: 5px; }

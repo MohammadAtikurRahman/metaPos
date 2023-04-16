@@ -1,0 +1,57 @@
+﻿input[type=checkbox], input[type=radio] { margin: 8px 0 0; }
+
+.lblRole {
+    padding-left: 4px;
+    font-weight: bold;
+}
+
+.chkDesign {
+    padding-right: 16px !important;
+    word-wrap: break-word;
+}
+
+.chkDesign input[type="checkbox"] + label {
+    padding-left: 10px;
+    padding-right: 7px;
+    font-size: 12px;
+    color: #27ae60;
+    font-style: normal;
+    padding-top: 6px;
+        
+    position: absolute;
+}
+
+.verify-title { margin-top: 30px; }
+
+.checkbox { padding-left: 20px !important; }
+
+.checkbox label { padding-left: 10px !important; }
+
+.radioButtonList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.radioButtonList label { display: inline; }
+
+    
+.radioButtonList label {
+    font-size: 13px;
+    padding-left: 20px;
+    margin-top: -21px;
+    display: block;
+    color: #333;
+}
+
+.radioButtonList td { padding: 7px 7px 7px 0; }
+
+
+.access-title {
+    font-size: 14px;
+    color: #34495e;
+}
+
+.useropt-section{
+    padding:20px;
+}

@@ -1,0 +1,18 @@
+﻿
+/*Small devices (landscape phones, 481px and up) col-xs-12*/
+@media screen and (min-width : 481px) and (max-width : 767px) {
+    .content {
+        width: 100%;
+    }
+
+    .margin-top-10 {
+        margin-top: 10px;
+    }
+}
+/* Small Devices, Tablets col-sm-12*/
+@media screen and (min-width : 768px) and (max-width: 991px) {
+}
+
+/*Medium Devices, Desktops col-md-12     and (max-width: 1199px) */
+@media screen and (min-width : 992px) {
+}

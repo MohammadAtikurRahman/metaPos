@@ -1,0 +1,17 @@
+﻿body { }
+
+.btnNotification { padding: 0 25px; }
+
+.alert-bell {
+    color: #fff;
+    font-size: 22px;
+    padding-top: 14px;
+    position: absolute;
+}
+
+.alert-text {
+    color: #ff0000 !important;
+    font-weight: 700;
+    position: relative;
+    padding-left: 18px;
+}

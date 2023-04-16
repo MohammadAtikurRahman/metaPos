@@ -1,0 +1,9 @@
+﻿body { }
+
+.mGrid tr:last-child td { padding: 7px 7px 7px 11px !important; }
+
+.purchase-amount { color: #20b2aa }
+
+.supplier-payment { color: #00bfff; }
+
+.total-payment { color: #1e90ff; }

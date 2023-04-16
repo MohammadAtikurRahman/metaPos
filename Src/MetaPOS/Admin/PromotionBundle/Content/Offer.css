@@ -1,0 +1,15 @@
+﻿body { }
+
+.control-label { text-align: left !important; }
+
+.product-package-select {
+    padding-left: 0;
+}
+
+.product-package-select tr{
+    float: left;
+}
+
+.product-package-select tr td {
+    padding: 0 28px !important;
+}

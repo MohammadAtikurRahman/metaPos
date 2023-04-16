@@ -1,0 +1,47 @@
+﻿body {
+}
+
+
+#divSearchPanel {
+    padding-bottom: 15px;
+    display: -webkit-box;
+}
+
+.search-type {
+    padding: 5px 4px 0 2px;
+    margin-bottom: 6px;
+}
+
+    .search-type tr {
+        float: left;
+    }
+
+    .search-type tr td {
+    padding: 0 5px !important;
+}
+
+    .gridTitle label {
+        padding-left: 3px;
+    }
+
+
+
+#divListPanel {
+    background: #fff;
+    padding: 20px 15px 12px;
+}
+
+.dt-buttons {
+    float: right !important;
+    padding-left: 15px;
+}
+
+.header-filter {
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    padding: 20px 12px;
+}
+#filterPanel div.dt-button-collection {
+    width: 70px;
+}

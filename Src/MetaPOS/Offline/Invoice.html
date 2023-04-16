@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Invoice - metaPOS</title>
+    <link rel="stylesheet" href="../offline/styles/report-print.css">
+    <link rel="stylesheet" href="../offline/styles/main.css">
+
+
+</head>
+
+    <body>
+        <div class="metapos-loading invoice-loading disNone">Loading&#8230;</div>
+
+        <div class="main-body" id="invoiceBody">
+        
+        
+
+            <!-- Invoice Header-->
+            <div class="invoice-header">
+            
+                <div class="brand-logo disNone" id="brandLogo">
+                    <img id="imgLogo" src="" alt="">
+                </div>
+
+                <div class="brand-info">
+                    <div class="brand-name">
+                        <h1 id="lblShopTitle"></h1>
+                    </div>
+                    <div class="address">
+
+                        <p id="lblShopAddress" class="MsoNormal " style="text-align: center;"></p>
+                        <p id="lblShopNumber" class="MsoNormal" style="text-align: center;"><span id="lblShopPhone"></span><span id="lblShopMobile"></span></p>
+
+                    </div>
+                    <div class="contact"></div>
+                </div>
+
+                <div class="invoice-title">
+                    <h2 class="invoice-text">INVOICE</h2>
+                </div>
+            </div>
+
+            <!--Customer &  Billing Details -->
+            <div class="invoice-content">
+                <div class="customer-detail">
+                    <table class="content-table float-left">
+                        <tr>
+                            <td id="lblCusId"></td>
+                        </tr>
+                        <tr>
+                            <td id="lblCusName"></td>
+                        </tr>
+
+                        <tr>
+                            <td id="lblPhone"></td>
+                        </tr>
+                        <tr>
+                            <td id="lblEmail"></td>
+                        </tr>
+                        <tr>
+                            <td id="lblAddress"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="billing-detail">
+                    <table class="content-table">
+
+                        <tr>
+                            <td>Invoice</td>
+                            <td>:</td>
+                            <td id="lblBillNo"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Date</td>
+                            <td>:</td>
+                            <td id="lblDate"></td>
+                        </tr>
+
+
+                        <tr>
+                            <td>Time</td>
+                            <td>:</td>
+                            <td id="lblTime"></td>
+                        </tr>
+
+
+                        <tr class="sale-by">
+                            <td>Sale By</td>
+                            <td>:</td>
+                            <td id="lblSaleBy"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="pay-type">Pay Type</td>
+                            <td>:</td>
+                            <td id="lblPayType"></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+            <!-- Product Details Table-->
+            <div class="product-details">
+                <table class="item" id="cartItemList">
+                    <tr>
+                        <th>SL</th>
+                        <th class="details">Product Details</th>
+                        <th class="disNone">Unit</th>
+                        <th>Qty.</th>
+                        <th id="thReturn" class="disNone">Return</th>
+                        <th class="unit-cost">Unit Cost</th>
+                        <th>Subtotal</th>
+                    </tr>
+                    <!--<tr>
+                            <td>1</td>
+                            <td>12" x 20" [ 2995 ] </td>
+                            <td>Pcs.</td>
+                            <td>91</td>
+                            <td>106.67</td>
+                            <td>9706.97</td>
+                        </tr>-->
+
+
+                </table>
+            </div>
+
+            <!-- Account Details-->
+            <div class="invoice-account">
+                <table class="content-table">
+
+                    <tr>
+                        <td>Total Amount</td>
+                        <td>:</td>
+                        <td id="lblTotalAmt" class="amount-text"></td>
+                    </tr>
+                    <tr>
+                        <td>Add: Misc Cost</td>
+                        <td>:</td>
+                        <td id="lblMiscCost" class="amount-text"></td>
+                    </tr>
+                    <tr id="trVatAmt" class="disNone">
+                        <td>Add: Vat Amount</td>
+                        <td>:</td>
+                        <td id="lblVatAmt" class="amount-text"></td>
+                    </tr>
+                    <tr id="trDiscount" class="disNone">
+                        <td>Minus: Discount</td>
+                        <td>:</td>
+                        <td id="lblDiscount" class="amount-text"></td>
+                    </tr>
+
+                    <tr style="border-bottom: 1px dotted #ccc; display: block; width: 165%;"></tr>
+
+                    <tr>
+                        <td>Grand Total</td>
+                        <td>:</td>
+                        <td id="lblGrandTotal" class="amount-text"></td>
+                    </tr>
+                    <tr>
+                        <td>Pre Balance</td>
+                        <td>:</td>
+                        <td id="lblPreviousDue" class="amount-text"></td>
+                    </tr>
+
+                    <tr id="trMoreDisc" class="disNone">
+                        <td>Minus:More Disc</td>
+                        <td>:</td>
+                        <td id="lblMoreDisc" class="amount-text"></td>
+                    </tr>
+
+                    <tr style=" border-bottom: 1px dotted #ccc; display: block; width: 165%; "></tr>
+
+                    <tr>
+                        <td id="lblTotalAmountLabel">Total Balance</td>
+                        <td>:</td>
+                        <td id="lblTotalDue" class="amount-text"></td>
+                    </tr>
+                    <tr>
+                        <td>Pay</td>
+                        <td>:</td>
+                        <td id="lblCurrentPay" class="amount-text"></td>
+                    </tr>
+                    <tr>
+                        <td id="lblBalanceLabel">Current Balance</td>
+                        <td>:</td>
+                        <td id="lblCurrentDue" class="amount-text"></td>
+                    </tr>
+                </table>
+                <label id="lblInWord"></label>
+            </div>
+            <!-- Signature area-->
+            <div class="signature-area">
+                <div class="customer-area">
+                    <hr>
+                    <p>Customer Signature</p>
+                </div>
+                <div class="authorized-area">
+                    <hr>
+                    <p>Authorized Signature</p>
+                </div>
+            </div>
+
+            <!-- Invoice Footer-->
+            <div class="invoice-footer">
+                <p id="lblFooterNote"></p>
+
+            </div>
+
+            <!-- Its Our Area-->
+            <div class="devs-tag">
+                <p id="lblDbranding" class="text-center"> </p>
+            </div>
+
+        </div>
+
+        <script src="scripts/jquery-3.3.1.min.js"></script>
+        <script src="scripts/moment.min.js"></script>
+        <script src="scripts/lodash.min.js"></script>
+        <script src="../offline/scripts/app/invoice-print-offline.js"></script>
+    </body>
+
+
+</html>
+

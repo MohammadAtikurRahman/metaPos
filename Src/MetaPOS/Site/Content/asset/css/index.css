@@ -1,0 +1,646 @@
+/*-----------------------------------------------------------------------------------*/
+/*  INT STYLE DEFINE
+/*-----------------------------------------------------------------------------------*/
+@import url('https://fonts.maateen.me/adorsho-lipi/font.css');
+
+section {
+    padding: 80px 0px;
+}
+
+.bac {}
+
+.order-now {
+    background: #3fc380;
+    color: #fff;
+}
+
+
+.bac .section_heading h2 {
+    color: #fff;
+    font-family: 'Amita', cursive;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  INT BACKGROUND AREA
+/*-----------------------------------------------------------------------------------*/
+
+section .target_client {}
+
+section.main-features {
+    background: rgba(0, 0, 0, 0) linear-gradient(to top, rgba(92, 107, 192, 0.19), rgba(96, 125, 139, 0.81)) repeat scroll 0 0;
+}
+
+
+
+
+
+section.version {
+    background: #3fc380;
+    color: #fff;
+}
+
+section .client_testimonials {}
+
+section .get-demo {}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  HEADER AREA
+/*-----------------------------------------------------------------------------------*/
+
+header {
+    position: relative;
+    width: 100%;
+    height: 640px;
+    color: white;
+}
+
+header .header-content {
+    text-align: center;
+    padding: 150px 0 50px;
+    position: relative;
+}
+
+header .header-content .header-content-inner {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: "SolaimanLipi";
+    color: #3fc380
+}
+
+header .header-content .header-content-inner .list-badges {
+    margin-bottom: 25px;
+}
+
+header .header-content .header-content-inner .list-badges img {
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.metapos_description {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    header {
+        height: 640px;
+    }
+
+    header .header-content {
+        text-align: left;
+        padding: 45% 0%;
+    }
+
+    header .header-content .header-content-inner {
+        max-width: none;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    header .header-content .header-content-inner h1 {
+        font-size: 50px;
+    }
+
+    header .header-content .header-content-inner h1 span {
+        font-size: 28px;
+    }
+
+    header .header-content .header-content-inner h2 {
+        font-size: 24px;
+        font-family: 'AdorshoLipi', sans-serif;
+        color: #3fc380
+    }
+
+    header .device-container {
+        max-width: none;
+        max-height: calc(0vh);
+        margin: 100px auto 0;
+    }
+}
+
+header .screen {
+    padding: 13% 0%;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  TARGET AREA
+/*-----------------------------------------------------------------------------------*/
+
+
+.carousel-control {
+    top: 33px;
+}
+
+#slider-control img {
+    padding-top: 60%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+    #slider-control img {
+        padding-top: 70px;
+        margin: 0 auto;
+    }
+}
+
+.carousel-showmanymoveone .carousel-control {
+    width: 4%;
+    background-image: none;
+}
+
+.carousel-showmanymoveone .carousel-control.left {}
+
+.carousel-showmanymoveone .carousel-control.right {}
+
+.carousel-showmanymoveone .cloneditem-1,
+.carousel-showmanymoveone .cloneditem-2,
+.carousel-showmanymoveone .cloneditem-3,
+.carousel-showmanymoveone .cloneditem-4,
+.carousel-showmanymoveone .cloneditem-5 {
+    display: none;
+}
+
+@media all and (min-width: 768px) {
+
+    .carousel-showmanymoveone .carousel-inner > .active.left,
+    .carousel-showmanymoveone .carousel-inner > .prev {
+        left: -50%;
+    }
+
+    .carousel-showmanymoveone .carousel-inner > .active.right,
+    .carousel-showmanymoveone .carousel-inner > .next {
+        left: 50%;
+    }
+
+    .carousel-showmanymoveone .carousel-inner > .left,
+    .carousel-showmanymoveone .carousel-inner > .prev.right,
+    .carousel-showmanymoveone .carousel-inner > .active {
+        left: 0;
+    }
+
+    .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
+        display: block;
+    }
+}
+
+@media all and (min-width: 768px) and (transform-3d),
+all and (min-width: 768px) and (-webkit-transform-3d) {
+
+    .carousel-showmanymoveone .carousel-inner > .item.active.right,
+    .carousel-showmanymoveone .carousel-inner > .item.next {
+        -webkit-transform: translate3d(50%, 0, 0);
+        transform: translate3d(50%, 0, 0);
+        left: 0;
+    }
+
+    .carousel-showmanymoveone .carousel-inner > .item.active.left,
+    .carousel-showmanymoveone .carousel-inner > .item.prev {
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0);
+        left: 0;
+    }
+
+    .carousel-showmanymoveone .carousel-inner > .item.left,
+    .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+    .carousel-showmanymoveone .carousel-inner > .item.active {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        left: 0;
+    }
+}
+
+@media all and (min-width: 992px) {
+
+    .carousel-showmanymoveone .carousel-inner > .active.left,
+    .carousel-showmanymoveone .carousel-inner > .prev {
+        left: -16.666%;
+    }
+
+    .carousel-showmanymoveone .carousel-inner > .active.right,
+    .carousel-showmanymoveone .carousel-inner > .next {
+        left: 16.666%;
+    }
+
+    .carousel-showmanymoveone .carousel-inner > .left,
+    .carousel-showmanymoveone .carousel-inner > .prev.right,
+    .carousel-showmanymoveone .carousel-inner > .active {
+        left: 0;
+    }
+
+    .carousel-showmanymoveone .carousel-inner .cloneditem-2,
+    .carousel-showmanymoveone .carousel-inner .cloneditem-3,
+    .carousel-showmanymoveone .carousel-inner .cloneditem-4,
+    .carousel-showmanymoveone .carousel-inner .cloneditem-5,
+    .carousel-showmanymoveone .carousel-inner .cloneditem-6 {
+        display: block;
+    }
+}
+
+@media all and (min-width: 992px) and (transform-3d),
+all and (min-width: 992px) and (-webkit-transform-3d) {
+
+    .carousel-showmanymoveone .carousel-inner > .item.active.right,
+    .carousel-showmanymoveone .carousel-inner > .item.next {
+        -webkit-transform: translate3d(16.666%, 0, 0);
+        transform: translate3d(16.666%, 0, 0);
+        left: 0;
+    }
+
+    .carousel-showmanymoveone .carousel-inner > .item.active.left,
+    .carousel-showmanymoveone .carousel-inner > .item.prev {
+        -webkit-transform: translate3d(-16.666%, 0, 0);
+        transform: translate3d(-16.666%, 0, 0);
+        left: 0;
+    }
+
+    .carousel-showmanymoveone .carousel-inner > .item.left,
+    .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+    .carousel-showmanymoveone .carousel-inner > .item.active {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        left: 0;
+    }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  MAIN FEATURES AREA
+/*-----------------------------------------------------------------------------------*/
+
+.main-features p {
+    font-size: 22px;
+    line-height: 2.6em;
+    font-family: 'Amita', cursive;
+}
+
+.main-features .feature-item {
+    background: #fff;
+    border-radius: 3px;
+    padding: 10px 0 0;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.26);
+    -webkit-transition: box-shadow .5s cubic-bezier(.4, 0, .2, 1);
+    transition: box-shadow .5s cubic-bezier(.4, 0, .2, 1);
+
+}
+
+.main-features .feature-item1 {
+    background: #fff;
+    border-radius: 3px;
+    padding: 10px 0 0;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.26);
+    -webkit-transition: box-shadow .5s cubic-bezier(.4, 0, .2, 1);
+    transition: box-shadow .5s cubic-bezier(.4, 0, .2, 1);
+
+}
+
+.main-features .feature-item:hover {
+    /* box-shadow: 0px 17px 50px rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 5px 15px 5px rgba(0, 0, 0, .15)
+}
+
+.main-features .feature-item1:hover {
+    /* box-shadow: 0px 17px 50px rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 5px 15px 5px rgba(0, 0, 0, .15)
+}
+
+.main-features img {
+    margin-top: 20px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  TRUSTED-BY AREA
+/*-----------------------------------------------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  VERSON AREA
+/*-----------------------------------------------------------------------------------*/
+
+
+section.version .app-name {
+    font-weight: 500;
+    font-size: 90px;
+    padding: 0;
+    line-height: 1;
+    font-family: "SolaimanLipi";
+}
+
+section.version .version-name {
+    font-weight: 500;
+    font-size: 50px;
+    padding: 0;
+    line-height: 2;
+}
+
+/* version area */
+
+.footer h3 {
+    color: #3fc380
+}
+
+/* section .target_client */
+
+.ext {
+    margin-right: 9px
+}
+
+.target_client {
+    background: #f8f9fa;
+}
+
+/* my custom */
+
+
+.heading-content {
+    margin-top: 100px;
+    max-width: 410px;
+    padding: 90px 0 110px;
+    margin-left: 70px
+}
+
+/*
+.cell {
+    margin-left: calc(8.33333% + .9375rem)
+}
+*/
+
+
+.left carousel-control {
+    margin-right: 50px
+}
+
+.carousel-inner {
+    height: 200px;
+    background: #f8f9fa;
+    margin-top: 5px;
+}
+
+.carousel_custom_color {
+    height: 200px;
+    background: #fff;
+    margin-top: 5px;
+}
+
+/*hero sp__bottom--lg*/
+.h-title h1 {
+    margin: -30px 0 1.3125rem;
+    color: #3d4250;
+    line-height: 1.3em;
+    font-size: 4.5rem;
+}
+
+.h-title h2 {
+    font-size: 1.9rem;
+    margin-top: -18px;
+    margin-bottom: 15px;
+    font-family: 'Amita', cursive;
+}
+
+.p-text p {
+    font-size: 1.7rem;
+    margin: 0 0 1.25rem;
+    max-width: 700px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #3d4250;
+    margin-bottom: 36px;
+    font-family: 'Amita', cursive;
+}
+
+/*hero sp__bottom--lg*/
+
+/*target_client*/
+section .section_heading {
+    padding-bottom: 40px;
+}
+
+section .section_heading h1 {
+    font-size: 35px;
+    color: #404040;
+    line-height: 1.2em;
+    font-weight: 300;
+    margin: 0 0 20px;
+    font-family: "SolaimanLipi";
+}
+
+.bac .section_heading h1 {
+    color: #fff;
+}
+
+section .section_heading h2 {
+    font-size: 20px;
+    margin: 0 0 20px;
+    color: #404040;
+    font-weight: 300;
+    font-family: 'Amita', cursive;
+    line-height: 1.5;
+}
+
+.box {
+    background: #fff;
+    padding: 20px 13px;
+    -webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+    border-radius: 3px
+}
+
+.box:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.item h4 {
+    margin-top: 10px;
+    font-family: 'Amita', cursive;
+}
+
+/*target_client*/
+
+
+/*pricing*/
+section .pricing {
+    background: #f1faff;
+}
+
+/*pricing*/
+
+/*trusted-by*/
+section.trusted-by {
+    background: rgba(0, 137, 123, 0.85);
+    color: #fff;
+}
+
+section.trusted-by h3 {
+    margin-top: 40px;
+    font-family: 'Amita', cursive;
+}
+
+section.trusted-by img {
+    margin: 0 auto;
+}
+
+
+section.trusted-by .trusted_item h2 {
+    font-size: 35px;
+    font-family: 'Amita', cursive;
+}
+
+section.trusted-by .trusted_item h1 {
+    color: #FFEB3B;
+    margin: 0px;
+    font-size: 45px;
+}
+
+section.trusted-by i {
+    font-size: 70px;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin-right: 15px;
+}
+
+/*trusted-by*/
+
+/*my-design*/
+.my-design {
+    text-align: center;
+    padding: 80px;
+    background: #3a965314;
+}
+
+#my-design .app-name {
+    color: #4daf7c;
+    font-weight: 500;
+    font-size: 75px;
+    padding: 0;
+    line-height: 1;
+    font-family: "SolaimanLipi";
+}
+
+#my-design .version-name {
+    color: #4daf7c;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 0;
+    line-height: 2;
+}
+
+#my-design .section_heading {
+    margin-bottom: 60px
+}
+
+#my-design .section_heading h1 {
+    font-size: 35px;
+    color: #000;
+    line-height: 1.2em;
+    font-weight: 300;
+    margin: 0 0 20px;
+    font-family: "SolaimanLipi";
+}
+
+#my-design .section_heading h2 {
+    font-size: 20px;
+    margin: 0 0 20px;
+    color: #3a4953;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: 'Amita', cursive;
+}
+
+#my-design .version-name {
+    font-weight: 500;
+    font-size: 50px;
+    padding: 0;
+    line-height: 2;
+}
+
+.t-header h2 {
+    font-weight: 500;
+    font-size: 90px;
+    padding: 0;
+    line-height: 1;
+    font-family: 'AdorshoLipi', sans-serif;
+    color: #fff
+}
+
+#my-design .add_new {
+    color: #4daf7c;
+}
+
+#my-design .updated {
+    color: #4daf7c;
+}
+
+/*my-design*/
+
+/*.client_testimonials*/
+
+/*.client_testimonials*/
+
+
+
+/*HEADER CUSTOM CSS*/
+.cell {
+    margin-left: calc(-1.66667% + .9375rem);
+}
+
+/*
+.header_image img {
+    margin-top: 60px;
+}
+*/
+.header_image img {
+    margin-top: 15%;
+    height: 100%;
+    width: 120%;
+    margin-left: -10%;
+}
+
+i.fas.fa-truck {
+    font-size: 55px;
+    color: #585858;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 767px)and (min-width: 365px) {
+    .heading-content {
+        margin-top: 100px;
+        max-width: 410px;
+        padding: 90px 0 110px;
+        margin-left: 28px;
+    }
+
+    .header_image img {
+        margin-top: -26%;
+        height: 100%;
+        width: 120%;
+        margin-left: -5%;
+    }
+}
+
+@media only screen and (max-width: 768px)] #my-design .app-name {
+    color: #4daf7c;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1;
+    font-family: "SolaimanLipi";
+    font-size: 80px;
+}
+
+}

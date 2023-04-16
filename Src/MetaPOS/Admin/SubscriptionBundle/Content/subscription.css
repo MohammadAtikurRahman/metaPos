@@ -1,0 +1,115 @@
+﻿body {
+}
+
+.dt-buttons {
+    float: right !important;
+}
+
+.subscription-border {
+    overflow-y: scroll;
+}
+
+.text-balance {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+
+.subscription-status {
+    padding: 6px;
+    border-radius: 6px;
+    color: #000;
+}
+
+
+.section-subscription {
+    display: grid !important;
+    margin-top: 25px;
+}
+
+
+.mGrid-subscription {
+    margin: 10px 11px 20px 0px !important;
+    width: 100% !important;
+}
+
+
+
+.subscription-section-min-height {
+    min-height: 410px;
+}
+
+.btn-grd-submit {
+    padding: 0;
+    text-align: left;
+}
+
+
+.mGrid-subscription td {
+    padding: 5px 10px 5px 10px !important;
+}
+
+.sectionHeading {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+
+.transection-wallet-title {
+    font-size: 13px;
+    color: #e67e22;
+}
+
+.gridTitle {
+    padding: 15px 10px 10px 0 !important;
+}
+
+.transection-wallet-title b {
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.balance {
+    font-size: 20px;
+    padding-top: 5px;
+    float: right;
+}
+
+.balance-text {
+    color: #e67e22;
+    font-weight: 900;
+}
+
+
+.next-expiry-date {
+    float: left;
+    padding-right: 20px;
+}
+
+.qrcode-metapos {
+    border-top: 1px solid #ccc;
+}
+
+    .qrcode-metapos p {
+        padding-top: 10%;
+    }
+
+    .qrcode-metapos img {
+        width: 70%;
+    }
+
+.margin-right-minus-30 {
+    margin-right: -30px !important;
+}
+
+.btn-payment{
+    width:100%;
+}
+
+.due-section {
+    padding-top: 20px !important;
+}
+#filterPanel div.dt-button-collection {
+    width: 70px;
+}

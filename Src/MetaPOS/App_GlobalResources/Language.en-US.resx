@@ -1,0 +1,4926 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Btn_invoice_modal_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_invoice_search_customer_or_invoice" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_invoice_15days" xml:space="preserve">
+    <value>১৫ দিন</value>
+  </data>
+  <data name="Lbl_invoice_1month" xml:space="preserve">
+    <value>১ মাস</value>
+  </data>
+  <data name="Lbl_invoice_1year" xml:space="preserve">
+    <value>১ বছর</value>
+  </data>
+  <data name="Lbl_invoice_3month" xml:space="preserve">
+    <value>৩ মাস</value>
+  </data>
+  <data name="Lbl_invoice_6month" xml:space="preserve">
+    <value>৬ মাস</value>
+  </data>
+  <data name="Lbl_invoice_7days" xml:space="preserve">
+    <value>৭ দিন</value>
+  </data>
+  <data name="Lbl_invoice_account" xml:space="preserve">
+    <value>অ্যাকাউন্টস</value>
+  </data>
+  <data name="Lbl_invoice_address" xml:space="preserve">
+    <value>ঠিকানা</value>
+  </data>
+  <data name="Lbl_invoice_add_as_discount" xml:space="preserve">
+    <value>ছাড় হিসাবে যুক্ত করুন</value>
+  </data>
+  <data name="Lbl_invoice_add_imei" xml:space="preserve">
+    <value>সিলেক্ট করুন</value>
+  </data>
+  <data name="Lbl_invoice_autoloader" xml:space="preserve">
+    <value>অটো লোডার</value>
+  </data>
+  <data name="Lbl_invoice_blood_group" xml:space="preserve">
+    <value>রক্তের গ্রুপ</value>
+  </data>
+  <data name="Lbl_invoice_card" xml:space="preserve">
+    <value>কার্ড</value>
+  </data>
+  <data name="Lbl_invoice_carrying" xml:space="preserve">
+    <value>বহন</value>
+  </data>
+  <data name="Lbl_invoice_cart_payment" xml:space="preserve">
+    <value>কার্ট পেমেন্ট</value>
+  </data>
+  <data name="Lbl_invoice_cart_total" xml:space="preserve">
+    <value>কার্ট টোটাল</value>
+  </data>
+  <data name="Lbl_invoice_Cash" xml:space="preserve">
+    <value>নগদ</value>
+  </data>
+  <data name="Lbl_invoice_cash_on_delivary" xml:space="preserve">
+    <value>ক্যাশ অন ডেলিভারি</value>
+  </data>
+  <data name="Lbl_invoice_challan" xml:space="preserve">
+    <value>চালান</value>
+  </data>
+  <data name="Lbl_invoice_cheque" xml:space="preserve">
+    <value>চেক</value>
+  </data>
+  <data name="Lbl_invoice_confirm_sale" xml:space="preserve">
+    <value>কনফার্ম সেল</value>
+  </data>
+  <data name="Lbl_invoice_customer" xml:space="preserve">
+    <value>গ্রাহক</value>
+  </data>
+  <data name="Lbl_invoice_Details" xml:space="preserve">
+    <value>বিস্তারিত</value>
+  </data>
+  <data name="Lbl_invoice_discount" xml:space="preserve">
+    <value>ছাড়</value>
+  </data>
+  <data name="Lbl_invoice_down_payment" xml:space="preserve">
+    <value>ডাউন পেমেন্ট</value>
+  </data>
+  <data name="Lbl_invoice_draft" xml:space="preserve">
+    <value>ড্রাফ্‌ট</value>
+  </data>
+  <data name="Lbl_invoice_due" xml:space="preserve">
+    <value>বাকি</value>
+  </data>
+  <data name="Lbl_invoice_Edit" xml:space="preserve">
+    <value>এডিট</value>
+  </data>
+  <data name="Lbl_invoice_email" xml:space="preserve">
+    <value>ইমেইল</value>
+  </data>
+  <data name="Lbl_invoice_EMI_plan" xml:space="preserve">
+    <value>EMI প্লান</value>
+  </data>
+  <data name="Lbl_invoice_full_name" xml:space="preserve">
+    <value>নাম</value>
+  </data>
+  <data name="Lbl_invoice_IMEI" xml:space="preserve">
+    <value>আইএমইআই</value>
+  </data>
+  <data name="Lbl_invoice_installment" xml:space="preserve">
+    <value>কিস্তি</value>
+  </data>
+  <data name="Lbl_invoice_ins_number" xml:space="preserve">
+    <value>কিস্তির সংখ্যা</value>
+  </data>
+  <data name="Lbl_invoice_ins_select" xml:space="preserve">
+    <value>সিলেক্ট</value>
+  </data>
+  <data name="Lbl_invoice_intarest" xml:space="preserve">
+    <value>সুদ</value>
+  </data>
+  <data name="Lbl_invoice_intarest_rate" xml:space="preserve">
+    <value>সুদের হার</value>
+  </data>
+  <data name="Lbl_invoice_invoice" xml:space="preserve">
+    <value>মেমো</value>
+  </data>
+  <data name="Lbl_invoice_loading" xml:space="preserve">
+    <value>লোডিং খরচ</value>
+  </data>
+  <data name="Lbl_invoice_membar_id" xml:space="preserve">
+    <value>মেম্বার আইডি</value>
+  </data>
+  <data name="Lbl_invoice_mise_cost" xml:space="preserve">
+    <value>বিবিধ ব্যয়</value>
+  </data>
+  <data name="Lbl_invoice_mise_costtab" xml:space="preserve">
+    <value>বিবিধ খরচ</value>
+  </data>
+  <data name="Lbl_invoice_mobile_bank" xml:space="preserve">
+    <value>মোবাইল ব্যাংকিং</value>
+  </data>
+  <data name="Lbl_invoice_more_discount" xml:space="preserve">
+    <value>আরও ছাড়</value>
+  </data>
+  <data name="Lbl_invoice_new" xml:space="preserve">
+    <value>নতুন</value>
+  </data>
+  <data name="Lbl_invoice_new_customner" xml:space="preserve">
+    <value>নতুন কাস্টমার</value>
+  </data>
+  <data name="Lbl_invoice_new_invoice" xml:space="preserve">
+    <value>নতুন</value>
+  </data>
+  <data name="Lbl_invoice_next_date" xml:space="preserve">
+    <value>পরবর্তী তারিখ</value>
+  </data>
+  <data name="Lbl_invoice_normal" xml:space="preserve">
+    <value>নর্মাল</value>
+  </data>
+  <data name="Lbl_Invoice_notes" xml:space="preserve">
+    <value>মন্তব্য</value>
+  </data>
+  <data name="Lbl_invoice_notification" xml:space="preserve">
+    <value>বিজ্ঞপ্তি</value>
+  </data>
+  <data name="Lbl_invoice_paid" xml:space="preserve">
+    <value>পেইড</value>
+  </data>
+  <data name="Lbl_invoice_paper_size" xml:space="preserve">
+    <value>পেপার সাইজ</value>
+  </data>
+  <data name="Lbl_invoice_pay_advanced" xml:space="preserve">
+    <value>জমা রাখুন</value>
+  </data>
+  <data name="Lbl_invoice_pay_card" xml:space="preserve">
+    <value>Pay. Card</value>
+  </data>
+  <data name="Lbl_invoice_pay_date" xml:space="preserve">
+    <value>প্রদানের তারিখ</value>
+  </data>
+  <data name="Lbl_invoice_pay_subs" xml:space="preserve">
+    <value>আপনার সাবস্ক্রিপশন ফি প্রদান করুন এবং আপনার বিক্রয় আবার সক্রিয় করুন।</value>
+  </data>
+  <data name="Lbl_invoice_phone" xml:space="preserve">
+    <value>ফোন</value>
+  </data>
+  <data name="Lbl_invoice_phone2" xml:space="preserve">
+    <value>ফোন (২) </value>
+  </data>
+  <data name="Lbl_invoice_please_confirm" xml:space="preserve">
+    <value>দয়া করে নিশ্চিত করুন</value>
+  </data>
+  <data name="Lbl_invoice_pre_bal" xml:space="preserve">
+    <value>পূর্বের ব্যালেন্স</value>
+  </data>
+  <data name="lbl_invoice_price" xml:space="preserve">
+    <value>মূল্য</value>
+  </data>
+  <data name="Lbl_invoice_print" xml:space="preserve">
+    <value>প্রিন্ট</value>
+  </data>
+  <data name="Lbl_invoice_Product" xml:space="preserve">
+    <value>প্রোডাক্ট</value>
+  </data>
+  <data name="Lbl_invoice_qty" xml:space="preserve">
+    <value>সংখ্যা</value>
+  </data>
+  <data name="Lbl_invoice_receipt" xml:space="preserve">
+    <value>রসিদ</value>
+  </data>
+  <data name="Lbl_invoice_referrel" xml:space="preserve">
+    <value>সুপারিশকারী</value>
+  </data>
+  <data name="Lbl_invoice_refferal" xml:space="preserve">
+    <value>সুপারিশকারী</value>
+  </data>
+  <data name="Lbl_invoice_Retail" xml:space="preserve">
+    <value>খুচরা</value>
+  </data>
+  <data name="Lbl_invoice_return" xml:space="preserve">
+    <value>প্রত্যাবর্তন</value>
+  </data>
+  <data name="Lbl_invoice_sales_person" xml:space="preserve">
+    <value>বিক্রয় কারী</value>
+  </data>
+  <data name="Lbl_invoice_sales_product" xml:space="preserve">
+    <value>বিক্রয় পণ্য</value>
+  </data>
+  <data name="Lbl_invoice_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Lbl_invoice_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_invoice_search_product_by" xml:space="preserve">
+    <value>টাইপ বা স্ক্যান করে পণ্য অনুসন্ধান করুন ...</value>
+  </data>
+  <data name="Lbl_invoice_search___" xml:space="preserve">
+    <value>অনুসন্ধান করুন...</value>
+  </data>
+  <data name="Lbl_invoice_select_bank" xml:space="preserve">
+    <value>ব্যাংক নির্বাচন করুন</value>
+  </data>
+  <data name="Lbl_invoice_select_card_type" xml:space="preserve">
+    <value>কার্ড সিলেক্ট করুন</value>
+  </data>
+  <data name="Lbl_Invoice_select_customer" xml:space="preserve">
+    <value>গ্রাহক নির্বাচন করুন</value>
+  </data>
+  <data name="Lbl_invoice_select_person" xml:space="preserve">
+    <value>ব্যক্তি নির্বাচন করুন</value>
+  </data>
+  <data name="Lbl_invoice_service" xml:space="preserve">
+    <value>সেবা</value>
+  </data>
+  <data name="Lbl_invoice_shipping" xml:space="preserve">
+    <value>স্থানান্তর</value>
+  </data>
+  <data name="Lbl_invoice_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_invoice_small" xml:space="preserve">
+    <value>ছোট</value>
+  </data>
+  <data name="Lbl_invoice_start_date" xml:space="preserve">
+    <value>শুরুর তারিখ</value>
+  </data>
+  <data name="Lbl_invoice_Subscription_now" xml:space="preserve">
+    <value>সাবস্ক্রিপশন করুন</value>
+  </data>
+  <data name="Lbl_invoice_subs_exp" xml:space="preserve">
+    <value>আপনার সাবস্ক্রিপশন তারিখ শেষ হয়েছে !!</value>
+  </data>
+  <data name="Lbl_invoice_suspended" xml:space="preserve">
+    <value>ডিলেট করুন</value>
+  </data>
+  <data name="Lbl_invoice_suspend_notice" xml:space="preserve">
+    <value>আপনি কি চালান পরিবর্তন করতে চান ( আপনার পণ্যের তালিকা হারিয়ে যাবে)?</value>
+  </data>
+  <data name="Lbl_invoice_taka" xml:space="preserve">
+    <value>৳</value>
+  </data>
+  <data name="Lbl_invoice_token" xml:space="preserve">
+    <value>টোকেন</value>
+  </data>
+  <data name="Lbl_invoice_totaamt" xml:space="preserve">
+    <value>মোট</value>
+  </data>
+  <data name="Lbl_invoice_total" xml:space="preserve">
+    <value>মোট</value>
+  </data>
+  <data name="Lbl_invoice_total_bal" xml:space="preserve">
+    <value>মোট ব্যালান্স</value>
+  </data>
+  <data name="Lbl_invoice_unloading" xml:space="preserve">
+    <value>আনলোডিং খরচ</value>
+  </data>
+  <data name="Lbl_invoice_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Lbl_invoice_updatesale" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Lbl_invoice_vat" xml:space="preserve">
+    <value>ভ্যাট</value>
+  </data>
+  <data name="Lbl_invoice_wholesale" xml:space="preserve">
+    <value>পাইকারি</value>
+  </data>
+  <data name="Lbl_invoice_wholesale_btype_elec" xml:space="preserve">
+    <value>ডিলার</value>
+  </data>
+  <data name="Lbl_invoice_write_a_note" xml:space="preserve">
+    <value>নোট লিখুন</value>
+  </data>
+  <data name="Lbl_invoice__mise_service" xml:space="preserve">
+    <value>সার্ভিস চার্জ</value>
+  </data>
+  <data name="Lbl_last" xml:space="preserve">
+    <value>গত</value>
+  </data>
+  <data name="Link_Accounting" xml:space="preserve">
+    <value>একাউন্টিং</value>
+  </data>
+  <data name="Link_Analytic" xml:space="preserve">
+    <value>গ্রাফ চার্ট</value>
+  </data>
+  <data name="Link_Attribute" xml:space="preserve">
+    <value>এট্রিবিউট</value>
+  </data>
+  <data name="Link_bank" xml:space="preserve">
+    <value>ব্যাংক</value>
+  </data>
+  <data name="Link_Banking" xml:space="preserve">
+    <value>ব্যাংকিং হিসাব</value>
+  </data>
+  <data name="Link_card" xml:space="preserve">
+    <value>কার্ড</value>
+  </data>
+  <data name="Link_Category" xml:space="preserve">
+    <value>ক্যাটাগরি</value>
+  </data>
+  <data name="Link_Customer" xml:space="preserve">
+    <value>কাস্টমার</value>
+  </data>
+  <data name="Link_Damage" xml:space="preserve">
+    <value>নষ্ট পণ্য</value>
+  </data>
+  <data name="Link_Docs" xml:space="preserve">
+    <value>ডকুমেন্ট</value>
+  </data>
+  <data name="Link_DueReminder" xml:space="preserve">
+    <value>কিস্তি</value>
+  </data>
+  <data name="Link_Ecommerce" xml:space="preserve">
+    <value>ইকমার্স</value>
+  </data>
+  <data name="Link_email" xml:space="preserve">
+    <value>ইমেইল</value>
+  </data>
+  <data name="Link_Expense" xml:space="preserve">
+    <value>খরচকৃত</value>
+  </data>
+  <data name="Link_Expiry" xml:space="preserve">
+    <value>মেয়াদউত্তীর্ণ</value>
+  </data>
+  <data name="Link_Field" xml:space="preserve">
+    <value>ফিল্ড</value>
+  </data>
+  <data name="Link_inventory" xml:space="preserve">
+    <value>ইনভেন্টরি</value>
+  </data>
+  <data name="Link_InventoryReport" xml:space="preserve">
+    <value>ইনভেন্টরি</value>
+  </data>
+  <data name="Link_Invoice" xml:space="preserve">
+    <value>ইনভয়েস করুন</value>
+  </data>
+  <data name="Link_LoadOffline" xml:space="preserve">
+    <value>অফলাইন লোড করুন</value>
+  </data>
+  <data name="Link_Location" xml:space="preserve">
+    <value>অবস্থান</value>
+  </data>
+  <data name="Link_Manufacturer" xml:space="preserve">
+    <value>উৎপাদক</value>
+  </data>
+  <data name="Link_Offer" xml:space="preserve">
+    <value>অফার</value>
+  </data>
+  <data name="Link_Oflline" xml:space="preserve">
+    <value>অফলাইন</value>
+  </data>
+  <data name="Link_package" xml:space="preserve">
+    <value>প্যাকেজ</value>
+  </data>
+  <data name="Link_Particular" xml:space="preserve">
+    <value>পার্টিকুলার</value>
+  </data>
+  <data name="Link_Payment" xml:space="preserve">
+    <value>পেমেন্ট</value>
+  </data>
+  <data name="Link_Profile" xml:space="preserve">
+    <value>প্রোফাইল</value>
+  </data>
+  <data name="Link_ProfitLoss" xml:space="preserve">
+    <value>লাভ/লোকসান</value>
+  </data>
+  <data name="Link_Promotion" xml:space="preserve">
+    <value>প্রোমোশন</value>
+  </data>
+  <data name="Link_purchase" xml:space="preserve">
+    <value>পারচেজ</value>
+  </data>
+  <data name="Link_PurchaseRepor" xml:space="preserve">
+    <value>পারচেজ</value>
+  </data>
+  <data name="Link_Quotation" xml:space="preserve">
+    <value>কোটেশন</value>
+  </data>
+  <data name="Link_Receive" xml:space="preserve">
+    <value>আয়কৃত</value>
+  </data>
+  <data name="Link_Record" xml:space="preserve">
+    <value>রেকর্ডস</value>
+  </data>
+  <data name="Link_Report" xml:space="preserve">
+    <value>রিপোর্টস</value>
+  </data>
+  <data name="Link_Return" xml:space="preserve">
+    <value>রিটার্ন</value>
+  </data>
+  <data name="Link_Salary" xml:space="preserve">
+    <value>বেতন</value>
+  </data>
+  <data name="Link_Sale" xml:space="preserve">
+    <value>সেলস</value>
+  </data>
+  <data name="Link_SaleInvoice" xml:space="preserve">
+    <value>ইনভয়েস</value>
+  </data>
+  <data name="Link_Security" xml:space="preserve">
+    <value>সিকিউরিটি</value>
+  </data>
+  <data name="Link_Service" xml:space="preserve">
+    <value>সার্ভিস</value>
+  </data>
+  <data name="Link_ServiceType" xml:space="preserve">
+    <value>সার্ভিস টাইপ</value>
+  </data>
+  <data name="Link_Servicing" xml:space="preserve">
+    <value>সার্ভিসিং</value>
+  </data>
+  <data name="Link_Setting" xml:space="preserve">
+    <value>কনফিগার</value>
+  </data>
+  <data name="Link_Settings" xml:space="preserve">
+    <value>সেটিং‍স</value>
+  </data>
+  <data name="Link_ShopPage" xml:space="preserve">
+    <value>প্রোডাক্ট</value>
+  </data>
+  <data name="Link_slip" xml:space="preserve">
+    <value>ইনভয়েস</value>
+  </data>
+  <data name="Link_sms" xml:space="preserve">
+    <value>এসএমএস</value>
+  </data>
+  <data name="Link_SmsConfig" xml:space="preserve">
+    <value>এসএমএস কনফিগার</value>
+  </data>
+  <data name="Link_Staff" xml:space="preserve">
+    <value>স্টাফ</value>
+  </data>
+  <data name="Link_stock" xml:space="preserve">
+    <value>স্টক</value>
+  </data>
+  <data name="Link_Subscription" xml:space="preserve">
+    <value>সাবস্ক্রিপশন</value>
+  </data>
+  <data name="Link_Summary" xml:space="preserve">
+    <value>বিজনেস সামারি</value>
+  </data>
+  <data name="Link_Supplier" xml:space="preserve">
+    <value>সরবরাহকারী</value>
+  </data>
+  <data name="Link_SupplierCommission" xml:space="preserve">
+    <value>সাপ্লাইয়ার কমিশন</value>
+  </data>
+  <data name="Link_Supply" xml:space="preserve">
+    <value>সাপ্লাইয়ার</value>
+  </data>
+  <data name="Link_Support" xml:space="preserve">
+    <value>সিকিউরিটি</value>
+  </data>
+  <data name="Link_token" xml:space="preserve">
+    <value>টোকেন</value>
+  </data>
+  <data name="Link_Transaction" xml:space="preserve">
+    <value>লেনদেন</value>
+  </data>
+  <data name="Link_UnitMeasurement" xml:space="preserve">
+    <value>ইউনিট</value>
+  </data>
+  <data name="Link_user" xml:space="preserve">
+    <value>ইউজার</value>
+  </data>
+  <data name="Link_Version" xml:space="preserve">
+    <value>ভার্সন</value>
+  </data>
+  <data name="Link_Warehouse" xml:space="preserve">
+    <value>দোকান</value>
+  </data>
+  <data name="Link_Warning" xml:space="preserve">
+    <value>ওয়ার্নিং</value>
+  </data>
+  <data name="Link_Warranty" xml:space="preserve">
+    <value>ওয়ারেন্টি</value>
+  </data>
+  <data name="Link_Web" xml:space="preserve">
+    <value>কনফিগারেশন</value>
+  </data>
+  <data name="Link_Website" xml:space="preserve">
+    <value>ওয়েবসাইট</value>
+  </data>
+  <data name="month_sales" xml:space="preserve">
+    <value>মাসে বিক্রির গ্রাফ চিত্র</value>
+  </data>
+  <data name="new_customer" xml:space="preserve">
+    <value>নতুন কাস্টমার</value>
+  </data>
+  <data name="new_invoie" xml:space="preserve">
+    <value>নতুন ইনভয়েস</value>
+  </data>
+  <data name="sale_qty" xml:space="preserve">
+    <value>বিক্রি আইটেম</value>
+  </data>
+  <data name="this_month_popular" xml:space="preserve">
+    <value>এই মাসে সবচেয়ে বেশি বিক্রিত পণ্য</value>
+  </data>
+  <data name="today_sale" xml:space="preserve">
+    <value>আজকের বিক্রয়</value>
+  </data>
+  <data name="updated" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Btn_purchase_add" xml:space="preserve">
+    <value>যুক্ত করুন</value>
+  </data>
+  <data name="Btn_purchase_cancel" xml:space="preserve">
+    <value>বাতিল করুণ</value>
+  </data>
+  <data name="Btn_purchase_clear" xml:space="preserve">
+    <value>মুছে ফেলুন</value>
+  </data>
+  <data name="Btn_purchase_save_all" xml:space="preserve">
+    <value>সংরক্ষণ করুন</value>
+  </data>
+  <data name="Lbl_purchase_add_qty_exists" xml:space="preserve">
+    <value>নতুন + আগের সংখ্যা &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_add_update_product" xml:space="preserve">
+    <value>পণ্য অ্যাড / আপডেট করুণ</value>
+  </data>
+  <data name="Lbl_purchase_attribute" xml:space="preserve">
+    <value>এট্রিবিউট</value>
+  </data>
+  <data name="Lbl_purchase_buy_price" xml:space="preserve">
+    <value>ক্রয় মূল্য &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_category" xml:space="preserve">
+    <value>ক্যাটাগরি &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_cecish_number" xml:space="preserve">
+    <value>চেসিস নাম্বার</value>
+  </data>
+  <data name="Lbl_purchase_day" xml:space="preserve">
+    <value>দিন</value>
+  </data>
+  <data name="Lbl_purchase_engine_number" xml:space="preserve">
+    <value>ইঞ্জিন নাম্বার</value>
+  </data>
+  <data name="Lbl_purchase_field" xml:space="preserve">
+    <value>ফিল্ড</value>
+  </data>
+  <data name="f" xml:space="preserve">
+    <value>আইএমইআই</value>
+  </data>
+  <data name="Lbl_purchase_import_file" xml:space="preserve">
+    <value>ইম্পোট করুণ</value>
+  </data>
+  <data name="Lbl_purchase_import_new_products" xml:space="preserve">
+    <value>নতুন প্রোডাক্ট ইম্পোট </value>
+  </data>
+  <data name="Lbl_purchase_location" xml:space="preserve">
+    <value>লোকেশন</value>
+  </data>
+  <data name="Lbl_purchase_manufacturer_brand" xml:space="preserve">
+    <value>প্রস্তুতকারী / ব্রান্ড</value>
+  </data>
+  <data name="Lbl_purchase_month" xml:space="preserve">
+    <value>মাস</value>
+  </data>
+  <data name="Lbl_purchase_notes" xml:space="preserve">
+    <value>মন্তব্য</value>
+  </data>
+  <data name="Lbl_purchase_product_code" xml:space="preserve">
+    <value>পণ্য কোড &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_product_list" xml:space="preserve">
+    <value>পণ্য তালিকা</value>
+  </data>
+  <data name="Lbl_purchase_product_model" xml:space="preserve">
+    <value>পণ্যের মডেল &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_product_price" xml:space="preserve">
+    <value>পণ্যের দাম</value>
+  </data>
+  <data name="Lbl_purchase_product_qty" xml:space="preserve">
+    <value>পণ্যের সংখ্যা</value>
+  </data>
+  <data name="Lbl_purchase_product_title" xml:space="preserve">
+    <value>পণ্যের টাইটেল</value>
+  </data>
+  <data name="Lbl_purchase_product_total_price" xml:space="preserve">
+    <value>পণ্য মোট দাম</value>
+  </data>
+  <data name="Lbl_purchase_purchase_code" xml:space="preserve">
+    <value>ক্রয় কোড</value>
+  </data>
+  <data name="Lbl_purchase_purchase_comment" xml:space="preserve">
+    <value>ক্রয় মন্তব্য</value>
+  </data>
+  <data name="Lbl_purchase_purchase_date" xml:space="preserve">
+    <value>ক্রয় তারিখ</value>
+  </data>
+  <data name="Lbl_purchase_retail_price" xml:space="preserve">
+    <value>খুচরা মূল্য &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_Schedule_Payment" xml:space="preserve">
+    <value>শিডিউল পেমেন্ট</value>
+  </data>
+  <data name="Lbl_purchase_serial_no" xml:space="preserve">
+    <value>সিরিয়াল নাম্বার</value>
+  </data>
+  <data name="Lbl_purchase_shipment_status" xml:space="preserve">
+    <value>চালানের অবস্থা</value>
+  </data>
+  <data name="Lbl_purchase_SKU" xml:space="preserve">
+    <value>এসকেইউ</value>
+  </data>
+  <data name="Lbl_purchase_store" xml:space="preserve">
+    <value>দোকান &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_supplier_commission" xml:space="preserve">
+    <value>সরবরাহকারী কমিশন</value>
+  </data>
+  <data name="Lbl_purchase_supplier_payment" xml:space="preserve">
+    <value>সরবরাহকারী প্রদান</value>
+  </data>
+  <data name="Lbl_purchase_supplier_vendor" xml:space="preserve">
+    <value>সরবরাহকারী/বিক্রেতা&lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_tax" xml:space="preserve">
+    <value>ট্যক্স </value>
+  </data>
+  <data name="Lbl_purchase_total_purchase_amount" xml:space="preserve">
+    <value>মোট ক্রয়ের পরিমাণ</value>
+  </data>
+  <data name="Lbl_purchase_total_received" xml:space="preserve">
+    <value>মোট প্রাপ্ত</value>
+  </data>
+  <data name="Lbl_purchase_track_received_comment" xml:space="preserve">
+    <value>ট্র্যাক প্রাপ্ত মন্তব্য</value>
+  </data>
+  <data name="Lbl_purchase_type" xml:space="preserve">
+    <value>ধরন</value>
+  </data>
+  <data name="Lbl_purchase_unit" xml:space="preserve">
+    <value>ইউনিট</value>
+  </data>
+  <data name="Lbl_purchase_warning_qty" xml:space="preserve">
+    <value>সতর্কতা পরিমাণ</value>
+  </data>
+  <data name="Lbl_purchase_warranty" xml:space="preserve">
+    <value>মেয়াদ</value>
+  </data>
+  <data name="Lbl_purchase_wholesale_price" xml:space="preserve">
+    <value>পাইকারি দাম</value>
+  </data>
+  <data name="Lbl_purchase_year" xml:space="preserve">
+    <value>বছর</value>
+  </data>
+  <data name="Title_Purchase_page" xml:space="preserve">
+    <value>পারচেজ</value>
+  </data>
+  <data name="Lbl_purchase_Batch_no" xml:space="preserve">
+    <value>ব্যাচ নং</value>
+  </data>
+  <data name="Lbl_purchase_company_price" xml:space="preserve">
+    <value>কোম্পানি মূল্য</value>
+  </data>
+  <data name="Lbl_purchase_download_simple" xml:space="preserve">
+    <value>স্যম্পল ফাইল ডাউনলোড করুণ </value>
+  </data>
+  <data name="Lbl_purchase_Expiry_date" xml:space="preserve">
+    <value>সমাপ্তির তারিখ</value>
+  </data>
+  <data name="Lbl_purchase_free_qty" xml:space="preserve">
+    <value>ফ্রি পণ্য</value>
+  </data>
+  <data name="Lbl_purchase_product_type" xml:space="preserve">
+    <value>ধরণ</value>
+  </data>
+  <data name="Lbl_purchase_purchase_notes" xml:space="preserve">
+    <value>ক্রয় মন্তব্য লিখুন</value>
+  </data>
+  <data name="Lbl_purchase_recived_date" xml:space="preserve">
+    <value>প্রাপ্ত তারিখ</value>
+  </data>
+  <data name="Lbl_purchase_Schedule_comment" xml:space="preserve">
+    <value>মন্তব্য লিখুন</value>
+  </data>
+  <data name="Lbl_purchase_single_product" xml:space="preserve">
+    <value>সিঙ্গেল</value>
+  </data>
+  <data name="Lbl_purchase_size" xml:space="preserve">
+    <value>সাইজ</value>
+  </data>
+  <data name="Lbl_purchase_Upload_File" xml:space="preserve">
+    <value>ছবি সিলেক্ট করুণ</value>
+  </data>
+  <data name="Lbl_purchase_varient_product" xml:space="preserve">
+    <value>ভিন্ন</value>
+  </data>
+  <data name="Btn_stock_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Btn_stock_add_a_product" xml:space="preserve">
+    <value>নতুন পণ্য +</value>
+  </data>
+  <data name="Btn_stock_export" xml:space="preserve">
+    <value>এক্সপোর্ট</value>
+  </data>
+  <data name="Btn_stock_import" xml:space="preserve">
+    <value>ইমপোর্ট</value>
+  </data>
+  <data name="Btn_stock_print_all_stock" xml:space="preserve">
+    <value>সব পণ্য প্রিন্ট</value>
+  </data>
+  <data name="Btn_stock_print_barcode" xml:space="preserve">
+    <value>প্রিন্ট বারকোড</value>
+  </data>
+  <data name="Btn_stock_print_your_barcode" xml:space="preserve">
+    <value>বারকোড</value>
+  </data>
+  <data name="Btn_stock_show_all_products" xml:space="preserve">
+    <value>সব পণ্য দেখুন</value>
+  </data>
+  <data name="Lbl_stock_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_stock_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_stock_barcode" xml:space="preserve">
+    <value>বারকোড</value>
+  </data>
+  <data name="Lbl_stock_buy_price" xml:space="preserve">
+    <value>ক্রয়মূল্য</value>
+  </data>
+  <data name="Lbl_stock_delete" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-trash'&gt;&lt;/span&gt; মুছুন</value>
+  </data>
+  <data name="Lbl_stock_edit" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-pencil'&gt;&lt;/span&gt; এডিট</value>
+  </data>
+  <data name="Lbl_stock_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_stock_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_stock_print_barcode" xml:space="preserve">
+    <value> &lt;i class="fa fa-barcode fa-400px"&gt;&lt;/i&gt; প্রিন্ট বারকোড</value>
+  </data>
+  <data name="Lbl_stock_print_custom" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-barcode'&gt;&lt;/span&gt; কাস্টম প্রিন্ট</value>
+  </data>
+  <data name="Lbl_stock_product_name" xml:space="preserve">
+    <value>পণ্যর নাম</value>
+  </data>
+  <data name="Lbl_stock_sale_price" xml:space="preserve">
+    <value>বিক্রয় মূল্য</value>
+  </data>
+  <data name="Lbl_stock_search" xml:space="preserve">
+    <value>খুঁজুন ...</value>
+  </data>
+  <data name="Lbl_stock_search_all_location" xml:space="preserve">
+    <value>লোকেশন নির্বাচন</value>
+  </data>
+  <data name="Lbl_stock_search_all_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার নির্বাচন</value>
+  </data>
+  <data name="Lbl_stock_stock_qty" xml:space="preserve">
+    <value>স্টক সংখ্যা</value>
+  </data>
+  <data name="Lbl_stock_stock_report" xml:space="preserve">
+    <value>স্টক রিপোর্ট</value>
+  </data>
+  <data name="Lbl_stock_stock_status" xml:space="preserve">
+    <value> &lt;i class="fa fa-gg-circle fa-400px"&gt;&lt;/i&gt; স্টকের অবস্থা</value>
+  </data>
+  <data name="Lbl_stock_transfer" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-transfer'&gt;&lt;/span&gt; ট্রান্সফার</value>
+  </data>
+  <data name="Lbl_stock_view" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-adjust'&gt;&lt;/span&gt; দেখুন</value>
+  </data>
+  <data name="Lbl_stock_wholesale_price" xml:space="preserve">
+    <value>পাইকারি মূল্য</value>
+  </data>
+  <data name="Title_stock_page" xml:space="preserve">
+    <value>স্টক</value>
+  </data>
+  <data name="Btn_damage_add_damage" xml:space="preserve">
+    <value>নষ্ট পণ্য যোগ করুন</value>
+  </data>
+  <data name="Btn_damage_check" xml:space="preserve">
+    <value>চেক করুন</value>
+  </data>
+  <data name="Btn_damage_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Btn_damage_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার</value>
+  </data>
+  <data name="Btn_package_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_return_back_to_return" xml:space="preserve">
+    <value>পণ্য ফেরত দিন</value>
+  </data>
+  <data name="Btn_return_check" xml:space="preserve">
+    <value>চেক করুন</value>
+  </data>
+  <data name="Btn_return_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Btn_return_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার</value>
+  </data>
+  <data name="Lbl_damage_add_damage" xml:space="preserve">
+    <value>নষ্ট পণ্য যোগ করুন</value>
+  </data>
+  <data name="Lbl_damage_category" xml:space="preserve">
+    <value>ক্যাটাগরী</value>
+  </data>
+  <data name="Lbl_damage_code" xml:space="preserve">
+    <value>কোড</value>
+  </data>
+  <data name="Lbl_damage_from" xml:space="preserve">
+    <value>শুরুর তারিখ</value>
+  </data>
+  <data name="Lbl_damage_price_buy" xml:space="preserve">
+    <value>ক্রয়মূল্য</value>
+  </data>
+  <data name="Lbl_damage_product" xml:space="preserve">
+    <value>পণ্য</value>
+  </data>
+  <data name="Lbl_damage_product_code" xml:space="preserve">
+    <value>পণ্যের কোড</value>
+  </data>
+  <data name="Lbl_damage_qty" xml:space="preserve">
+    <value>পণ্য সংখ্যা</value>
+  </data>
+  <data name="Lbl_damage_restore" xml:space="preserve">
+    <value>রি-স্টোর</value>
+  </data>
+  <data name="Lbl_damage_search_all" xml:space="preserve">
+    <value>নির্বাচন করুন</value>
+  </data>
+  <data name="Lbl_damage_search_by_date" xml:space="preserve">
+    <value>তারিখ অনুযায়ী খুঁজুন</value>
+  </data>
+  <data name="Lbl_damage_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_damage_stock_report" xml:space="preserve">
+    <value>স্টক রিপোর্ট</value>
+  </data>
+  <data name="Lbl_damage_stock_total" xml:space="preserve">
+    <value>মোট স্টক</value>
+  </data>
+  <data name="Lbl_damage_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_damage_to" xml:space="preserve">
+    <value>শেষের তারিখ</value>
+  </data>
+  <data name="Lbl_damage_total" xml:space="preserve">
+    <value>মোট :</value>
+  </data>
+  <data name="Lbl_damage_view" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_package_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_package_add_update_package" xml:space="preserve">
+    <value>প্যাকেজ  যোগ করা/আপডেট</value>
+  </data>
+  <data name="Lbl_package_delete" xml:space="preserve">
+    <value>মুছুন</value>
+  </data>
+  <data name="Lbl_package_edit" xml:space="preserve">
+    <value>এডিট</value>
+  </data>
+  <data name="Lbl_package_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_package_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_package_package_name" xml:space="preserve">
+    <value>প্যাকেজ নাম</value>
+  </data>
+  <data name="Lbl_package_price" xml:space="preserve">
+    <value>মূল্য</value>
+  </data>
+  <data name="Lbl_package_product_title" xml:space="preserve">
+    <value>পণ্যের নাম</value>
+  </data>
+  <data name="Lbl_package_sale_price" xml:space="preserve">
+    <value>বিক্রয় মূল্য</value>
+  </data>
+  <data name="Lbl_package_search" xml:space="preserve">
+    <value>খুঁজুন...</value>
+  </data>
+  <data name="Lbl_package_search_to_add_product_by_name" xml:space="preserve">
+    <value>খুঁজুন/স্ক্যান করুন পণ্যের নাম/কোড দিয়ে</value>
+  </data>
+  <data name="Lbl_package_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_package_total_qty_min" xml:space="preserve">
+    <value>মোট পরিমান (নু্নতম)</value>
+  </data>
+  <data name="Lbl_package_wholesale_price" xml:space="preserve">
+    <value>পাইকারি মূল্য</value>
+  </data>
+  <data name="Lbl_return_back_to_return" xml:space="preserve">
+    <value>পণ্য ফেরত দিন</value>
+  </data>
+  <data name="Lbl_return_category" xml:space="preserve">
+    <value>ক্যাটাগরী</value>
+  </data>
+  <data name="Lbl_return_code" xml:space="preserve">
+    <value>কোড</value>
+  </data>
+  <data name="Lbl_return_from" xml:space="preserve">
+    <value>শুরুর তারিখ</value>
+  </data>
+  <data name="Lbl_return_price_buy" xml:space="preserve">
+    <value>ক্র্রয়মূল্য</value>
+  </data>
+  <data name="Lbl_return_product" xml:space="preserve">
+    <value>পণ্য</value>
+  </data>
+  <data name="Lbl_return_product_code" xml:space="preserve">
+    <value>পণ্যের কোড</value>
+  </data>
+  <data name="Lbl_return_qty" xml:space="preserve">
+    <value>পণ্য সংখ্যা</value>
+  </data>
+  <data name="Lbl_return_restore" xml:space="preserve">
+    <value>রি-স্টোর</value>
+  </data>
+  <data name="Lbl_return_search_all" xml:space="preserve">
+    <value>নির্বাচন করুন</value>
+  </data>
+  <data name="Lbl_return_search_by_date" xml:space="preserve">
+    <value>তারিখ অনুযায়ী খুঁজুন</value>
+  </data>
+  <data name="Lbl_return_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_return_stock_report" xml:space="preserve">
+    <value>স্টক রিপোর্ট</value>
+  </data>
+  <data name="Lbl_return_stock_total" xml:space="preserve">
+    <value>মোট স্টক</value>
+  </data>
+  <data name="Lbl_return_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_return_to" xml:space="preserve">
+    <value>শেষের তারিখ</value>
+  </data>
+  <data name="Lbl_return_total" xml:space="preserve">
+    <value>মোট :</value>
+  </data>
+  <data name="Lbl_return_view" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_warning_category" xml:space="preserve">
+    <value>ক্যাটাগরী</value>
+  </data>
+  <data name="Lbl_warning_current_qty" xml:space="preserve">
+    <value>বর্তমান পরিমান</value>
+  </data>
+  <data name="Lbl_warning_product" xml:space="preserve">
+    <value>পণ্য</value>
+  </data>
+  <data name="Lbl_warning_search" xml:space="preserve">
+    <value>খুঁজুন...</value>
+  </data>
+  <data name="Lbl_warning_search_all_Category" xml:space="preserve">
+    <value>সব ক্যাটাগরী খুঁজুন</value>
+  </data>
+  <data name="Lbl_warning_search_all_supplier" xml:space="preserve">
+    <value>সব সাপ্লাইয়ার খুঁজুন</value>
+  </data>
+  <data name="Lbl_warning_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_warning_warning_qty" xml:space="preserve">
+    <value>সতর্কীকরণ পরিমান</value>
+  </data>
+  <data name="Lbl_warning_warning_stock_history" xml:space="preserve">
+    <value>স্টক সতর্কীকরণ ইতিহাস</value>
+  </data>
+  <data name="Lbl_warranty_expiry_date" xml:space="preserve">
+    <value>উত্তীর্ণ তারিখ</value>
+  </data>
+  <data name="Lbl_warranty_go" xml:space="preserve">
+    <value>যাও</value>
+  </data>
+  <data name="Lbl_warranty_IMEI" xml:space="preserve">
+    <value>আইএমইআই</value>
+  </data>
+  <data name="Lbl_warranty_invoice" xml:space="preserve">
+    <value>ইনভয়েস</value>
+  </data>
+  <data name="Lbl_warranty_item_name" xml:space="preserve">
+    <value>পণ্যের নাম</value>
+  </data>
+  <data name="Lbl_warranty_name" xml:space="preserve">
+    <value>নাম</value>
+  </data>
+  <data name="Lbl_warranty_phone" xml:space="preserve">
+    <value>ফোন</value>
+  </data>
+  <data name="Lbl_warranty_product" xml:space="preserve">
+    <value>পণ্য</value>
+  </data>
+  <data name="Lbl_warranty_sale_date" xml:space="preserve">
+    <value>বিক্রয় তারিখ</value>
+  </data>
+  <data name="Lbl_warranty_search" xml:space="preserve">
+    <value>খুঁজুন...</value>
+  </data>
+  <data name="Lbl_warranty_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_warranty_status" xml:space="preserve">
+    <value>অবস্থা</value>
+  </data>
+  <data name="Lbl_warranty_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার</value>
+  </data>
+  <data name="Lbl_warranty_warranty" xml:space="preserve">
+    <value>ওয়ারেন্টি</value>
+  </data>
+  <data name="Lbl_warranty_warranty_history" xml:space="preserve">
+    <value>ওয়ারেন্টি তালিকা</value>
+  </data>
+  <data name="Title_damage_page" xml:space="preserve">
+    <value>নষ্ট হওয়া পণ্য</value>
+  </data>
+  <data name="Title_package_page" xml:space="preserve">
+    <value>প্যাকেজ</value>
+  </data>
+  <data name="Title_Return_page" xml:space="preserve">
+    <value>ফেরত পণ্য</value>
+  </data>
+  <data name="Title_warning" xml:space="preserve">
+    <value>স্টক সতর্কীকরণ পরিমান</value>
+  </data>
+  <data name="Ttitle_warranty_page" xml:space="preserve">
+    <value>ওয়ারেন্টি</value>
+  </data>
+  <data name="Btn_supply_add" xml:space="preserve">
+    <value>যোগ করা</value>
+  </data>
+  <data name="Btn_supply_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_analyticReport_day" xml:space="preserve">
+    <value>দিন</value>
+  </data>
+  <data name="Lbl_analyticReport_from" xml:space="preserve">
+    <value>শুরুর তারিখ</value>
+  </data>
+  <data name="Lbl_analyticReport_month" xml:space="preserve">
+    <value>মাস</value>
+  </data>
+  <data name="Lbl_analyticReport_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_analyticReport_to" xml:space="preserve">
+    <value>হতে</value>
+  </data>
+  <data name="Lbl_analyticReport_year" xml:space="preserve">
+    <value>বছর</value>
+  </data>
+  <data name="Lbl_expiry_all_preview" xml:space="preserve">
+    <value>সব প্রিভিউ</value>
+  </data>
+  <data name="Lbl_expiry_category_name" xml:space="preserve">
+    <value>ক্যাটাগরীর নাম</value>
+  </data>
+  <data name="Lbl_expiry_current_qty" xml:space="preserve">
+    <value>বর্তমান পরিমান</value>
+  </data>
+  <data name="Lbl_expiry_expired_product_history" xml:space="preserve">
+    <value>মেয়াদ উত্তীর্ণ পণ্য তালিকা</value>
+  </data>
+  <data name="Lbl_expiry_expiry" xml:space="preserve">
+    <value>মেয়াদ উত্তীর্ণ</value>
+  </data>
+  <data name="Lbl_expiry_product_name" xml:space="preserve">
+    <value>পণ্যর নাম</value>
+  </data>
+  <data name="Lbl_expiry_search" xml:space="preserve">
+    <value>খুঁজুন...</value>
+  </data>
+  <data name="Lbl_expiry_search_all_Category" xml:space="preserve">
+    <value>সব ক্যাটাগরী খুঁজুন</value>
+  </data>
+  <data name="Lbl_expiry_search_all_supplier" xml:space="preserve">
+    <value>সব সাপ্লাইয়ার খুঁজুন</value>
+  </data>
+  <data name="Lbl_expiry_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_expiry_to" xml:space="preserve">
+    <value>হতে</value>
+  </data>
+  <data name="Lbl_inventoryReport_attribute" xml:space="preserve">
+    <value>বৈশিষ্ট্য</value>
+  </data>
+  <data name="Lbl_inventoryReport_balance_stock" xml:space="preserve">
+    <value>ব্যালেন্স স্টক</value>
+  </data>
+  <data name="Lbl_inventoryReport_damaged" xml:space="preserve">
+    <value>নষ্ট পণ্য</value>
+  </data>
+  <data name="Lbl_inventoryReport_date" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Lbl_inventoryReport_details" xml:space="preserve">
+    <value>বিস্তারিত</value>
+  </data>
+  <data name="Lbl_inventoryReport_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_inventoryReport_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_inventoryReport_item_name" xml:space="preserve">
+    <value>পণ্যের নাম</value>
+  </data>
+  <data name="Lbl_inventoryReport_last_stock" xml:space="preserve">
+    <value>সর্বশেষ স্টক</value>
+  </data>
+  <data name="Lbl_inventoryReport_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_inventoryReport_package" xml:space="preserve">
+    <value>প্যাকেজ</value>
+  </data>
+  <data name="Lbl_inventoryReport_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_inventoryReport_product" xml:space="preserve">
+    <value>পণ্য</value>
+  </data>
+  <data name="Lbl_inventoryReport_product_code" xml:space="preserve">
+    <value>পণ্যের কোড</value>
+  </data>
+  <data name="Lbl_inventoryReport_qty" xml:space="preserve">
+    <value>পণ্য সংখ্যা</value>
+  </data>
+  <data name="Lbl_inventoryReport_received" xml:space="preserve">
+    <value>গ্রহন তারিখ</value>
+  </data>
+  <data name="Lbl_inventoryReport_returned" xml:space="preserve">
+    <value>রিটার্ন</value>
+  </data>
+  <data name="Lbl_inventoryReport_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_inventoryReport_search_all_store" xml:space="preserve">
+    <value>স্টোর খুঁজুন</value>
+  </data>
+  <data name="Lbl_inventoryReport_search_all_user" xml:space="preserve">
+    <value>ব্যবহারকারী খুঁজুন</value>
+  </data>
+  <data name="Lbl_inventoryReport_select_category" xml:space="preserve">
+    <value>ক্যাটাগরী সিলেক্ট করুন</value>
+  </data>
+  <data name="Lbl_inventoryReport_select_status" xml:space="preserve">
+    <value>স্ট্যাটাস সিলেক্ট</value>
+  </data>
+  <data name="Lbl_inventoryReport_service" xml:space="preserve">
+    <value>সার্ভিস</value>
+  </data>
+  <data name="Lbl_inventoryReport_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_inventoryReport_sold" xml:space="preserve">
+    <value>বিক্রীত</value>
+  </data>
+  <data name="Lbl_inventoryReport_sold_back" xml:space="preserve">
+    <value>ফেরত</value>
+  </data>
+  <data name="Lbl_inventoryReport_status" xml:space="preserve">
+    <value>অবস্থা</value>
+  </data>
+  <data name="Lbl_inventoryReport_stocked" xml:space="preserve">
+    <value>স্টক</value>
+  </data>
+  <data name="Lbl_inventoryReport_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_inventoryReport_transferred" xml:space="preserve">
+    <value>ট্রান্সফার</value>
+  </data>
+  <data name="Lbl_invoiceReport_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_invoiceReport_all_customer" xml:space="preserve">
+    <value>সব কাস্টোমার</value>
+  </data>
+  <data name="Lbl_invoiceReport_all_referral" xml:space="preserve">
+    <value>সব রেফারাল</value>
+  </data>
+  <data name="Lbl_invoiceReport_any_date" xml:space="preserve">
+    <value>যে কোন তারিখ</value>
+  </data>
+  <data name="Lbl_invoiceReport_consumer" xml:space="preserve">
+    <value>ক্রেতা</value>
+  </data>
+  <data name="Lbl_invoiceReport_custom_date" xml:space="preserve">
+    <value>কাস্টম তারিখ</value>
+  </data>
+  <data name="Lbl_invoiceReport_cus_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_invoiceReport_cus_name" xml:space="preserve">
+    <value>ক্রেতার নাম</value>
+  </data>
+  <data name="Lbl_invoiceReport_dealer" xml:space="preserve">
+    <value>পাইকারি ক্রেতা</value>
+  </data>
+  <data name="Lbl_invoiceReport_invoice" xml:space="preserve">
+    <value>ইনভয়েস</value>
+  </data>
+  <data name="Lbl_invoiceReport_invoice_in_group" xml:space="preserve">
+    <value>ইনভয়েস গ্রুপ</value>
+  </data>
+  <data name="Lbl_invoiceReport_misc" xml:space="preserve">
+    <value>অতিরিক্ত খরচ</value>
+  </data>
+  <data name="Lbl_invoiceReport_paid" xml:space="preserve">
+    <value>পরিশোধিত</value>
+  </data>
+  <data name="Lbl_invoiceReport_referal_name" xml:space="preserve">
+    <value>রেফারেল</value>
+  </data>
+  <data name="Lbl_invoiceReport_resold" xml:space="preserve">
+    <value>পুনরায় বিক্রয় করা</value>
+  </data>
+  <data name="Lbl_invoiceReport_salesperson" xml:space="preserve">
+    <value>কর্মী</value>
+  </data>
+  <data name="Lbl_invoiceReport_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_invoiceReport_search_all_store" xml:space="preserve">
+    <value>স্টোর খুঁজুন</value>
+  </data>
+  <data name="Lbl_invoiceReport_search_all_user" xml:space="preserve">
+    <value>ব্যবহারকারী খুঁজুন</value>
+  </data>
+  <data name="Lbl_invoiceReport_select_status" xml:space="preserve">
+    <value>--স্ট্যাটাস সিলেক্ট--</value>
+  </data>
+  <data name="Lbl_invoiceReport_serial_no" xml:space="preserve">
+    <value>সিরিয়াল নং</value>
+  </data>
+  <data name="Lbl_invoiceReport_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_invoiceReport_sold" xml:space="preserve">
+    <value>বিক্রীত</value>
+  </data>
+  <data name="Lbl_invoiceReport_status" xml:space="preserve">
+    <value>অবস্থা</value>
+  </data>
+  <data name="Lbl_invoiceReport_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_invoiceReport_suspended" xml:space="preserve">
+    <value>সাসপেন্ড</value>
+  </data>
+  <data name="Lbl_invoiceReport_total" xml:space="preserve">
+    <value>মোট :</value>
+  </data>
+  <data name="Lbl_profitLoss_all_profit_loss" xml:space="preserve">
+    <value>সব লাভ ক্ষতি</value>
+  </data>
+  <data name="Lbl_profitLoss_expense_amount" xml:space="preserve">
+    <value>খরচের পরিমান</value>
+  </data>
+  <data name="Lbl_profitLoss_loss_amount" xml:space="preserve">
+    <value>ক্ষতির পরিমান</value>
+  </data>
+  <data name="Lbl_profitLoss_loss_profit_history" xml:space="preserve">
+    <value>লাভ/ক্ষতির ইতিহাস</value>
+  </data>
+  <data name="Lbl_profitLoss_revenue_amount" xml:space="preserve">
+    <value>আয়ের পরিমান</value>
+  </data>
+  <data name="Lbl_profitLoss_supplier_due_amount" xml:space="preserve">
+    <value>সাপ্লাইয়ার বাকি পরিমান</value>
+  </data>
+  <data name="Lbl_purchaseReport_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_purchaseReport_code" xml:space="preserve">
+    <value>কোড</value>
+  </data>
+  <data name="Lbl_purchaseReport_date" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Lbl_purchaseReport_purchase_amount" xml:space="preserve">
+    <value>পারচেজ পরিমান</value>
+  </data>
+  <data name="Lbl_purchaseReport_qty" xml:space="preserve">
+    <value>পণ্য সংখ্যা</value>
+  </data>
+  <data name="Lbl_purchaseReport_search" xml:space="preserve">
+    <value>খুঁজুন ...</value>
+  </data>
+  <data name="Lbl_purchaseReport_search_all" xml:space="preserve">
+    <value>সব খুঁজুন</value>
+  </data>
+  <data name="Lbl_purchaseReport_search_all_store" xml:space="preserve">
+    <value>স্টোর খুঁজুন</value>
+  </data>
+  <data name="Lbl_purchaseReport_search_all_user" xml:space="preserve">
+    <value>ব্যবহারকারী খুঁজুন</value>
+  </data>
+  <data name="Lbl_purchaseReport_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_purchaseReport_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার</value>
+  </data>
+  <data name="Lbl_purchaseReport_total" xml:space="preserve">
+    <value>মোট :</value>
+  </data>
+  <data name="Lbl_summary_accounts_summary" xml:space="preserve">
+    <value>অ্যাকাউন্টস সামারি</value>
+  </data>
+  <data name="Lbl_summary_any_date" xml:space="preserve">
+    <value>যে কোন তারিখ</value>
+  </data>
+  <data name="Lbl_summary_card_payment" xml:space="preserve">
+    <value>কার্ড প্রদান</value>
+  </data>
+  <data name="Lbl_summary_cash_on_delivery" xml:space="preserve">
+    <value>নগদ মূল্যে বিলি</value>
+  </data>
+  <data name="Lbl_summary_cash_payment" xml:space="preserve">
+    <value>নগদ প্রদান</value>
+  </data>
+  <data name="Lbl_summary_cash_summary" xml:space="preserve">
+    <value>নগদ সামারি</value>
+  </data>
+  <data name="Lbl_summary_check_payment" xml:space="preserve">
+    <value>চেক প্রদান</value>
+  </data>
+  <data name="Lbl_summary_discount_amount" xml:space="preserve">
+    <value>ডিসকাউন্ট পরিমাণ</value>
+  </data>
+  <data name="Lbl_summary_due_amount" xml:space="preserve">
+    <value>বাকির পরিমাণ</value>
+  </data>
+  <data name="Lbl_summary_gross_amount" xml:space="preserve">
+    <value>গ্রস পরিমাণ</value>
+  </data>
+  <data name="Lbl_summary_invoice_qty" xml:space="preserve">
+    <value>ইনভয়েস সংখ্যা</value>
+  </data>
+  <data name="Lbl_summary_item_qty" xml:space="preserve">
+    <value>পণ্য সংখ্যা</value>
+  </data>
+  <data name="Lbl_summary_misc_cost" xml:space="preserve">
+    <value>অতিরিক্ত খরচের পরিমাণ</value>
+  </data>
+  <data name="Lbl_summary_mobile_banking_payment" xml:space="preserve">
+    <value>মোবাইল ব্যাংকিং প্রদান</value>
+  </data>
+  <data name="Lbl_summary_net_amount" xml:space="preserve">
+    <value>নিট পরিমাণ</value>
+  </data>
+  <data name="Lbl_summary_net_income" xml:space="preserve">
+    <value>মোট আয়</value>
+  </data>
+  <data name="Lbl_summary_received_amount" xml:space="preserve">
+    <value>প্রাপ্ত পরিমাণ</value>
+  </data>
+  <data name="Lbl_summary_return_amount" xml:space="preserve">
+    <value>ফেরত পরিমাণ</value>
+  </data>
+  <data name="Lbl_summary_sales_summary" xml:space="preserve">
+    <value>বিক্রয় সামারি</value>
+  </data>
+  <data name="Lbl_summary_total_expenses" xml:space="preserve">
+    <value>মোট খরচ</value>
+  </data>
+  <data name="Lbl_summary_total_profit" xml:space="preserve">
+    <value>মোট লাভ</value>
+  </data>
+  <data name="Lbl_supplierCommission_amount" xml:space="preserve">
+    <value>পরিমান</value>
+  </data>
+  <data name="Lbl_supplierCommission_commission" xml:space="preserve">
+    <value>কমিশন (%)</value>
+  </data>
+  <data name="Lbl_supplierCommission_date" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Lbl_supplierCommission_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_supplierCommission_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_supplierCommission_item_name" xml:space="preserve">
+    <value>পণ্যের নাম</value>
+  </data>
+  <data name="Lbl_supplierCommission_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_supplierCommission_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_supplierCommission_p_code" xml:space="preserve">
+    <value>পণ্যের কোড</value>
+  </data>
+  <data name="Lbl_supplierCommission_qty" xml:space="preserve">
+    <value>পণ্য সংখ্যা</value>
+  </data>
+  <data name="Lbl_supplierCommission_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_supplierCommission_search_all_store" xml:space="preserve">
+    <value>স্টোর খুঁজুন</value>
+  </data>
+  <data name="Lbl_supplierCommission_search_all_user" xml:space="preserve">
+    <value>ব্যবহারকারী খুঁজুন</value>
+  </data>
+  <data name="Lbl_supplierCommission_select_category" xml:space="preserve">
+    <value>--ক্যাটাগরী সিলেক্ট করুন--</value>
+  </data>
+  <data name="Lbl_supplierCommission_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_supplierCommission_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_supplierCommission_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_supply_amount" xml:space="preserve">
+    <value>পরিমান</value>
+  </data>
+  <data name="Lbl_supply_any_date" xml:space="preserve">
+    <value>যে কোন তারিখ</value>
+  </data>
+  <data name="Lbl_supply_by_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার</value>
+  </data>
+  <data name="Lbl_supply_date" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Lbl_supply_date_from" xml:space="preserve">
+    <value>শুরুর তারিখ</value>
+  </data>
+  <data name="Lbl_supply_date_to" xml:space="preserve">
+    <value>শেষ তারিখ</value>
+  </data>
+  <data name="Lbl_supply_description" xml:space="preserve">
+    <value>বিবরণ</value>
+  </data>
+  <data name="Lbl_supply_details" xml:space="preserve">
+    <value>বিস্তারিত</value>
+  </data>
+  <data name="Lbl_supply_give_payment" xml:space="preserve">
+    <value>সাপ্লায়ারের টাকা প্রদান করুন</value>
+  </data>
+  <data name="Lbl_supply_opening_balance" xml:space="preserve">
+    <value>ওপেনিং ব্যালেন্স</value>
+  </data>
+  <data name="Lbl_supply_particular" xml:space="preserve">
+    <value>খাতসমূহ</value>
+  </data>
+  <data name="Lbl_supply_payment" xml:space="preserve">
+    <value>পেমেন্ট</value>
+  </data>
+  <data name="Lbl_supply_p_amount" xml:space="preserve">
+    <value>ক্র্রয়ের পরিমান</value>
+  </data>
+  <data name="Lbl_supply_p_code" xml:space="preserve">
+    <value>ক্র্রয়কৃত কোড</value>
+  </data>
+  <data name="Lbl_supply_receipt" xml:space="preserve">
+    <value>রিসিট</value>
+  </data>
+  <data name="Lbl_supply_schedule" xml:space="preserve">
+    <value>শিডিউল</value>
+  </data>
+  <data name="Lbl_supply_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_supply_search_all" xml:space="preserve">
+    <value>নির্বাচন করুন</value>
+  </data>
+  <data name="Lbl_supply_search_all_store" xml:space="preserve">
+    <value>স্টোর খুঁজুন</value>
+  </data>
+  <data name="Lbl_supply_search_all_user" xml:space="preserve">
+    <value>ব্যবহারকারী খুঁজুন</value>
+  </data>
+  <data name="Lbl_supply_select_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার নির্বাচন করুন</value>
+  </data>
+  <data name="Lbl_supply_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_supply_source" xml:space="preserve">
+    <value>উৎস</value>
+  </data>
+  <data name="Lbl_supply_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_supply_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার</value>
+  </data>
+  <data name="Lbl_supply_user" xml:space="preserve">
+    <value>ইউজার</value>
+  </data>
+  <data name="Lbl_transaction_cash_in" xml:space="preserve">
+    <value>জমা</value>
+  </data>
+  <data name="Lbl_transaction_cash_out" xml:space="preserve">
+    <value>খরচ</value>
+  </data>
+  <data name="Lbl_transaction_date" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Lbl_transaction_details" xml:space="preserve">
+    <value>বিস্তারিত</value>
+  </data>
+  <data name="Lbl_transaction_particular" xml:space="preserve">
+    <value>খাত</value>
+  </data>
+  <data name="Lbl_transaction_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_transaction_search_all" xml:space="preserve">
+    <value>খাত অনুযায়ী খুঁজুন</value>
+  </data>
+  <data name="Lbl_transaction_search_all_store" xml:space="preserve">
+    <value>স্টোর খুঁজুন</value>
+  </data>
+  <data name="Lbl_transaction_search_all_user" xml:space="preserve">
+    <value>ব্যবহারকারী খুঁজুন</value>
+  </data>
+  <data name="Lbl_transaction_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_transaction_source" xml:space="preserve">
+    <value>উৎস</value>
+  </data>
+  <data name="Lbl_transaction_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_transaction_to" xml:space="preserve">
+    <value>হতে</value>
+  </data>
+  <data name="Lbl_transaction_total" xml:space="preserve">
+    <value>মোট :</value>
+  </data>
+  <data name="Lbl_transaction_total_balance" xml:space="preserve">
+    <value>মোট ব্যালান্স</value>
+  </data>
+  <data name="Title_analyticReport" xml:space="preserve">
+    <value>গ্রাফ চার্ট রিপোর্ট</value>
+  </data>
+  <data name="Title_expiry" xml:space="preserve">
+    <value>মেয়াদ উত্তীর্ণ পণ্য</value>
+  </data>
+  <data name="Title_inventoryReport" xml:space="preserve">
+    <value>ইনভেন্টরি রিপোর্ট</value>
+  </data>
+  <data name="Title_invoiceReport" xml:space="preserve">
+    <value>ইনভয়েস রিপোর্ট</value>
+  </data>
+  <data name="Title_profitLoss" xml:space="preserve">
+    <value>লাভ/ক্ষতি</value>
+  </data>
+  <data name="Title_purchaseReport" xml:space="preserve">
+    <value>পারচেজ রিপোর্ট</value>
+  </data>
+  <data name="Title_summary" xml:space="preserve">
+    <value>বিজনেস সামারি</value>
+  </data>
+  <data name="Title_supplierCommission" xml:space="preserve">
+    <value>সাপ্লাইয়ার কমিশন</value>
+  </data>
+  <data name="Title_supply" xml:space="preserve">
+    <value>সাপ্লায়ার পেমেন্ট</value>
+  </data>
+  <data name="Title_transaction" xml:space="preserve">
+    <value>লেনদেন</value>
+  </data>
+  <data name="Btn_banking_add" xml:space="preserve">
+    <value>যোগ করা</value>
+  </data>
+  <data name="Btn_banking_add_bank" xml:space="preserve">
+    <value>ব্যাংক যোগ করুন</value>
+  </data>
+  <data name="Btn_banking_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Btn_customers_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Btn_customers_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_customers_new_customer" xml:space="preserve">
+    <value>নতুন কাস্টমার</value>
+  </data>
+  <data name="Btn_customers_print" xml:space="preserve">
+    <value>প্রিন্ট</value>
+  </data>
+  <data name="Btn_customers_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_expense_add" xml:space="preserve">
+    <value>যোগ করা</value>
+  </data>
+  <data name="Btn_expense_add_particular" xml:space="preserve">
+    <value>খাত  যোগ করুন</value>
+  </data>
+  <data name="Btn_expense_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Btn_receive_add" xml:space="preserve">
+    <value>যোগ করা</value>
+  </data>
+  <data name="Btn_receive_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Btn_salary_add" xml:space="preserve">
+    <value>যোগ করা</value>
+  </data>
+  <data name="Btn_salary_add_staff" xml:space="preserve">
+    <value>কর্মচারী যোগ করুন</value>
+  </data>
+  <data name="Btn_salary_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Btn_service_add_service" xml:space="preserve">
+    <value>সার্ভিস যোগ করুন</value>
+  </data>
+  <data name="Btn_servicing_reset" xml:space="preserve">
+    <value>রিসেট</value>
+  </data>
+  <data name="Btn_servicing_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_store_add_store" xml:space="preserve">
+    <value>স্টোর যোগ করুন</value>
+  </data>
+  <data name="Btn_store_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_store_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Lbl_banking_add_bank_deposit" xml:space="preserve">
+    <value>টাকা জমা দিন</value>
+  </data>
+  <data name="Lbl_banking_add_bank_withdral" xml:space="preserve">
+    <value>টাকা উত্তোলন করুন</value>
+  </data>
+  <data name="Lbl_banking_amount" xml:space="preserve">
+    <value>পরিমান</value>
+  </data>
+  <data name="Lbl_banking_banking_report" xml:space="preserve">
+    <value>ব্যাংকিং রিপোর্ট</value>
+  </data>
+  <data name="Lbl_banking_bank_name" xml:space="preserve">
+    <value>ব্যাংকের নাম</value>
+  </data>
+  <data name="Lbl_banking_cash_in" xml:space="preserve">
+    <value>জমা</value>
+  </data>
+  <data name="Lbl_banking_cash_out" xml:space="preserve">
+    <value>খরচ</value>
+  </data>
+  <data name="Lbl_banking_date" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Lbl_banking_deposit_date" xml:space="preserve">
+    <value>জমা দেওয়ার তারিখ</value>
+  </data>
+  <data name="Lbl_banking_description" xml:space="preserve">
+    <value>বিবরণ</value>
+  </data>
+  <data name="Lbl_banking_details" xml:space="preserve">
+    <value>বিস্তারিত</value>
+  </data>
+  <data name="Lbl_banking_from" xml:space="preserve">
+    <value>শুরুর তারিখ</value>
+  </data>
+  <data name="Lbl_banking_particular" xml:space="preserve">
+    <value>খাতসমূহ</value>
+  </data>
+  <data name="Lbl_banking_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_banking_search_all" xml:space="preserve">
+    <value>খাত অনুযায়ী খুঁজুন</value>
+  </data>
+  <data name="Lbl_banking_search_all_store" xml:space="preserve">
+    <value>স্টোর খুঁজুন</value>
+  </data>
+  <data name="Lbl_banking_search_all_user" xml:space="preserve">
+    <value>ব্যবহারকারী খুঁজুন</value>
+  </data>
+  <data name="Lbl_banking_select_a_bank" xml:space="preserve">
+    <value>ব্যাংক নির্বাচন করুন</value>
+  </data>
+  <data name="Lbl_banking_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_banking_source" xml:space="preserve">
+    <value>উৎস</value>
+  </data>
+  <data name="Lbl_banking_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_banking_to" xml:space="preserve">
+    <value>শেষের তারিখ</value>
+  </data>
+  <data name="Lbl_banking_total_balance" xml:space="preserve">
+    <value>মোট ব্যালান্স</value>
+  </data>
+  <data name="Lbl_banking_user" xml:space="preserve">
+    <value>ইউজার</value>
+  </data>
+  <data name="Lbl_banking_withdraw_date" xml:space="preserve">
+    <value>উত্তোলন তারিখ</value>
+  </data>
+  <data name="Lbl_customers_account_no" xml:space="preserve">
+    <value>একাউন্ট নং</value>
+  </data>
+  <data name="Lbl_customers_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_customers_address" xml:space="preserve">
+    <value>ঠিকানা</value>
+  </data>
+  <data name="Lbl_customers_add_advance" xml:space="preserve">
+    <value>অগ্রিম  যোগ করা</value>
+  </data>
+  <data name="Btn_customers_add_customer" xml:space="preserve">
+    <value>নতুন কাস্টমার</value>
+  </data>
+  <data name="Lbl_customers_add_opening_due" xml:space="preserve">
+    <value>পাওনা তারিখ যোগ করুন</value>
+  </data>
+  <data name="Lbl_customers_add_payment" xml:space="preserve">
+    <value>পেমেন্ট যোগ করুন</value>
+  </data>
+  <data name="Lbl_customers_advance_amount" xml:space="preserve">
+    <value>অগ্রিম পরিমান</value>
+  </data>
+  <data name="Lbl_customers_all_customer" xml:space="preserve">
+    <value>--সব কাস্টমার--</value>
+  </data>
+  <data name="Lbl_customers_amount" xml:space="preserve">
+    <value>পরিমান</value>
+  </data>
+  <data name="Lbl_customers_customer_details" xml:space="preserve">
+    <value>কাস্টমার বিস্তারিত</value>
+  </data>
+  <data name="Lbl_customers_customer_type" xml:space="preserve">
+    <value>কাস্টমার ধরন</value>
+  </data>
+  <data name="Lbl_customers_date" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Lbl_customers_dealer" xml:space="preserve">
+    <value>পাইকারি ক্রেতা</value>
+  </data>
+  <data name="Lbl_customers_designation" xml:space="preserve">
+    <value>পদবী</value>
+  </data>
+  <data name="Lbl_customers_edit" xml:space="preserve">
+    <value>এডিট</value>
+  </data>
+  <data name="Lbl_customers_email" xml:space="preserve">
+    <value>ইমেইল</value>
+  </data>
+  <data name="Lbl_customers_end_date" xml:space="preserve">
+    <value>শেষ তারিখ</value>
+  </data>
+  <data name="Lbl_customers_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Btn_customers_export_summary" xml:space="preserve">
+    <value>সামারি এক্সপোর্ট</value>
+  </data>
+  <data name="Lbl_customers_full_ledger" xml:space="preserve">
+    <value>কাস্টমার লেজার</value>
+  </data>
+  <data name="Lbl_customers_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_customers_installment" xml:space="preserve">
+    <value>কিস্তি</value>
+  </data>
+  <data name="Lbl_customers_invoices" xml:space="preserve">
+    <value>ইনভয়েস</value>
+  </data>
+  <data name="Lbl_customers_name" xml:space="preserve">
+    <value>নাম</value>
+  </data>
+  <data name="Lbl_customers_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_customers_notes" xml:space="preserve">
+    <value>নোট</value>
+  </data>
+  <data name="Lbl_customers_opening_due_amount" xml:space="preserve">
+    <value>পাওনা পরিমান</value>
+  </data>
+  <data name="Lbl_customers_payment" xml:space="preserve">
+    <value>পেমেন্ট</value>
+  </data>
+  <data name="Lbl_customers_pay_status" xml:space="preserve">
+    <value>-- পেমেন্টে স্ট্যাটাস --</value>
+  </data>
+  <data name="Lbl_customers_phone" xml:space="preserve">
+    <value>ফোন</value>
+  </data>
+  <data name="Lbl_customers_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_customers_print_full_ledger" xml:space="preserve">
+    <value>সম্পুর্ণ লেজার প্রিন্ট করুন</value>
+  </data>
+  <data name="Lbl_customers_retailer" xml:space="preserve">
+    <value>খুচরা কাস্টমার</value>
+  </data>
+  <data name="Lbl_customers_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_customers_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_customers_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_customers_start_date" xml:space="preserve">
+    <value>শুরুর তারিখ</value>
+  </data>
+  <data name="Lbl_customers_total" xml:space="preserve">
+    <value>মোট</value>
+  </data>
+  <data name="Lbl_customers_total_balance" xml:space="preserve">
+    <value>মোট ব্যালান্স</value>
+  </data>
+  <data name="Lbl_customers_view" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_expense_add_expense" xml:space="preserve">
+    <value>খরচ যোগ করুন</value>
+  </data>
+  <data name="Lbl_expense_amount" xml:space="preserve">
+    <value>পরিমান</value>
+  </data>
+  <data name="Lbl_expense_date" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Lbl_expense_description" xml:space="preserve">
+    <value>বিবরণ</value>
+  </data>
+  <data name="Lbl_expense_details" xml:space="preserve">
+    <value>বিস্তারিত</value>
+  </data>
+  <data name="Lbl_expense_expense_date" xml:space="preserve">
+    <value>খরচের তারিখ</value>
+  </data>
+  <data name="Lbl_expense_expense_report" xml:space="preserve">
+    <value>খরচের রিপোর্ট</value>
+  </data>
+  <data name="Lbl_expense_from" xml:space="preserve">
+    <value>শুরুর তারিখ</value>
+  </data>
+  <data name="Lbl_expense_particular" xml:space="preserve">
+    <value>খাতসমূহ</value>
+  </data>
+  <data name="Lbl_expense_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_expense_search_all" xml:space="preserve">
+    <value>খাত অনুযায়ী খুঁজুন</value>
+  </data>
+  <data name="Lbl_expense_search_all_store" xml:space="preserve">
+    <value>স্টোর খুঁজুন</value>
+  </data>
+  <data name="Lbl_expense_search_all_user" xml:space="preserve">
+    <value>ব্যবহারকারী খুঁজুন</value>
+  </data>
+  <data name="Lbl_expense_select_particular" xml:space="preserve">
+    <value>খাত নির্বাচন করুন</value>
+  </data>
+  <data name="Lbl_expense_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_expense_source" xml:space="preserve">
+    <value>উৎস</value>
+  </data>
+  <data name="Lbl_expense_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_expense_to" xml:space="preserve">
+    <value>শেষের তারিখ</value>
+  </data>
+  <data name="Lbl_expense_total_expense" xml:space="preserve">
+    <value>মোট  খরচ</value>
+  </data>
+  <data name="Lbl_expense_user" xml:space="preserve">
+    <value>ইউজার</value>
+  </data>
+  <data name="Lbl_installment_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_installment_address" xml:space="preserve">
+    <value>ঠিকানা</value>
+  </data>
+  <data name="Lbl_installment_all_installment" xml:space="preserve">
+    <value>সকল কিস্তি</value>
+  </data>
+  <data name="Lbl_installment_bill_no" xml:space="preserve">
+    <value>বিল নং</value>
+  </data>
+  <data name="Lbl_installment_due" xml:space="preserve">
+    <value>বাকি</value>
+  </data>
+  <data name="Lbl_installment_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_installment_installment" xml:space="preserve">
+    <value>কিস্তি</value>
+  </data>
+  <data name="Lbl_installment_installment_list" xml:space="preserve">
+    <value>কিস্তি তালিকা</value>
+  </data>
+  <data name="Lbl_installment_name" xml:space="preserve">
+    <value>নাম</value>
+  </data>
+  <data name="Lbl_installment_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_installment_paid" xml:space="preserve">
+    <value>পরিশোধিত</value>
+  </data>
+  <data name="Lbl_installment_pay_date" xml:space="preserve">
+    <value>প্রদান তারিখ</value>
+  </data>
+  <data name="Lbl_installment_phone" xml:space="preserve">
+    <value>ফোন</value>
+  </data>
+  <data name="Lbl_installment_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_installment_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_installment_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_installment_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_installment_to" xml:space="preserve">
+    <value>হতে</value>
+  </data>
+  <data name="Lbl_installment_total" xml:space="preserve">
+    <value>মোট</value>
+  </data>
+  <data name="Lbl_installment_total_paid" xml:space="preserve">
+    <value>মোট প্রদান</value>
+  </data>
+  <data name="Lbl_quotation_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_quotation_all_customer" xml:space="preserve">
+    <value>সব কাস্টমার</value>
+  </data>
+  <data name="Lbl_quotation_all_referral" xml:space="preserve">
+    <value>সব রেফারাল</value>
+  </data>
+  <data name="Lbl_quotation_any_date" xml:space="preserve">
+    <value>যে কোন তারিখ</value>
+  </data>
+  <data name="Lbl_quotation_consumer" xml:space="preserve">
+    <value>ক্রেতা</value>
+  </data>
+  <data name="Lbl_quotation_custom_date" xml:space="preserve">
+    <value>কাস্টম তারিখ</value>
+  </data>
+  <data name="Lbl_quotation_cus_id" xml:space="preserve">
+    <value>কাস্টমার আইডি</value>
+  </data>
+  <data name="Lbl_quotation_cus_name" xml:space="preserve">
+    <value>কাস্টমার নাম</value>
+  </data>
+  <data name="Lbl_quotation_dealer" xml:space="preserve">
+    <value>পাইকারি ক্রেতা</value>
+  </data>
+  <data name="Lbl_quotation_invoice" xml:space="preserve">
+    <value>ইনভয়েস</value>
+  </data>
+  <data name="Lbl_quotation_invoice_date" xml:space="preserve">
+    <value>ইনভয়েস তারিখ</value>
+  </data>
+  <data name="Lbl_quotation_invoice_in_group" xml:space="preserve">
+    <value>ইনভয়েস গ্রুপ</value>
+  </data>
+  <data name="Lbl_quotation_misc" xml:space="preserve">
+    <value>অতিরিক্ত খরচ</value>
+  </data>
+  <data name="Lbl_quotation_paid" xml:space="preserve">
+    <value>পরিশোধিত</value>
+  </data>
+  <data name="Lbl_quotation_referal_name" xml:space="preserve">
+    <value>রেফারেল নাম</value>
+  </data>
+  <data name="Lbl_quotation_resold" xml:space="preserve">
+    <value>পুনরায় বিক্রয় করা</value>
+  </data>
+  <data name="Lbl_quotation_salesperson" xml:space="preserve">
+    <value>বিক্রয়কর্মী</value>
+  </data>
+  <data name="Lbl_quotation_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_quotation_search_all_store" xml:space="preserve">
+    <value>স্টোর খুঁজুন</value>
+  </data>
+  <data name="Lbl_quotation_search_all_user" xml:space="preserve">
+    <value>ব্যবহারকারী খুঁজুন</value>
+  </data>
+  <data name="Lbl_quotation_select_status" xml:space="preserve">
+    <value>--স্ট্যাটাস সিলেক্ট করুন--</value>
+  </data>
+  <data name="Lbl_quotation_serial_no" xml:space="preserve">
+    <value>সিরিয়াল নং</value>
+  </data>
+  <data name="Lbl_quotation_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_quotation_sold" xml:space="preserve">
+    <value>বিক্রীত</value>
+  </data>
+  <data name="Lbl_quotation_status" xml:space="preserve">
+    <value>অবস্থা</value>
+  </data>
+  <data name="Lbl_quotation_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_quotation_suspended" xml:space="preserve">
+    <value>সাসপেন্ড</value>
+  </data>
+  <data name="Lbl_quotation_total" xml:space="preserve">
+    <value>মোট :</value>
+  </data>
+  <data name="Lbl_receive_add_receive" xml:space="preserve">
+    <value>আয়সমূহ যোগ করুন</value>
+  </data>
+  <data name="Lbl_receive_amount" xml:space="preserve">
+    <value>পরিমান</value>
+  </data>
+  <data name="Lbl_receive_date" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Lbl_receive_description" xml:space="preserve">
+    <value>বিবরণ</value>
+  </data>
+  <data name="Lbl_receive_details" xml:space="preserve">
+    <value>বিস্তারিত</value>
+  </data>
+  <data name="Lbl_receive_from" xml:space="preserve">
+    <value>শুরুর তারিখ</value>
+  </data>
+  <data name="Lbl_receive_particular" xml:space="preserve">
+    <value>খাতসমূহ</value>
+  </data>
+  <data name="Lbl_receive_received_amt" xml:space="preserve">
+    <value>আয়ের পরিমান</value>
+  </data>
+  <data name="Lbl_receive_recived_date" xml:space="preserve">
+    <value>প্রাপ্ত তারিখ</value>
+  </data>
+  <data name="Lbl_receive_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_receive_search_all_store" xml:space="preserve">
+    <value>স্টোর খুঁজুন</value>
+  </data>
+  <data name="Lbl_receive_search_all_user" xml:space="preserve">
+    <value>ব্যবহারকারী খুঁজুন</value>
+  </data>
+  <data name="Lbl_receive_select_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার নির্বাচন করুন</value>
+  </data>
+  <data name="Lbl_receive_show_all_track_received_amount" xml:space="preserve">
+    <value>সমস্ত আয়ের পরিমাণ দেখান</value>
+  </data>
+  <data name="Lbl_receive_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_receive_source" xml:space="preserve">
+    <value>উৎস</value>
+  </data>
+  <data name="Lbl_receive_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_receive_to" xml:space="preserve">
+    <value>শেষের তারিখ</value>
+  </data>
+  <data name="Lbl_receive_total_balance" xml:space="preserve">
+    <value>মোট ব্যালান্স</value>
+  </data>
+  <data name="Lbl_receive_total_received_amount" xml:space="preserve">
+    <value>মোট আয়ের পরিমাণ</value>
+  </data>
+  <data name="Lbl_receive_track_amt" xml:space="preserve">
+    <value>ট্র্যাক পরিমান</value>
+  </data>
+  <data name="Lbl_receive_user" xml:space="preserve">
+    <value>ইউজার</value>
+  </data>
+  <data name="Lbl_salary_add_salary" xml:space="preserve">
+    <value>কর্মচারী যোগ করুন</value>
+  </data>
+  <data name="Lbl_salary_by_staff" xml:space="preserve">
+    <value>কর্মী</value>
+  </data>
+  <data name="Lbl_salary_cash_out" xml:space="preserve">
+    <value>খরচ</value>
+  </data>
+  <data name="Lbl_salary_date" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Lbl_salary_date_from" xml:space="preserve">
+    <value>শুরুর তারিখ</value>
+  </data>
+  <data name="Lbl_salary_date_to" xml:space="preserve">
+    <value>শেষ তারিখ</value>
+  </data>
+  <data name="Lbl_salary_details" xml:space="preserve">
+    <value>বিস্তারিত</value>
+  </data>
+  <data name="Lbl_salary_details_of_salary" xml:space="preserve">
+    <value>বেতনের বিষয়ে বিস্তারিত</value>
+  </data>
+  <data name="Lbl_salary_particular" xml:space="preserve">
+    <value>খাতসমূহ</value>
+  </data>
+  <data name="Lbl_salary_salary_amount" xml:space="preserve">
+    <value>বেতনের পরিমান</value>
+  </data>
+  <data name="Lbl_salary_salary_date" xml:space="preserve">
+    <value>বেতন দেওয়ার তারিখ</value>
+  </data>
+  <data name="Lbl_salary_salary_report" xml:space="preserve">
+    <value>বেতনের রিপোর্ট</value>
+  </data>
+  <data name="Lbl_salary_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_salary_search_all_store" xml:space="preserve">
+    <value>স্টোর খুঁজুন</value>
+  </data>
+  <data name="Lbl_salary_search_all_user" xml:space="preserve">
+    <value>ব্যবহারকারী খুঁজুন</value>
+  </data>
+  <data name="Lbl_salary_select_staff" xml:space="preserve">
+    <value>কর্মচারী নির্বাচন করুন</value>
+  </data>
+  <data name="Lbl_salary_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_salary_source" xml:space="preserve">
+    <value>উৎস</value>
+  </data>
+  <data name="Lbl_salary_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_salary_total_salary" xml:space="preserve">
+    <value>মোট বেতন</value>
+  </data>
+  <data name="Lbl_salary_user" xml:space="preserve">
+    <value>ইউজার</value>
+  </data>
+  <data name="Lbl_service_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_service_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_service_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_service_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_service_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_service_retail_price" xml:space="preserve">
+    <value>খুচরা মূল্য</value>
+  </data>
+  <data name="Lbl_service_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_service_service_list" xml:space="preserve">
+    <value>সার্ভিস তালিকা</value>
+  </data>
+  <data name="Lbl_service_service_name" xml:space="preserve">
+    <value>সার্ভিস নাম</value>
+  </data>
+  <data name="Lbl_service_service_type" xml:space="preserve">
+    <value>সার্ভিসের ধরন</value>
+  </data>
+  <data name="Lbl_service_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_service_wholeSale_price" xml:space="preserve">
+    <value>পাইকারি মূল্য</value>
+  </data>
+  <data name="Lbl_servicing_customer" xml:space="preserve">
+    <value>কাস্টমার</value>
+  </data>
+  <data name="Lbl_servicing_cus_name" xml:space="preserve">
+    <value>কাস্টমার নাম</value>
+  </data>
+  <data name="Lbl_servicing_delivery" xml:space="preserve">
+    <value>ডেলিভারি তারিখ</value>
+  </data>
+  <data name="Lbl_servicing_delivery_date" xml:space="preserve">
+    <value>ডেলিভারি তারিখ</value>
+  </data>
+  <data name="Lbl_servicing_description" xml:space="preserve">
+    <value>বিবরণ</value>
+  </data>
+  <data name="Lbl_servicing_IMEI" xml:space="preserve">
+    <value>আইএমইআই</value>
+  </data>
+  <data name="Lbl_servicing_paid" xml:space="preserve">
+    <value>পরিশোধিত</value>
+  </data>
+  <data name="Lbl_servicing_pay_cost" xml:space="preserve">
+    <value>প্রদেয় খরচ</value>
+  </data>
+  <data name="Lbl_servicing_product" xml:space="preserve">
+    <value>পণ্য</value>
+  </data>
+  <data name="Lbl_servicing_product_name" xml:space="preserve">
+    <value>পণ্যর নাম</value>
+  </data>
+  <data name="Lbl_servicing_received" xml:space="preserve">
+    <value>গ্রহন তারিখ</value>
+  </data>
+  <data name="Lbl_servicing_search" xml:space="preserve">
+    <value>খুঁজুন...</value>
+  </data>
+  <data name="Lbl_servicing_servicingID" xml:space="preserve">
+    <value>সার্ভিসিং আইডি</value>
+  </data>
+  <data name="Lbl_servicing_servicing_report" xml:space="preserve">
+    <value>সার্ভিসিং রিপোর্ট</value>
+  </data>
+  <data name="Lbl_servicing_status" xml:space="preserve">
+    <value>অবস্থা</value>
+  </data>
+  <data name="Lbl_servicing_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার</value>
+  </data>
+  <data name="Lbl_servicing_total" xml:space="preserve">
+    <value>মোট </value>
+  </data>
+  <data name="Lbl_servicing_total_amount" xml:space="preserve">
+    <value>সর্বমোট পরিমান</value>
+  </data>
+  <data name="Lbl_store_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_store_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_store_add_store" xml:space="preserve">
+    <value>স্টোর যোগ করুন</value>
+  </data>
+  <data name="Lbl_store_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_store_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_store_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_store_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_store_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_store_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_store_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_store_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_store_store_list" xml:space="preserve">
+    <value>স্টোরের তালিকা</value>
+  </data>
+  <data name="Lbl_store_store_name" xml:space="preserve">
+    <value>স্টোরের নাম</value>
+  </data>
+  <data name="Lbl_store_type" xml:space="preserve">
+    <value>ধরন</value>
+  </data>
+  <data name="Lbl_token_search" xml:space="preserve">
+    <value>খুঁজুন...</value>
+  </data>
+  <data name="Lbl_token_to" xml:space="preserve">
+    <value>হতে</value>
+  </data>
+  <data name="Lbl_token_token_report" xml:space="preserve">
+    <value>টোকেন রিপোর্ট</value>
+  </data>
+  <data name="Title_banking" xml:space="preserve">
+    <value>ব্যাংকিং হিসাব</value>
+  </data>
+  <data name="Title_customers" xml:space="preserve">
+    <value>কাস্টমার</value>
+  </data>
+  <data name="Title_expense" xml:space="preserve">
+    <value>খরচ হিসাব</value>
+  </data>
+  <data name="Title_installment" xml:space="preserve">
+    <value>কিস্তি</value>
+  </data>
+  <data name="Title_quotation" xml:space="preserve">
+    <value>কোটেশন</value>
+  </data>
+  <data name="Title_receive" xml:space="preserve">
+    <value>আয়ের হিসাব</value>
+  </data>
+  <data name="Title_salary" xml:space="preserve">
+    <value>কর্মচারীদের বেতন</value>
+  </data>
+  <data name="Title_service" xml:space="preserve">
+    <value>সার্ভিস</value>
+  </data>
+  <data name="Title_servicing" xml:space="preserve">
+    <value>সার্ভিসিং</value>
+  </data>
+  <data name="Title_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Title_token" xml:space="preserve">
+    <value>টোকেন</value>
+  </data>
+  <data name="Btn_attribute_add_attribute" xml:space="preserve">
+    <value>বৈশিষ্ট্য  যোগ করুন</value>
+  </data>
+  <data name="Btn_bank_add_bank" xml:space="preserve">
+    <value>ব্যাংক যোগ করুন</value>
+  </data>
+  <data name="Btn_card_add_card" xml:space="preserve">
+    <value>কার্ড যোগ করুন</value>
+  </data>
+  <data name="Btn_category_add_category" xml:space="preserve">
+    <value>ক্যাটাগরী যোগ করুন</value>
+  </data>
+  <data name="Btn_field_add_new_field" xml:space="preserve">
+    <value>নতুন ফিল্ড যোগ করুন</value>
+  </data>
+  <data name="Btn_location_add_location" xml:space="preserve">
+    <value>এলাকা যোগ করুন</value>
+  </data>
+  <data name="Btn_location_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_location_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_manufacturer_add_manufacturer" xml:space="preserve">
+    <value>প্রস্তুতকারক যোগ করুন</value>
+  </data>
+  <data name="Btn_offer_clear" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_offer_delete" xml:space="preserve">
+    <value>মুছুন</value>
+  </data>
+  <data name="Btn_offer_set" xml:space="preserve">
+    <value>সেট করুন</value>
+  </data>
+  <data name="Btn_particular_add_particular" xml:space="preserve">
+    <value>খাত যোগ করুন</value>
+  </data>
+  <data name="Btn_profile_save_changes" xml:space="preserve">
+    <value>আপডেট করুন</value>
+  </data>
+  <data name="Btn_profile_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Btn_profile_upload_new" xml:space="preserve">
+    <value>নতুন আপলোড</value>
+  </data>
+  <data name="Btn_security_save_changes" xml:space="preserve">
+    <value>পরিবর্তন সেভ করুন</value>
+  </data>
+  <data name="Btn_serviceType_add_serviceType" xml:space="preserve">
+    <value>সার্ভিস ধরন যোগ করুন</value>
+  </data>
+  <data name="Btn_staff_add_staff" xml:space="preserve">
+    <value>কর্মচারী যোগ করুন</value>
+  </data>
+  <data name="Btn_subscription_add_balance" xml:space="preserve">
+    <value>ব্যালেন্স যোগ করুন</value>
+  </data>
+  <data name="Btn_supplier_add_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার যোগ করুন</value>
+  </data>
+  <data name="Btn_unit_add_unit" xml:space="preserve">
+    <value>একক যোগ করুন</value>
+  </data>
+  <data name="Btn_user_edit" xml:space="preserve">
+    <value>এডিট</value>
+  </data>
+  <data name="Lbl_offer_activate" xml:space="preserve">
+    <value>একটিভ করুন</value>
+  </data>
+  <data name="Lbl_offer_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_offer_code" xml:space="preserve">
+    <value>কোড</value>
+  </data>
+  <data name="Lbl_offer_discount_on" xml:space="preserve">
+    <value>ডিসকাউন্ট</value>
+  </data>
+  <data name="Lbl_offer_disc_on" xml:space="preserve">
+    <value>ডিসকাউন্ট</value>
+  </data>
+  <data name="Lbl_offer_enter_amount" xml:space="preserve">
+    <value>পরিমান দিন</value>
+  </data>
+  <data name="Lbl_offer_name" xml:space="preserve">
+    <value>নাম</value>
+  </data>
+  <data name="Lbl_offer_offer_list" xml:space="preserve">
+    <value>অফার তালিকা</value>
+  </data>
+  <data name="Lbl_offer_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_offer_value" xml:space="preserve">
+    <value>পরিমান</value>
+  </data>
+  <data name="Lbl_attribute_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_attribute_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_attribute_attribute_list" xml:space="preserve">
+    <value>বৈশিষ্ট্য তালিকা</value>
+  </data>
+  <data name="Lbl_attribute_attribute_name" xml:space="preserve">
+    <value>খাতসমূহের নাম</value>
+  </data>
+  <data name="Lbl_attribute_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_attribute_field_name" xml:space="preserve">
+    <value>ফিল্ডের নাম</value>
+  </data>
+  <data name="Lbl_attribute_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_attribute_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_attribute_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_attribute_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_attribute_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_attribute_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_bank_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_bank_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_bank_bank_name" xml:space="preserve">
+    <value>ব্যাংকের নাম</value>
+  </data>
+  <data name="Lbl_bank_bank_name_list" xml:space="preserve">
+    <value>ব্যাংকের তালিকা</value>
+  </data>
+  <data name="Lbl_bank_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_bank_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_bank_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_bank_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_bank_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_bank_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_bank_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_card_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_card_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_card_bank_name" xml:space="preserve">
+    <value>ব্যাংকের নাম</value>
+  </data>
+  <data name="Lbl_card_card_discount" xml:space="preserve">
+    <value>কার্ড ডিসকাউন্ট</value>
+  </data>
+  <data name="Lbl_card_card_name" xml:space="preserve">
+    <value>কার্ড নাম</value>
+  </data>
+  <data name="Lbl_card_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_card_list" xml:space="preserve">
+    <value>কার্ডের তালিকা</value>
+  </data>
+  <data name="Lbl_card_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_card_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_card_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_card_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_card_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_card_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_category_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_category_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_category_category_list" xml:space="preserve">
+    <value>ক্যাটাগরীর তালিকা</value>
+  </data>
+  <data name="Lbl_category_category_name" xml:space="preserve">
+    <value>ক্যাটাগরীর নাম</value>
+  </data>
+  <data name="Lbl_category_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_category_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_category_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_category_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_category_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_category_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_category_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_field_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_field_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_field_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_field_field" xml:space="preserve">
+    <value>ফিল্ড</value>
+  </data>
+  <data name="Lbl_field_field_list" xml:space="preserve">
+    <value>ফিল্ডের তালিকা</value>
+  </data>
+  <data name="Lbl_field_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_field_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_field_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_field_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_field_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_field_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_location_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_location_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_location_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_location_location" xml:space="preserve">
+    <value>এলাকা</value>
+  </data>
+  <data name="Lbl_location_location_list" xml:space="preserve">
+    <value>এলাকার তালিকা</value>
+  </data>
+  <data name="Lbl_location_name" xml:space="preserve">
+    <value>নাম</value>
+  </data>
+  <data name="Lbl_location_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_location_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_location_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_location_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_location_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_location_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_manufacturer_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_manufacturer_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_manufacturer_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_manufacturer_manufacturer_list" xml:space="preserve">
+    <value>প্রস্তুতকারকের তালিকা</value>
+  </data>
+  <data name="Lbl_manufacturer_manufacturer_name" xml:space="preserve">
+    <value>প্রস্তুতকারকের নাম</value>
+  </data>
+  <data name="Lbl_manufacturer_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_manufacturer_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_manufacturer_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_manufacturer_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_manufacturer_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_manufacturer_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_offer_offer_end" xml:space="preserve">
+    <value>অফার শেষের তারিখ</value>
+  </data>
+  <data name="Lbl_offer_offer_on" xml:space="preserve">
+    <value>অফার</value>
+  </data>
+  <data name="Lbl_offer_offer_start" xml:space="preserve">
+    <value>অফার শুরুর তারিখ</value>
+  </data>
+  <data name="Lbl_offer_package" xml:space="preserve">
+    <value>প্যাকেজ</value>
+  </data>
+  <data name="Lbl_offer_product" xml:space="preserve">
+    <value>পণ্য</value>
+  </data>
+  <data name="Lbl_offer_product_id" xml:space="preserve">
+    <value>পণ্যের আইডি</value>
+  </data>
+  <data name="Lbl_offer_product_name" xml:space="preserve">
+    <value>পণ্যর নাম</value>
+  </data>
+  <data name="Lbl_offer_set_Offer" xml:space="preserve">
+    <value>অফার সেট করা</value>
+  </data>
+  <data name="Lbl_particular_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_particular_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_particular_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_particular_particular_list" xml:space="preserve">
+    <value>খাতের তালিকা</value>
+  </data>
+  <data name="Lbl_particular_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_particular_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_particular_particular" xml:space="preserve">
+    <value>খাতসমূহ</value>
+  </data>
+  <data name="Lbl_particular_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_particular_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_particular_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_particular_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_profile_business_owner_number" xml:space="preserve">
+    <value>মালিকের ফোন নাম্বার</value>
+  </data>
+  <data name="Lbl_profile_company_name" xml:space="preserve">
+    <value>কোম্পানী নাম</value>
+  </data>
+  <data name="Lbl_profile_current_logo" xml:space="preserve">
+    <value>বর্তমান লোগো</value>
+  </data>
+  <data name="Lbl_profile_edit_company_logo" xml:space="preserve">
+    <value>কোম্পানী লোগো এডিট</value>
+  </data>
+  <data name="Lbl_profile_invoice_footer" xml:space="preserve">
+    <value>ইনভয়েস ফুটার</value>
+  </data>
+  <data name="Lbl_profile_invoice_header" xml:space="preserve">
+    <value>ইনভয়েস হেড</value>
+  </data>
+  <data name="Lbl_profile_message_text" xml:space="preserve">
+    <value>মেসেজ টেক্সট:</value>
+  </data>
+  <data name="Lbl_profile_mobile" xml:space="preserve">
+    <value>মোবাইল</value>
+  </data>
+  <data name="Lbl_profile_phone" xml:space="preserve">
+    <value>ফোন</value>
+  </data>
+  <data name="Lbl_profile_send_installment_template" xml:space="preserve">
+    <value>ইন্সটলমেন্ট টেমপ্লেট</value>
+  </data>
+  <data name="Lbl_profile_send_invoice_template" xml:space="preserve">
+    <value>ইনভয়েস টেমপ্লেট</value>
+  </data>
+  <data name="Lbl_profile_store_name" xml:space="preserve">
+    <value>স্টোরের নাম</value>
+  </data>
+  <data name="Lbl_profile_tax_id_no" xml:space="preserve">
+    <value>ট্যাক্স আইডি নং</value>
+  </data>
+  <data name="Lbl_profile_update_your_profile" xml:space="preserve">
+    <value>প্রোফাইল আপডেট</value>
+  </data>
+  <data name="Lbl_profile_url_path" xml:space="preserve">
+    <value>ওয়েব এ্যাড্রেস</value>
+  </data>
+  <data name="Lbl_profile_vat_reg_no" xml:space="preserve">
+    <value>ভ্যাট রেজিস্ট্রেশন নং</value>
+  </data>
+  <data name="Lbl_security_confirm_password" xml:space="preserve">
+    <value>কনফার্ম পাসওয়ার্ড</value>
+  </data>
+  <data name="Lbl_security_current_password" xml:space="preserve">
+    <value>বর্তমান পাসওয়ার্ড</value>
+  </data>
+  <data name="Lbl_security_edit_privacy_setting" xml:space="preserve">
+    <value>প্রাইভেসি সেটিংস এডিট</value>
+  </data>
+  <data name="Lbl_security_new_password" xml:space="preserve">
+    <value>নতুন পাসওয়ার্ড</value>
+  </data>
+  <data name="Lbl_security_user_email" xml:space="preserve">
+    <value>ইউজার ইমেইল</value>
+  </data>
+  <data name="Lbl_security_user_name" xml:space="preserve">
+    <value>ইউজার নাম</value>
+  </data>
+  <data name="Lbl_security_user_settings" xml:space="preserve">
+    <value>ইউজার সেটিংস এডিট</value>
+  </data>
+  <data name="Lbl_serviceType_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_serviceType_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_serviceType_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_serviceType_list" xml:space="preserve">
+    <value>সার্ভিস ধরনের তালিকা</value>
+  </data>
+  <data name="Lbl_serviceType_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_serviceType_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_serviceType_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_serviceType_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_serviceType_service_type" xml:space="preserve">
+    <value>সার্ভিসের ধরন</value>
+  </data>
+  <data name="Lbl_serviceType_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_serviceType_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_staff_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_staff_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_staff_address" xml:space="preserve">
+    <value>ঠিকানা</value>
+  </data>
+  <data name="Lbl_staff_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_staff_gender" xml:space="preserve">
+    <value>লিঙ্গ</value>
+  </data>
+  <data name="Lbl_staff_list" xml:space="preserve">
+    <value>স্টাফের তালিকা</value>
+  </data>
+  <data name="Lbl_staff_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_staff_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_staff_phone" xml:space="preserve">
+    <value>ফোন</value>
+  </data>
+  <data name="Lbl_staff_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_staff_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_staff_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_staff_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_staff_staff_name" xml:space="preserve">
+    <value>স্টাফের নাম</value>
+  </data>
+  <data name="Lbl_staff_store_name" xml:space="preserve">
+    <value>স্টোরের নাম</value>
+  </data>
+  <data name="Lbl_subscription_add_balance" xml:space="preserve">
+    <value>ব্যালেন্স যোগ করুন</value>
+  </data>
+  <data name="Lbl_subscription_current_balance" xml:space="preserve">
+    <value>বর্তমান ব্যালেন্স:</value>
+  </data>
+  <data name="Lbl_subscription_due_date" xml:space="preserve">
+    <value>পাওনা তারিখ:</value>
+  </data>
+  <data name="Lbl_subscription_total_due" xml:space="preserve">
+    <value>মোট পাওনা:</value>
+  </data>
+  <data name="Lbl_supplier_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_supplier_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_supplier_company_name" xml:space="preserve">
+    <value>কোম্পানীর নাম</value>
+  </data>
+  <data name="Lbl_supplier_contact_name" xml:space="preserve">
+    <value>নাম</value>
+  </data>
+  <data name="Lbl_supplier_contact_phone" xml:space="preserve">
+    <value>ফোন</value>
+  </data>
+  <data name="Lbl_supplier_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_supplier_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_supplier_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_supplier_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_supplier_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_supplier_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_supplier_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_supplier_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_supplier_supplier_code" xml:space="preserve">
+    <value>সাপ্লাইয়ার কোড</value>
+  </data>
+  <data name="Lbl_supplier_supplier_list" xml:space="preserve">
+    <value>সাপ্লাইয়ার তালিকা</value>
+  </data>
+  <data name="Lbl_unit_action" xml:space="preserve">
+    <value>একশন</value>
+  </data>
+  <data name="Lbl_unit_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_unit_entries" xml:space="preserve">
+    <value>এন্ট্রি</value>
+  </data>
+  <data name="Lbl_unit_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_unit_next" xml:space="preserve">
+    <value>পরবর্তি</value>
+  </data>
+  <data name="Lbl_unit_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_unit_previous" xml:space="preserve">
+    <value>পূর্ববর্তী</value>
+  </data>
+  <data name="Lbl_unit_search" xml:space="preserve">
+    <value>খুঁজুন</value>
+  </data>
+  <data name="Lbl_unit_show" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_unit_showing" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Lbl_unit_unit_list" xml:space="preserve">
+    <value>এককের তালিকা</value>
+  </data>
+  <data name="Lbl_unit_unit_name" xml:space="preserve">
+    <value>এককের নাম</value>
+  </data>
+  <data name="Lbl_unit_unit_ratio" xml:space="preserve">
+    <value>এককের অনুপাত</value>
+  </data>
+  <data name="Lbl_user_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_user_archive" xml:space="preserve">
+    <value>আর্কাইভ</value>
+  </data>
+  <data name="Lbl_user_email" xml:space="preserve">
+    <value>ইমেইল</value>
+  </data>
+  <data name="Lbl_user_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_user_name" xml:space="preserve">
+    <value>নাম</value>
+  </data>
+  <data name="Lbl_user_non_active" xml:space="preserve">
+    <value>নন-একটিভ</value>
+  </data>
+  <data name="Lbl_user_search" xml:space="preserve">
+    <value>খুঁজুন...</value>
+  </data>
+  <data name="Lbl_user_type" xml:space="preserve">
+    <value>ধরন</value>
+  </data>
+  <data name="Lbl_user_user_list" xml:space="preserve">
+    <value>ইউজার লিস্ট</value>
+  </data>
+  <data name="Lbl_user_verify" xml:space="preserve">
+    <value>ভেরিফাই</value>
+  </data>
+  <data name="Lbl_user_view" xml:space="preserve">
+    <value>দেখুন</value>
+  </data>
+  <data name="Title_attribute" xml:space="preserve">
+    <value>বৈশিষ্ট্য</value>
+  </data>
+  <data name="Title_bank_name" xml:space="preserve">
+    <value>ব্যাংকের নাম</value>
+  </data>
+  <data name="Title_card" xml:space="preserve">
+    <value>কার্ড</value>
+  </data>
+  <data name="Title_category" xml:space="preserve">
+    <value>ক্যাটাগরী</value>
+  </data>
+  <data name="Title_field" xml:space="preserve">
+    <value>ফিল্ড</value>
+  </data>
+  <data name="Title_location" xml:space="preserve">
+    <value>এলাকা</value>
+  </data>
+  <data name="Title_manufacturer" xml:space="preserve">
+    <value>প্রস্তুতকারক</value>
+  </data>
+  <data name="Title_offer" xml:space="preserve">
+    <value>অফার</value>
+  </data>
+  <data name="Title_particular" xml:space="preserve">
+    <value>খাতসমূহ</value>
+  </data>
+  <data name="Title_security" xml:space="preserve">
+    <value>সিকিউরিটি</value>
+  </data>
+  <data name="Title_serviceType" xml:space="preserve">
+    <value>সার্ভিসের ধরন</value>
+  </data>
+  <data name="Title_staff" xml:space="preserve">
+    <value>স্টাফ</value>
+  </data>
+  <data name="Title_subscription" xml:space="preserve">
+    <value>সাবস্ক্রিপশন</value>
+  </data>
+  <data name="Title_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার</value>
+  </data>
+  <data name="Title_unit_of_measurement" xml:space="preserve">
+    <value>একক</value>
+  </data>
+  <data name="Title_profile" xml:space="preserve">
+    <value>প্রোফাইল</value>
+  </data>
+  <data name="Title_user" xml:space="preserve">
+    <value>ইউজার</value>
+  </data>
+  <data name="Btn_customers_add" xml:space="preserve">
+    <value>যোগ করা</value>
+  </data>
+  <data name="Btn_service_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_service_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_service_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Lbl_customers_active" xml:space="preserve">
+    <value>একটিভ</value>
+  </data>
+  <data name="Lbl_customers_inactive" xml:space="preserve">
+    <value>ইনএকটিভ</value>
+  </data>
+  <data name="Lbl_customers_paid" xml:space="preserve">
+    <value>পরিশোধিত</value>
+  </data>
+  <data name="Lbl_customers_retail" xml:space="preserve">
+    <value>খুচরা</value>
+  </data>
+  <data name="Lbl_customers_unpaid" xml:space="preserve">
+    <value>অপরিশোধিত</value>
+  </data>
+  <data name="Lbl_customers_wholesale" xml:space="preserve">
+    <value>পাইকারি</value>
+  </data>
+  <data name="Lbl_expense_cash_in" xml:space="preserve">
+    <value>জমা</value>
+  </data>
+  <data name="Lbl_expense_delete" xml:space="preserve">
+    <value>মুছুন</value>
+  </data>
+  <data name="Lbl_expense_total" xml:space="preserve">
+    <value>মোট :</value>
+  </data>
+  <data name="Lbl_service_add_service" xml:space="preserve">
+    <value>সার্ভিস  যোগ করুন</value>
+  </data>
+  <data name="Lbl_service_name" xml:space="preserve">
+    <value>নাম</value>
+  </data>
+  <data name="Lbl_service_type" xml:space="preserve">
+    <value>ধরন</value>
+  </data>
+  <data name="Lbl_summary_commission_amount" xml:space="preserve">
+    <value>কমিশনের পরিমান(+):</value>
+  </data>
+  <data name="Lbl_summary_discount_amount_minus" xml:space="preserve">
+    <value>ডিসকাউন্ট পরিমাণ(-):</value>
+  </data>
+  <data name="Lbl_summary_return_amount_minus" xml:space="preserve">
+    <value>রিটার্ন পরিমাণ (-):</value>
+  </data>
+  <data name="Lbl_summary_sales_profit" xml:space="preserve">
+    <value>সেলস প্রিফিট(+):</value>
+  </data>
+  <data name="Lbl_transaction_advance" xml:space="preserve">
+    <value>অগ্রিম</value>
+  </data>
+  <data name="Lbl_transaction_banking" xml:space="preserve">
+    <value>ব্যাংকিং</value>
+  </data>
+  <data name="Lbl_transaction_cash_in_hand" xml:space="preserve">
+    <value>হাতে ক্যাশ</value>
+  </data>
+  <data name="Lbl_transaction_delete" xml:space="preserve">
+    <value>মুছুন</value>
+  </data>
+  <data name="Lbl_transaction_expense" xml:space="preserve">
+    <value>ব্যয়</value>
+  </data>
+  <data name="Lbl_transaction_receive" xml:space="preserve">
+    <value>আয়</value>
+  </data>
+  <data name="Lbl_transaction_salary" xml:space="preserve">
+    <value>বেতন</value>
+  </data>
+  <data name="Lbl_transaction_sales" xml:space="preserve">
+    <value>বিক্রয়</value>
+  </data>
+  <data name="Lbl_transaction_supply" xml:space="preserve">
+    <value>সাপ্লাই</value>
+  </data>
+  <data name="Btn_bank_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_bank_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_bank_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Btn_category_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_category_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_category_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Btn_customers_add_new_customer" xml:space="preserve">
+    <value>নতুন কাস্টমার যোগ করুন</value>
+  </data>
+  <data name="Btn_customers_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Btn_particular_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_particular_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_particular_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Btn_supplier_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_supplier_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_supplier_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Lbl_banking_total" xml:space="preserve">
+    <value>মোট :</value>
+  </data>
+  <data name="Lbl_customers_age" xml:space="preserve">
+    <value>বয়স</value>
+  </data>
+  <data name="Lbl_customers_pay_with_installment" xml:space="preserve">
+    <value>কিস্তি পরিশোধ করুন</value>
+  </data>
+  <data name="Lbl_customers_wholesaler" xml:space="preserve">
+    <value>পাইকারি কাস্টমার</value>
+  </data>
+  <data name="Lbl_customer_blood_group" xml:space="preserve">
+    <value>রক্তের গ্রুপ</value>
+  </data>
+  <data name="Lbl_customer_female" xml:space="preserve">
+    <value>মহিলা</value>
+  </data>
+  <data name="Lbl_customer_male" xml:space="preserve">
+    <value>পুরুষ</value>
+  </data>
+  <data name="Lbl_customer_others" xml:space="preserve">
+    <value>অন্যান্য</value>
+  </data>
+  <data name="Lbl_customer_sex" xml:space="preserve">
+    <value>লিঙ্গ</value>
+  </data>
+  <data name="Lbl_supplier_address" xml:space="preserve">
+    <value>ঠিকানা</value>
+  </data>
+  <data name="Lbl_supplier_contact_designation" xml:space="preserve">
+    <value>যোগাযোগ পদবী</value>
+  </data>
+  <data name="Lbl_supplier_contact_email" xml:space="preserve">
+    <value>যোগাযোগ ইমেইল</value>
+  </data>
+  <data name="Lbl_supplier_discount" xml:space="preserve">
+    <value>ডিসকাউন্ট (in %)</value>
+  </data>
+  <data name="Btn_stock_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_stock_export_csv" xml:space="preserve">
+    <value>এক্সপোর্ট CSV</value>
+  </data>
+  <data name="Btn_stock_print" xml:space="preserve">
+    <value>প্রিন্ট</value>
+  </data>
+  <data name="Btn_stock_transfer" xml:space="preserve">
+    <value>ট্রান্সফার</value>
+  </data>
+  <data name="Lbl_stock_add_variant" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-adjust'&gt;&lt;/span&gt;ভ্যারিয়েন্ট যোগ করুন</value>
+  </data>
+  <data name="Lbl_stock_available_qty" xml:space="preserve">
+    <value>পণ্য সংখ্যা</value>
+  </data>
+  <data name="Lbl_stock_buy_total" xml:space="preserve">
+    <value>মোট ক্রয়মূল্য</value>
+  </data>
+  <data name="Lbl_stock_category" xml:space="preserve">
+    <value>ক্যাটাগরী</value>
+  </data>
+  <data name="Lbl_stock_company_price" xml:space="preserve">
+    <value>কোম্পানি মূল্য</value>
+  </data>
+  <data name="Lbl_stock_date" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Lbl_stock_detail" xml:space="preserve">
+    <value>বিস্তারিত</value>
+  </data>
+  <data name="Lbl_stock_export_to_csv" xml:space="preserve">
+    <value>এক্সপোর্ট টু CSV</value>
+  </data>
+  <data name="Lbl_stock_free_total" xml:space="preserve">
+    <value>মোট ফ্রি</value>
+  </data>
+  <data name="Lbl_stock_manufacturer" xml:space="preserve">
+    <value>প্রস্তুতকারক</value>
+  </data>
+  <data name="Lbl_stock_restore" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-refresh'&gt;&lt;/span&gt; রি-স্টোর</value>
+  </data>
+  <data name="Lbl_stock_retail_total" xml:space="preserve">
+    <value>মোট খুচরা মূল্য</value>
+  </data>
+  <data name="Lbl_stock_shift_to" xml:space="preserve">
+    <value>শিফট টু</value>
+  </data>
+  <data name="Lbl_stock_summary" xml:space="preserve">
+    <value>সামারি</value>
+  </data>
+  <data name="Lbl_stock_supplier" xml:space="preserve">
+    <value>সাপ্লাইয়ার</value>
+  </data>
+  <data name="Lbl_stock_transfer_qty" xml:space="preserve">
+    <value>ট্রান্সফার সংখ্যা</value>
+  </data>
+  <data name="Lbl_stock_variant_product" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-adjust'&gt;&lt;/span&gt;ভ্যারিয়েন্ট প্রোডাক্ট</value>
+  </data>
+  <data name="Lbl_stock_wholesale_total" xml:space="preserve">
+    <value>পাইকারি মোট</value>
+  </data>
+  <data name="Btn_return_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_user_add_user" xml:space="preserve">
+    <value>ইউজার যোগ করুন</value>
+  </data>
+  <data name="Lbl_return_imei" xml:space="preserve">
+    <value>আইএমইআই</value>
+  </data>
+  <data name="Lbl_return_price_sell" xml:space="preserve">
+    <value>বিক্রি (মূল্য)</value>
+  </data>
+  <data name="Lbl_return_prod_id" xml:space="preserve">
+    <value>পণ্য আই ডি</value>
+  </data>
+  <data name="Lbl_return_returned_date" xml:space="preserve">
+    <value>ফেরত তারিখ</value>
+  </data>
+  <data name="Lbl_return_size" xml:space="preserve">
+    <value>সাইজ</value>
+  </data>
+  <data name="Lbl_return_status_date" xml:space="preserve">
+    <value>অবস্থার তারিখ</value>
+  </data>
+  <data name="Lbl_return_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার</value>
+  </data>
+  <data name="Lbl_stock_batch_no" xml:space="preserve">
+    <value>ব্যাচ নং</value>
+  </data>
+  <data name="Lbl_stock_code" xml:space="preserve">
+    <value>কোড</value>
+  </data>
+  <data name="Lbl_stock_commission" xml:space="preserve">
+    <value>কমিশন</value>
+  </data>
+  <data name="Lbl_stock_expiry_date" xml:space="preserve">
+    <value>মেয়াদউত্তীর্ণ তারিখ</value>
+  </data>
+  <data name="Lbl_stock_IMEI" xml:space="preserve">
+    <value>আইএমইআই</value>
+  </data>
+  <data name="Lbl_stock_notes" xml:space="preserve">
+    <value>নোট</value>
+  </data>
+  <data name="Lbl_stock_product" xml:space="preserve">
+    <value>পণ্য</value>
+  </data>
+  <data name="Lbl_stock_sale_total" xml:space="preserve">
+    <value>মোট বিক্রয়</value>
+  </data>
+  <data name="Lbl_stock_sell_price" xml:space="preserve">
+    <value>বিক্রয় মূল্য</value>
+  </data>
+  <data name="Lbl_stock_serial_no" xml:space="preserve">
+    <value>সিরিয়াল নং</value>
+  </data>
+  <data name="Lbl_stock_shipment_status" xml:space="preserve">
+    <value>শিপমেন্ট স্ট্যাটাস</value>
+  </data>
+  <data name="Lbl_stock_size" xml:space="preserve">
+    <value>সাইজ</value>
+  </data>
+  <data name="Lbl_stock_SKU" xml:space="preserve">
+    <value>এসকেইউ</value>
+  </data>
+  <data name="Lbl_stock_tax" xml:space="preserve">
+    <value>ট্যাক্স</value>
+  </data>
+  <data name="Lbl_stock_transfer_stock" xml:space="preserve">
+    <value>ট্রান্সফার স্টক</value>
+  </data>
+  <data name="Lbl_stock_unit" xml:space="preserve">
+    <value>একক</value>
+  </data>
+  <data name="Lbl_stock_warning_qty" xml:space="preserve">
+    <value>ওয়ার্নিং সংখ্যা</value>
+  </data>
+  <data name="Lbl_stock_warranty" xml:space="preserve">
+    <value>ওয়ারেন্টি</value>
+  </data>
+  <data name="Lbl_stock_weight" xml:space="preserve">
+    <value>ওজন</value>
+  </data>
+  <data name="Btn_card_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_card_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_card_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Lbl_invoiceReport_balance" xml:space="preserve">
+    <value>ব্যালেন্স</value>
+  </data>
+  <data name="Lbl_invoiceReport_disc" xml:space="preserve">
+    <value>বর্ণনা</value>
+  </data>
+  <data name="Lbl_invoiceReport_invoice_in_detail" xml:space="preserve">
+    <value>ইনভয়েস বিস্তারিত</value>
+  </data>
+  <data name="Lbl_invoiceReport_inv_as" xml:space="preserve">
+    <value>Inv. as</value>
+  </data>
+  <data name="Lbl_invoiceReport_search_product" xml:space="preserve">
+    <value>পণ্য খুঁজুন...</value>
+  </data>
+  <data name="Lbl_invoiceReport_total_net" xml:space="preserve">
+    <value>সর্বমোট (নেট)</value>
+  </data>
+  <data name="Btn_supply_add_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার যোগ করুন</value>
+  </data>
+  <data name="Btn_supply_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_supply_pay_now" xml:space="preserve">
+    <value>পে করুন</value>
+  </data>
+  <data name="Lbl_card_add_card" xml:space="preserve">
+    <value>কার্ড যোগ করুন</value>
+  </data>
+  <data name="Lbl_invoiceReport_invoice_date" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Lbl_profitLoss_profit_amount" xml:space="preserve">
+    <value>লাভের পরিমান</value>
+  </data>
+  <data name="Lbl_salary_cash_in" xml:space="preserve">
+    <value>জমা</value>
+  </data>
+  <data name="Lbl_salary_delete" xml:space="preserve">
+    <value>মুছুন</value>
+  </data>
+  <data name="Lbl_salary_search_all" xml:space="preserve">
+    <value>কর্মচারী নির্বাচন করুন</value>
+  </data>
+  <data name="Lbl_salary_total" xml:space="preserve">
+    <value>মোট :</value>
+  </data>
+  <data name="Lbl_stock_received_date" xml:space="preserve">
+    <value>রিসিভ ডেট</value>
+  </data>
+  <data name="Lbl_supply_supply_report" xml:space="preserve">
+    <value>সাপ্লাই রিপোর্ট</value>
+  </data>
+  <data name="Btn_user_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Lbl_damage_supplier" xml:space="preserve">
+    <value>সাপ্লাইয়ার</value>
+  </data>
+  <data name="Lbl_user_access_page" xml:space="preserve">
+    <value>অ্যাক্সেস পেজ </value>
+  </data>
+  <data name="Lbl_user_confirm_password" xml:space="preserve">
+    <value>নিশ্চিত পাসওয়ার্ড</value>
+  </data>
+  <data name="Lbl_user_password" xml:space="preserve">
+    <value>পাসওয়ার্ড</value>
+  </data>
+  <data name="Lbl_user_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_user_title" xml:space="preserve">
+    <value>টাইটেল</value>
+  </data>
+  <data name="Btn_installment_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_installment_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_servicing_change_status" xml:space="preserve">
+    <value>স্ট্যাটাস পরিবর্তন</value>
+  </data>
+  <data name="Btn_servicing_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Lbl_installment_pay" xml:space="preserve">
+    <value>প্রদান</value>
+  </data>
+  <data name="Lbl_installment_total_balance" xml:space="preserve">
+    <value>মোট ব্যালান্স</value>
+  </data>
+  <data name="Lbl_service_edit_service" xml:space="preserve">
+    <value>এডিট সার্ভিস</value>
+  </data>
+  <data name="Lbl_servicing_customerID" xml:space="preserve">
+    <value>কাস্টমার আইডি</value>
+  </data>
+  <data name="Lbl_servicing_date_form" xml:space="preserve">
+    <value>শুরুর তারিখ</value>
+  </data>
+  <data name="Lbl_servicing_date_to" xml:space="preserve">
+    <value>শেষের তারিখ</value>
+  </data>
+  <data name="Lbl_servicing_Servicing_id" xml:space="preserve">
+    <value>সার্ভিসিং আইডি :</value>
+  </data>
+  <data name="Lbl_token_customer_id" xml:space="preserve">
+    <value>কাস্টমার আইডি</value>
+  </data>
+  <data name="Lbl_token_date" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Lbl_token_disc_amount" xml:space="preserve">
+    <value>ডিসকাউন্ট পরিমান</value>
+  </data>
+  <data name="Lbl_token_invoice_no" xml:space="preserve">
+    <value>ইনভয়েস নং</value>
+  </data>
+  <data name="Lbl_token_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_token_token" xml:space="preserve">
+    <value>টোকেন</value>
+  </data>
+  <data name="Lbl_token_total" xml:space="preserve">
+    <value>টোটাল</value>
+  </data>
+  <data name="Btn_store_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Btn_unit_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_unit_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_unit_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Lbl_store_edit_store" xml:space="preserve">
+    <value>এডিট স্টোর</value>
+  </data>
+  <data name="Lbl_unit_add_unit" xml:space="preserve">
+    <value>একক যোগ করুন</value>
+  </data>
+  <data name="Lbl_unit_edit_unit" xml:space="preserve">
+    <value>এডিট একক</value>
+  </data>
+  <data name="Btn_location_cancel" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_location_ok" xml:space="preserve">
+    <value>ওকে</value>
+  </data>
+  <data name="Btn_location_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Btn_receive_add_particular" xml:space="preserve">
+    <value>খাত যোগ করুন</value>
+  </data>
+  <data name="Btn_serviceType_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_serviceType_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_serviceType_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Lbl_analyticReport_category" xml:space="preserve">
+    <value>ক্যাটাগরী</value>
+  </data>
+  <data name="Lbl_analyticReport_week" xml:space="preserve">
+    <value>সপ্তাহ</value>
+  </data>
+  <data name="Lbl_category_add_category" xml:space="preserve">
+    <value>ক্যাটাগরী যোগ করুন</value>
+  </data>
+  <data name="Lbl_category_edit_category" xml:space="preserve">
+    <value>এডিট ক্যাটাগরী</value>
+  </data>
+  <data name="Lbl_category_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_invoice_serial" xml:space="preserve">
+    <value>সিরিয়াল</value>
+  </data>
+  <data name="Lbl_location_add_location" xml:space="preserve">
+    <value>এলাকা যোগ করুন</value>
+  </data>
+  <data name="Lbl_location_delete_action" xml:space="preserve">
+    <value>ডিলিট  একশন</value>
+  </data>
+  <data name="Lbl_location_edit_location" xml:space="preserve">
+    <value>এডিট এলাকা</value>
+  </data>
+  <data name="Lbl_location_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_location_restore_action" xml:space="preserve">
+    <value>রিস্টোর একশন</value>
+  </data>
+  <data name="Lbl_offer_amount" xml:space="preserve">
+    <value>পরিমান</value>
+  </data>
+  <data name="Lbl_offer_qty" xml:space="preserve">
+    <value>সংখ্যা</value>
+  </data>
+  <data name="Lbl_receive_add_expense" xml:space="preserve">
+    <value>খরচ যোগ করুন</value>
+  </data>
+  <data name="Lbl_receive_receive_report" xml:space="preserve">
+    <value>আয়ের রিপোর্ট</value>
+  </data>
+  <data name="Lbl_receive_search_all" xml:space="preserve">
+    <value>খাত অনুযায়ী খুঁজুন</value>
+  </data>
+  <data name="Lbl_receive_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার</value>
+  </data>
+  <data name="Lbl_receive_total" xml:space="preserve">
+    <value>মোট :</value>
+  </data>
+  <data name="Lbl_receive_total_track_received_amount" xml:space="preserve">
+    <value>মোট ট্র্যাক আয়ের পরিমাণ</value>
+  </data>
+  <data name="Lbl_serviceType_add_serviceType" xml:space="preserve">
+    <value>সার্ভিস ধরন  যোগ করুন</value>
+  </data>
+  <data name="Lbl_serviceType_edit_serviceType" xml:space="preserve">
+    <value>এডিট সার্ভিস ধরন</value>
+  </data>
+  <data name="Lbl_serviceType_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_offer_point" xml:space="preserve">
+    <value>পয়েন্ট</value>
+  </data>
+  <data name="Lbl_offer_search" xml:space="preserve">
+    <value>খুঁজুন...</value>
+  </data>
+  <data name="Btn_manufacturer_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_manufacturer_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_manufacturer_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Btn_package_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Lbl_manufacturer_manufacturer" xml:space="preserve">
+    <value>প্রস্তুতকারক</value>
+  </data>
+  <data name="Lbl_package_empty_qty" xml:space="preserve">
+    <value>খালি পরিমাণ</value>
+  </data>
+  <data name="Lbl_package_package_list" xml:space="preserve">
+    <value>প্যাকেজ তালিকা</value>
+  </data>
+  <data name="Lbl_warranty_purchese_date" xml:space="preserve">
+    <value>পারচেজ ডেট</value>
+  </data>
+  <data name="Btn_attribute_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_attribute_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_attribute_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Lbl_attribute_add_attribute" xml:space="preserve">
+    <value>বৈশিষ্ট্য যোগ করুন</value>
+  </data>
+  <data name="Lbl_attribute_edit_attribute" xml:space="preserve">
+    <value>এডিট বৈশিষ্ট্য</value>
+  </data>
+  <data name="Lbl_attribute_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_attribute_select_a_field" xml:space="preserve">
+    <value>ফিল্ড নির্বাচন করুন</value>
+  </data>
+  <data name="Lbl_manufacturer_add_manufacturer" xml:space="preserve">
+    <value>প্রস্তুতকারক যোগ করুন</value>
+  </data>
+  <data name="Lbl_manufacturer_edit_manufacturer" xml:space="preserve">
+    <value>এডিট প্রস্তুতকারক</value>
+  </data>
+  <data name="Lbl_manufacturer_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Btn_field_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_field_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_field_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Btn_smsConfig_save_changes" xml:space="preserve">
+    <value>আপডেট করুন</value>
+  </data>
+  <data name="Btn_staff_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Btn_staff_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Btn_staff_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Lbl_field_add_field" xml:space="preserve">
+    <value>ফিল্ড যোগ করুন</value>
+  </data>
+  <data name="Lbl_field_edit_field" xml:space="preserve">
+    <value>এডিট ফিল্ড</value>
+  </data>
+  <data name="Lbl_field_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_smsConfig_api_key" xml:space="preserve">
+    <value>Api কী</value>
+  </data>
+  <data name="Lbl_smsConfig_password" xml:space="preserve">
+    <value>পাসওয়ার্ড</value>
+  </data>
+  <data name="Lbl_smsConfig_sender_key" xml:space="preserve">
+    <value>প্রেরক কী</value>
+  </data>
+  <data name="Lbl_smsConfig_user_name" xml:space="preserve">
+    <value>ইউজার নাম</value>
+  </data>
+  <data name="Lbl_staff_add_staff" xml:space="preserve">
+    <value>স্টাফ যোগ করুন</value>
+  </data>
+  <data name="Lbl_staff_date_of_birth" xml:space="preserve">
+    <value>জন্ম তারিখ</value>
+  </data>
+  <data name="Lbl_staff_department" xml:space="preserve">
+    <value>বিভাগ</value>
+  </data>
+  <data name="Lbl_staff_edit_staff" xml:space="preserve">
+    <value>এডিট স্টাফ</value>
+  </data>
+  <data name="Lbl_staff_female" xml:space="preserve">
+    <value>মহিলা</value>
+  </data>
+  <data name="Lbl_staff_general" xml:space="preserve">
+    <value>সাধারণ</value>
+  </data>
+  <data name="Lbl_staff_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_staff_male" xml:space="preserve">
+    <value>পুরুষ</value>
+  </data>
+  <data name="Lbl_staff_marketing" xml:space="preserve">
+    <value>মার্কেটিং</value>
+  </data>
+  <data name="Lbl_staff_sex" xml:space="preserve">
+    <value>লিঙ্গ</value>
+  </data>
+  <data name="Title_smsConfig" xml:space="preserve">
+    <value>এসএমএস কনফিগারেশন</value>
+  </data>
+  <data name="Lbl_subscription_balance" xml:space="preserve">
+    <value>ব্যালান্স:</value>
+  </data>
+  <data name="Lbl_subscription_transection_history" xml:space="preserve">
+    <value>ট্রান্সেকশন তালিকা</value>
+  </data>
+  <data name="Lbl_profile_upload_new" xml:space="preserve">
+    <value>নতুন আপলোড</value>
+  </data>
+  <data name="Lbl_subscription_cash_in" xml:space="preserve">
+    <value>জমা</value>
+  </data>
+  <data name="Lbl_subscription_cash_out" xml:space="preserve">
+    <value>খরচ</value>
+  </data>
+  <data name="Lbl_subscription_date" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Lbl_subscription_description" xml:space="preserve">
+    <value>বিস্তারিত</value>
+  </data>
+  <data name="Lbl_subscription_invoice_no" xml:space="preserve">
+    <value>ইনভয়েস নং</value>
+  </data>
+  <data name="Lbl_subscription_status" xml:space="preserve">
+    <value>অবস্থা</value>
+  </data>
+  <data name="Lbl_subscription_title" xml:space="preserve">
+    <value>টাইটেল</value>
+  </data>
+  <data name="Lbl_subscription_type" xml:space="preserve">
+    <value>ধরন</value>
+  </data>
+  <data name="Lbl_stock_search_all_category" xml:space="preserve">
+    <value>ক্যাটাগরী নির্বাচন</value>
+  </data>
+  <data name="Lbl_customers_delete" xml:space="preserve">
+    <value>মুছুন</value>
+  </data>
+  <data name="Btn_purchase_import_file" xml:space="preserve">
+    <value>ফাইল ইমপোর্ট</value>
+  </data>
+  <data name="Lbl_offer_search_scan_product_by_name" xml:space="preserve">
+    <value>নাম/কোড দিয়ে পণ্য সার্চ/স্ক্যান করুন</value>
+  </data>
+  <data name="Lbl_purchase_select" xml:space="preserve">
+    <value>সিলেক্ট করুন</value>
+  </data>
+  <data name="Lbl_purchase_track_received" xml:space="preserve">
+    <value>ট্যাকিং গ্রহন করা হয়েছে</value>
+  </data>
+  <data name="Lbl_purchase_write_track_received_notes" xml:space="preserve">
+    <value>ট্র্যাকিং গৃহীত নোট</value>
+  </data>
+  <data name="Lbl_service_select" xml:space="preserve">
+    <value>-- সিলেক্ট করুন --</value>
+  </data>
+  <data name="Btn_damage_close" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Lbl_damage_damaged_date" xml:space="preserve">
+    <value>ড্যামেজ তারিখ</value>
+  </data>
+  <data name="Lbl_damage_imei" xml:space="preserve">
+    <value>আইএমইআই</value>
+  </data>
+  <data name="Lbl_damage_price_sell" xml:space="preserve">
+    <value>বিক্রি (মূল্য)</value>
+  </data>
+  <data name="Lbl_damage_size" xml:space="preserve">
+    <value>সাইজ</value>
+  </data>
+  <data name="Lbl_setting_action_invoice" xml:space="preserve">
+    <value>একশন ইনভয়েস</value>
+  </data>
+  <data name="Lbl_setting_active_delivery_status" xml:space="preserve">
+    <value>একটিভ ডেলিভারি স্ট্যাটাস</value>
+  </data>
+  <data name="Lbl_setting_active_service" xml:space="preserve">
+    <value>সার্ভিস একটিভ</value>
+  </data>
+  <data name="Lbl_setting_after_search_stay_product_name" xml:space="preserve">
+    <value>পণ্য অনুসন্ধান করার পর পণ্যর নাম ডিফল্ট থেকে যাবে</value>
+  </data>
+  <data name="Lbl_setting_allow_same_product_name" xml:space="preserve">
+    <value>একই পণ্যর নাম এন্ট্রির অনুমতি</value>
+  </data>
+  <data name="Lbl_setting_arabian_standard_time" xml:space="preserve">
+    <value>অ্যারাবিয়ান সময়</value>
+  </data>
+  <data name="Lbl_setting_are_you_want_to_show_invoice_option_in_invoice_page" xml:space="preserve">
+    <value>ইনভয়েস পেজে ইনভয়েস পেপার সাইজের অপশন</value>
+  </data>
+  <data name="Lbl_setting_auto_generate_barcode_type" xml:space="preserve">
+    <value>বারকোড অটো জেনারেট হবে</value>
+  </data>
+  <data name="Lbl_setting_auto_select_search_by" xml:space="preserve">
+    <value>পণ্য, সার্ভিস ও প্যাকেজ অনুসন্ধান অপশন</value>
+  </data>
+  <data name="Lbl_setting_bangla" xml:space="preserve">
+    <value>বাংলা</value>
+  </data>
+  <data name="Lbl_setting_bangladesh_standard_time" xml:space="preserve">
+    <value>বাংলাদেশ সময়</value>
+  </data>
+  <data name="Lbl_setting_barcode_size" xml:space="preserve">
+    <value>বারকোড সাইজ</value>
+  </data>
+  <data name="Lbl_setting_batch_no_enable" xml:space="preserve">
+    <value>ব্যাচ নং</value>
+  </data>
+  <data name="Lbl_setting_business_type" xml:space="preserve">
+    <value>বিজনেসের ধরন</value>
+  </data>
+  <data name="Lbl_setting_category" xml:space="preserve">
+    <value>ক্যাটাগরি দেখান</value>
+  </data>
+  <data name="Lbl_setting_category_and_product" xml:space="preserve">
+    <value>ক্যাটাগরি এবং পণ্য দেখান</value>
+  </data>
+  <data name="Lbl_setting_category_name" xml:space="preserve">
+    <value>ক্যাটাগরি নাম</value>
+  </data>
+  <data name="Lbl_setting_cecish_number" xml:space="preserve">
+    <value>গাড়ির সেসিস নাম্বার</value>
+  </data>
+  <data name="Lbl_setting_challan_paper_size" xml:space="preserve">
+    <value>চালান পেপার সাইজ</value>
+  </data>
+  <data name="Lbl_setting_change_you_challan_paper_size_and_print_actual_challan_which_you_want" xml:space="preserve">
+    <value>আপনার পছন্দ অনুযায়ী চালাান পেপার সাইজ সিলেক্ট করুন</value>
+  </data>
+  <data name="Lbl_setting_company_name" xml:space="preserve">
+    <value>কোম্পানি নাম</value>
+  </data>
+  <data name="Lbl_setting_customer" xml:space="preserve">
+    <value>কাস্টমার</value>
+  </data>
+  <data name="Lbl_setting_customer_summary_export" xml:space="preserve">
+    <value>কাস্টমার লেজার এক্সপোর্ট</value>
+  </data>
+  <data name="Lbl_setting_customer_validation_required" xml:space="preserve">
+    <value>কাস্টমার এন্ট্রি বাধ্যতামূলক</value>
+  </data>
+  <data name="Lbl_setting_custom_field_attribute" xml:space="preserve">
+    <value>কাস্টম ফিল্ড এট্রিবিউট</value>
+  </data>
+  <data name="Lbl_setting_developer" xml:space="preserve">
+    <value>ডেভলপার</value>
+  </data>
+  <data name="Lbl_setting_diagnostic_center" xml:space="preserve">
+    <value>ডাইগোনোস্টিক সেন্টার</value>
+  </data>
+  <data name="Lbl_setting_directly_misc_cost_save_to_expense" xml:space="preserve">
+    <value>অতিরিক্ত খরচ জমা হবে খরচের খাতে</value>
+  </data>
+  <data name="Lbl_setting_display_add_customer" xml:space="preserve">
+    <value>নতুন কাস্টমার এন্ট্রি অপশন</value>
+  </data>
+  <data name="Lbl_setting_display_brand_name_print" xml:space="preserve">
+    <value>ব্র্যান্ড নাম দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_buy_price" xml:space="preserve">
+    <value>ক্রয়মূল্য দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_cart_buy_price" xml:space="preserve">
+    <value>ক্রয় মূল্য দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_cart_retail_price" xml:space="preserve">
+    <value>বিক্রয় মূল্য দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_cart_wholesale_price" xml:space="preserve">
+    <value>পাইকেরি মূল্য দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_challan_address" xml:space="preserve">
+    <value>চালান অ্যাড্রেস দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_challan_location" xml:space="preserve">
+    <value>চালান লোকেশন দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_company_price" xml:space="preserve">
+    <value>কোম্পানি মূল্য</value>
+  </data>
+  <data name="Lbl_setting_display_dariant" xml:space="preserve">
+    <value>ভ্যারিয়েন্ট দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_delivery_status" xml:space="preserve">
+    <value>ডেলিভারি স্ট্যাটাস দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_designation" xml:space="preserve">
+    <value>কাস্টমার পদবি</value>
+  </data>
+  <data name="Lbl_setting_display_discount" xml:space="preserve">
+    <value>ডিসকাউন্ট দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_discount_print" xml:space="preserve">
+    <value>ডিসকাউন্ট এর পরিমান দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_draft_quotation" xml:space="preserve">
+    <value>ড্রফট কোটেশন দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_extra_discount" xml:space="preserve">
+    <value>অতিরিক্ত ডিসকাউন্ট দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_guarantor" xml:space="preserve">
+    <value>গ্যারান্টর দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_instalment_send_message" xml:space="preserve">
+    <value>কিস্তি পরিমান দেখান এবং এসএমএস পাঠান</value>
+  </data>
+  <data name="Lbl_setting_display_interest" xml:space="preserve">
+    <value>ইন্টারেস্ট দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_logo_invoice_print" xml:space="preserve">
+    <value>লোগো দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_print_all_stock_for_user" xml:space="preserve">
+    <value>সমস্ত স্টক একসাথে প্রিন্টের অপশন</value>
+  </data>
+  <data name="Lbl_setting_display_referal_option" xml:space="preserve">
+    <value>রেফারেল অপশন দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_search_customer" xml:space="preserve">
+    <value>কাস্টমার অনুসন্ধান অপশন</value>
+  </data>
+  <data name="Lbl_setting_display_supplier_schedule_payment" xml:space="preserve">
+    <value>সাপ্লায়ার শিডিউল পেমেন্ট অপশন</value>
+  </data>
+  <data name="Lbl_setting_display_supplier_track_received" xml:space="preserve">
+    <value>সাপ্লায়ার ট্র্যাকিং অপশন</value>
+  </data>
+  <data name="Lbl_setting_display_total_qty" xml:space="preserve">
+    <value>মোট পরিমান দেখান</value>
+  </data>
+  <data name="Lbl_setting_display_vat" xml:space="preserve">
+    <value>ভ্যাট দেখান</value>
+  </data>
+  <data name="Lbl_setting_d_branding" xml:space="preserve">
+    <value>ডেভেলাপমেন্ট ব্র্যান্ডিং</value>
+  </data>
+  <data name="Lbl_setting_ecommerce" xml:space="preserve">
+    <value>ই-কমার্স</value>
+  </data>
+  <data name="Lbl_setting_edit_invoice_date" xml:space="preserve">
+    <value>ইনভয়েস তারিখ এডিট</value>
+  </data>
+  <data name="Lbl_setting_edit_product_unit_price" xml:space="preserve">
+    <value>পণ্যের বিক্রির মূল্য পরিবর্তন</value>
+  </data>
+  <data name="Lbl_setting_electronics_appliances" xml:space="preserve">
+    <value>ইলেকট্রনিক্স শোরুম</value>
+  </data>
+  <data name="Lbl_setting_enable_cart_category" xml:space="preserve">
+    <value>কার্ট ক্যাটাগরি স্ট্যাটাস</value>
+  </data>
+  <data name="Lbl_setting_enable_cart_supplier" xml:space="preserve">
+    <value>কার্ট সাপ্লায়ার স্ট্যাটাস</value>
+  </data>
+  <data name="Lbl_setting_enable_due_adjustment" xml:space="preserve">
+    <value>বাকি সমন্বয়</value>
+  </data>
+  <data name="Lbl_setting_enable_godown_invoice" xml:space="preserve">
+    <value>ডেলিভারি ও গোডাউন এর জন্য ইনভয়েস প্রয়োজন</value>
+  </data>
+  <data name="Lbl_setting_enable_instalment" xml:space="preserve">
+    <value>কিস্তিতে বিক্রি</value>
+  </data>
+  <data name="Lbl_setting_enable_misc_cost" xml:space="preserve">
+    <value>ইনভয়েসের সাথে অতিরিক্ত খরচ</value>
+  </data>
+  <data name="Lbl_setting_enable_opening_due" xml:space="preserve">
+    <value>পূর্বের বাকি</value>
+  </data>
+  <data name="Lbl_setting_enable_qty_search" xml:space="preserve">
+    <value>পরিমাণ অনুযায়ী অনুসন্ধান</value>
+  </data>
+  <data name="Lbl_setting_enable_transfer" xml:space="preserve">
+    <value>পণ্য ট্রান্সফার অপশন</value>
+  </data>
+  <data name="Lbl_setting_engine_number" xml:space="preserve">
+    <value>গাড়ির ইঞ্জিন নাম্বার</value>
+  </data>
+  <data name="Lbl_setting_english" xml:space="preserve">
+    <value>ইংরেজি</value>
+  </data>
+  <data name="Lbl_setting_expiry_date_enable" xml:space="preserve">
+    <value>পণ্যর এক্সপায়েরি তারিখ</value>
+  </data>
+  <data name="Lbl_setting_fashion_beauty" xml:space="preserve">
+    <value>জামা কাপড় এর দোকান</value>
+  </data>
+  <data name="Lbl_setting_food_groceres" xml:space="preserve">
+    <value>খাবারের দোকান</value>
+  </data>
+  <data name="Lbl_setting_free" xml:space="preserve">
+    <value>ফ্রী</value>
+  </data>
+  <data name="Lbl_setting_full" xml:space="preserve">
+    <value>এফোর সাইজ</value>
+  </data>
+  <data name="Lbl_setting_gas_cylinder_avaiable" xml:space="preserve">
+    <value>গ্যাস সিলিন্ডার আছে</value>
+  </data>
+  <data name="Lbl_setting_general" xml:space="preserve">
+    <value>সাধারণ</value>
+  </data>
+  <data name="Lbl_setting_import_products" xml:space="preserve">
+    <value>পন্য ইমপোর্ট অপশন</value>
+  </data>
+  <data name="Lbl_setting_inventory" xml:space="preserve">
+    <value>ইনভেন্টরি</value>
+  </data>
+  <data name="Lbl_setting_invoice" xml:space="preserve">
+    <value>ইনভয়েস</value>
+  </data>
+  <data name="Lbl_setting_invoice_in_word" xml:space="preserve">
+    <value>ইনভয়েস টাকার পরিমান কথায় দেখান</value>
+  </data>
+  <data name="Lbl_setting_invoice_paper_size" xml:space="preserve">
+    <value>ইনভয়েস প্রিন্ট পেপার সাইজ</value>
+  </data>
+  <data name="Lbl_setting_invoice_paper_size_option" xml:space="preserve">
+    <value>ইনভয়েস পেপার সাইজ অপশন</value>
+  </data>
+  <data name="Lbl_setting_invoice_print" xml:space="preserve">
+    <value>ইনভয়েস প্রিন্ট</value>
+  </data>
+  <data name="Lbl_setting_invoice_wise_wearch_product" xml:space="preserve">
+    <value>ইনভয়েস অনুযায়ী পণ্য অনুসন্ধান অপশন</value>
+  </data>
+  <data name="Lbl_setting_language" xml:space="preserve">
+    <value>ভাষা</value>
+  </data>
+  <data name="Lbl_setting_load_default_products_to_invoice_cart" xml:space="preserve">
+    <value>লোড অপশনে ডিফলট পণ্যগুলো যুক্ত করুন</value>
+  </data>
+  <data name="Lbl_setting_medium" xml:space="preserve">
+    <value>মাঝারি</value>
+  </data>
+  <data name="Lbl_setting_month_count_for_sales_report" xml:space="preserve">
+    <value>কয় মাসের সেলস রিপোর্ট দেখতে চান ড্যাশবোর্ডে</value>
+  </data>
+  <data name="Lbl_setting_multi_payment" xml:space="preserve">
+    <value>মাল্টি পেমেন্ট অপশন</value>
+  </data>
+  <data name="Lbl_setting_no" xml:space="preserve">
+    <value>না</value>
+  </data>
+  <data name="Lbl_setting_no_barcode_generate" xml:space="preserve">
+    <value>বারকোড জেনারেট হবে না</value>
+  </data>
+  <data name="Lbl_setting_one_invoice" xml:space="preserve">
+    <value>একটি ইনভয়েস</value>
+  </data>
+  <data name="Lbl_setting_on_your_custom_develoment_branding_logo" xml:space="preserve">
+    <value>কাস্টম ডেভেলাপমেন্ট ব্র্যান্ডিং লোগো</value>
+  </data>
+  <data name="Lbl_setting_package" xml:space="preserve">
+    <value>প্যাকেজসমূহ</value>
+  </data>
+  <data name="Lbl_setting_pharmacy" xml:space="preserve">
+    <value>ফার্মেসী</value>
+  </data>
+  <data name="Lbl_setting_print_barcode_for" xml:space="preserve">
+    <value>বারকোড প্রিন্ট হবে</value>
+  </data>
+  <data name="Lbl_setting_print_by_serial_no" xml:space="preserve">
+    <value>সিরিয়াল নং দেখান</value>
+  </data>
+  <data name="Lbl_setting_print_by_special_date" xml:space="preserve">
+    <value>স্পেশাল তারিখ দেখান</value>
+  </data>
+  <data name="Lbl_setting_print_category" xml:space="preserve">
+    <value>ক্যাটাগরি নাম প্রিন্ট</value>
+  </data>
+  <data name="Lbl_setting_print_change_amount" xml:space="preserve">
+    <value>ফেরত টাকা প্রিন্ট</value>
+  </data>
+  <data name="Lbl_setting_print_imei" xml:space="preserve">
+    <value>প্রিন্ট আইএমইআই</value>
+  </data>
+  <data name="Lbl_setting_print_invoice_in" xml:space="preserve">
+    <value>কোন ভাষায় ইনভয়েস প্রিন্ট হবে</value>
+  </data>
+  <data name="Lbl_setting_print_return_qty" xml:space="preserve">
+    <value>রিটার্ন পণ্যর সংখ্যা প্রিন্ট</value>
+  </data>
+  <data name="Lbl_setting_print_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার নাম প্রিন্ট</value>
+  </data>
+  <data name="Lbl_setting_print_vat" xml:space="preserve">
+    <value>ভ্যাট প্রিন্ট</value>
+  </data>
+  <data name="Lbl_setting_print_warranty_date" xml:space="preserve">
+    <value>ওয়ারেন্টি তারিখ প্রিন্ট</value>
+  </data>
+  <data name="Lbl_setting_print_without_previewing" xml:space="preserve">
+    <value>প্রিন্ট প্রিভিউ ছাড়া সরাসরি প্রিন্ট</value>
+  </data>
+  <data name="Lbl_setting_product" xml:space="preserve">
+    <value>পণ্যসমূহ</value>
+  </data>
+  <data name="Lbl_setting_product_name" xml:space="preserve">
+    <value>পণ্যর নাম অনুযায়ী</value>
+  </data>
+  <data name="Lbl_setting_product_search_by" xml:space="preserve">
+    <value>পণ্যে অনুযায়ী অনুসন্ধান</value>
+  </data>
+  <data name="Lbl_setting_promotion" xml:space="preserve">
+    <value>প্রমোশন</value>
+  </data>
+  <data name="Lbl_setting_purchase_payment" xml:space="preserve">
+    <value>পারচেজ পেমেন্ট অপশন</value>
+  </data>
+  <data name="Lbl_setting_purchese" xml:space="preserve">
+    <value>পারচেজ</value>
+  </data>
+  <data name="Lbl_setting_recived_date_enable" xml:space="preserve">
+    <value>পণ্যর পারচেজ তারিখ</value>
+  </data>
+  <data name="Lbl_setting_Report" xml:space="preserve">
+    <value>রিপোর্ট</value>
+  </data>
+  <data name="Lbl_setting_retail_shop" xml:space="preserve">
+    <value>খুচরা ক্রয়-বিক্রয় দোকান</value>
+  </data>
+  <data name="Lbl_setting_save_auto_sales_person" xml:space="preserve">
+    <value>সেভ অটো সেলস পার্সন</value>
+  </data>
+  <data name="Lbl_setting_save_print_at_a_time" xml:space="preserve">
+    <value>ইনভয়েস সেভ এবং প্রিন্ট একসাথে</value>
+  </data>
+  <data name="Lbl_setting_send_invoice_mail" xml:space="preserve">
+    <value>ইনভয়েস ইমেইলে পাঠান</value>
+  </data>
+  <data name="Lbl_setting_send_invoice_to_business_owner_by_sms" xml:space="preserve">
+    <value>ইনভয়েস সম্পর্কিত এসএমএস পাঠান বিজনেস মালিককে</value>
+  </data>
+  <data name="Lbl_setting_send_invoice_to_customer_by_sms" xml:space="preserve">
+    <value>ইনভয়েস সম্পর্কিত এসএমএস পাঠান কাস্টমারকে</value>
+  </data>
+  <data name="Lbl_setting_separate_store" xml:space="preserve">
+    <value>দোকান আলাদা করুন</value>
+  </data>
+  <data name="Lbl_setting_serial_no_enable" xml:space="preserve">
+    <value>সিরিয়াল  নম্বর অপশন</value>
+  </data>
+  <data name="Lbl_setting_service" xml:space="preserve">
+    <value>সার্ভিসসমূহ</value>
+  </data>
+  <data name="Lbl_setting_show_additional_contact" xml:space="preserve">
+    <value>অতিরিক্ত আরও একটি ফোন নাম্বার ফিল্ড</value>
+  </data>
+  <data name="Lbl_setting_show_advance" xml:space="preserve">
+    <value>অগ্রিম পেমেন্ট</value>
+  </data>
+  <data name="Lbl_setting_show_balance_qty" xml:space="preserve">
+    <value>পণ্যর অবশিষ্ট পরিমান দেখান</value>
+  </data>
+  <data name="Lbl_setting_show_barcode_generator" xml:space="preserve">
+    <value>বারকোড জেনারেটর অপশন</value>
+  </data>
+  <data name="Lbl_setting_show_barcode_in_stock" xml:space="preserve">
+    <value>স্টক লিস্টে বারকোড নাম্বার দেখান</value>
+  </data>
+  <data name="Lbl_setting_show_blood_group" xml:space="preserve">
+    <value>ব্লাড গ্রুপ দেখান</value>
+  </data>
+  <data name="Lbl_setting_show_buy_price_for_user" xml:space="preserve">
+    <value>পণ্যর ক্রয়মূল্য ইউজারকে দেখান</value>
+  </data>
+  <data name="Lbl_setting_show_ecommerce_api" xml:space="preserve">
+    <value>ই-কমার্স এপিআই</value>
+  </data>
+  <data name="Lbl_setting_show_image_upload" xml:space="preserve">
+    <value>পণ্যর ছবি আপলোড</value>
+  </data>
+  <data name="Lbl_setting_show_imei" xml:space="preserve">
+    <value>আইএমইআই</value>
+  </data>
+  <data name="Lbl_setting_show_last_qty" xml:space="preserve">
+    <value>পণ্যর শেষ পরিমান দেখুন</value>
+  </data>
+  <data name="Lbl_setting_show_location" xml:space="preserve">
+    <value>দোকান লোকেশন</value>
+  </data>
+  <data name="Lbl_setting_show_manufacturer" xml:space="preserve">
+    <value>ম্যানুফ্যাকচারার দেখান</value>
+  </data>
+  <data name="Lbl_setting_show_member_id" xml:space="preserve">
+    <value>সদস্য আইডি দেখান</value>
+  </data>
+  <data name="Lbl_setting_show_money_reciept" xml:space="preserve">
+    <value>মানি রিসিট দেখান</value>
+  </data>
+  <data name="Lbl_setting_show_offer" xml:space="preserve">
+    <value>অফার দেখান</value>
+  </data>
+  <data name="Lbl_setting_show_paid_watermark" xml:space="preserve">
+    <value>পেইড ওয়াটারমার্ক দেখান</value>
+  </data>
+  <data name="Lbl_setting_show_payment_history" xml:space="preserve">
+    <value>পেমেন্ট হিস্টোরি দেখান</value>
+  </data>
+  <data name="Lbl_setting_show_pay_date" xml:space="preserve">
+    <value>পরিশোধের তারিখ</value>
+  </data>
+  <data name="Lbl_setting_show_product_size" xml:space="preserve">
+    <value>পণ্যর সাইজ</value>
+  </data>
+  <data name="Lbl_setting_show_quotation_notification" xml:space="preserve">
+    <value>কোটেশন নোটিফিকেশন অপশন</value>
+  </data>
+  <data name="Lbl_setting_show_quotation_option" xml:space="preserve">
+    <value>কোটেশন অপশন</value>
+  </data>
+  <data name="Lbl_setting_show_shipment_status" xml:space="preserve">
+    <value>পন্য শিপমেন্ট স্ট্যাটাস</value>
+  </data>
+  <data name="Lbl_setting_show_sku" xml:space="preserve">
+    <value>এসকেইউ নাম্বার</value>
+  </data>
+  <data name="Lbl_setting_show_store_list" xml:space="preserve">
+    <value>দোকানের তালিকা</value>
+  </data>
+  <data name="Lbl_setting_show_tax" xml:space="preserve">
+    <value>পারচেজ ট্যাক্স</value>
+  </data>
+  <data name="Lbl_setting_show_unit_measurement" xml:space="preserve">
+    <value>ইউনিট অপশন</value>
+  </data>
+  <data name="Lbl_setting_show_warning_qty" xml:space="preserve">
+    <value>ওয়ারনিং পরিমান অপশন</value>
+  </data>
+  <data name="Lbl_setting_show_warranty" xml:space="preserve">
+    <value>ওয়ারেন্টি অপশন</value>
+  </data>
+  <data name="Lbl_setting_show_wholesale_option" xml:space="preserve">
+    <value>পাাইকেরি মূল্য অপশন</value>
+  </data>
+  <data name="Lbl_setting_sku" xml:space="preserve">
+    <value>এসকেইউ সংখ্যা</value>
+  </data>
+  <data name="Lbl_setting_small" xml:space="preserve">
+    <value>পজ প্রিন্ট সাইজ</value>
+  </data>
+  <data name="Lbl_setting_sports_accessories" xml:space="preserve">
+    <value>স্পোর্টস দোকান</value>
+  </data>
+  <data name="Lbl_setting_standard" xml:space="preserve">
+    <value>স্ট্যান্ডার্ড</value>
+  </data>
+  <data name="Lbl_setting_supplier_commission_enable" xml:space="preserve">
+    <value>সাপ্লায়ার কমিশন</value>
+  </data>
+  <data name="Lbl_setting_three_invoice" xml:space="preserve">
+    <value>তিনটি ইনভয়েস</value>
+  </data>
+  <data name="Lbl_setting_time_zone" xml:space="preserve">
+    <value>অঞ্চল অনুযায়ী সময়</value>
+  </data>
+  <data name="Lbl_setting_token" xml:space="preserve">
+    <value>টোকেন</value>
+  </data>
+  <data name="Lbl_setting_try_beta_invoice_print" xml:space="preserve">
+    <value>বেটা ইনভয়েস প্রিন্ট</value>
+  </data>
+  <data name="Lbl_setting_two_invoice" xml:space="preserve">
+    <value>দুইটি ইনভয়েস</value>
+  </data>
+  <data name="Title_configuration" xml:space="preserve">
+    <value>কনফিগারেশন</value>
+  </data>
+  <data name="Btn_addUser_save" xml:space="preserve">
+    <value>সেভ করুন</value>
+  </data>
+  <data name="Lbl_addUser_branch_limit" xml:space="preserve">
+    <value>ব্রাঞ্চ লিমিট</value>
+  </data>
+  <data name="Lbl_addUser_confirm_password" xml:space="preserve">
+    <value>কনফার্ম পাসওয়ার্ড</value>
+  </data>
+  <data name="Lbl_addUser_email" xml:space="preserve">
+    <value>ইউজার ইমেইল</value>
+  </data>
+  <data name="Lbl_addUser_expiry_date" xml:space="preserve">
+    <value>মেয়াদ তারিখ</value>
+  </data>
+  <data name="Lbl_addUser_name" xml:space="preserve">
+    <value>ইউজার নাম</value>
+  </data>
+  <data name="Lbl_addUser_password" xml:space="preserve">
+    <value>পাসওয়ার্ড</value>
+  </data>
+  <data name="Lbl_addUser_select" xml:space="preserve">
+    <value>--নির্বাচন করুন--</value>
+  </data>
+  <data name="Lbl_addUser_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_addUser_subscription_fee" xml:space="preserve">
+    <value>সাবস্ক্রিপশন ফী</value>
+  </data>
+  <data name="Lbl_addUser_user_limit" xml:space="preserve">
+    <value>ইউজার লিমিট</value>
+  </data>
+  <data name="Lbl_setting_invoice_card_discount" xml:space="preserve">
+    <value>কার্ড অনুযায়ী ডিসকাউন্ট অপশন</value>
+  </data>
+  <data name="Title_addUser" xml:space="preserve">
+    <value>ইউজার যোগ করুন</value>
+  </data>
+  <data name="Lbl_setting_inventory_small" xml:space="preserve">
+    <value>ছোট</value>
+  </data>
+  <data name="Btn_stockImport_download_sample" xml:space="preserve">
+    <value> ডাউনলোড নমুনা</value>
+  </data>
+  <data name="Btn_stockImport_import" xml:space="preserve">
+    <value>ইমপোর্ট</value>
+  </data>
+  <data name="Lbl_stockImport_category" xml:space="preserve">
+    <value>ক্যাটাগরী</value>
+  </data>
+  <data name="Lbl_stockImport_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_stockImport_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার</value>
+  </data>
+  <data name="Lbl_stockImport_unit" xml:space="preserve">
+    <value>একক</value>
+  </data>
+  <data name="Title_stockImport" xml:space="preserve">
+    <value>স্টক ইমপোর্ট</value>
+  </data>
+  <data name="Lbl_stockReport_category" xml:space="preserve">
+    <value>ক্যাটাগরী</value>
+  </data>
+  <data name="Lbl_stockReport_print" xml:space="preserve">
+    <value>প্রিন্ট</value>
+  </data>
+  <data name="Lbl_stockReport_store" xml:space="preserve">
+    <value>স্টোর</value>
+  </data>
+  <data name="Lbl_stockReport_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার</value>
+  </data>
+  <data name="Title_stockReport" xml:space="preserve">
+    <value>স্টক রিপোর্ট</value>
+  </data>
+  <data name="Btn_company_add_company" xml:space="preserve">
+    <value>কোম্পানি যোগ করুন</value>
+  </data>
+  <data name="Lbl_company_company_list" xml:space="preserve">
+    <value>কোম্পানি লিস্ট</value>
+  </data>
+  <data name="Title_company" xml:space="preserve">
+    <value>কোম্পানি</value>
+  </data>
+  <data name="Lbl_stockReport_all" xml:space="preserve">
+    <value>সব</value>
+  </data>
+  <data name="Lbl_particular_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_bank_add_bank" xml:space="preserve">
+    <value>ব্যাংক যোগ করুন</value>
+  </data>
+  <data name="Lbl_bank_edit_bank_name" xml:space="preserve">
+    <value>এডিট ব্যাংক নাম</value>
+  </data>
+  <data name="Lbl_bank_id" xml:space="preserve">
+    <value>আইডি</value>
+  </data>
+  <data name="Lbl_card_edit_card" xml:space="preserve">
+    <value>এডিট কার্ড</value>
+  </data>
+  <data name="Lbl_card_select_a_bank" xml:space="preserve">
+    <value>সিলেক্ট ব্যাংক</value>
+  </data>
+  <data name="Lbl_invoice_select_a_customer" xml:space="preserve">
+    <value>সিলেক্ট কাস্টমার</value>
+  </data>
+  <data name="Title_purchase_product" xml:space="preserve">
+    <value>পণ্য</value>
+  </data>
+  <data name="Btn_purchase_save" xml:space="preserve">
+    <value>সেভ</value>
+  </data>
+  <data name="Lbl_invoice_write_notes" xml:space="preserve">
+    <value>নোট লিখুন</value>
+  </data>
+  <data name="Lbl_servicing_select_a_customer" xml:space="preserve">
+    <value>সিলেক্ট কাস্টমার</value>
+  </data>
+  <data name="Lbl_profitLoss_cashin" xml:space="preserve">
+    <value>জমা</value>
+  </data>
+  <data name="Lbl_profitLoss_cashout" xml:space="preserve">
+    <value>খরচ</value>
+  </data>
+  <data name="Lbl_profitLoss_cash_type" xml:space="preserve">
+    <value>জমার ধরন</value>
+  </data>
+  <data name="Lbl_profitLoss_dated" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Lbl_profitLoss_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Btn_ecommerce_clear" xml:space="preserve">
+    <value>মুছুন</value>
+  </data>
+  <data name="Btn_ecommerce_set" xml:space="preserve">
+    <value>সেট</value>
+  </data>
+  <data name="Btn_purchase_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Lbl_ecommerce_add_ecommerce_product" xml:space="preserve">
+    <value>ই-কমার্স  পণ্য যুক্ত করুন</value>
+  </data>
+  <data name="Lbl_ecommerce_code" xml:space="preserve">
+    <value>কোড</value>
+  </data>
+  <data name="Lbl_ecommerce_delete" xml:space="preserve">
+    <value>মুছুন</value>
+  </data>
+  <data name="Lbl_ecommerce_descriptions" xml:space="preserve">
+    <value>বর্ণনা</value>
+  </data>
+  <data name="Lbl_ecommerce_ecommerce_product" xml:space="preserve">
+    <value>ই-কমার্স  পণ্য</value>
+  </data>
+  <data name="Lbl_ecommerce_featured_product" xml:space="preserve">
+    <value>ফিচার পণ্য</value>
+  </data>
+  <data name="Lbl_ecommerce_features" xml:space="preserve">
+    <value>ফিচার</value>
+  </data>
+  <data name="Lbl_ecommerce_price" xml:space="preserve">
+    <value>দাম</value>
+  </data>
+  <data name="Lbl_ecommerce_product_code" xml:space="preserve">
+    <value>পণ্যের কোড</value>
+  </data>
+  <data name="Lbl_ecommerce_product_name" xml:space="preserve">
+    <value>পণ্য নাম</value>
+  </data>
+  <data name="Lbl_ecommerce_product_title" xml:space="preserve">
+    <value>পণ্য টাইটেল</value>
+  </data>
+  <data name="Lbl_ecommerce_search" xml:space="preserve">
+    <value>খুজুন...</value>
+  </data>
+  <data name="Lbl_ecommerce_search_productby_name_code" xml:space="preserve">
+    <value>টাইপ বা স্ক্যান করে পণ্য অনুসন্ধান করুন ...</value>
+  </data>
+  <data name="Lbl_ecommerce_set_image" xml:space="preserve">
+    <value>সেট ইমেজ</value>
+  </data>
+  <data name="Lbl_ecommerce_sl" xml:space="preserve">
+    <value>ক্রমিক</value>
+  </data>
+  <data name="Lbl_ecommerce_title" xml:space="preserve">
+    <value>টাইটেল</value>
+  </data>
+  <data name="Lbl_purchase_IMEI" xml:space="preserve">
+    <value>আইএমইআই</value>
+  </data>
+  <data name="Title_ecommerce" xml:space="preserve">
+    <value>ই-কমার্স</value>
+  </data>
+  <data name="Lbl_setting_payment_mode" xml:space="preserve">
+    <value>পেমেন্ট মুড </value>
+  </data>
+  <data name="Btn_customers_cancel" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Lbl_barcode_enter_your_product_code" xml:space="preserve">
+    <value>আপনার পণ্য  কোড দিন</value>
+  </data>
+  <data name="Lbl_barcode_print" xml:space="preserve">
+    <value>প্রিন্ট</value>
+  </data>
+  <data name="Lbl_customers_delete_customer" xml:space="preserve">
+    <value>কাস্টমার মুছুন</value>
+  </data>
+  <data name="Lbl_stock_enter_qty" xml:space="preserve">
+    <value>সংখ্যা দিন</value>
+  </data>
+  <data name="Title_barcode_barcode_print" xml:space="preserve">
+    <value>বারকোড প্রিন্ট</value>
+  </data>
+  <data name="Lbl_particular_add_particular" xml:space="preserve">
+    <value>খাত যুক্ত করুন</value>
+  </data>
+  <data name="Lbl_particular_edit_particular" xml:space="preserve">
+    <value>খাত  এডিট  করুন</value>
+  </data>
+  <data name="Lbl_supply_total_balance" xml:space="preserve">
+    <value>মোট ব্যালেন্স :</value>
+  </data>
+  <data name="Lbl_supply_total_purchase_amount" xml:space="preserve">
+    <value>মোট পারচেজ পরিমাণ :</value>
+  </data>
+  <data name="Lbl_supply_total_supplier_payment" xml:space="preserve">
+    <value>মোট সাপ্লায়ার পেমেন্ট :</value>
+  </data>
+  <data name="Lbl_subscription_amount" xml:space="preserve">
+    <value>পরিমাণ</value>
+  </data>
+  <data name="Lbl_subscription_enter_email" xml:space="preserve">
+    <value>ইমেল দিন</value>
+  </data>
+  <data name="Lbl_subscription_i_want_to_receive_invoice_in_email" xml:space="preserve">
+    <value>আমি ই-মেইলে ইনভয়েস পেতে চাই</value>
+  </data>
+  <data name="Lbl_subscription_payment_amount" xml:space="preserve">
+    <value>পেমেন্ট পরিমাণ</value>
+  </data>
+  <data name="Lbl_barcode_product_code_is_not_exit" xml:space="preserve">
+    <value>পণ্য কোড দেওয়া হয়নি।</value>
+  </data>
+  <data name="Lbl_location_are_you_sure_want_to_delete" xml:space="preserve">
+    <value>আপনি কি মুছে ফেলতে চান?</value>
+  </data>
+  <data name="Lbl_stock_please_select_a_product" xml:space="preserve">
+    <value>দয়া করে একটি পণ্য নির্বাচন করুন।</value>
+  </data>
+  <data name="Lbl_subscription_agreed" xml:space="preserve">
+    <value>সহমত প্রদান করছি।</value>
+  </data>
+  <data name="Lbl_subscription_but_failed_to_send_mail" xml:space="preserve">
+    <value> কিন্তু ইমেল পাঠাতে ব্যর্থ হয়েছে।</value>
+  </data>
+  <data name="Lbl_subscription_caution" xml:space="preserve">
+    <value>সতর্কতা</value>
+  </data>
+  <data name="Lbl_subscription_in_terms_of_your_payment_and_service" xml:space="preserve">
+    <value>আপনাদের পেমেন্ট ও সার্ভিস শর্তাবলীতে</value>
+  </data>
+  <data name="Lbl_subscription_i_confirm_that_i_am_by_traking_this_box" xml:space="preserve">
+    <value>আমি এই বক্সে টিক দিয়ে নিশ্চিত করছি যে আমি</value>
+  </data>
+  <data name="Lbl_subscription_success" xml:space="preserve">
+    <value>সফল</value>
+  </data>
+  <data name="Lbl_subscription_the_balance_of_this_invoice_has_been_used" xml:space="preserve">
+    <value>এই ইনভয়েসের ব্যাল্যান্স ব্যাবহার করা হয়েছে।</value>
+  </data>
+  <data name="Lbl_subscription_your_company_information_is_not_available_please_contact_our_support_team" xml:space="preserve">
+    <value>আপনার কোম্পানির তথ্য পাওয়া যায়নি। দয়া করে আমাদের সাপোর্ট টিমের সাথে যোগাযোগ করুন।</value>
+  </data>
+  <data name="Lbl_subscription_your_payment_has_been_failed" xml:space="preserve">
+    <value>আপনার পেমেন্ট ব্যর্থ হয়েছে।</value>
+  </data>
+  <data name="Lbl_subscription_your_payment_has_been_failed_please_contact_our_support_center" xml:space="preserve">
+    <value>আপনার পেমেন্ট ব্যর্থ হয়েছে। দয়া করে আমাদের সাপোর্ট সেন্টারে যোগাযোগ করুন।</value>
+  </data>
+  <data name="Lbl_subscription_your_payment_has_been_succesful" xml:space="preserve">
+    <value>আপনার পেমেন্ট সফল হয়েছে।</value>
+  </data>
+  <data name="Lbl_subscription_your_payment_is_not_succesful_please_contact_our_support_center" xml:space="preserve">
+    <value>আপনার পেমেণ্ট সফল হয়নি, দয়া করে আমাদের সাপোর্ট সেন্টার যোগাযোগ করুন।।</value>
+  </data>
+  <data name="Lbl_subscription_your_process_is_not_complete_please_contact_our_support_team" xml:space="preserve">
+    <value>আপনার প্রক্রিয়া সম্পুর্ন হয়নি। দয়া করে আমাদের সাপোর্ট টিমের সাথে যোগাযোগ করুন।</value>
+  </data>
+  <data name="Lbl_subscription_you_must_pay_10_tk_or_more" xml:space="preserve">
+    <value>আপনাকে অবশ্যই ১০ টাকা বা তার বেশি পেমেন্ট করতে হবে।</value>
+  </data>
+  <data name="Lbl_return_product_code_is_required" xml:space="preserve">
+    <value>পণ্য কোড দিন।</value>
+  </data>
+  <data name="Lbl_stockImport_search" xml:space="preserve">
+    <value>--খুজুন--</value>
+  </data>
+  <data name="Lbl_user_restore" xml:space="preserve">
+    <value>রি-স্টোর</value>
+  </data>
+  <data name="Lbl_delete_are_you_sure_you_want_to_delete_selected_record" xml:space="preserve">
+    <value>আপনি কি নির্বাচিত রেকর্ডটি মুছুর জন্য নিশ্চিত?</value>
+  </data>
+  <data name="Lbl_supplier_add_new_supplier" xml:space="preserve">
+    <value>সাপ্লায়ার যুক্ত করুন</value>
+  </data>
+  <data name="Lbl_supplier_edit_supplier" xml:space="preserve">
+    <value>এডিট সাপ্লায়ার</value>
+  </data>
+  <data name="Lbl_invoice_are_you_sure_want_to_susspend" xml:space="preserve">
+    <value>আপনি কি সাসপেন্ড করতে চান?</value>
+  </data>
+  <data name="Lbl_invoice_invoice_return" xml:space="preserve">
+    <value>ইনভয়েস ফেরত(৳):</value>
+  </data>
+  <data name="Btn_invoice_modal_suspend" xml:space="preserve">
+    <value>সাসপেন্ড</value>
+  </data>
+  <data name="Btn_invoice_modal_suspend_as_new_invoice" xml:space="preserve">
+    <value>সাসপেন্ড ও নতুন ইনভয়েস</value>
+  </data>
+  <data name="Lbl_invoice_max_return" xml:space="preserve">
+    <value>সর্বোচ্চ ফেরত(৳) :</value>
+  </data>
+  <data name="Lbl_invoice_total_due_advance" xml:space="preserve">
+    <value>মোট পাওনা / অগ্রিম :</value>
+  </data>
+  <data name="Lbl_purchase_product_name" xml:space="preserve">
+    <value>পণ্যের নাম &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_inventoryReport_buyPrice" xml:space="preserve">
+    <value>ক্রয় মূল্য</value>
+  </data>
+  <data name="Lbl_inventoryReport_inventoryAmount" xml:space="preserve">
+    <value>ইনভেন্টরি পরিমান</value>
+  </data>
+  <data name="Btn_servicing_pay_now" xml:space="preserve">
+    <value>পরিশোধ করুন</value>
+  </data>
+  <data name="Lbl_servicing_customer_id" xml:space="preserve">
+    <value>কাস্টমার আইডি:</value>
+  </data>
+  <data name="Lbl_servicing_customer_payment" xml:space="preserve">
+    <value>কাস্টমার পেমেন্ট:</value>
+  </data>
+  <data name="Lbl_importProductFromApi_select_category" xml:space="preserve">
+    <value>সিলেক্ট ক্যাটাগরী</value>
+  </data>
+  <data name="Lbl_importProductFromApi_select_store" xml:space="preserve">
+    <value>সিলেক্ট স্টোর</value>
+  </data>
+  <data name="Lbl_importProductFromApi_select_supplier" xml:space="preserve">
+    <value>সিলেক্ট সাপ্লায়ার</value>
+  </data>
+  <data name="Btn_stock_master_db" xml:space="preserve">
+    <value>মাস্টার DB</value>
+  </data>
+  <data name="Btn_masterDB_apply_filter" xml:space="preserve">
+    <value>ফিল্টার করুন</value>
+  </data>
+  <data name="Btn_masterDB_start_import" xml:space="preserve">
+    <value>ইমপোর্ট করুন</value>
+  </data>
+  <data name="Lbl_masterDB_brand" xml:space="preserve">
+    <value>ব্রান্ড</value>
+  </data>
+  <data name="Lbl_masterDB_category" xml:space="preserve">
+    <value>ক্যাটাগরী</value>
+  </data>
+  <data name="Lbl_masterDB_child_category" xml:space="preserve">
+    <value>চাইল্ড-ক্যাটাগরী</value>
+  </data>
+  <data name="Lbl_masterDB_company" xml:space="preserve">
+    <value>কোম্পানি</value>
+  </data>
+  <data name="Lbl_masterDB_product_data" xml:space="preserve">
+    <value>পণ্য তালিকা</value>
+  </data>
+  <data name="Lbl_masterDB_sub_category" xml:space="preserve">
+    <value>সাব-ক্যাটাগরী</value>
+  </data>
+  <data name="Title_masterDB_import_product_from_master_database" xml:space="preserve">
+    <value>মাষ্টার ডাটাবেজ থেকে পণ্য ইমপোর্ট করুন</value>
+  </data>
+  <data name="Link_stockReport" xml:space="preserve">
+    <value>স্টক রিপোর্ট</value>
+  </data>
+  <data name="Btn_addUser_update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Lbl_invoice_token_rcpt" xml:space="preserve">
+    <value>টোকেন</value>
+  </data>
+</root>

@@ -1,0 +1,18 @@
+﻿body { }
+
+.mGrid th:last-child, .mGrid th:nth-last-child(2) {
+    padding-left: 71px;
+    width: 200px !important;
+}
+
+.mGrid th:nth-last-child(3) { width: auto !important; }
+
+.btn-design2 {
+    font-size: 18px !important;
+    padding-left: 67px !important;
+}
+
+.CatDynamicUpCan {
+    text-align: center;
+    padding-left: 23px;
+}

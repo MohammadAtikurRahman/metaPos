@@ -1,0 +1,196 @@
+﻿body { }
+
+.section-opt { padding-top: 30px; }
+
+/*List of Stock CSS*/
+
+.staticContentUnit { padding: 10px 0px 10px 10px; }
+
+.staticContentUnit > span {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.staticContentUnit > span:first-child { width: 32%; }
+
+.staticContentUnit span:nth-child(2) { width: 20%; }
+
+.staticContentUnit span:nth-child(3) { width: 15%; }
+
+.staticContentUnit span:nth-child(4) { width: 18%; }
+
+.staticContentUnit span:nth-child(5) {
+    width: 18%;
+    text-align: right;
+}
+
+.mainItem { border: 1px solid #dbdbdb; }
+
+.mainItemF {
+    border: 1px solid #dbdbdb;
+    overflow-y: scroll;
+    height: 230px;
+}
+
+/* Product list display */
+
+.dynamicContentUnit { padding: 10px; }
+
+.dynamicContentUnit > select {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    color: #555;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 13%;
+    margin: 0 10px;
+}
+
+.dynamicContentUnit > input[type="text"] {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    color: #555;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 1.42857;
+    padding: 4px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 15%;
+    margin: 0 10px 0 0;
+}
+
+.dynamicContentUnit > span {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.dynamicContentUnit > span:first-child {
+    width: 35%;
+    /*width: 10%;
+            border: 1px solid #UpSertOptInvoice;
+            text-align: center;
+            border-radius: 15px;
+            margin-right: 10px;*/
+}
+
+.dynamicContentUnit > span:nth-of-type(2) { width: 18%; }
+
+.dynamicContentUnit > span:nth-of-type(3) {
+    width: 15%;
+    text-align: center;
+}
+
+.dynamicContentUnit > span:nth-of-type(4) {
+    width: 18%;
+    text-align: right;
+}
+
+.dynamicContentUnit > input[type="submit"] {
+    margin: 3px 5px 0px 0;
+    border-radius: 0 !important;
+}
+
+.multi-stock-button {
+    padding: 15px 0px 15px 0;
+    padding-bottom: 70px;
+}
+
+.btnCross {
+    color: red;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5px;
+}
+
+.save-supply { padding: 10px 10px; }
+
+.PurchaseTxtBox {
+    border: none;
+    background: transparent;
+}
+
+.PurchaseTxtBoxEnable { }
+
+.red-alert { color: red; }
+
+.bulk-stock { padding-bottom: 10px; }
+
+.data-import-box { }
+
+.btn-custom-uploader { width: 70%; }
+
+.btn-import {
+    margin-top: -35px;
+    ;
+}
+
+.import { }
+
+.import-msg {
+    margin-top: 10px;
+    display: block;
+    color: #f1c40f;
+    font-weight: 700;
+    padding: 0;
+    margin-top: 10px !important;
+    display: block;
+}
+
+.error { color: red !important; }
+
+.select-branch { padding: 12px; }
+
+.upload-section { padding: 0 0 20px 0; }
+
+.fileuploader {
+    width: 100%;
+    padding-top: 7px;
+    float: left;
+}
+
+#Image1 {
+    min-width: 40px;
+    min-height: 40px;
+    border: 1px solid #ddd;
+}
+
+.bootstrap-tagsinput { width: 98% !important; }
+
+.chkImeiDesign {
+    margin: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.width-purchase-adjustment { width: 87% !important; }
+
+
+.supplier-received, .schedule-payment {
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.purchase-payment {
+    padding: 10px 0;
+}
+
+
+.btn-add-new-variant {
+    float: right;
+    padding-right: 40px;
+}
+
+.field > .select2, .attribute > .select2, .attribute > .ddlAttr {
+    width: 100% !important;
+}
+
+.singleStockField {
+    padding-bottom: 15px !important;
+}

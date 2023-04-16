@@ -1,0 +1,141 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="MetaPOS.Shop.MasterPage" %>
+
+<%@ Register Src="~/Shop/Controller/Header.ascx" TagPrefix="uc1" TagName="Header" %>
+<%@ Register Src="~/Shop/Controller/Footer.ascx" TagPrefix="uc1" TagName="Footer" %>
+<%@ Register Src="~/Shop/Controller/Menubar.ascx" TagPrefix="uc1" TagName="Menubar" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head runat="server">
+        
+        <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+        <title runat="server" id="lblTitle">metaShop</title>
+
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="metaShop is an online ecommerce website that allows you to create online store. No more development knowledge required."/>
+        <meta name="author" content="metaShop"/>
+        <meta name="keywords" content="online shop, retail shop, electronics shop, enterpirse shop, sanitary shop"/>  
+
+        <meta name="og:title" content="metaShop"/>
+        <meta name="og:type" content="Website"/>
+        <meta name="og:url" content="http://metaposbd.com"/>
+        <meta name="og:site_name" content="metaShop"/>
+        <meta name="og:description" content="metaShop is an online ecommerce website that allows you to create online store. No more development knowledge required."/>
+        <meta name="og:image" content="http://chaderhutbd.com/shop/image/slider-og-2.png"/>
+        
+         <!-- Css References -->
+        <link href="<%= ResolveUrl("~/Css/font-awesome.min.css") %>" rel="stylesheet" />
+        <link href="<%= ResolveUrl("~/Css/Jquery-ui.css") %>" rel="stylesheet" />
+        <link href="<%= ResolveUrl("~/Css/gallery.css") %>" rel="stylesheet" />
+        <link href="<%= ResolveUrl("~/Css/Animate.css") %>" rel="stylesheet" />
+        <link href="<%= ResolveUrl("~/Css/jstarbox.css") %>" rel="stylesheet" />
+        <link href="<%= ResolveUrl("~/Css/Web.css") %>" rel="stylesheet" />
+        <link href="<%= ResolveUrl("~/Css/bootstrap.min.css") %>" rel="stylesheet" />
+        <link href="<%= ResolveUrl("~/Shop/Css/product-display.css?v=0.001") %>" rel="stylesheet" />
+        <link href="<%= ResolveUrl("~/Shop/Css/main.css?v=0.001") %>" rel="stylesheet" />
+        <link href="<%= ResolveUrl("~/Shop/Css/web-theme-default.css?v=0.001") %>" rel="stylesheet" />
+        
+        <!-- Js References -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="<%= ResolveUrl("~/Js/bootstrap.min.js") %>"></script>
+        <script src="<%= ResolveUrl("~/Shop/Js/shop.js") %>"></script>
+
+    </head>
+
+    <body>
+
+        <form id="form1" runat="server">
+            <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                <ContentTemplate>
+                    <div class="container-fluid">
+                        <div class="page-container">
+                            <div class="row">
+                                <uc1:Header runat="server" ID="Header" />
+                                <uc1:Menubar runat="server" ID="Menubar" />
+                            </div>
+                            <div class="row">
+                                <asp:ContentPlaceHolder ID="contentBody" runat="server"></asp:ContentPlaceHolder>
+                            </div>
+                            <div class="row">
+                                <uc1:Footer runat="server" ID="Footer" />
+                            </div>
+                        </div>
+                    </div>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+        </form>
+
+        <script>
+            <%-- Start: Menu JS --%>
+            $(document).ready(function() {
+
+                $('#web-menu a').each(function(index) {
+                    if (this.href.trim() == window.location) {
+                        $(this).addClass("selected");
+                        $(this).parent().addClass('active');
+                    }
+                });
+            });
+
+        </script>
+
+        <script type="text/javascript">
+
+            $(document).on("click", "[id*=btnViewDetails]", function() {
+                $("#ProductName").html($("[id*=lblProductName]", $(this).closest("div")).html());
+                $("#Price").html($("[id*=lblPrice]", $(this).closest("div")).html());
+                $("#Catagory").html($("[id*=lblCatName]", $(this).closest("div")).html());
+                $("#Description").html($("[id*=lblDescription]", $(this).closest("div")).html());
+                $("#supCom").html($("[id*=lblSupCom]", $(this).closest("div")).html());
+                $("#qty").html($("[id*=lblQulity]", $(this).closest("div")).html());
+                $("#Contentbar_Image1").html($("[id*=lblImage]", $(this).closest("div")).html());
+
+                var defaultImagePath = "../Img/default_product.png";
+                var imagePath = "../Img/Product/" + $("[id*=lblImage]", $(this).closest("div")).html();
+
+                if (imagePath.match(/\.(jpeg|jpg|gif|png)$/) != null) {
+                    $('#contentBody_imgProdModal').attr('src', imagePath);
+                }
+                else {
+                    $('#contentBody_imgProdModal').attr('src', defaultImagePath);
+                }
+
+                $('#ProductView').modal('show');
+
+                return false;
+            });
+
+
+            function imgError(me) {
+                // place here the alternative image
+                var AlterNativeImg = "/Img/default_product.png";
+
+                // to avoid the case that even the alternative fails        
+                if (AlterNativeImg != me.src)
+                    me.src = AlterNativeImg;
+            }
+        </script>
+
+        <%-- <script src="js/jstarbox.js"></script>
+        <script src="js/wowslider.js"></script>--%>
+
+        <script type="text/javascript">
+            var prm = Sys.WebForms.PageRequestManager.getInstance();
+            prm.add_endRequest(function(s, e) {
+                var script = document.createElement('script');
+                script.src = 'js/wowslider.min.js';
+                script.type = 'text/javascript';
+                var head = document.getElementsByTagName("head")[0];
+                head.appendChild(script);
+            });
+        </script>
+
+    </body>
+</html>

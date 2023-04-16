@@ -1,0 +1,214 @@
+﻿.control-label {
+    text-align: left !important;
+}
+
+.mGrid tr:last-child td {
+    padding: 7px 7px 7px 11px !important;
+}
+
+.priceLabel {
+    font-size: 24px;
+    font-family: arial;
+}
+
+.targetPrintQty {
+    width: 100px !important;
+}
+
+.input-group-btn:last-child > .form-control {
+    margin-left: -1px;
+    width: auto;
+}
+
+/****/
+
+.multiselect-container > li > a > label, multiselect-selected-text {
+    font-size: 12px;
+}
+
+button.multiselect.dropdown-toggle.btn.btn-default {
+    font-size: 12px;
+    height: 32px;
+}
+
+select[multiple] {
+    height: 32px;
+    margin-top: 2px;
+}
+
+.chooseStock {
+    float: right;
+    padding-top: 20px;
+}
+
+.icon-middle {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.filter-stock {
+    padding-top: 12px;
+}
+
+.addtSection {
+    padding-top: 10px;
+}
+
+    .addtSection .col-md-6 {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+.form-control {
+    padding: 6px 10px;
+}
+
+.float-right {
+    float: right;
+}
+
+.two-line-grid-title {
+    padding: 14px 10px 8px 10px;
+}
+
+.divAttributeList .col-sm-8 {
+    float: right !important;
+}
+
+
+.productImg {
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+}
+
+.prodViewImg {
+    width: 150px;
+    height: auto;
+}
+
+.txt-width {
+    width: 44%;
+}
+
+.stock-search-field {
+    padding: 0 0 10px 0;
+}
+
+.transfer {
+    float: right;
+}
+
+.text-align-left {
+    text-align: left !important;
+}
+
+.btn-stock-action {
+    padding: 5px 0;
+}
+
+.btn-stock-dropdown-position {
+    right: 0 !important;
+    left: -100px !important;
+}
+
+
+.chk-all-product-load label {
+    font-size: 14px !important;
+}
+
+.prod-loader-counter label {
+    text-transform: capitalize !important;
+}
+
+.group-inline-flex {
+    display: inline-flex !important;
+}
+
+
+.btn-export {
+    margin-left: 10px !important;
+}
+
+
+#contentBody_ddlExportCSVOption label {
+    margin-right: 20px;
+    font-size: 14px;
+    padding-left: 4px;
+}
+
+.control-stock-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+}
+
+
+.stock-back-button {
+    float: left !important;
+}
+
+
+    .stock-back-button > i {
+        padding-top: 10px;
+    }
+
+.stock-back-text {
+    padding: 3px 5px 0px 10px !important;
+    float: right !important;
+}
+
+.stock-back-section {
+    overflow: overlay;
+}
+
+.sectionBreadcrumb-stock {
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
+.custom-pagination {
+    width: 45%;
+    float: left;
+    text-align: right;
+}
+
+.footer-summary {
+    font-weight: 700;
+    padding-right: 10px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+
+
+
+
+.stock-qty-loader {
+    display: block;
+    height: 18px;
+    width: 18px;
+    background: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #1D9AF2;
+    border-top: 2px solid #fff;
+    animation: spinner1 600ms linear infinite;
+}
+
+.stock-qty-loader-store {
+    display: block;
+    height: 28px;
+    width: 0px;
+    background: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #1D9AF2 !important;
+    border-top: 2px solid #fff;
+    animation: spinner1 600ms linear infinite;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+@keyframes spinner1 {
+    to {
+        transform: rotate(360deg);
+    }
+}

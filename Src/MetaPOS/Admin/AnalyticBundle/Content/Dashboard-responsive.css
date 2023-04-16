@@ -1,0 +1,41 @@
+﻿
+@media screen and (max-width : 480px) {
+    .content{
+        width:100%;
+    }
+     .topCardMargin{
+       margin-top:13px;
+   }
+}
+
+/*Small devices (landscape phones, 481px and up) col-xs-12*/
+@media  screen and (min-width : 481px) and (max-width : 767px) {
+   .content{
+        width:100%;
+    }
+   .topCardMargin{
+       margin-top:13px;
+   }
+   
+
+}
+
+/* Small Devices, Tablets col-sm-12 */
+@media screen and (min-width : 768px) and (max-width : 991px) {
+    .content{
+        width:80%;
+    }
+    .sidebar {
+       width:20%;
+   }
+    graphCard{
+        /*padding-right: 16px;*/
+    }
+
+}
+
+/* Medium Devices, Desktops col-md-12   and (max-width : 1199px)*/
+@media screen and (min-width : 992px) {
+   
+
+}

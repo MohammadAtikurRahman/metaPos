@@ -1,0 +1,57 @@
+﻿#divSearchPanel {
+    padding-bottom: 15px;
+    display: flex;
+}
+
+#divListPanel {
+    background: #fff;
+    padding: 20px 15px 12px;
+}
+
+.group-section { padding-bottom: 30px; }
+
+
+.group-section label { text-align: left; }
+
+
+.group-section label { text-align: left; }
+
+.btn-info.active, .btn-info:focus {
+    background-color: #e67e22;
+    border-color: #e67e22;
+}
+
+.modal-body {
+    position: relative;
+    padding: 25px 35px 15px;
+}
+
+
+#filterPanel button.dt-button.datatable-button {
+    background: transparent !important;
+    font-size: 20px !important;
+    padding: 0 0 0 9px !important;
+    border: none !important;
+    margin: 0 !important;
+    line-height: 1.3em;
+}
+
+#filterPanel div.dt-buttons { float: right !important; }
+
+#filterPanel div.dt-button-collection {
+    width: 70px;
+    left: 0 !important;
+}
+
+#filterPanel button.dt-button:active:not(.disabled):hover:not(.disabled),
+#filterPanel button.dt-button.active:not(.disabled):hover:not(.disabled),
+#filterPanel div.dt-button:active:not(.disabled):hover:not(.disabled),
+#filterPanel div.dt-button.active:not(.disabled):hover:not(.disabled),
+#filterPanel a.dt-button:active:not(.disabled):hover:not(.disabled),
+#filterPanel a.dt-button.active:not(.disabled):hover:not(.disabled) { box-shadow: none; }
+.action a { padding-right: 5px; }
+
+
+.referrel-div {
+    padding-top: 3px;
+}

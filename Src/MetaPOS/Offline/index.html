@@ -1,0 +1,455 @@
+﻿<!doctype html>
+<!-- <html class="no-js h-100" lang="en" manifest="cache.manifest"> -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Invoice - MetaPOS</title>
+    <meta name="description" content="A high-quality &amp; free Bootstrap admin dashboard template pack that comes with lots of templates and components.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <link href="../offline/styles/font_all.css" rel="stylesheet"> -->
+    <link href="../offline/styles/font-awesome-all.css" rel="stylesheet">
+    <link href="../offline/styles/icon.css" rel="stylesheet">
+    <!-- Autocomplete CSS  -->
+    <!-- <link rel="stylesheet" href="../offline/scripts/EasyAutocomplete-1.3.5/easy-autocomplete.css">
+    <link rel="stylesheet" href="../offline/scripts/EasyAutocomplete-1.3.5/easy-autocomplete.themes.css"> -->
+    <link rel="stylesheet" href="../offline/styles/bootstrap.min.css">
+    <link rel="stylesheet" id="main-stylesheet" data-version="1.1.0" href="../offline/styles/shards-dashboards.1.1.0.min.css">
+    <link rel="stylesheet" href="../offline/styles/extras.1.1.0.min.css">
+    <link rel="stylesheet" href="../offline/styles/jquery.toast.css">
+    <link rel="stylesheet" href="../offline/styles/invoice.css">
+    <link rel="stylesheet" href="../offline/jquery-flexdatalist-2.2.4/jquery.flexdatalist.min.css">
+    
+</head>
+<body class="h-100">
+    <div class="metapos-loading invoice-loading disNone">Loading&#8230;</div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Main Sidebar -->
+            <aside class="main-sidebar col-12 col-md-3 col-lg-2 px-0">
+                <div class="main-navbar">
+                    <nav class="navbar align-items-stretch navbar-light bg-white flex-md-nowrap border-bottom p-0">
+                        <a class="navbar-brand w-100 mr-0" href="#" style="line-height: 25px;">
+                            <div class="d-table m-auto">
+                                <!-- <img id="main-logo" class="d-inline-block align-top mr-1" style="max-width: 25px;" src="images/logo.png"
+                                  alt="Shards Dashboard">
+                                <span class="d-none d-md-inline ml-1">MetaPOS</span> -->
+                                <img src="images/logo.png" alt="MetaPOS" style="max-width: 120px;">
+                            </div>
+                        </a>
+                        <a class="toggle-sidebar d-sm-inline d-md-none d-lg-none">
+                            <i class="material-icons">&#xE5C4;</i>
+                        </a>
+                    </nav>
+                </div>
+                <form action="#" class="main-sidebar__search w-100 border-right d-sm-flex d-md-none d-lg-none">
+                    <div class="input-group input-group-seamless ml-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <input class="navbar-search form-control" type="text" placeholder="Search for something..." aria-label="Search"
+                               id=""></input>
+
+                    </div>
+                </form>
+                <div class="nav-wrapper">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../offline/index.html">
+                                <i class="material-icons">shopping_cart</i>
+                                <!-- <img src="images//icons/shopping-cart.png"  /> -->
+                                <span>Invoice</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../offline/slip.html">
+                                <i class="material-icons">dashboard</i>
+                                <!-- <img src="images//icons/shopping-cart.png"  /> -->
+                                <span>Slip</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../offline/customer.html">
+                                <i class="material-icons">accessibility</i>
+                                <!-- <img src="images//icons/shopping-cart.png"  /> -->
+                                <span>Customer</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../offline/stock.html">
+                                <i class="material-icons">local_grocery_store</i>
+                                <!-- <img src="images//icons/shopping-cart.png"  /> -->
+                                <span>Stock</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login" target="_blank">
+                                <i class="material-icons">
+                                    signal_cellular_alt
+                                </i>
+                                <!-- <img src="images//icons/shopping-cart.png"  /> -->
+                                <span>Online</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </aside>
+            <!-- End Main Sidebar -->
+
+            <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
+                <div class="main-navbar sticky-top bg-white">
+                    <!-- Main Navbar -->
+                    <nav class="navbar align-items-stretch navbar-light flex-md-nowrap p-0">
+
+                        <form action="#" class="main-navbar__search w-100 d-none d-md-flex d-lg-flex" id="frmProductSearch">
+                            <div class="input-group input-group-seamless ml-3">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                </div>
+                                <!-- Class for autocom flexdatalist -->
+                                <input class="form-control hasAccount txtProduct navbar-search form-control flexdatalist" type="text" placeholder="Search product by typing or scanning..."
+                                       aria-label="Search" id="txtProduct" autofocus>
+                               
+                                <input id="txtProductId" class="disNone"> </input>
+
+                                <input id="txtProductCode" class="disNone"> </input>
+                                
+                                <input type="button" class="btn btn-info" id="btnAddTo" value="+"/>
+                            </div>
+                        </form>
+
+                        <ul class="navbar-nav border-left flex-row ">
+                            <li class="nav-item border-right dropdown notifications disNone">
+                                <a class="nav-link nav-link-icon text-center" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="false">
+                                    <div class="nav-link-icon__wrapper">
+                                        <i class="material-icons">&#xE7F4;</i>
+                                        <span class="badge badge-pill badge-danger">2</span>
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-small" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">
+                                        <div class="notification__icon-wrapper">
+                                            <div class="notification__icon">
+                                                <i class="material-icons">&#xE6E1;</i>
+                                            </div>
+                                        </div>
+                                        <div class="notification__content">
+                                            <span class="notification__category">Analytics</span>
+                                            <p>
+                                                Your website’s active users count increased by
+                                                <span class="text-success text-semibold">28%</span> in the last week. Great job!
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="notification__icon-wrapper">
+                                            <div class="notification__icon">
+                                                <i class="material-icons">&#xE8D1;</i>
+                                            </div>
+                                        </div>
+                                        <div class="notification__content">
+                                            <span class="notification__category">Sales</span>
+                                            <p>
+                                                Last week your store’s sales count decreased by
+                                                <span class="text-danger text-semibold">5.52%</span>. It could have been worse!
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item notification__all text-center" href="#"> View all Notifications </a>
+                                </div>
+                            </li>
+                            <li class="profile">
+                                <span id="lblCompany">...</span> /
+                                <span id="lblStoreName">By: ..</span>
+                            </li>
+                        </ul>
+                        <nav class="nav">
+                            <a href="#" class="nav-link nav-link-icon toggle-sidebar d-md-inline d-lg-none text-center border-left"
+                               data-toggle="collapse" data-target=".header-navbar" aria-expanded="false" aria-controls="header-navbar">
+                                <i class="material-icons">&#xE5D2;</i>
+                            </a>
+                        </nav>
+                    </nav>
+                </div>
+
+                <!-- / .main-navbar -->
+                <!-- alert area -->
+                <!-- <div class="alert alert-success alert-dismissible fade show mb-0" role="alert">
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+                  <i class="fa fa-check mx-2"></i>
+                  <strong>Success!</strong> Invoice Saved! </div> -->
+                <div class="main-content-container container-fluid px-4">
+                    <!-- End alert area -->
+                    <!-- Page Header -->
+                    <!-- <div class="page-header row no-gutters py-4">
+                      <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
+                        <span class="text-uppercase page-subtitle">Offline</span>
+                        <h3 class="page-title">Invoice - MetaPOS</h3>
+                      </div>
+                    </div> -->
+                    <!-- End Page Header -->
+                    <br>
+
+                    <div class="row">
+                        <!-- Cart Stats -->
+                        <div class="col-lg-8 col-md-12 col-sm-12 mb-4">
+                            <!-- <input type='text' placeholder='Write the name of a continent, country or capital' class='flexdatalist form-control' id="txtProduct"> -->
+
+                            <div class="card card-small">
+                                <div class="card-header border-bottom">
+                                    <h6 class="m-0">
+                                        Product Cart&emsp;
+                                        <code class="text-success disNone">
+                                            Total <span class="lblTotalCartQty" totalqty='0'>0</span>
+                                            Product Added
+                                        </code>
+                                        <!-- <button class="btn btn-success" id="btnAddToCart">Add</button> -->
+
+
+
+                                        <button class="btn btn-warning float-right btn-outline-accent" id="btnEmptyCart">
+                                            <i class="material-icons">shopping_cart</i>
+                                            Clear (<span class="lblTotalCartQty">0</span>)
+                                        </button>
+                                    </h6>
+
+                                </div>
+                                <div class="card-body pt-0">
+                                    <div class="product_cart">
+                                        <table class="table" id="tblHeader">
+                                            <thead>
+                                                <tr class="">
+                                                    <th>SL</th>
+                                                    <th>Product Details</th>
+                                                    <th class="text-right">Price</th>
+                                                    <th class="text-right">Qty</th>
+                                                    <th class="text-right">Total</th>
+                                                    <th class="text-right">Remove</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+
+                                        <table class="table cart_item" id="tblCart">
+                                            <thead>
+                                                <!-- Cart header  -->
+                                                <!-- <tr class="">
+                                                  <th>SL</th>
+                                                  <th>Product Details</th>
+                                                  <th>Price</th>
+                                                  <th>Qty</th>
+                                                  <th>Total</th>
+                                                  <th>Remove</th>
+                                                </tr> -->
+                                            </thead>
+                                            <tbody class="tblProductCart" id="cart_body">
+
+                                                <!-- <tr class="row_dynamic" id="cartHeader">
+                                                      <th style="">SL</th>
+                                                      <th style="width:40%;">Product Details</th>
+                                                      <th style="">Price</th>
+                                                      <th style="">Qty</th>
+                                                      <th style="">Total</th>
+                                                      <th style="">Remove</th>
+                                                    </tr> -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Cart Stats -->
+                        <!-- Accounting Stats -->
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="card card-small h-100">
+                                <div class="card-header border-bottom">
+                                    <h6 class="m-0">Account</h6>
+                                </div>
+
+                                <div class="card-body pt-0">
+                                    <table class="table tblAccounting">
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <div class="row">
+                                                        <div class="col-md-10">
+                                                            <input type="text" class="form-control hasAccount txtCustomer" id="txtCustomer" placeholder="Select a customer">
+                                                            <input type="text" id="txtCustomerTmpId" class="form-control disNone" >
+                                                            <input type="text" id="txtCustomerId" class="form-control disNone">
+                                                            <input type="text" id="txtCustomerName" class="form-control disNone">
+                                                        </div>
+                                                        <div class="col-md-2">
+                                                            <button class="btn btn-accent px-2 btn-outline-accent" type="button" id="btnAddCustomer">
+                                                                <i class="material-icons">add</i> New
+                                                            </button>
+                                                        </div>
+                                                    </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cart Total</td>
+                                                <td>
+                                                    <input type="text" class="form-control" id="txtCartTotal" value="" disabled>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Discount <br>
+                                                    <code id="txtDisAmt" class="text-success">(0)</code>
+                                                    <!-- (<span >0</span>) -->
+                                                </td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <input type="text" class="form-control hasAccount" id="txtDiscount" value="0">
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="onoffswitch">
+                                                                <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="txtDiscountType"
+                                                                       checked>
+                                                                <label class="onoffswitch-label" for="txtDiscountType">
+                                                                    <span class="onoffswitch-inner"></span>
+                                                                    <span class="onoffswitch-switch"></span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Grand Total</td>
+                                                <td>
+                                                    <input type="text" class="form-control" id="txtGrandTotal" value="" disabled>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Pay Today</td>
+                                                <td>
+                                                    <input type="text" class="form-control hasAccount" id="txtPayToday" value="">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Balance</td>
+                                                <td>
+                                                    <input type="text" class="form-control" id="txtBalance" value="" disabled>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" class="text-right">
+                                                    <button type="button" class="mb-2 btn btn-success mr-1" id="btnSaveInvoice">Save</button>
+                                                    <button type="button" class="mb-2 btn btn-outline-secondary mr-1" onclick="printSmallInvoice()">Small Print</button>
+                                                    <button type="button" class="mb-2 btn btn-outline-secondary mr-1" onclick="printNormalInvoice()">Normal Print</button>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Accounting -->
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <div class="modal fade" id="mdlAddCustomer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Create Customer</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-bordered">
+                        <tbody class="form-group">
+                            <tr>
+                                <td><label for="txtCustomerNameMdl" class="col-form-label">Customer Name:</label></td>
+                                <td><input type="text" class="form-control" id="txtCustomerNameMdl"></td>
+                            </tr>
+                            <tr>
+                                <td> <label for="txtCustomerMobileMdl" class="col-form-label">Mobile:</label></td>
+                                <td><input type="text" class="form-control" id="txtCustomerMobileMdl"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="txtCustomerEmailMdl" class="col-form-label">Email:</label></td>
+                                <td><input type="text" class="form-control" id="txtCustomerEmailMdl"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="txtCustomerAddressMdl" class="col-form-label">Address:</label></td>
+                                <td><textarea class="form-control" id="txtCustomerAddressMdl"></textarea></td>
+                            </tr>
+
+                            <tr class="disNone">
+                                <td><label for="txtCustomerBalanceMdl">Balance</label></td>
+                                <td><input type="text" class="form-control" id="txtCustomerBalanceMdl" value="0"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="btnCreateCustomer">Create Customer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+
+    <script src="../Offline/scripts/moment-timezone-with-data.min.js"></script>
+    <script src="../offline/scripts/jquery-3.3.1.min.js"></script>
+    <script src="../offline/scripts/popper.min.js"></script>
+    <script src="../offline/scripts/bootstrap.min.js"></script>
+    <script src="../offline/scripts/shards.min.js"></script>WL
+    <script src="../offline/scripts/jquery.sharrre.min.js"></script>
+    <script src="../offline/scripts/extras.1.1.0.min.js"></script>
+    <script src="../offline/scripts/moment.min.js"></script>
+    <script src="../Offline/scripts/moment-timezone-with-data.min.js"></script>
+    <script src="../offline/scripts/jquery.cookie.js"></script>
+    <script src="../offline/scripts/jquery.toast.js"></script>
+    
+    
+
+    <script src="../offline/scripts/app/app.js"> </script>
+    <script src='../offline/scripts/lodash.min.js'></script>
+    <script src="../offline/scripts/app/index.js"></script>
+
+    <script src="../offline/jquery-flexdatalist-2.2.4/jquery.flexdatalist.min.js"></script>
+
+    <!-- <script src="../offline/scripts/app/int_dropdown.js"></script> -->
+
+    
+    
+
+    <script>
+
+
+
+    </script>
+</body>
+</html>

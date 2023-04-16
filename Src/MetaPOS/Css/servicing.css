@@ -1,0 +1,23 @@
+﻿body {
+}
+
+.padding-top-thirty {
+    padding-top: 30px;
+}
+
+.btn-save {
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.add-service {
+    padding-bottom: 20px;
+}
+
+.service-status {
+    font-weight: 700;
+}
+
+.color-green {
+    color: green;
+}

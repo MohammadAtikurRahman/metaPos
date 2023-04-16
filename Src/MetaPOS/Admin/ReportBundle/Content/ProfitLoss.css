@@ -1,0 +1,20 @@
+﻿body {
+}
+
+.chk-profit-loss {
+}
+
+    .chk-profit-loss label {
+        font-size: 14px;
+        padding-left: 5px;
+    }
+
+
+.profit-loss-design {
+    padding: 10px 5px 20px;
+    text-align: center;
+}
+
+.profit-title {
+    margin-bottom: 0px !important;
+}

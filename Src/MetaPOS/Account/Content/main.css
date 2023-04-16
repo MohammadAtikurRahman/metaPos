@@ -1,0 +1,18 @@
+﻿body {
+}
+
+.message-box-account {
+    background: yellow;
+    padding: 2px 8px;
+    color: #000;
+}
+
+
+.account-warning {
+    display: contents;
+    color: red !important;
+}
+
+.account-textbox-warning {
+    border-bottom: 1px solid #f44336;
+}

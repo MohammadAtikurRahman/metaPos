@@ -1,0 +1,13 @@
+﻿.import-section {
+    padding: 50px;
+}
+
+.btn-import-sample {
+    float: right;
+    margin-top: 5px;
+}
+
+.label-required{
+    color:red;
+}
+

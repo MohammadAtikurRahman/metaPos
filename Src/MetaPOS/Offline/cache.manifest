@@ -1,0 +1,32 @@
+CACHE MANIFEST
+# Version 1.0
+CACHE:
+/metapos/index.html
+/metapos/scripts/EasyAutocomplete-1.3.5/easy-autocomplete.css
+/metapos/scripts/EasyAutocomplete-1.3.5/easy-autocomplete.themes.css
+/metapos/styles/bootstrap.min.css
+/metapos/styles/shards-dashboards.1.1.0.min.css
+/metapos/styles/extras.1.1.0.min.css
+/metapos/styles/invoice.css
+/metapos/styles/font_all.css
+/metapos/scripts/jquery-3.3.1.min.js
+/metapos/scripts/popper.min.js
+/metapos/scripts/bootstrap.min.js
+/metapos/scripts/shards.min.js
+/metapos/scripts/jquery.sharrre.min.js
+/metapos/scripts/extras.1.1.0.min.js
+/metapos/scripts/EasyAutocomplete-1.3.5/jquery.easy-autocomplete.min.js
+/metapos/scripts/lodash.min.js
+/metapos/scripts/app/index.js
+/metapos/scripts/app/int_dropdown.js
+/metapos/images/logo.png
+/metapos/images/avatars/0.jpg
+/metapos/data/product.json
+/metapos/data/customer.json
+https://fonts.googleapis.com/icon?family=Material+Icons
+NETWORK:
+/service/status
+FALLBACK:
+/metapos/index.html
+/metapos/images/logo.png
+/metapos/images/icons/shopping-cart.png

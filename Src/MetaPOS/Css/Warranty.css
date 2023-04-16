@@ -1,0 +1,9 @@
+﻿.mGrid th:nth-last-child(2), .mGrid th:nth-last-child(3) { width: 124px !important; }
+
+.mGrid td { padding: 8px !important; }
+
+.control-label { text-align: left !important; }
+
+.CRglyIconPosition { margin-left: 10px; }
+
+.mGrid tr:last-child td { padding: 7px 7px 7px 11px !important; }

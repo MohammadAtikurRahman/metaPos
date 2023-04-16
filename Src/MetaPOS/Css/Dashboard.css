@@ -1,0 +1,55 @@
+﻿.card {
+    border-radius: 6px;
+    box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+    background-color: #FFFFFF;
+    color: #252422;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.card .content-summary { padding: 15px 15px 10px 15px; }
+
+
+.card .numbers {
+    font-size: 2em;
+    text-align: right;
+}
+
+.card .footer-summary {
+    padding: 0;
+    line-height: 30px;
+}
+
+.card .stats {
+    color: #a9a9a9;
+    font-weight: 300;
+}
+
+.card .numbers p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer-summary hr { margin-bottom: 8px; }
+
+.taka { font-size: 40px; }
+
+.icon-sale { color: #F3BB45; }
+
+.icon-customer { color: #8e44ad; }
+
+.icon-qty { color: #e74c3c; }
+
+.icon-paid { color: #27ae60; }
+
+.taka-icon { font-size: 16px; }
+
+.title {
+    padding: 16px 0px 6px 0;
+    border-bottom: 1px solid #000;
+}
+
+.dashboard { padding-top: 15px; }
+
+.dashboard i.fa.fa-refresh { padding-right: 5px; }

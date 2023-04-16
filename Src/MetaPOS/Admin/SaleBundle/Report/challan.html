@@ -1,0 +1,91 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Challan - metaPOS</title>
+    <link rel="stylesheet" href="../Content/challan-print.css?v=0.013">
+
+    <script src="../../../wwwroot/lib/jquery/external/jquery/jquery.js"></script>
+    <script src="../../../wwwroot/lib/moment/moment.js"></script>
+    <script src="../Script/challan-print.js?v=0.041"></script>
+
+
+    <!--<style>
+        .invoice-content {
+        }
+
+        .main-body {
+            /*width: 100%;*/
+            height: auto;
+            overflow: hidden;
+            background: #fff;
+            margin: 0 auto;
+            padding: 0 20px 0 20px;
+            font-size: 12px;
+        }
+
+        .brand-name h1 {
+            font-family: monospace, serif;
+            font-size: 18px;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        .customer-detail {
+            width: 100%;
+            float: left;
+        }
+
+    </style>-->
+</head>
+
+<body>
+    <div class="main-body" id="challanBody">
+        <!-- challan Header-->
+        <div class="invoice-header">
+            <div class="brand-logo">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="brand-info">
+                <div class="brand-name">
+                    <h1 id="lblShopTitle"></h1>
+                </div>
+                <div class="address" style="display: none">
+                    <p id="lblShopAddress" class="MsoNormal" style="text-align: center; display: none"></p>
+                    <p id="lblShopNumber" class="MsoNormal" style="text-align: center;display: none"><span id="lblShopPhone"></span><span id="lblShopMobile"></span></p>
+                </div>
+                <div class="contact"></div>
+            </div>
+            <!--<div class="invoice-title">
+                <h2 style="font-size: 14px">CHALLAN INVOICE</h2>
+            </div>-->
+        </div>
+
+        <div id="godownContent"></div>
+
+        <!-- Invoice Footer-->
+        <div class="invoice-footer">
+            <pre>
+            <p><span id="lblFooterNote" style="display: none"></span></p>
+            </pre>
+        </div>
+
+        <!-- Its Our Area-->
+        <div class="devs-tag" style="display: none">
+            <center>
+                <small>
+                    <p>Developed by <b>MetaKave Bangladesh</b> </p>
+                    <p><b>Contact:</b> 01723393456 / 01738169709 </p>
+                </small>
+            </center>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

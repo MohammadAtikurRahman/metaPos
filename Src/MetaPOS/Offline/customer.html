@@ -1,0 +1,403 @@
+﻿<!doctype html>
+<!-- <html class="no-js h-100" lang="en" manifest="cache.manifest"> -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Invoice - MetaPOS</title>
+    <meta name="description" content="A high-quality &amp; free Bootstrap admin dashboard template pack that comes with lots of templates and components.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <link href="../offline/styles/font_all.css" rel="stylesheet"> -->
+    <link href="../offline/styles/font-awesome-all.css" rel="stylesheet">
+    <link href="../offline/styles/icon.css" rel="stylesheet">
+    <!-- Autocomplete CSS  -->
+    <!-- <link rel="stylesheet" href="../offline/scripts/EasyAutocomplete-1.3.5/easy-autocomplete.css">
+    <link rel="stylesheet" href="../offline/scripts/EasyAutocomplete-1.3.5/easy-autocomplete.themes.css"> -->
+    <link rel="stylesheet" href="../offline/../offline/styles/bootstrap.min.css">
+    <link rel="stylesheet" id="main-stylesheet" data-version="1.1.0" href="../offline/styles/shards-dashboards.1.1.0.min.css">
+    <link rel="stylesheet" href="../offline/styles/extras.1.1.0.min.css">
+    <link rel="stylesheet" href="../offline/styles/invoice.css">
+    <link rel="stylesheet" href="../offline/jquery-flexdatalist-2.2.4/jquery.flexdatalist.min.css">
+</head>
+<body class="h-100">
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Main Sidebar -->
+            <aside class="main-sidebar col-12 col-md-3 col-lg-2 px-0">
+                <div class="main-navbar">
+                    <nav class="navbar align-items-stretch navbar-light bg-white flex-md-nowrap border-bottom p-0">
+                        <a class="navbar-brand w-100 mr-0" href="index.html" style="line-height: 25px;">
+                            <div class="d-table m-auto">
+                                <!-- <img id="main-logo" class="d-inline-block align-top mr-1" style="max-width: 25px;" src="images/logo.png"
+                                  alt="Shards Dashboard">
+                                <span class="d-none d-md-inline ml-1">MetaPOS</span> -->
+                                <img src="images/logo.png" alt="MetaPOS" style="max-width: 120px;">
+                            </div>
+                        </a>
+                        <a class="toggle-sidebar d-sm-inline d-md-none d-lg-none">
+                            <i class="material-icons">&#xE5C4;</i>
+                        </a>
+                    </nav>
+                </div>
+                <form action="#" class="main-sidebar__search w-100 border-right d-sm-flex d-md-none d-lg-none">
+                    <div class="input-group input-group-seamless ml-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <input class="navbar-search form-control" type="text" placeholder="Search for something..." aria-label="Search"
+                               id=""></input>
+
+                    </div>
+                </form>
+                <div class="nav-wrapper">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../offline/index.html">
+                                <i class="material-icons">shopping_cart</i>
+                                <!-- <img src="images//icons/shopping-cart.png"  /> -->
+                                <span>Invoice</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../offline/slip.html">
+                                <i class="material-icons">dashboard</i>
+                                <!-- <img src="images//icons/shopping-cart.png"  /> -->
+                                <span>Slip</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../offline/customer.html">
+                                <i class="material-icons">accessibility</i>
+                                <!-- <img src="images//icons/shopping-cart.png"  /> -->
+                                <span>Customer</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../offline/stock.html">
+                                <i class="material-icons">local_grocery_store</i>
+                                <!-- <img src="images//icons/shopping-cart.png"  /> -->
+                                <span>Stock</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login" target="_blank">
+                                <i class="material-icons">
+                                    signal_cellular_alt
+                                </i>
+                                <!-- <img src="images//icons/shopping-cart.png"  /> -->
+                                <span>Online</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </aside>
+            <!-- End Main Sidebar -->
+
+
+            <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
+                <div class="main-navbar sticky-top bg-white">
+                    <!-- Main Navbar -->
+                    <nav class="navbar align-items-stretch navbar-light flex-md-nowrap p-0">
+                        <form action="#" class="main-navbar__search w-100 d-none d-md-flex d-lg-flex">
+                            <div class="input-group input-group-seamless ml-3">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <!-- <i class="fas fa-search"></i> -->
+                                    </div>
+                                </div>
+                                <!-- <input class="navbar-search form-control" type="text" placeholder="Search for something..." aria-label="Search"
+                                  id="txtProduct"> -->
+                            </div>
+                        </form>
+                        <ul class="navbar-nav border-left flex-row  ">
+                            <li class="nav-item dropdown notifications disNone">
+                                <a class="nav-link nav-link-icon text-center" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="false">
+                                    <div class="nav-link-icon__wrapper">
+                                        <i class="material-icons">&#xE7F4;</i>
+                                        <span class="badge badge-pill badge-danger">2</span>
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-small" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">
+                                        <div class="notification__icon-wrapper">
+                                            <div class="notification__icon">
+                                                <i class="material-icons">&#xE6E1;</i>
+                                            </div>
+                                        </div>
+                                        <div class="notification__content">
+                                            <span class="notification__category">Analytics</span>
+                                            <p>
+                                                Your website’s active users count increased by
+                                                <span class="text-success text-semibold">28%</span> in the last week. Great job!
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="notification__icon-wrapper">
+                                            <div class="notification__icon">
+                                                <i class="material-icons">&#xE8D1;</i>
+                                            </div>
+                                        </div>
+                                        <div class="notification__content">
+                                            <span class="notification__category">Sales</span>
+                                            <p>
+                                                Last week your store’s sales count decreased by
+                                                <span class="text-danger text-semibold">5.52%</span>. It could have been worse!
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item notification__all text-center" href="#"> View all Notifications </a>
+                                </div>
+                            </li>
+                            <li class="profile">
+                                <span>Main Store</span> <br />
+                                <span>By: Kamrul</span>
+                            </li>
+                        </ul>
+                        <nav class="nav">
+                            <a href="#" class="nav-link nav-link-icon toggle-sidebar d-md-inline d-lg-none text-center border-left"
+                               data-toggle="collapse" data-target=".header-navbar" aria-expanded="false" aria-controls="header-navbar">
+                                <i class="material-icons">&#xE5D2;</i>
+                            </a>
+                        </nav>
+                    </nav>
+                </div>
+                <!-- / .main-navbar -->
+                <br>
+
+
+                <div class="main-content-container container-fluid px-4">
+
+
+                    <div class="row">
+                        <!-- Cart Stats -->
+                        <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
+                            <div class="card card-small">
+                                <div class="card-header border-bottom">
+                                    <h6 class="m-0">
+                                        Customer List &emsp;
+
+
+                                        <!-- <button class="btn btn-warning float-right btn-outline-accent" id="btnSyncInvoice">
+                                          <i class="material-icons">shopping_cart</i>
+                                          Sync (<span class="lblTotalCartQty">0</span>)</button> -->
+                                    </h6>
+
+
+                                </div>
+                                <div class="card-body pt-0">
+
+                                    <table class="table table-striped " id="tblSlip">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">ID</th>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Phone</th>
+                                                <th scope="col">Address</th>
+
+                                                <th scope="col" class="disNone">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="offlineSlip"></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+        </main>
+    </div>
+    </div>
+
+
+
+    <div class="modal fade" id="mdlViewProduct" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title mdlProductName" id="exampleModalLabel">View Product Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-bordered table-striped">
+                        <tbody>
+
+                            <tr>
+                                <td class="" id="">Code</td>
+                                <td class="" id="pCode"></td>
+                            </tr>
+
+
+                            <tr>
+                                <td class="" id="">Supplier</td>
+                                <td class="" id="pSupplier"></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">Category</td>
+                                <td class="" id="pCategory"></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">Manufacturer</td>
+                                <td class="" id="pManufacturer"></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">Stock Qty</td>
+                                <td class="" id="pStockQty"></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">Warning Qty</td>
+                                <td class="" id="pWarningQty"></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">Wholesale Price</td>
+                                <td class="" id="pWholesalePrice"></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="pWeight">Weight</td>
+                                <td class="" id=""></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">Size</td>
+                                <td class="" id="pSize"></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">Warranty</td>
+                                <td class="" id="pWarranty"></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">IMEI</td>
+                                <td class="" id="pIMEI">
+                                    <ul id="attrList"></ul>
+                                </td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">Received Date</td>
+                                <td class="" id="pReceivedDate"></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">Expiry Date</td>
+                                <td class="" id="pExpiryDate"></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">Batch No</td>
+                                <td class="" id="pBatchNo"></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">Shipment Status</td>
+                                <td class="" id="pShipmentStatus"></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">Unit</td>
+                                <td class="" id="pUnit"></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">Warehouse</td>
+                                <td class="" id="pWarehouse"></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">Commission</td>
+                                <td class="" id="pCommission"></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="" id="">Notes</td>
+                                <td class="" id="pNotes"></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../offline/scripts/jquery-3.3.1.min.js"></script>
+    <script src="../offline/scripts/popper.min.js"></script>
+    <script src="../offline/scripts/bootstrap.min.js"></script>
+    <script src="../offline/scripts/shards.min.js"></script>
+    <script src="../offline/scripts/jquery.sharrre.min.js"></script>
+    <script src="../offline/scripts/extras.1.1.0.min.js"></script>
+    <script src="../offline/scripts/jquery.cookie.js"></script>
+
+    <script src="../offline/scripts/app/app.js"> </script>
+    <script src='../offline/scripts/lodash.min.js'></script>
+    <!--<script src="../offline/scripts/app/index.js"></script>-->
+    <script src="../offline/scripts/app/customer.js"></script>
+
+    <script src="../offline/jquery-flexdatalist-2.2.4/jquery.flexdatalist.min.js"></script>
+
+    <!-- <script src="../offline/scripts/app/int_dropdown.js"></script> -->
+    <script>
+
+
+
+    </script>
+</body>
+</html>

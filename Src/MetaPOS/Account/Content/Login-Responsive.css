@@ -1,0 +1,124 @@
+﻿@media screen and (max-width: 993px) {
+    .content-desc { display: none; }
+
+    .type-wrap span {
+        padding: 20px 0px;
+        font-size: 30px;
+    }
+
+    .features { display: none; }
+
+    .log-box { margin-left: 20px; }
+}
+
+@media screen and (max-width: 480px) {
+    .content-desc { display: none; }
+
+    .type-wrap span {
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+
+    .features { display: none; }
+
+    .log-box { margin-left: 18px; }
+}
+
+
+/* Smartphones (portrait and landscape) ----------- 
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { */
+
+@media only screen and (max-device-width: 480px) {
+    .left-area { display: none; }
+
+    .log_box { padding: 20% 0; }
+
+    .backstretch-overlay { margin: 25% 5%; }
+
+    .login_box { min-height: 450px; }
+}
+
+/* Smartphones (landscape) ----------- 
+    @media only screen and (min-width : 321px) { */
+
+@media only screen and (max-device-width: 321px) {
+    .left-area { display: none; }
+
+    .log_box { padding: 30% 0; }
+
+    .backstretch-overlay { margin: 40% 5%; }
+}
+
+/* Smartphones (portrait) ----------- 
+    @media only screen and (max-width : 320px) { */
+
+@media only screen and (max-device-width: 320px) {
+    .left-area { display: none; }
+
+    .log_box { padding: 30% 0; }
+
+    .backstretch-overlay { margin: 20% 5%; }
+}
+
+/* iPads (portrait and landscape) ----------- 
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { */
+
+@media only screen and (max-device-width: 768px) {
+    .left-area { display: none; }
+
+    .log_box { padding: 30% 0; }
+
+    .backstretch-overlay { margin: 5% 5%; }
+
+    .login_box { min-height: 450px; }
+}
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 993px) and (orientation: landscape) {
+    .left-area { display: none; }
+
+    .log_box { padding: 30% 0; }
+
+    .backstretch-overlay { margin: 5% 5%; }
+}
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 993px) and (orientation: portrait) {
+    .left-area { display: none; }
+
+    .log_box { padding: 30% 0; }
+
+    .backstretch-overlay { margin: 5% 5%; }
+}
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+    /* STYLES GO HERE */
+}
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1824px) {
+    /* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait & landscape)----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    /* STYLES GO HERE */
+}
+
+/* iPhone 5 (landscape)----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+    /* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait)----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+    /* STYLES GO HERE */
+}

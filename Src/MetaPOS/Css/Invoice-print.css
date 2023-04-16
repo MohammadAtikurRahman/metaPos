@@ -1,0 +1,265 @@
+﻿/* Twwo on*/
+.addWidth { /* width: 10% !important;*/ }
+
+.addProdWidth { width: 45% !important; }
+
+.pDetails {
+    width: 30%;
+    height: 10px;
+    background: #eee;
+    float: left;
+    text-align: left;
+    padding: 8px 0px 10px 18px;
+    /*width: 35% !important;*/
+}
+
+.pImei {
+    display: block;
+    width: 0%;
+    height: 10px;
+    background: #eee;
+    float: left;
+    text-align: left;
+    padding: 8px 0px 10px 18px;
+    width: 20%;
+}
+
+.pWarranty {
+    width: 5%;
+    height: 10px;
+    background: #eee;
+    float: left;
+    padding: 8px 0px 10px 10px;
+    width: 11% !important;
+    text-align: left;
+}
+
+.pUprice {
+    height: 10px;
+    /*background: #eee;*/
+    float: left;
+    text-align: left;
+    padding: 8px 0px 10px 35px;
+    width: 12%;
+}
+
+.pQuantity {
+    width: 5%;
+    height: 10px;
+    background: #eee;
+    float: left;
+    padding: 8px 0px 10px 10px;
+    /*width: 10% !important;*/
+}
+
+.pTotal {
+    width: 14%;
+    height: 10px;
+    /*background: #eee;*/
+    float: left;
+    padding: 8px 0px 10px 10px;
+    text-align: right;
+    /*width: 10% !important;*/
+}
+
+/*product*/
+
+.prodname {
+    float: left;
+    padding-left: 15px;
+    font-size: 14px;
+    width: 32%;
+}
+
+.prodImei {
+    /* width: 15%;*/
+    float: left;
+    padding-left: 15px;
+    font-size: 14px;
+    width: 20%;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.prodWarranty {
+    width: 15%;
+    float: left;
+    padding-left: 15px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.prodQty {
+    width: 5%;
+    text-align: left;
+    font-size: 14px;
+    float: left;
+}
+
+.prodPrice {
+    width: 12%;
+    text-align: center;
+    padding-left: 15px;
+    font-size: 14px;
+    /* width: 10% !important;*/
+    text-align: left;
+    float: left;
+}
+
+.prodsubTotal {
+    width: 14%;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 14px;
+    /*width: 10% !important;*/
+    float: left;
+}
+
+
+.disNone { display: none; }
+
+.addwithImeiON { width: -1px !important; }
+
+.addwidthFittenPersent { width: 15%; }
+
+.addwidthTwentyFive { width: 25% !important; }
+
+.addwidthSeventy { width: 70% !important; }
+
+.textLeft { text-align: left !important; }
+
+
+/* Start - CSS Design */
+
+.m-0 { margin: 0; }
+
+.main-body {
+    width: 95%;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
+
+.invoice-header {
+    width: 100%;
+    overflow: hidden;
+}
+
+.brand-logo {
+    width: 200px;
+    color: #fff;
+    font-size: 22px;
+    float: left;
+    position: absolute;
+}
+
+.brand-logo img {
+    width: 200px !important;
+    height: 100px;
+    padding: 20px 0 0 15px;
+    left: 0;
+    top: 0;
+}
+
+.brand-name {
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+.brand-name h2 {
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.address {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.contact {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+.invoice-title {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 22px;
+    padding: 8px 20px;
+    float: left;
+    margin-top: 5px;
+}
+
+
+.invoice-content {
+    width: 100%;
+    height: 125px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.customer-detail {
+    width: 50%;
+    font-size: 14px;
+    background: #fff;
+    color: #333;
+    padding: 0px 12px;
+    float: left;
+    border-right: 1px solid #ccc;
+    line-height: 23px;
+}
+
+.bill-detail {
+    width: 28%;
+    background: #fff;
+    font-size: 14px;
+    color: #333;
+    padding: 0px 12px;
+    float: right;
+    text-align: left;
+    line-height: 23px;
+}
+
+table {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.product-head {
+    font-size: 15px;
+    background: #eee;
+    border: 1px solid #ccc;
+}
+
+.product-row {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+th, td { padding: 5px 10px; }
+
+th:last-child, td:last-child { text-align: right; }
+
+th:nth-child(1), td:nth-child(1) { width: 5%; }
+
+th:nth-child(2), td:nth-child(2) { width: 30%; }
+
+
+
+/* End - Css Design */

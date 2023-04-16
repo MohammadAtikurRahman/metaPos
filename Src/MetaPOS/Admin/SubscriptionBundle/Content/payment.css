@@ -1,0 +1,32 @@
+﻿body {
+}
+
+.section-payment {
+    padding: 10px;
+    display: grid;
+}
+
+.mGrid-payment {
+}
+
+
+.subscription-status {
+    padding: 6px;
+    border-radius: 6px;
+    color: #000;
+}
+
+.payment-grid-title {
+    padding-bottom: 10px;
+}
+
+
+.btn-grd-submit {
+    padding: 0;
+    text-align: left;
+}
+
+
+.mGrid-payment td {
+    padding: 5px 10px 5px 10px !important;
+}

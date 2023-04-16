@@ -1,0 +1,33 @@
+﻿.chart-report { min-height: 500px; }
+
+.sale-report-search { padding-top: 30px; }
+
+#chart {
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    overflow:hidden;
+}
+#chart1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:500px;
+}
+
+
+#chart_wrap {
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    overflow:hidden;
+}
+
+#chart_div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:500px;
+}

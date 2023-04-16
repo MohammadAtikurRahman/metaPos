@@ -1,0 +1,4944 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Btn_invoice_modal_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_invoice_search_customer_or_invoice" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_invoice_12month" xml:space="preserve">
+    <value>12 Month</value>
+  </data>
+  <data name="Lbl_invoice_15days" xml:space="preserve">
+    <value>15 Day</value>
+  </data>
+  <data name="Lbl_invoice_18month" xml:space="preserve">
+    <value>18 Month</value>
+  </data>
+  <data name="Lbl_invoice_1month" xml:space="preserve">
+    <value>1 Month</value>
+  </data>
+  <data name="Lbl_invoice_1year" xml:space="preserve">
+    <value>1 Year</value>
+  </data>
+  <data name="Lbl_invoice_3month" xml:space="preserve">
+    <value>3 Month</value>
+  </data>
+  <data name="Lbl_invoice_6month" xml:space="preserve">
+    <value>6 Month</value>
+  </data>
+  <data name="Lbl_invoice_7days" xml:space="preserve">
+    <value>7 Day</value>
+  </data>
+  <data name="Lbl_invoice_9month" xml:space="preserve">
+    <value>9 Month</value>
+  </data>
+  <data name="Lbl_invoice_account" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="Lbl_invoice_address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Lbl_invoice_add_as_discount" xml:space="preserve">
+    <value>Add as discount</value>
+  </data>
+  <data name="Lbl_invoice_add_imei" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Lbl_invoice_autoloader" xml:space="preserve">
+    <value>Auto Loader</value>
+  </data>
+  <data name="Lbl_invoice_blood_group" xml:space="preserve">
+    <value>Bood Group</value>
+  </data>
+  <data name="Lbl_invoice_card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="Lbl_invoice_Card_no" xml:space="preserve">
+    <value>Card no</value>
+  </data>
+  <data name="Lbl_invoice_carrying" xml:space="preserve">
+    <value>Carrying</value>
+  </data>
+  <data name="Lbl_invoice_cart_payment" xml:space="preserve">
+    <value>Cart Payment</value>
+  </data>
+  <data name="Lbl_invoice_cart_total" xml:space="preserve">
+    <value>Cart Total</value>
+  </data>
+  <data name="Lbl_invoice_Cash" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="Lbl_invoice_cash_on_delivary" xml:space="preserve">
+    <value>Cash On Delivary</value>
+  </data>
+  <data name="Lbl_invoice_challan" xml:space="preserve">
+    <value>Challan</value>
+  </data>
+  <data name="Lbl_invoice_cheque" xml:space="preserve">
+    <value>Cheque</value>
+  </data>
+  <data name="Lbl_invoice_cheque_no" xml:space="preserve">
+    <value>Cheque No</value>
+  </data>
+  <data name="Lbl_invoice_confirm_sale" xml:space="preserve">
+    <value>Confirm Sale</value>
+  </data>
+  <data name="Lbl_invoice_customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Lbl_invoice_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Lbl_invoice_discount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="Lbl_invoice_down_payment" xml:space="preserve">
+    <value>Down Payment</value>
+  </data>
+  <data name="Lbl_invoice_draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="Lbl_invoice_due" xml:space="preserve">
+    <value>Due</value>
+  </data>
+  <data name="Lbl_invoice_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Lbl_invoice_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Lbl_invoice_EMI_plan" xml:space="preserve">
+    <value>EMI Plan</value>
+  </data>
+  <data name="Lbl_invoice_full_name" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="Lbl_invoice_IMEI" xml:space="preserve">
+    <value>IMEI</value>
+  </data>
+  <data name="Lbl_invoice_installment" xml:space="preserve">
+    <value>Installment</value>
+  </data>
+  <data name="Lbl_invoice_ins_number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Lbl_invoice_ins_select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Lbl_invoice_intarest" xml:space="preserve">
+    <value>Interest</value>
+  </data>
+  <data name="Lbl_invoice_intarest_rate" xml:space="preserve">
+    <value>Interest Rate</value>
+  </data>
+  <data name="Lbl_invoice_invoice" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="Lbl_invoice_loading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="Lbl_invoice_Maturity_date" xml:space="preserve">
+    <value>Maturity date</value>
+  </data>
+  <data name="Lbl_invoice_membar_id" xml:space="preserve">
+    <value>Membar ID</value>
+  </data>
+  <data name="Lbl_invoice_mise_cost" xml:space="preserve">
+    <value>Mise Cost</value>
+  </data>
+  <data name="Lbl_invoice_mise_costtab" xml:space="preserve">
+    <value>Misc. Cost</value>
+  </data>
+  <data name="Lbl_invoice_mobile_bank" xml:space="preserve">
+    <value>Mobie Banking</value>
+  </data>
+  <data name="Lbl_invoice_more_discount" xml:space="preserve">
+    <value>More Discount</value>
+  </data>
+  <data name="Lbl_invoice_new" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Lbl_invoice_new_customner" xml:space="preserve">
+    <value>New Customer</value>
+  </data>
+  <data name="Lbl_invoice_new_invoice" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Lbl_invoice_next_date" xml:space="preserve">
+    <value>Next Date</value>
+  </data>
+  <data name="Lbl_invoice_normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Lbl_Invoice_notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Lbl_invoice_notification" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="Lbl_invoice_paid" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="Lbl_invoice_paper_size" xml:space="preserve">
+    <value>Paper size</value>
+  </data>
+  <data name="Lbl_invoice_pay_advanced" xml:space="preserve">
+    <value>Pay Advance</value>
+  </data>
+  <data name="Lbl_invoice_pay_card" xml:space="preserve">
+    <value>Pay. Card</value>
+  </data>
+  <data name="Lbl_invoice_pay_date" xml:space="preserve">
+    <value>Pay Date</value>
+  </data>
+  <data name="Lbl_invoice_pay_subs" xml:space="preserve">
+    <value>Please pay your subscription fee and active your sale again.</value>
+  </data>
+  <data name="Lbl_invoice_phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Lbl_invoice_phone2" xml:space="preserve">
+    <value>Phone (20</value>
+  </data>
+  <data name="Lbl_invoice_please_confirm" xml:space="preserve">
+    <value>Please Confirm</value>
+  </data>
+  <data name="Lbl_invoice_pre_bal" xml:space="preserve">
+    <value>Pre Balance</value>
+  </data>
+  <data name="lbl_invoice_price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Lbl_invoice_print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Lbl_invoice_Product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Lbl_invoice_qty" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="Lbl_invoice_receipt" xml:space="preserve">
+    <value>Receipt</value>
+  </data>
+  <data name="Lbl_invoice_referrel" xml:space="preserve">
+    <value>Referrel</value>
+  </data>
+  <data name="Lbl_invoice_refferal" xml:space="preserve">
+    <value>Refferal</value>
+  </data>
+  <data name="Lbl_invoice_Retail" xml:space="preserve">
+    <value>Retail</value>
+  </data>
+  <data name="Lbl_invoice_return" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="Lbl_invoice_sales_person" xml:space="preserve">
+    <value>Sales Person</value>
+  </data>
+  <data name="Lbl_invoice_sales_product" xml:space="preserve">
+    <value>Sales Product</value>
+  </data>
+  <data name="Lbl_invoice_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Lbl_invoice_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_invoice_search_product_by" xml:space="preserve">
+    <value>Search product by typing or scanning...</value>
+  </data>
+  <data name="Lbl_invoice_search___" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Lbl_invoice_select_a_emi_plan" xml:space="preserve">
+    <value>Select a plan</value>
+  </data>
+  <data name="Lbl_invoice_select_bank" xml:space="preserve">
+    <value>Select Bank</value>
+  </data>
+  <data name="Lbl_invoice_select_card_type" xml:space="preserve">
+    <value>Select a Card</value>
+  </data>
+  <data name="Lbl_Invoice_select_customer" xml:space="preserve">
+    <value>Select a Customer</value>
+  </data>
+  <data name="Lbl_invoice_select_person" xml:space="preserve">
+    <value>Select Person</value>
+  </data>
+  <data name="Lbl_invoice_service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="Lbl_invoice_shipping" xml:space="preserve">
+    <value>Shipping</value>
+  </data>
+  <data name="Lbl_invoice_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_invoice_small" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="Lbl_invoice_start_date" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Lbl_invoice_Subscription_now" xml:space="preserve">
+    <value>Subscription Now</value>
+  </data>
+  <data name="Lbl_invoice_subs_exp" xml:space="preserve">
+    <value>Your subscription date has expired!!</value>
+  </data>
+  <data name="Lbl_invoice_suspended" xml:space="preserve">
+    <value>Suspend</value>
+  </data>
+  <data name="Lbl_invoice_suspend_notice" xml:space="preserve">
+    <value>Do you want to change invoice (You will be lost product list)?</value>
+  </data>
+  <data name="Lbl_invoice_taka" xml:space="preserve">
+    <value>tk</value>
+  </data>
+  <data name="Lbl_invoice_token" xml:space="preserve">
+    <value>Token</value>
+  </data>
+  <data name="Lbl_invoice_totaamt" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Lbl_invoice_total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Lbl_invoice_total_bal" xml:space="preserve">
+    <value>Total Balance</value>
+  </data>
+  <data name="Lbl_invoice_unloading" xml:space="preserve">
+    <value>Unloading</value>
+  </data>
+  <data name="Lbl_invoice_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Lbl_invoice_updatesale" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Lbl_invoice_vat" xml:space="preserve">
+    <value>Vat</value>
+  </data>
+  <data name="Lbl_invoice_wholesale" xml:space="preserve">
+    <value>Wholesale</value>
+  </data>
+  <data name="Lbl_invoice_wholesale_btype_elec" xml:space="preserve">
+    <value>Dealer</value>
+  </data>
+  <data name="Lbl_invoice_write_a_note" xml:space="preserve">
+    <value>Write Notes</value>
+  </data>
+  <data name="Lbl_invoice__mise_service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="Lbl_last" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="Link_Accounting" xml:space="preserve">
+    <value>Accounting</value>
+  </data>
+  <data name="Link_Analytic" xml:space="preserve">
+    <value>Analytic</value>
+  </data>
+  <data name="Link_Attribute" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="Link_bank" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="Link_Banking" xml:space="preserve">
+    <value>Banking</value>
+  </data>
+  <data name="Link_card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="Link_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Link_Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Link_Damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="Link_Docs" xml:space="preserve">
+    <value>Docs</value>
+  </data>
+  <data name="Link_DueReminder" xml:space="preserve">
+    <value>Installment</value>
+  </data>
+  <data name="Link_Ecommerce" xml:space="preserve">
+    <value>Ecommerce</value>
+  </data>
+  <data name="Link_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Link_Expense" xml:space="preserve">
+    <value>Expense</value>
+  </data>
+  <data name="Link_Expiry" xml:space="preserve">
+    <value>Expiry</value>
+  </data>
+  <data name="Link_Field" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="Link_inventory" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="Link_InventoryReport" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="Link_Invoice" xml:space="preserve">
+    <value>Create Invoice</value>
+  </data>
+  <data name="Link_LoadOffline" xml:space="preserve">
+    <value>Load Offline</value>
+  </data>
+  <data name="Link_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Link_Manufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="Link_Offer" xml:space="preserve">
+    <value>Offer</value>
+  </data>
+  <data name="Link_Oflline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="Link_package" xml:space="preserve">
+    <value>Package</value>
+  </data>
+  <data name="Link_Particular" xml:space="preserve">
+    <value>Particular</value>
+  </data>
+  <data name="Link_Payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="Link_Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="Link_ProfitLoss" xml:space="preserve">
+    <value>Profit / Loss</value>
+  </data>
+  <data name="Link_Promotion" xml:space="preserve">
+    <value>Promotion</value>
+  </data>
+  <data name="Link_purchase" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="Link_PurchaseRepor" xml:space="preserve">
+    <value>Purchase Report</value>
+  </data>
+  <data name="Link_Quotation" xml:space="preserve">
+    <value>Quotation</value>
+  </data>
+  <data name="Link_Receive" xml:space="preserve">
+    <value>Receive</value>
+  </data>
+  <data name="Link_Record" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="Link_Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Link_Return" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="Link_Salary" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="Link_Sale" xml:space="preserve">
+    <value>Sale</value>
+  </data>
+  <data name="Link_SaleInvoice" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="Link_Security" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="Link_Service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="Link_ServiceType" xml:space="preserve">
+    <value>Service Type</value>
+  </data>
+  <data name="Link_Servicing" xml:space="preserve">
+    <value>Servicing</value>
+  </data>
+  <data name="Link_Setting" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="Link_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Link_ShopPage" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="Link_slip" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="Link_sms" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="Link_SmsConfig" xml:space="preserve">
+    <value>SMS Configuration</value>
+  </data>
+  <data name="Link_Staff" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="Link_stock" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="Link_Subscription" xml:space="preserve">
+    <value>Subscription</value>
+  </data>
+  <data name="Link_Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Link_Supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Link_SupplierCommission" xml:space="preserve">
+    <value>Supplier Commission</value>
+  </data>
+  <data name="Link_Supply" xml:space="preserve">
+    <value>Supply</value>
+  </data>
+  <data name="Link_Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="Link_token" xml:space="preserve">
+    <value>Token</value>
+  </data>
+  <data name="Link_Transaction" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="Link_UnitMeasurement" xml:space="preserve">
+    <value>Unit Measurement</value>
+  </data>
+  <data name="Link_user" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Link_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Link_Warehouse" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="Link_Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Link_Warranty" xml:space="preserve">
+    <value>Warranty</value>
+  </data>
+  <data name="Link_Web" xml:space="preserve">
+    <value>Unit Measurement</value>
+  </data>
+  <data name="Link_Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="month_sales" xml:space="preserve">
+    <value>month Sales</value>
+  </data>
+  <data name="new_customer" xml:space="preserve">
+    <value>New Customer</value>
+  </data>
+  <data name="new_invoie" xml:space="preserve">
+    <value>New Invoie</value>
+  </data>
+  <data name="sale_qty" xml:space="preserve">
+    <value>Sale Qty</value>
+  </data>
+  <data name="this_month_popular" xml:space="preserve">
+    <value>This month popular product</value>
+  </data>
+  <data name="today_sale" xml:space="preserve">
+    <value>Today Sale</value>
+  </data>
+  <data name="Btn_purchase_add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Btn_purchase_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Btn_purchase_clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Btn_purchase_save_all" xml:space="preserve">
+    <value>Save All</value>
+  </data>
+  <data name="Lbl_purchase_add_qty_exists" xml:space="preserve">
+    <value>Add Qty + Exists &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_add_update_product" xml:space="preserve">
+    <value>Add / Update Product</value>
+  </data>
+  <data name="Lbl_purchase_attribute" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="Lbl_purchase_buy_price" xml:space="preserve">
+    <value>Buy Price &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_category" xml:space="preserve">
+    <value>Category &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_cecish_number" xml:space="preserve">
+    <value>Cecish Number</value>
+  </data>
+  <data name="Lbl_purchase_day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="Lbl_purchase_engine_number" xml:space="preserve">
+    <value>Engine Number</value>
+  </data>
+  <data name="Lbl_purchase_field" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="Lbl_purchase_IMEI" xml:space="preserve">
+    <value>IMEI</value>
+  </data>
+  <data name="Lbl_purchase_import_file" xml:space="preserve">
+    <value>Import File</value>
+  </data>
+  <data name="Lbl_purchase_import_new_products" xml:space="preserve">
+    <value>Import New Products</value>
+  </data>
+  <data name="Lbl_purchase_location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Lbl_purchase_manufacturer_brand" xml:space="preserve">
+    <value>Manufacturer / Brand</value>
+  </data>
+  <data name="Lbl_purchase_month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="Lbl_purchase_notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Lbl_purchase_product_code" xml:space="preserve">
+    <value>Product Code &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_product_list" xml:space="preserve">
+    <value>Product List</value>
+  </data>
+  <data name="Lbl_purchase_product_model" xml:space="preserve">
+    <value>Product Model &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_product_price" xml:space="preserve">
+    <value>Product Price</value>
+  </data>
+  <data name="Lbl_purchase_product_qty" xml:space="preserve">
+    <value>Product Qty</value>
+  </data>
+  <data name="Lbl_purchase_product_title" xml:space="preserve">
+    <value>Product Title</value>
+  </data>
+  <data name="Lbl_purchase_product_total_price" xml:space="preserve">
+    <value>Product Total Price</value>
+  </data>
+  <data name="Lbl_purchase_purchase_code" xml:space="preserve">
+    <value>Purchase Code</value>
+  </data>
+  <data name="Lbl_purchase_purchase_comment" xml:space="preserve">
+    <value>Purchase Comment</value>
+  </data>
+  <data name="Lbl_purchase_purchase_date" xml:space="preserve">
+    <value>Purchase Date</value>
+  </data>
+  <data name="Lbl_purchase_retail_price" xml:space="preserve">
+    <value>Retail Price &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_Schedule_Payment" xml:space="preserve">
+    <value>Schedule Payment</value>
+  </data>
+  <data name="Lbl_purchase_serial_no" xml:space="preserve">
+    <value>Serial No</value>
+  </data>
+  <data name="Lbl_purchase_shipment_status" xml:space="preserve">
+    <value>Shipment Status</value>
+  </data>
+  <data name="Lbl_purchase_SKU" xml:space="preserve">
+    <value>SKU</value>
+  </data>
+  <data name="Lbl_purchase_store" xml:space="preserve">
+    <value>Store &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_supplier_commission" xml:space="preserve">
+    <value>Supplier Commission</value>
+  </data>
+  <data name="Lbl_purchase_supplier_payment" xml:space="preserve">
+    <value>Supplier Payment</value>
+  </data>
+  <data name="Lbl_purchase_supplier_vendor" xml:space="preserve">
+    <value>Supplier / Vendor &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_purchase_tax" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="Lbl_purchase_total_purchase_amount" xml:space="preserve">
+    <value>Total Purchase Amount</value>
+  </data>
+  <data name="Lbl_purchase_total_received" xml:space="preserve">
+    <value>Total Received</value>
+  </data>
+  <data name="Lbl_purchase_track_received_comment" xml:space="preserve">
+    <value>Track Received Comment</value>
+  </data>
+  <data name="Lbl_purchase_type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Lbl_purchase_unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Lbl_purchase_warning_qty" xml:space="preserve">
+    <value>Warning Qty</value>
+  </data>
+  <data name="Lbl_purchase_warranty" xml:space="preserve">
+    <value>Warranty</value>
+  </data>
+  <data name="Lbl_purchase_wholesale_price" xml:space="preserve">
+    <value>Wholesale Price</value>
+  </data>
+  <data name="Lbl_purchase_year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="Title_Purchase_page" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="Lbl_purchase_Batch_no" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="Lbl_purchase_company_price" xml:space="preserve">
+    <value>Company Price</value>
+  </data>
+  <data name="Lbl_purchase_download_simple" xml:space="preserve">
+    <value>Download Simple</value>
+  </data>
+  <data name="Lbl_purchase_Expiry_date" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="Lbl_purchase_free_qty" xml:space="preserve">
+    <value>Free Qty</value>
+  </data>
+  <data name="Lbl_purchase_product_type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Lbl_purchase_purchase_notes" xml:space="preserve">
+    <value>Write purchase notes</value>
+  </data>
+  <data name="Lbl_purchase_recived_date" xml:space="preserve">
+    <value>Received Date</value>
+  </data>
+  <data name="Lbl_purchase_Schedule_comment" xml:space="preserve">
+    <value>Write purchase notes</value>
+  </data>
+  <data name="Lbl_purchase_single_product" xml:space="preserve">
+    <value>Single</value>
+  </data>
+  <data name="Lbl_purchase_size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Lbl_purchase_Upload_File" xml:space="preserve">
+    <value>Upload File</value>
+  </data>
+  <data name="Lbl_purchase_varient_product" xml:space="preserve">
+    <value>Variant</value>
+  </data>
+  <data name="Btn_damage_add_damage" xml:space="preserve">
+    <value>Add Damage</value>
+  </data>
+  <data name="Btn_damage_check" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="Btn_damage_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Btn_damage_supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Btn_package_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_return_back_to_return" xml:space="preserve">
+    <value>Back To Return</value>
+  </data>
+  <data name="Btn_return_check" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="Btn_return_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Btn_return_supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Btn_stock_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Btn_stock_add_a_product" xml:space="preserve">
+    <value>+ Product</value>
+  </data>
+  <data name="Btn_stock_export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Btn_stock_import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Btn_stock_print_all_stock" xml:space="preserve">
+    <value>Print All Stock</value>
+  </data>
+  <data name="Btn_stock_print_barcode" xml:space="preserve">
+    <value>Print Barcode</value>
+  </data>
+  <data name="Btn_stock_print_your_barcode" xml:space="preserve">
+    <value>Barcode</value>
+  </data>
+  <data name="Btn_stock_show_all_products" xml:space="preserve">
+    <value>Show all products</value>
+  </data>
+  <data name="Lbl_damage_add_damage" xml:space="preserve">
+    <value>ADD DAMAGE</value>
+  </data>
+  <data name="Lbl_damage_category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Lbl_damage_code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Lbl_damage_from" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_damage_price_buy" xml:space="preserve">
+    <value>Price (Buy)</value>
+  </data>
+  <data name="Lbl_damage_product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Lbl_damage_product_code" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="Lbl_damage_qty" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="Lbl_damage_restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="Lbl_damage_search_all" xml:space="preserve">
+    <value>Search All</value>
+  </data>
+  <data name="Lbl_damage_search_by_date" xml:space="preserve">
+    <value>SEARCH BY DATE</value>
+  </data>
+  <data name="Lbl_damage_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_damage_stock_report" xml:space="preserve">
+    <value>STOCK REPORT</value>
+  </data>
+  <data name="Lbl_damage_stock_total" xml:space="preserve">
+    <value>Stock Total</value>
+  </data>
+  <data name="Lbl_damage_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_damage_to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_damage_total" xml:space="preserve">
+    <value>Total :</value>
+  </data>
+  <data name="Lbl_damage_view" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Lbl_package_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_package_add_update_package" xml:space="preserve">
+    <value>Add / Update Package</value>
+  </data>
+  <data name="Lbl_package_delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Lbl_package_edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Lbl_package_id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Lbl_package_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_package_package_name" xml:space="preserve">
+    <value>Package Name</value>
+  </data>
+  <data name="Lbl_package_price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Lbl_package_product_title" xml:space="preserve">
+    <value>Product Title</value>
+  </data>
+  <data name="Lbl_package_sale_price" xml:space="preserve">
+    <value>Sale price</value>
+  </data>
+  <data name="Lbl_package_search" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Lbl_package_search_to_add_product_by_name" xml:space="preserve">
+    <value>Search / Scan to add Product by Name/Code</value>
+  </data>
+  <data name="Lbl_package_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_package_total_qty_min" xml:space="preserve">
+    <value>Total Qty (Min)</value>
+  </data>
+  <data name="Lbl_package_wholesale_price" xml:space="preserve">
+    <value>Wholesale Price</value>
+  </data>
+  <data name="Lbl_return_back_to_return" xml:space="preserve">
+    <value>BACK TO RETURN</value>
+  </data>
+  <data name="Lbl_return_category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Lbl_return_code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Lbl_return_from" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_return_price_buy" xml:space="preserve">
+    <value>Price (Buy)</value>
+  </data>
+  <data name="Lbl_return_product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Lbl_return_product_code" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="Lbl_return_qty" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="Lbl_return_restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="Lbl_return_search_all" xml:space="preserve">
+    <value>Search All</value>
+  </data>
+  <data name="Lbl_return_search_by_date" xml:space="preserve">
+    <value>SEARCH BY DATE</value>
+  </data>
+  <data name="Lbl_return_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_return_stock_report" xml:space="preserve">
+    <value>STOCK REPORT</value>
+  </data>
+  <data name="Lbl_return_stock_total" xml:space="preserve">
+    <value>Stock Total</value>
+  </data>
+  <data name="Lbl_return_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_return_to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_return_total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Lbl_return_view" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Lbl_stock_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_stock_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_stock_barcode" xml:space="preserve">
+    <value>Barcode</value>
+  </data>
+  <data name="Lbl_stock_buy_price" xml:space="preserve">
+    <value>Buy Price</value>
+  </data>
+  <data name="Lbl_stock_delete" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-trash'&gt;&lt;/span&gt; Delete</value>
+  </data>
+  <data name="Lbl_stock_edit" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-pencil'&gt;&lt;/span&gt; Edit</value>
+  </data>
+  <data name="Lbl_stock_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_stock_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_stock_print_barcode" xml:space="preserve">
+    <value>&lt;i class="fa fa-barcode fa-400px"&gt;&lt;/i&gt; Print Barcode</value>
+  </data>
+  <data name="Lbl_stock_print_custom" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-barcode'&gt;&lt;/span&gt; Print Custom</value>
+  </data>
+  <data name="Lbl_stock_product_name" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="Lbl_stock_sale_price" xml:space="preserve">
+    <value>Sale Price</value>
+  </data>
+  <data name="Lbl_stock_search" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Lbl_stock_search_all_location" xml:space="preserve">
+    <value>Search All Location</value>
+  </data>
+  <data name="Lbl_stock_search_all_supplier" xml:space="preserve">
+    <value>Search All Supplier</value>
+  </data>
+  <data name="Lbl_stock_stock_qty" xml:space="preserve">
+    <value>Stock Qty</value>
+  </data>
+  <data name="Lbl_stock_stock_report" xml:space="preserve">
+    <value>STOCK REPORT</value>
+  </data>
+  <data name="Lbl_stock_stock_status" xml:space="preserve">
+    <value>&lt;i class="fa fa-gg-circle fa-400px"&gt;&lt;/i&gt; Stock Status</value>
+  </data>
+  <data name="Lbl_stock_transfer" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-transfer'&gt;&lt;/span&gt; Transfer</value>
+  </data>
+  <data name="Lbl_stock_view" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-adjust'&gt;&lt;/span&gt; View</value>
+  </data>
+  <data name="Lbl_stock_wholesale_price" xml:space="preserve">
+    <value>Wholesale Price</value>
+  </data>
+  <data name="Lbl_warning_category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Lbl_warning_current_qty" xml:space="preserve">
+    <value>Current Qty</value>
+  </data>
+  <data name="Lbl_warning_product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Lbl_warning_search" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Lbl_warning_search_all_Category" xml:space="preserve">
+    <value>Search All Category</value>
+  </data>
+  <data name="Lbl_warning_search_all_supplier" xml:space="preserve">
+    <value>Search All Supplier</value>
+  </data>
+  <data name="Lbl_warning_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_warning_warning_qty" xml:space="preserve">
+    <value>Warning Qty</value>
+  </data>
+  <data name="Lbl_warning_warning_stock_history" xml:space="preserve">
+    <value>WARNING STOCK HISTORY</value>
+  </data>
+  <data name="Lbl_warranty_expiry_date" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="Lbl_warranty_go" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="Lbl_warranty_IMEI" xml:space="preserve">
+    <value>IMEI</value>
+  </data>
+  <data name="Lbl_warranty_invoice" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="Lbl_warranty_item_name" xml:space="preserve">
+    <value>Item Name</value>
+  </data>
+  <data name="Lbl_warranty_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Lbl_warranty_phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Lbl_warranty_product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Lbl_warranty_sale_date" xml:space="preserve">
+    <value>Sale Date</value>
+  </data>
+  <data name="Lbl_warranty_search" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Lbl_warranty_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_warranty_status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Lbl_warranty_supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Lbl_warranty_warranty" xml:space="preserve">
+    <value>Warranty</value>
+  </data>
+  <data name="Lbl_warranty_warranty_history" xml:space="preserve">
+    <value>WARRANTY HISTORY</value>
+  </data>
+  <data name="Title_damage_page" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="Title_package_page" xml:space="preserve">
+    <value>Package</value>
+  </data>
+  <data name="Title_Return_page" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="Title_stock_page" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="Title_warning" xml:space="preserve">
+    <value>Stock Warning Qty</value>
+  </data>
+  <data name="Ttitle_warranty_page" xml:space="preserve">
+    <value>Warranty</value>
+  </data>
+  <data name="Btn_supply_add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Btn_supply_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_analyticReport_day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="Lbl_analyticReport_from" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_analyticReport_month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="Lbl_analyticReport_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_analyticReport_to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_analyticReport_year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="Lbl_expiry_all_preview" xml:space="preserve">
+    <value>All Preview</value>
+  </data>
+  <data name="Lbl_expiry_category_name" xml:space="preserve">
+    <value>Category Name</value>
+  </data>
+  <data name="Lbl_expiry_current_qty" xml:space="preserve">
+    <value>Current Qty</value>
+  </data>
+  <data name="Lbl_expiry_expired_product_history" xml:space="preserve">
+    <value>EXPIRED PRODUCT HISTORY</value>
+  </data>
+  <data name="Lbl_expiry_expiry" xml:space="preserve">
+    <value>Expiry</value>
+  </data>
+  <data name="Lbl_expiry_product_name" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="Lbl_expiry_search" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Lbl_expiry_search_all_Category" xml:space="preserve">
+    <value>Search All Category</value>
+  </data>
+  <data name="Lbl_expiry_search_all_supplier" xml:space="preserve">
+    <value>Search All Supplier</value>
+  </data>
+  <data name="Lbl_expiry_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_expiry_to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_inventoryReport_attribute" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="Lbl_inventoryReport_balance_stock" xml:space="preserve">
+    <value>Balance Stock</value>
+  </data>
+  <data name="Lbl_inventoryReport_damaged" xml:space="preserve">
+    <value>Damaged</value>
+  </data>
+  <data name="Lbl_inventoryReport_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_inventoryReport_details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Lbl_inventoryReport_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_inventoryReport_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_inventoryReport_item_name" xml:space="preserve">
+    <value>Item Name</value>
+  </data>
+  <data name="Lbl_inventoryReport_last_stock" xml:space="preserve">
+    <value>Last Stock</value>
+  </data>
+  <data name="Lbl_inventoryReport_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_inventoryReport_package" xml:space="preserve">
+    <value>Package</value>
+  </data>
+  <data name="Lbl_inventoryReport_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_inventoryReport_product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Lbl_inventoryReport_product_code" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="Lbl_inventoryReport_qty" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="Lbl_inventoryReport_received" xml:space="preserve">
+    <value>Received</value>
+  </data>
+  <data name="Lbl_inventoryReport_returned" xml:space="preserve">
+    <value>Returned</value>
+  </data>
+  <data name="Lbl_inventoryReport_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_inventoryReport_search_all_store" xml:space="preserve">
+    <value>Search All Store</value>
+  </data>
+  <data name="Lbl_inventoryReport_search_all_user" xml:space="preserve">
+    <value>Search All User</value>
+  </data>
+  <data name="Lbl_inventoryReport_select_category" xml:space="preserve">
+    <value>-- Select Category --</value>
+  </data>
+  <data name="Lbl_inventoryReport_select_status" xml:space="preserve">
+    <value>Select Status</value>
+  </data>
+  <data name="Lbl_inventoryReport_service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="Lbl_inventoryReport_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_inventoryReport_sold" xml:space="preserve">
+    <value>Sold</value>
+  </data>
+  <data name="Lbl_inventoryReport_sold_back" xml:space="preserve">
+    <value>Sold Back</value>
+  </data>
+  <data name="Lbl_inventoryReport_status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Lbl_inventoryReport_stocked" xml:space="preserve">
+    <value>Stocked</value>
+  </data>
+  <data name="Lbl_inventoryReport_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_inventoryReport_transferred" xml:space="preserve">
+    <value>Transferred</value>
+  </data>
+  <data name="Lbl_invoiceReport_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_invoiceReport_all_customer" xml:space="preserve">
+    <value>All Customer</value>
+  </data>
+  <data name="Lbl_invoiceReport_all_referral" xml:space="preserve">
+    <value>All Referral</value>
+  </data>
+  <data name="Lbl_invoiceReport_any_date" xml:space="preserve">
+    <value>Any Date</value>
+  </data>
+  <data name="Lbl_invoiceReport_consumer" xml:space="preserve">
+    <value>Consumer</value>
+  </data>
+  <data name="Lbl_invoiceReport_custom_date" xml:space="preserve">
+    <value>Custom Date</value>
+  </data>
+  <data name="Lbl_invoiceReport_cus_id" xml:space="preserve">
+    <value>Cus. ID</value>
+  </data>
+  <data name="Lbl_invoiceReport_cus_name" xml:space="preserve">
+    <value>Cus. Name</value>
+  </data>
+  <data name="Lbl_invoiceReport_dealer" xml:space="preserve">
+    <value>Dealer</value>
+  </data>
+  <data name="Lbl_invoiceReport_invoice" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="Lbl_invoiceReport_invoice_in_group" xml:space="preserve">
+    <value>Invoice in Group</value>
+  </data>
+  <data name="Lbl_invoiceReport_misc" xml:space="preserve">
+    <value>Misc.</value>
+  </data>
+  <data name="Lbl_invoiceReport_paid" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="Lbl_invoiceReport_referal_name" xml:space="preserve">
+    <value>Referal Name</value>
+  </data>
+  <data name="Lbl_invoiceReport_resold" xml:space="preserve">
+    <value>Resold</value>
+  </data>
+  <data name="Lbl_invoiceReport_salesperson" xml:space="preserve">
+    <value>Salesperson</value>
+  </data>
+  <data name="Lbl_invoiceReport_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_invoiceReport_search_all_store" xml:space="preserve">
+    <value>Search All Store</value>
+  </data>
+  <data name="Lbl_invoiceReport_search_all_user" xml:space="preserve">
+    <value>Search All User</value>
+  </data>
+  <data name="Lbl_invoiceReport_select_status" xml:space="preserve">
+    <value>--Select Status--</value>
+  </data>
+  <data name="Lbl_invoiceReport_serial_no" xml:space="preserve">
+    <value>Serial No</value>
+  </data>
+  <data name="Lbl_invoiceReport_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_invoiceReport_sold" xml:space="preserve">
+    <value>Sold</value>
+  </data>
+  <data name="Lbl_invoiceReport_status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Lbl_invoiceReport_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_invoiceReport_suspended" xml:space="preserve">
+    <value>Suspended</value>
+  </data>
+  <data name="Lbl_invoiceReport_total" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="Lbl_profitLoss_all_profit_loss" xml:space="preserve">
+    <value>ALL PROFIT/LOSS</value>
+  </data>
+  <data name="Lbl_profitLoss_expense_amount" xml:space="preserve">
+    <value>Expense Amount</value>
+  </data>
+  <data name="Lbl_profitLoss_loss_amount" xml:space="preserve">
+    <value>Loss Amount</value>
+  </data>
+  <data name="Lbl_profitLoss_loss_profit_history" xml:space="preserve">
+    <value>LOSS/PROFIT HISTORY</value>
+  </data>
+  <data name="Lbl_profitLoss_revenue_amount" xml:space="preserve">
+    <value>Revenue Amount</value>
+  </data>
+  <data name="Lbl_profitLoss_supplier_due_amount" xml:space="preserve">
+    <value>Supplier Due Amount</value>
+  </data>
+  <data name="Lbl_purchaseReport_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_purchaseReport_code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Lbl_purchaseReport_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_purchaseReport_purchase_amount" xml:space="preserve">
+    <value>Purchase Amount</value>
+  </data>
+  <data name="Lbl_purchaseReport_qty" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="Lbl_purchaseReport_search" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Lbl_purchaseReport_search_all" xml:space="preserve">
+    <value>Search All</value>
+  </data>
+  <data name="Lbl_purchaseReport_search_all_store" xml:space="preserve">
+    <value>Search All Store</value>
+  </data>
+  <data name="Lbl_purchaseReport_search_all_user" xml:space="preserve">
+    <value>Search All User</value>
+  </data>
+  <data name="Lbl_purchaseReport_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_purchaseReport_supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Lbl_purchaseReport_total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Lbl_summary_accounts_summary" xml:space="preserve">
+    <value>Accounts Summary</value>
+  </data>
+  <data name="Lbl_summary_any_date" xml:space="preserve">
+    <value>Any Date</value>
+  </data>
+  <data name="Lbl_summary_card_payment" xml:space="preserve">
+    <value>Card Payment</value>
+  </data>
+  <data name="Lbl_summary_cash_on_delivery" xml:space="preserve">
+    <value>Cash On Delivery (COD)</value>
+  </data>
+  <data name="Lbl_summary_cash_payment" xml:space="preserve">
+    <value>Cash Payment</value>
+  </data>
+  <data name="Lbl_summary_cash_summary" xml:space="preserve">
+    <value>Cash Summary</value>
+  </data>
+  <data name="Lbl_summary_check_payment" xml:space="preserve">
+    <value>Check Payment</value>
+  </data>
+  <data name="Lbl_summary_discount_amount" xml:space="preserve">
+    <value>Discount Amount (App.)</value>
+  </data>
+  <data name="Lbl_summary_due_amount" xml:space="preserve">
+    <value>Due Amount (App.)</value>
+  </data>
+  <data name="Lbl_summary_gross_amount" xml:space="preserve">
+    <value>Gross Amount (App.)</value>
+  </data>
+  <data name="Lbl_summary_invoice_qty" xml:space="preserve">
+    <value>Invoice Qty (App.)</value>
+  </data>
+  <data name="Lbl_summary_item_qty" xml:space="preserve">
+    <value>Item Qty (App.)</value>
+  </data>
+  <data name="Lbl_summary_misc_cost" xml:space="preserve">
+    <value>Misc. Cost (App.)</value>
+  </data>
+  <data name="Lbl_summary_mobile_banking_payment" xml:space="preserve">
+    <value>Mobile Banking Payment</value>
+  </data>
+  <data name="Lbl_summary_net_amount" xml:space="preserve">
+    <value>Net Amount (App.)</value>
+  </data>
+  <data name="Lbl_summary_net_income" xml:space="preserve">
+    <value>Net Income (App.)</value>
+  </data>
+  <data name="Lbl_summary_received_amount" xml:space="preserve">
+    <value>Received Amount (App.)</value>
+  </data>
+  <data name="Lbl_summary_return_amount" xml:space="preserve">
+    <value>Return Amount (App.)</value>
+  </data>
+  <data name="Lbl_summary_sales_summary" xml:space="preserve">
+    <value>Sales Summary</value>
+  </data>
+  <data name="Lbl_summary_total_expenses" xml:space="preserve">
+    <value>Total Expenses (App.)</value>
+  </data>
+  <data name="Lbl_summary_total_profit" xml:space="preserve">
+    <value>Total Profit (App.)</value>
+  </data>
+  <data name="Lbl_supplierCommission_amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Lbl_supplierCommission_commission" xml:space="preserve">
+    <value>Commission(%)</value>
+  </data>
+  <data name="Lbl_supplierCommission_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_supplierCommission_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_supplierCommission_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_supplierCommission_item_name" xml:space="preserve">
+    <value>Item Name</value>
+  </data>
+  <data name="Lbl_supplierCommission_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_supplierCommission_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_supplierCommission_p_code" xml:space="preserve">
+    <value>P. Code</value>
+  </data>
+  <data name="Lbl_supplierCommission_qty" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="Lbl_supplierCommission_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_supplierCommission_search_all_store" xml:space="preserve">
+    <value>Search All Store</value>
+  </data>
+  <data name="Lbl_supplierCommission_search_all_user" xml:space="preserve">
+    <value>Search All User</value>
+  </data>
+  <data name="Lbl_supplierCommission_select_category" xml:space="preserve">
+    <value>-- Select Category --</value>
+  </data>
+  <data name="Lbl_supplierCommission_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_supplierCommission_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_supplierCommission_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_supply_amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Lbl_supply_any_date" xml:space="preserve">
+    <value>Any Date</value>
+  </data>
+  <data name="Lbl_supply_by_supplier" xml:space="preserve">
+    <value>By Supplier</value>
+  </data>
+  <data name="Lbl_supply_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_supply_date_from" xml:space="preserve">
+    <value>Date From</value>
+  </data>
+  <data name="Lbl_supply_date_to" xml:space="preserve">
+    <value>Date To</value>
+  </data>
+  <data name="Lbl_supply_description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Lbl_supply_details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Lbl_supply_give_payment" xml:space="preserve">
+    <value>GIVE PAYMENT</value>
+  </data>
+  <data name="Lbl_supply_opening_balance" xml:space="preserve">
+    <value>OPENING BALANCE</value>
+  </data>
+  <data name="Lbl_supply_particular" xml:space="preserve">
+    <value>Particular</value>
+  </data>
+  <data name="Lbl_supply_payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="Lbl_supply_p_amount" xml:space="preserve">
+    <value>P. Amount</value>
+  </data>
+  <data name="Lbl_supply_p_code" xml:space="preserve">
+    <value>P. Code</value>
+  </data>
+  <data name="Lbl_supply_receipt" xml:space="preserve">
+    <value>Receipt</value>
+  </data>
+  <data name="Lbl_supply_schedule" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="Lbl_supply_search" xml:space="preserve">
+    <value>SEARCH</value>
+  </data>
+  <data name="Lbl_supply_search_all" xml:space="preserve">
+    <value>Search All</value>
+  </data>
+  <data name="Lbl_supply_search_all_store" xml:space="preserve">
+    <value>Search All Store</value>
+  </data>
+  <data name="Lbl_supply_search_all_user" xml:space="preserve">
+    <value>Search All User</value>
+  </data>
+  <data name="Lbl_supply_select_supplier" xml:space="preserve">
+    <value>Select Supplier</value>
+  </data>
+  <data name="Lbl_supply_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_supply_source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Lbl_supply_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_supply_supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Lbl_supply_user" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Lbl_transaction_cash_in" xml:space="preserve">
+    <value>Cash In</value>
+  </data>
+  <data name="Lbl_transaction_cash_out" xml:space="preserve">
+    <value>Cash Out</value>
+  </data>
+  <data name="Lbl_transaction_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_transaction_details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Lbl_transaction_particular" xml:space="preserve">
+    <value>Particular</value>
+  </data>
+  <data name="Lbl_transaction_search" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Lbl_transaction_search_all" xml:space="preserve">
+    <value>Search All</value>
+  </data>
+  <data name="Lbl_transaction_search_all_store" xml:space="preserve">
+    <value>Search All Store</value>
+  </data>
+  <data name="Lbl_transaction_search_all_user" xml:space="preserve">
+    <value>Search All User</value>
+  </data>
+  <data name="Lbl_transaction_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_transaction_source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Lbl_transaction_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_transaction_to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_transaction_total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Lbl_transaction_total_balance" xml:space="preserve">
+    <value>Total Balance</value>
+  </data>
+  <data name="Title_analyticReport" xml:space="preserve">
+    <value>Analytic Report</value>
+  </data>
+  <data name="Title_expiry" xml:space="preserve">
+    <value>Expiry</value>
+  </data>
+  <data name="Title_inventoryReport" xml:space="preserve">
+    <value>Inventory Report</value>
+  </data>
+  <data name="Title_invoiceReport" xml:space="preserve">
+    <value>Invoice Report</value>
+  </data>
+  <data name="Title_profitLoss" xml:space="preserve">
+    <value>Profit/Loss</value>
+  </data>
+  <data name="Title_purchaseReport" xml:space="preserve">
+    <value>Purchase Report</value>
+  </data>
+  <data name="Title_summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Title_supplierCommission" xml:space="preserve">
+    <value>Supplier Comission</value>
+  </data>
+  <data name="Title_supply" xml:space="preserve">
+    <value>Supplier Payment</value>
+  </data>
+  <data name="Title_transaction" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="updated" xml:space="preserve">
+    <value>Updated</value>
+  </data>
+  <data name="Btn_banking_add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Btn_banking_add_bank" xml:space="preserve">
+    <value>Add Bank</value>
+  </data>
+  <data name="Btn_banking_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Btn_customers_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Btn_customers_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_customers_new_customer" xml:space="preserve">
+    <value>New Customer</value>
+  </data>
+  <data name="Btn_customers_print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Btn_customers_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_expense_add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Btn_expense_add_particular" xml:space="preserve">
+    <value>Add Particular</value>
+  </data>
+  <data name="Btn_expense_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Btn_receive_add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Btn_receive_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Btn_salary_add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Btn_salary_add_staff" xml:space="preserve">
+    <value>Add Staff</value>
+  </data>
+  <data name="Btn_salary_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Btn_service_add_service" xml:space="preserve">
+    <value>Add Service</value>
+  </data>
+  <data name="Btn_servicing_reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Btn_servicing_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_store_add_store" xml:space="preserve">
+    <value>Add Store</value>
+  </data>
+  <data name="Btn_store_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_store_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Lbl_banking_add_bank_deposit" xml:space="preserve">
+    <value>ADD BANK DEPOSIT</value>
+  </data>
+  <data name="Lbl_banking_add_bank_withdral" xml:space="preserve">
+    <value>ADD BANK WITHDRAW</value>
+  </data>
+  <data name="Lbl_banking_amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Lbl_banking_banking_report" xml:space="preserve">
+    <value>BANKING REPORT</value>
+  </data>
+  <data name="Lbl_banking_bank_name" xml:space="preserve">
+    <value>Bank Name</value>
+  </data>
+  <data name="Lbl_banking_cash_in" xml:space="preserve">
+    <value>Cash In</value>
+  </data>
+  <data name="Lbl_banking_cash_out" xml:space="preserve">
+    <value>Cash Out</value>
+  </data>
+  <data name="Lbl_banking_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_banking_deposit_date" xml:space="preserve">
+    <value>Deposit Date</value>
+  </data>
+  <data name="Lbl_banking_description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Lbl_banking_details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Lbl_banking_from" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_banking_particular" xml:space="preserve">
+    <value>Particular</value>
+  </data>
+  <data name="Lbl_banking_search" xml:space="preserve">
+    <value>SEARCH</value>
+  </data>
+  <data name="Lbl_banking_search_all" xml:space="preserve">
+    <value>Search All</value>
+  </data>
+  <data name="Lbl_banking_search_all_store" xml:space="preserve">
+    <value>Search All Store</value>
+  </data>
+  <data name="Lbl_banking_search_all_user" xml:space="preserve">
+    <value>Search All User</value>
+  </data>
+  <data name="Lbl_banking_select_a_bank" xml:space="preserve">
+    <value>Select a Bank</value>
+  </data>
+  <data name="Lbl_banking_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_banking_source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Lbl_banking_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_banking_to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_banking_total_balance" xml:space="preserve">
+    <value>Total Balance</value>
+  </data>
+  <data name="Lbl_banking_user" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Lbl_banking_withdraw_date" xml:space="preserve">
+    <value>Withdraw Date</value>
+  </data>
+  <data name="Lbl_customers_account_no" xml:space="preserve">
+    <value>Account No</value>
+  </data>
+  <data name="Lbl_customers_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_customers_address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Lbl_customers_add_advance" xml:space="preserve">
+    <value>Add Advance</value>
+  </data>
+  <data name="Btn_customers_add_customer" xml:space="preserve">
+    <value>Add Customer</value>
+  </data>
+  <data name="Lbl_customers_add_opening_due" xml:space="preserve">
+    <value>Add Opening Due</value>
+  </data>
+  <data name="Lbl_customers_add_payment" xml:space="preserve">
+    <value>Add Payment</value>
+  </data>
+  <data name="Lbl_customers_advance_amount" xml:space="preserve">
+    <value>Advance Amount</value>
+  </data>
+  <data name="Lbl_customers_all_customer" xml:space="preserve">
+    <value>--All Customer--</value>
+  </data>
+  <data name="Lbl_customers_amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Lbl_customers_customer_details" xml:space="preserve">
+    <value>Customer Details</value>
+  </data>
+  <data name="Lbl_customers_customer_type" xml:space="preserve">
+    <value>Customer Type</value>
+  </data>
+  <data name="Lbl_customers_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_customers_dealer" xml:space="preserve">
+    <value>Dealer</value>
+  </data>
+  <data name="Lbl_customers_designation" xml:space="preserve">
+    <value>Designation</value>
+  </data>
+  <data name="Lbl_customers_edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Lbl_customers_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Lbl_customers_end_date" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Lbl_customers_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Btn_customers_export_summary" xml:space="preserve">
+    <value>Export Summary</value>
+  </data>
+  <data name="Lbl_customers_full_ledger" xml:space="preserve">
+    <value>Full Ledger</value>
+  </data>
+  <data name="Lbl_customers_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_customers_installment" xml:space="preserve">
+    <value>Installment</value>
+  </data>
+  <data name="Lbl_customers_invoices" xml:space="preserve">
+    <value>Invoices</value>
+  </data>
+  <data name="Lbl_customers_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Lbl_customers_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_customers_notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Lbl_customers_opening_due_amount" xml:space="preserve">
+    <value>Opening Due Amount</value>
+  </data>
+  <data name="Lbl_customers_payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="Lbl_customers_pay_status" xml:space="preserve">
+    <value>-- Pay Status --</value>
+  </data>
+  <data name="Lbl_customers_phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Lbl_customers_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_customers_print_full_ledger" xml:space="preserve">
+    <value>Print full ledger</value>
+  </data>
+  <data name="Lbl_customers_retailer" xml:space="preserve">
+    <value>Retailer</value>
+  </data>
+  <data name="Lbl_customers_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_customers_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_customers_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_customers_start_date" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Lbl_customers_total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Lbl_customers_total_balance" xml:space="preserve">
+    <value>Total Balance</value>
+  </data>
+  <data name="Lbl_customers_view" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Lbl_expense_add_expense" xml:space="preserve">
+    <value>ADD EXPENSE</value>
+  </data>
+  <data name="Lbl_expense_amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Lbl_expense_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_expense_description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Lbl_expense_details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Lbl_expense_expense_date" xml:space="preserve">
+    <value>Expense Date</value>
+  </data>
+  <data name="Lbl_expense_expense_report" xml:space="preserve">
+    <value>Expense Report</value>
+  </data>
+  <data name="Lbl_expense_from" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_expense_particular" xml:space="preserve">
+    <value>Particular</value>
+  </data>
+  <data name="Lbl_expense_search" xml:space="preserve">
+    <value>SEARCH</value>
+  </data>
+  <data name="Lbl_expense_search_all" xml:space="preserve">
+    <value>Search All</value>
+  </data>
+  <data name="Lbl_expense_search_all_store" xml:space="preserve">
+    <value>Search All Store</value>
+  </data>
+  <data name="Lbl_expense_search_all_user" xml:space="preserve">
+    <value>Search All User</value>
+  </data>
+  <data name="Lbl_expense_select_particular" xml:space="preserve">
+    <value>Select Particular</value>
+  </data>
+  <data name="Lbl_expense_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_expense_source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Lbl_expense_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_expense_to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_expense_total_expense" xml:space="preserve">
+    <value>Total Expense</value>
+  </data>
+  <data name="Lbl_expense_user" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Lbl_installment_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_installment_address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Lbl_installment_all_installment" xml:space="preserve">
+    <value>All Installment</value>
+  </data>
+  <data name="Lbl_installment_bill_no" xml:space="preserve">
+    <value>Bill No</value>
+  </data>
+  <data name="Lbl_installment_due" xml:space="preserve">
+    <value>Due</value>
+  </data>
+  <data name="Lbl_installment_entries" xml:space="preserve">
+    <value>ENTRIES</value>
+  </data>
+  <data name="Lbl_installment_installment" xml:space="preserve">
+    <value>Installment</value>
+  </data>
+  <data name="Lbl_installment_installment_list" xml:space="preserve">
+    <value>INSTALMENT LIST</value>
+  </data>
+  <data name="Lbl_installment_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Lbl_installment_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_installment_paid" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="Lbl_installment_pay_date" xml:space="preserve">
+    <value>Pay Date</value>
+  </data>
+  <data name="Lbl_installment_phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Lbl_installment_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_installment_search" xml:space="preserve">
+    <value>SEARCH</value>
+  </data>
+  <data name="Lbl_installment_show" xml:space="preserve">
+    <value>SHOW</value>
+  </data>
+  <data name="Lbl_installment_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_installment_to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_installment_total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Lbl_installment_total_paid" xml:space="preserve">
+    <value>Total Paid</value>
+  </data>
+  <data name="Lbl_quotation_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_quotation_all_customer" xml:space="preserve">
+    <value>All Customer</value>
+  </data>
+  <data name="Lbl_quotation_all_referral" xml:space="preserve">
+    <value>All Referral</value>
+  </data>
+  <data name="Lbl_quotation_any_date" xml:space="preserve">
+    <value>Any Date</value>
+  </data>
+  <data name="Lbl_quotation_consumer" xml:space="preserve">
+    <value>Consumer</value>
+  </data>
+  <data name="Lbl_quotation_custom_date" xml:space="preserve">
+    <value>Custom Date</value>
+  </data>
+  <data name="Lbl_quotation_cus_id" xml:space="preserve">
+    <value>Cus. ID</value>
+  </data>
+  <data name="Lbl_quotation_cus_name" xml:space="preserve">
+    <value>Cus. Name</value>
+  </data>
+  <data name="Lbl_quotation_dealer" xml:space="preserve">
+    <value>Dealer</value>
+  </data>
+  <data name="Lbl_quotation_invoice" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="Lbl_quotation_invoice_date" xml:space="preserve">
+    <value>Invoice Date</value>
+  </data>
+  <data name="Lbl_quotation_invoice_in_group" xml:space="preserve">
+    <value>Invoice in Group</value>
+  </data>
+  <data name="Lbl_quotation_misc" xml:space="preserve">
+    <value>Misc.</value>
+  </data>
+  <data name="Lbl_quotation_paid" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="Lbl_quotation_referal_name" xml:space="preserve">
+    <value>Referal Name</value>
+  </data>
+  <data name="Lbl_quotation_resold" xml:space="preserve">
+    <value>Resold</value>
+  </data>
+  <data name="Lbl_quotation_salesperson" xml:space="preserve">
+    <value>Salesperson</value>
+  </data>
+  <data name="Lbl_quotation_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_quotation_search_all_store" xml:space="preserve">
+    <value>Search All Store</value>
+  </data>
+  <data name="Lbl_quotation_search_all_user" xml:space="preserve">
+    <value>Search All User</value>
+  </data>
+  <data name="Lbl_quotation_select_status" xml:space="preserve">
+    <value>--Select Status--</value>
+  </data>
+  <data name="Lbl_quotation_serial_no" xml:space="preserve">
+    <value>Serial No</value>
+  </data>
+  <data name="Lbl_quotation_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_quotation_sold" xml:space="preserve">
+    <value>Sold</value>
+  </data>
+  <data name="Lbl_quotation_status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Lbl_quotation_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_quotation_suspended" xml:space="preserve">
+    <value>Suspended</value>
+  </data>
+  <data name="Lbl_quotation_total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Lbl_receive_add_receive" xml:space="preserve">
+    <value>ADD RECEIVE</value>
+  </data>
+  <data name="Lbl_receive_amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Lbl_receive_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_receive_description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Lbl_receive_details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Lbl_receive_from" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_receive_particular" xml:space="preserve">
+    <value>Particular</value>
+  </data>
+  <data name="Lbl_receive_received_amt" xml:space="preserve">
+    <value>Received Amt</value>
+  </data>
+  <data name="Lbl_receive_recived_date" xml:space="preserve">
+    <value>Recived Date</value>
+  </data>
+  <data name="Lbl_receive_search" xml:space="preserve">
+    <value>SEARCH</value>
+  </data>
+  <data name="Lbl_receive_search_all_store" xml:space="preserve">
+    <value>Search All Store</value>
+  </data>
+  <data name="Lbl_receive_search_all_user" xml:space="preserve">
+    <value>Search All User</value>
+  </data>
+  <data name="Lbl_receive_select_supplier" xml:space="preserve">
+    <value>Select Supplier</value>
+  </data>
+  <data name="Lbl_receive_show_all_track_received_amount" xml:space="preserve">
+    <value>Show all track received amount</value>
+  </data>
+  <data name="Lbl_receive_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_receive_source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Lbl_receive_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_receive_to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_receive_total_balance" xml:space="preserve">
+    <value>Total Balance</value>
+  </data>
+  <data name="Lbl_receive_total_received_amount" xml:space="preserve">
+    <value>Total Received Amount</value>
+  </data>
+  <data name="Lbl_receive_track_amt" xml:space="preserve">
+    <value>Track Amt</value>
+  </data>
+  <data name="Lbl_receive_user" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Lbl_salary_add_salary" xml:space="preserve">
+    <value>ADD SALARY</value>
+  </data>
+  <data name="Lbl_salary_by_staff" xml:space="preserve">
+    <value>Search All</value>
+  </data>
+  <data name="Lbl_salary_cash_out" xml:space="preserve">
+    <value>Cash-Out</value>
+  </data>
+  <data name="Lbl_salary_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_salary_date_from" xml:space="preserve">
+    <value>Date From</value>
+  </data>
+  <data name="Lbl_salary_date_to" xml:space="preserve">
+    <value>Date To</value>
+  </data>
+  <data name="Lbl_salary_details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Lbl_salary_details_of_salary" xml:space="preserve">
+    <value>Details of Salary</value>
+  </data>
+  <data name="Lbl_salary_particular" xml:space="preserve">
+    <value>Particular</value>
+  </data>
+  <data name="Lbl_salary_salary_amount" xml:space="preserve">
+    <value>Salary Amount</value>
+  </data>
+  <data name="Lbl_salary_salary_date" xml:space="preserve">
+    <value>Salary Date</value>
+  </data>
+  <data name="Lbl_salary_salary_report" xml:space="preserve">
+    <value>SALARY REPORT</value>
+  </data>
+  <data name="Lbl_salary_search" xml:space="preserve">
+    <value>SEARCH</value>
+  </data>
+  <data name="Lbl_salary_search_all_store" xml:space="preserve">
+    <value>Search All Store</value>
+  </data>
+  <data name="Lbl_salary_search_all_user" xml:space="preserve">
+    <value>Search All User</value>
+  </data>
+  <data name="Lbl_salary_select_staff" xml:space="preserve">
+    <value>Select Staff</value>
+  </data>
+  <data name="Lbl_salary_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_salary_source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Lbl_salary_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_salary_total_salary" xml:space="preserve">
+    <value>Total Salary</value>
+  </data>
+  <data name="Lbl_salary_user" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Lbl_service_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_service_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_service_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_service_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_service_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_service_retail_price" xml:space="preserve">
+    <value>Retail Price</value>
+  </data>
+  <data name="Lbl_service_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_service_service_list" xml:space="preserve">
+    <value>SERVICE LIST</value>
+  </data>
+  <data name="Lbl_service_service_name" xml:space="preserve">
+    <value>Service Name</value>
+  </data>
+  <data name="Lbl_service_service_type" xml:space="preserve">
+    <value>Service Type</value>
+  </data>
+  <data name="Lbl_service_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_service_wholeSale_price" xml:space="preserve">
+    <value>Wholesale Price</value>
+  </data>
+  <data name="Lbl_servicing_customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Lbl_servicing_cus_name" xml:space="preserve">
+    <value>Cus Name</value>
+  </data>
+  <data name="Lbl_servicing_delivery" xml:space="preserve">
+    <value>Delivery</value>
+  </data>
+  <data name="Lbl_servicing_delivery_date" xml:space="preserve">
+    <value>Delivery Date</value>
+  </data>
+  <data name="Lbl_servicing_description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Lbl_servicing_IMEI" xml:space="preserve">
+    <value>IMEI</value>
+  </data>
+  <data name="Lbl_servicing_paid" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="Lbl_servicing_pay_cost" xml:space="preserve">
+    <value>Pay Cost</value>
+  </data>
+  <data name="Lbl_servicing_product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Lbl_servicing_product_name" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="Lbl_servicing_received" xml:space="preserve">
+    <value>Received</value>
+  </data>
+  <data name="Lbl_servicing_search" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Lbl_servicing_servicingID" xml:space="preserve">
+    <value>ServicingID</value>
+  </data>
+  <data name="Lbl_servicing_servicing_report" xml:space="preserve">
+    <value>SERVICING REPORT</value>
+  </data>
+  <data name="Lbl_servicing_status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Lbl_servicing_supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Lbl_servicing_total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Lbl_servicing_total_amount" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="Lbl_store_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_store_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_store_add_store" xml:space="preserve">
+    <value>Add Store</value>
+  </data>
+  <data name="Lbl_store_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_store_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_store_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_store_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_store_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_store_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_store_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_store_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_store_store_list" xml:space="preserve">
+    <value>STORE LIST</value>
+  </data>
+  <data name="Lbl_store_store_name" xml:space="preserve">
+    <value>Store Name</value>
+  </data>
+  <data name="Lbl_store_type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Lbl_token_search" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Lbl_token_to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_token_token_report" xml:space="preserve">
+    <value>TOKEN REPORT</value>
+  </data>
+  <data name="Title_banking" xml:space="preserve">
+    <value>Banking</value>
+  </data>
+  <data name="Title_customers" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="Title_expense" xml:space="preserve">
+    <value>Expense</value>
+  </data>
+  <data name="Title_installment" xml:space="preserve">
+    <value>Installments</value>
+  </data>
+  <data name="Title_quotation" xml:space="preserve">
+    <value>Quotation</value>
+  </data>
+  <data name="Title_receive" xml:space="preserve">
+    <value>Receive</value>
+  </data>
+  <data name="Title_salary" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="Title_service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="Title_servicing" xml:space="preserve">
+    <value>Servicing</value>
+  </data>
+  <data name="Title_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Title_token" xml:space="preserve">
+    <value>Token</value>
+  </data>
+  <data name="Btn_attribute_add_attribute" xml:space="preserve">
+    <value>Add Attribute</value>
+  </data>
+  <data name="Btn_bank_add_bank" xml:space="preserve">
+    <value>Add Bank</value>
+  </data>
+  <data name="Btn_card_add_card" xml:space="preserve">
+    <value>Add Card</value>
+  </data>
+  <data name="Btn_category_add_category" xml:space="preserve">
+    <value>Add Category</value>
+  </data>
+  <data name="Btn_field_add_new_field" xml:space="preserve">
+    <value>Add New Field</value>
+  </data>
+  <data name="Btn_location_add_location" xml:space="preserve">
+    <value>Add Location</value>
+  </data>
+  <data name="Btn_location_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_location_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_manufacturer_add_manufacturer" xml:space="preserve">
+    <value>Add Manufacturer</value>
+  </data>
+  <data name="Btn_offer_clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Btn_offer_delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Btn_offer_set" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="Btn_particular_add_particular" xml:space="preserve">
+    <value>Add Particular</value>
+  </data>
+  <data name="Btn_profile_save_changes" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="Btn_profile_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Btn_profile_upload_new" xml:space="preserve">
+    <value>Upload New</value>
+  </data>
+  <data name="Btn_security_save_changes" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="Btn_serviceType_add_serviceType" xml:space="preserve">
+    <value>Add Service Type</value>
+  </data>
+  <data name="Btn_staff_add_staff" xml:space="preserve">
+    <value>Add Staff</value>
+  </data>
+  <data name="Btn_subscription_add_balance" xml:space="preserve">
+    <value>Add Balance</value>
+  </data>
+  <data name="Btn_supplier_add_supplier" xml:space="preserve">
+    <value>Add Supplier</value>
+  </data>
+  <data name="Btn_unit_add_unit" xml:space="preserve">
+    <value>Add Unit</value>
+  </data>
+  <data name="Btn_user_edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Lbl_offer_activate" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="Lbl_offer_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_offer_code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Lbl_offer_discount_on" xml:space="preserve">
+    <value>Discount On</value>
+  </data>
+  <data name="Lbl_offer_disc_on" xml:space="preserve">
+    <value>Disc. On</value>
+  </data>
+  <data name="Lbl_offer_enter_amount" xml:space="preserve">
+    <value>Enter Amount</value>
+  </data>
+  <data name="Lbl_offer_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Lbl_offer_offer_list" xml:space="preserve">
+    <value>OFFER LIST</value>
+  </data>
+  <data name="Lbl_offer_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_offer_value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Lbl_attribute_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_attribute_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_attribute_attribute_list" xml:space="preserve">
+    <value>ATTRIBUTE LIST</value>
+  </data>
+  <data name="Lbl_attribute_attribute_name" xml:space="preserve">
+    <value>Attribute Name</value>
+  </data>
+  <data name="Lbl_attribute_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_attribute_field_name" xml:space="preserve">
+    <value>Field Name</value>
+  </data>
+  <data name="Lbl_attribute_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_attribute_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_attribute_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_attribute_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_attribute_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_attribute_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_bank_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_bank_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_bank_bank_name" xml:space="preserve">
+    <value>Bank Name</value>
+  </data>
+  <data name="Lbl_bank_bank_name_list" xml:space="preserve">
+    <value>BANK NAME LIST</value>
+  </data>
+  <data name="Lbl_bank_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_bank_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_bank_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_bank_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_bank_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_bank_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_bank_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_card_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_card_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_card_bank_name" xml:space="preserve">
+    <value>Bank Name</value>
+  </data>
+  <data name="Lbl_card_card_discount" xml:space="preserve">
+    <value>Card Discount</value>
+  </data>
+  <data name="Lbl_card_card_name" xml:space="preserve">
+    <value>Card Name</value>
+  </data>
+  <data name="Lbl_card_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_card_list" xml:space="preserve">
+    <value>CARD LIST</value>
+  </data>
+  <data name="Lbl_card_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_card_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_card_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_card_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_card_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_card_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_category_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_category_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_category_category_list" xml:space="preserve">
+    <value>CATEGORY LIST</value>
+  </data>
+  <data name="Lbl_category_category_name" xml:space="preserve">
+    <value>Category Name</value>
+  </data>
+  <data name="Lbl_category_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_category_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_category_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_category_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_category_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_category_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_category_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_field_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_field_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_field_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_field_field" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="Lbl_field_field_list" xml:space="preserve">
+    <value>FIELD LIST</value>
+  </data>
+  <data name="Lbl_field_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_field_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_field_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_field_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_field_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_field_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_location_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_location_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_location_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_location_location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Lbl_location_location_list" xml:space="preserve">
+    <value>LOCATION LIST</value>
+  </data>
+  <data name="Lbl_location_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Lbl_location_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_location_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_location_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_location_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_location_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_location_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_manufacturer_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_manufacturer_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_manufacturer_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_manufacturer_manufacturer_list" xml:space="preserve">
+    <value>MANUFACTURER LIST</value>
+  </data>
+  <data name="Lbl_manufacturer_manufacturer_name" xml:space="preserve">
+    <value>Manufacturer Name</value>
+  </data>
+  <data name="Lbl_manufacturer_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_manufacturer_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_manufacturer_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_manufacturer_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_manufacturer_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_manufacturer_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_offer_offer_end" xml:space="preserve">
+    <value>Offer End</value>
+  </data>
+  <data name="Lbl_offer_offer_on" xml:space="preserve">
+    <value>Offer On</value>
+  </data>
+  <data name="Lbl_offer_offer_start" xml:space="preserve">
+    <value>Offer Start</value>
+  </data>
+  <data name="Lbl_offer_package" xml:space="preserve">
+    <value>Package</value>
+  </data>
+  <data name="Lbl_offer_product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Lbl_offer_product_id" xml:space="preserve">
+    <value>Product ID</value>
+  </data>
+  <data name="Lbl_offer_product_name" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="Lbl_offer_set_Offer" xml:space="preserve">
+    <value>SET OFFER</value>
+  </data>
+  <data name="Lbl_particular_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_particular_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_particular_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_particular_particular_list" xml:space="preserve">
+    <value>PARTICULAR LIST</value>
+  </data>
+  <data name="Lbl_particular_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_particular_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_particular_particular" xml:space="preserve">
+    <value>Particular</value>
+  </data>
+  <data name="Lbl_particular_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_particular_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_particular_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_particular_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_profile_business_owner_number" xml:space="preserve">
+    <value>Business Owner Number</value>
+  </data>
+  <data name="Lbl_profile_company_name" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="Lbl_profile_current_logo" xml:space="preserve">
+    <value>Current Logo</value>
+  </data>
+  <data name="Lbl_profile_edit_company_logo" xml:space="preserve">
+    <value>EDIT COMPANY LOGO</value>
+  </data>
+  <data name="Lbl_profile_invoice_footer" xml:space="preserve">
+    <value>Invoice Footer</value>
+  </data>
+  <data name="Lbl_profile_invoice_header" xml:space="preserve">
+    <value>Invoice Header</value>
+  </data>
+  <data name="Lbl_profile_message_text" xml:space="preserve">
+    <value>Message Text:</value>
+  </data>
+  <data name="Lbl_profile_mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Lbl_profile_phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Lbl_profile_send_installment_template" xml:space="preserve">
+    <value>SEND INSTALLAMENT TEMPLATE</value>
+  </data>
+  <data name="Lbl_profile_send_invoice_template" xml:space="preserve">
+    <value>SEND INVOICE TEMPLATE</value>
+  </data>
+  <data name="Lbl_profile_store_name" xml:space="preserve">
+    <value>Store Name</value>
+  </data>
+  <data name="Lbl_profile_tax_id_no" xml:space="preserve">
+    <value>Tax-Id-No</value>
+  </data>
+  <data name="Lbl_profile_update_your_profile" xml:space="preserve">
+    <value>Update Your Profile</value>
+  </data>
+  <data name="Lbl_profile_url_path" xml:space="preserve">
+    <value>Url Path</value>
+  </data>
+  <data name="Lbl_profile_vat_reg_no" xml:space="preserve">
+    <value>Vat Reg No.</value>
+  </data>
+  <data name="Lbl_security_confirm_password" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="Lbl_security_current_password" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="Lbl_security_edit_privacy_setting" xml:space="preserve">
+    <value>EDIT PRIVACY SETTINGS</value>
+  </data>
+  <data name="Lbl_security_new_password" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="Lbl_security_user_email" xml:space="preserve">
+    <value>User Email</value>
+  </data>
+  <data name="Lbl_security_user_name" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Lbl_security_user_settings" xml:space="preserve">
+    <value>EDIT USER SETTINGS</value>
+  </data>
+  <data name="Lbl_serviceType_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_serviceType_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_serviceType_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_serviceType_list" xml:space="preserve">
+    <value>SERVICE TYPE LIST</value>
+  </data>
+  <data name="Lbl_serviceType_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_serviceType_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_serviceType_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_serviceType_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_serviceType_service_type" xml:space="preserve">
+    <value>Service Type</value>
+  </data>
+  <data name="Lbl_serviceType_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_serviceType_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_staff_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_staff_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_staff_address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Lbl_staff_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_staff_gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Lbl_staff_list" xml:space="preserve">
+    <value>STAFF LIST</value>
+  </data>
+  <data name="Lbl_staff_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_staff_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_staff_phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Lbl_staff_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_staff_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_staff_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_staff_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_staff_staff_name" xml:space="preserve">
+    <value>Staff Name</value>
+  </data>
+  <data name="Lbl_staff_store_name" xml:space="preserve">
+    <value>Store Name</value>
+  </data>
+  <data name="Lbl_subscription_add_balance" xml:space="preserve">
+    <value>ADD BALANCE</value>
+  </data>
+  <data name="Lbl_subscription_current_balance" xml:space="preserve">
+    <value>Current Balance:</value>
+  </data>
+  <data name="Lbl_subscription_due_date" xml:space="preserve">
+    <value>Due Date:</value>
+  </data>
+  <data name="Lbl_subscription_total_due" xml:space="preserve">
+    <value>Total Due:</value>
+  </data>
+  <data name="Lbl_supplier_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_supplier_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_supplier_company_name" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="Lbl_supplier_contact_name" xml:space="preserve">
+    <value>Contact Name</value>
+  </data>
+  <data name="Lbl_supplier_contact_phone" xml:space="preserve">
+    <value>Contact Phone</value>
+  </data>
+  <data name="Lbl_supplier_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_supplier_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_supplier_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_supplier_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_supplier_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_supplier_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_supplier_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_supplier_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_supplier_supplier_code" xml:space="preserve">
+    <value>Supplier Code</value>
+  </data>
+  <data name="Lbl_supplier_supplier_list" xml:space="preserve">
+    <value>SUPPLIER LIST</value>
+  </data>
+  <data name="Lbl_unit_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Lbl_unit_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_unit_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="Lbl_unit_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_unit_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Lbl_unit_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_unit_previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Lbl_unit_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_unit_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Lbl_unit_showing" xml:space="preserve">
+    <value>Showing</value>
+  </data>
+  <data name="Lbl_unit_unit_list" xml:space="preserve">
+    <value>UNIT LIST</value>
+  </data>
+  <data name="Lbl_unit_unit_name" xml:space="preserve">
+    <value>Unit Name</value>
+  </data>
+  <data name="Lbl_unit_unit_ratio" xml:space="preserve">
+    <value>Unit Ratio</value>
+  </data>
+  <data name="Lbl_user_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_user_archive" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="Lbl_user_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Lbl_user_id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Lbl_user_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Lbl_user_non_active" xml:space="preserve">
+    <value>Non-Active</value>
+  </data>
+  <data name="Lbl_user_search" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Lbl_user_type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Lbl_user_user_list" xml:space="preserve">
+    <value>USER LIST</value>
+  </data>
+  <data name="Lbl_user_verify" xml:space="preserve">
+    <value>Verify</value>
+  </data>
+  <data name="Lbl_user_view" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Title_attribute" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="Title_bank_name" xml:space="preserve">
+    <value>Bank Name</value>
+  </data>
+  <data name="Title_card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="Title_category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Title_field" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="Title_location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Title_manufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="Title_offer" xml:space="preserve">
+    <value>Offer</value>
+  </data>
+  <data name="Title_particular" xml:space="preserve">
+    <value>Particular</value>
+  </data>
+  <data name="Title_security" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="Title_serviceType" xml:space="preserve">
+    <value>Service Type</value>
+  </data>
+  <data name="Title_staff" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="Title_subscription" xml:space="preserve">
+    <value>Subscription</value>
+  </data>
+  <data name="Title_supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Title_unit_of_measurement" xml:space="preserve">
+    <value>Unit of Measurement</value>
+  </data>
+  <data name="Title_profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="Title_user" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Btn_customers_add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Btn_service_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_service_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_service_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Lbl_customers_active" xml:space="preserve">
+    <value>active</value>
+  </data>
+  <data name="Lbl_customers_inactive" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="Lbl_customers_paid" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="Lbl_customers_retail" xml:space="preserve">
+    <value>Retail</value>
+  </data>
+  <data name="Lbl_customers_unpaid" xml:space="preserve">
+    <value>Unpaid</value>
+  </data>
+  <data name="Lbl_customers_wholesale" xml:space="preserve">
+    <value>Wholesale</value>
+  </data>
+  <data name="Lbl_expense_cash_in" xml:space="preserve">
+    <value>Cash In</value>
+  </data>
+  <data name="Lbl_expense_delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Lbl_expense_total" xml:space="preserve">
+    <value>Total :</value>
+  </data>
+  <data name="Lbl_service_add_service" xml:space="preserve">
+    <value>Add Service</value>
+  </data>
+  <data name="Lbl_service_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Lbl_service_type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Lbl_summary_commission_amount" xml:space="preserve">
+    <value>Commission Amount (+):</value>
+  </data>
+  <data name="Lbl_summary_discount_amount_minus" xml:space="preserve">
+    <value>Discount Amount (-):</value>
+  </data>
+  <data name="Lbl_summary_return_amount_minus" xml:space="preserve">
+    <value>Return Amount (-):</value>
+  </data>
+  <data name="Lbl_summary_sales_profit" xml:space="preserve">
+    <value>Sales Profit (+):</value>
+  </data>
+  <data name="Lbl_transaction_advance" xml:space="preserve">
+    <value>Advance</value>
+  </data>
+  <data name="Lbl_transaction_banking" xml:space="preserve">
+    <value>Banking</value>
+  </data>
+  <data name="Lbl_transaction_cash_in_hand" xml:space="preserve">
+    <value>Cash-In-Hand</value>
+  </data>
+  <data name="Lbl_transaction_delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Lbl_transaction_expense" xml:space="preserve">
+    <value>Expense</value>
+  </data>
+  <data name="Lbl_transaction_receive" xml:space="preserve">
+    <value>Receive</value>
+  </data>
+  <data name="Lbl_transaction_salary" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="Lbl_transaction_sales" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="Lbl_transaction_supply" xml:space="preserve">
+    <value>Supply</value>
+  </data>
+  <data name="Btn_bank_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_bank_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_bank_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Btn_category_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_category_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_category_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Btn_customers_add_new_customer" xml:space="preserve">
+    <value>Add New Customer</value>
+  </data>
+  <data name="Btn_customers_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Btn_particular_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_particular_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_particular_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Btn_supplier_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_supplier_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_supplier_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Lbl_banking_total" xml:space="preserve">
+    <value>Total :</value>
+  </data>
+  <data name="Lbl_customers_age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="Lbl_customers_pay_with_installment" xml:space="preserve">
+    <value>Pay with installment</value>
+  </data>
+  <data name="Lbl_customers_wholesaler" xml:space="preserve">
+    <value>Wholesaler</value>
+  </data>
+  <data name="Lbl_customer_blood_group" xml:space="preserve">
+    <value>Blood Group</value>
+  </data>
+  <data name="Lbl_customer_female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Lbl_customer_male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Lbl_customer_others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="Lbl_customer_sex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="Lbl_supplier_address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Lbl_supplier_contact_designation" xml:space="preserve">
+    <value>Contact Designation</value>
+  </data>
+  <data name="Lbl_supplier_contact_email" xml:space="preserve">
+    <value>Contact Email</value>
+  </data>
+  <data name="Lbl_supplier_discount" xml:space="preserve">
+    <value>Discount (in %)</value>
+  </data>
+  <data name="Btn_stock_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_stock_export_csv" xml:space="preserve">
+    <value>Export CSV</value>
+  </data>
+  <data name="Btn_stock_print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Btn_stock_transfer" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="Lbl_stock_add_variant" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-adjust'&gt;&lt;/span&gt;Add Variant</value>
+  </data>
+  <data name="Lbl_stock_available_qty" xml:space="preserve">
+    <value>Available Qty</value>
+  </data>
+  <data name="Lbl_stock_buy_total" xml:space="preserve">
+    <value>Buy Total</value>
+  </data>
+  <data name="Lbl_stock_category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Lbl_stock_company_price" xml:space="preserve">
+    <value>Company Price</value>
+  </data>
+  <data name="Lbl_stock_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_stock_detail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="Lbl_stock_export_to_csv" xml:space="preserve">
+    <value>Export to CSV</value>
+  </data>
+  <data name="Lbl_stock_free_total" xml:space="preserve">
+    <value>Free Total</value>
+  </data>
+  <data name="Lbl_stock_manufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="Lbl_stock_restore" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-refresh'&gt;&lt;/span&gt; Restore</value>
+  </data>
+  <data name="Lbl_stock_retail_total" xml:space="preserve">
+    <value>Retail Total</value>
+  </data>
+  <data name="Lbl_stock_shift_to" xml:space="preserve">
+    <value>Shift To</value>
+  </data>
+  <data name="Lbl_stock_summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Lbl_stock_supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Lbl_stock_transfer_qty" xml:space="preserve">
+    <value>Transfer Qty</value>
+  </data>
+  <data name="Lbl_stock_variant_product" xml:space="preserve">
+    <value>&lt;span class='glyphicon glyphicon-adjust'&gt;&lt;/span&gt;Variant Product</value>
+  </data>
+  <data name="Lbl_stock_wholesale_total" xml:space="preserve">
+    <value>Wholesale Total</value>
+  </data>
+  <data name="Btn_return_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_user_add_user" xml:space="preserve">
+    <value>Add User</value>
+  </data>
+  <data name="Lbl_return_imei" xml:space="preserve">
+    <value>IMEI</value>
+  </data>
+  <data name="Lbl_return_price_sell" xml:space="preserve">
+    <value>Price ( Sell )</value>
+  </data>
+  <data name="Lbl_return_prod_id" xml:space="preserve">
+    <value>Prod ID</value>
+  </data>
+  <data name="Lbl_return_returned_date" xml:space="preserve">
+    <value>Returned Date</value>
+  </data>
+  <data name="Lbl_return_size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Lbl_return_status_date" xml:space="preserve">
+    <value>Status Date</value>
+  </data>
+  <data name="Lbl_return_supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Lbl_stock_batch_no" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="Lbl_stock_code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Lbl_stock_commission" xml:space="preserve">
+    <value>Commission</value>
+  </data>
+  <data name="Lbl_stock_expiry_date" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="Lbl_stock_IMEI" xml:space="preserve">
+    <value>IMEI</value>
+  </data>
+  <data name="Lbl_stock_notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Lbl_stock_product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Lbl_stock_sale_total" xml:space="preserve">
+    <value>Sale Total</value>
+  </data>
+  <data name="Lbl_stock_sell_price" xml:space="preserve">
+    <value>Sell Price</value>
+  </data>
+  <data name="Lbl_stock_serial_no" xml:space="preserve">
+    <value>Serial No</value>
+  </data>
+  <data name="Lbl_stock_shipment_status" xml:space="preserve">
+    <value>Shipment Status</value>
+  </data>
+  <data name="Lbl_stock_size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Lbl_stock_SKU" xml:space="preserve">
+    <value>SKU</value>
+  </data>
+  <data name="Lbl_stock_tax" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="Lbl_stock_transfer_stock" xml:space="preserve">
+    <value>Transfer Stock</value>
+  </data>
+  <data name="Lbl_stock_unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Lbl_stock_warning_qty" xml:space="preserve">
+    <value>Warning Qty</value>
+  </data>
+  <data name="Lbl_stock_warranty" xml:space="preserve">
+    <value>Warranty</value>
+  </data>
+  <data name="Lbl_stock_weight" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="Btn_card_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_card_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_card_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Lbl_invoiceReport_balance" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="Lbl_invoiceReport_disc" xml:space="preserve">
+    <value>Disc.</value>
+  </data>
+  <data name="Lbl_invoiceReport_invoice_in_detail" xml:space="preserve">
+    <value>Invoice in Detail</value>
+  </data>
+  <data name="Lbl_invoiceReport_inv_as" xml:space="preserve">
+    <value>Inv. as</value>
+  </data>
+  <data name="Lbl_invoiceReport_search_product" xml:space="preserve">
+    <value>Search Product...</value>
+  </data>
+  <data name="Lbl_invoiceReport_total_net" xml:space="preserve">
+    <value>Total Net</value>
+  </data>
+  <data name="Btn_supply_add_supplier" xml:space="preserve">
+    <value>Add Supplier</value>
+  </data>
+  <data name="Btn_supply_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_supply_pay_now" xml:space="preserve">
+    <value>Pay Now</value>
+  </data>
+  <data name="Lbl_card_add_card" xml:space="preserve">
+    <value>Add Card</value>
+  </data>
+  <data name="Lbl_invoiceReport_invoice_date" xml:space="preserve">
+    <value>Invoice Date</value>
+  </data>
+  <data name="Lbl_profitLoss_profit_amount" xml:space="preserve">
+    <value>Profit Amount</value>
+  </data>
+  <data name="Lbl_salary_cash_in" xml:space="preserve">
+    <value>Cash-In</value>
+  </data>
+  <data name="Lbl_salary_delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Lbl_salary_search_all" xml:space="preserve">
+    <value>Search All</value>
+  </data>
+  <data name="Lbl_salary_total" xml:space="preserve">
+    <value>Total :</value>
+  </data>
+  <data name="Lbl_stock_received_date" xml:space="preserve">
+    <value>Received Date</value>
+  </data>
+  <data name="Lbl_supply_supply_report" xml:space="preserve">
+    <value>Supply Report</value>
+  </data>
+  <data name="Btn_user_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Lbl_damage_supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Lbl_user_access_page" xml:space="preserve">
+    <value>Access Page</value>
+  </data>
+  <data name="Lbl_user_confirm_password" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="Lbl_user_password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Lbl_user_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_user_title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Btn_installment_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_installment_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_servicing_change_status" xml:space="preserve">
+    <value>Change Status</value>
+  </data>
+  <data name="Btn_servicing_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Lbl_installment_pay" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="Lbl_installment_total_balance" xml:space="preserve">
+    <value>Total Balance</value>
+  </data>
+  <data name="Lbl_service_edit_service" xml:space="preserve">
+    <value>Edit Service</value>
+  </data>
+  <data name="Lbl_servicing_customerID" xml:space="preserve">
+    <value>Customer ID</value>
+  </data>
+  <data name="Lbl_servicing_date_form" xml:space="preserve">
+    <value>Date Form</value>
+  </data>
+  <data name="Lbl_servicing_date_to" xml:space="preserve">
+    <value>Date To</value>
+  </data>
+  <data name="Lbl_servicing_Servicing_id" xml:space="preserve">
+    <value>Servicing ID:</value>
+  </data>
+  <data name="Lbl_token_customer_id" xml:space="preserve">
+    <value>Customer ID</value>
+  </data>
+  <data name="Lbl_token_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_token_disc_amount" xml:space="preserve">
+    <value>Disc Amount</value>
+  </data>
+  <data name="Lbl_token_invoice_no" xml:space="preserve">
+    <value>Invoice No</value>
+  </data>
+  <data name="Lbl_token_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_token_token" xml:space="preserve">
+    <value>Token</value>
+  </data>
+  <data name="Lbl_token_total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Btn_store_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Btn_unit_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_unit_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_unit_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Lbl_store_edit_store" xml:space="preserve">
+    <value>Edit Store</value>
+  </data>
+  <data name="Lbl_unit_add_unit" xml:space="preserve">
+    <value>Add Unit</value>
+  </data>
+  <data name="Lbl_unit_edit_unit" xml:space="preserve">
+    <value>Edit Unit</value>
+  </data>
+  <data name="Btn_location_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Btn_location_ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Btn_location_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Btn_receive_add_particular" xml:space="preserve">
+    <value>Add Particular</value>
+  </data>
+  <data name="Btn_serviceType_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_serviceType_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_serviceType_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Lbl_analyticReport_category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Lbl_analyticReport_week" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="Lbl_category_add_category" xml:space="preserve">
+    <value>Add Category</value>
+  </data>
+  <data name="Lbl_category_edit_category" xml:space="preserve">
+    <value>Edit Category</value>
+  </data>
+  <data name="Lbl_category_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_invoice_serial" xml:space="preserve">
+    <value>Serial</value>
+  </data>
+  <data name="Lbl_location_add_location" xml:space="preserve">
+    <value>Add Location</value>
+  </data>
+  <data name="Lbl_location_delete_action" xml:space="preserve">
+    <value>Delete Action</value>
+  </data>
+  <data name="Lbl_location_edit_location" xml:space="preserve">
+    <value>Edit Location</value>
+  </data>
+  <data name="Lbl_location_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_location_restore_action" xml:space="preserve">
+    <value>Restore Action</value>
+  </data>
+  <data name="Lbl_offer_amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Lbl_offer_qty" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="Lbl_receive_add_expense" xml:space="preserve">
+    <value>Add Expense</value>
+  </data>
+  <data name="Lbl_receive_receive_report" xml:space="preserve">
+    <value>Receive Report</value>
+  </data>
+  <data name="Lbl_receive_search_all" xml:space="preserve">
+    <value>Search All</value>
+  </data>
+  <data name="Lbl_receive_supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Lbl_receive_total" xml:space="preserve">
+    <value>Total :</value>
+  </data>
+  <data name="Lbl_receive_total_track_received_amount" xml:space="preserve">
+    <value>Total Track Received Amount</value>
+  </data>
+  <data name="Lbl_serviceType_add_serviceType" xml:space="preserve">
+    <value>Add Service Type</value>
+  </data>
+  <data name="Lbl_serviceType_edit_serviceType" xml:space="preserve">
+    <value>Edit Service Type</value>
+  </data>
+  <data name="Lbl_serviceType_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_offer_point" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="Lbl_offer_search" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Btn_manufacturer_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_manufacturer_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_manufacturer_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Btn_package_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Lbl_manufacturer_manufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="Lbl_package_empty_qty" xml:space="preserve">
+    <value>Empty Qty</value>
+  </data>
+  <data name="Lbl_package_package_list" xml:space="preserve">
+    <value>Package List</value>
+  </data>
+  <data name="Lbl_warranty_purchese_date" xml:space="preserve">
+    <value>Purchase Date</value>
+  </data>
+  <data name="Btn_attribute_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_attribute_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_attribute_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Lbl_attribute_add_attribute" xml:space="preserve">
+    <value>Add Attribute</value>
+  </data>
+  <data name="Lbl_attribute_edit_attribute" xml:space="preserve">
+    <value>Edit Attribute</value>
+  </data>
+  <data name="Lbl_attribute_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_attribute_select_a_field" xml:space="preserve">
+    <value>Select a Field</value>
+  </data>
+  <data name="Lbl_manufacturer_add_manufacturer" xml:space="preserve">
+    <value>Add Manufacturer</value>
+  </data>
+  <data name="Lbl_manufacturer_edit_manufacturer" xml:space="preserve">
+    <value>Edit Manufacturer</value>
+  </data>
+  <data name="Lbl_manufacturer_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Btn_field_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_field_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_field_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Btn_smsConfig_save_changes" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="Btn_staff_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_staff_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_staff_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Lbl_field_add_field" xml:space="preserve">
+    <value>Add Field</value>
+  </data>
+  <data name="Lbl_field_edit_field" xml:space="preserve">
+    <value>Edit Field</value>
+  </data>
+  <data name="Lbl_field_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_smsConfig_api_key" xml:space="preserve">
+    <value>Api Key</value>
+  </data>
+  <data name="Lbl_smsConfig_password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Lbl_smsConfig_sender_key" xml:space="preserve">
+    <value>Sender Key</value>
+  </data>
+  <data name="Lbl_smsConfig_user_name" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Lbl_staff_add_staff" xml:space="preserve">
+    <value>Add Staff</value>
+  </data>
+  <data name="Lbl_staff_date_of_birth" xml:space="preserve">
+    <value>Date Of Birth</value>
+  </data>
+  <data name="Lbl_staff_department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Lbl_staff_edit_staff" xml:space="preserve">
+    <value>Edit Staff</value>
+  </data>
+  <data name="Lbl_staff_female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Lbl_staff_general" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Lbl_staff_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_staff_male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Lbl_staff_marketing" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="Lbl_staff_sex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="Title_smsConfig" xml:space="preserve">
+    <value>SMS Configuration</value>
+  </data>
+  <data name="Lbl_subscription_balance" xml:space="preserve">
+    <value>Balance:</value>
+  </data>
+  <data name="Lbl_subscription_transection_history" xml:space="preserve">
+    <value>Transaction History</value>
+  </data>
+  <data name="Lbl_profile_upload_new" xml:space="preserve">
+    <value>Upload New</value>
+  </data>
+  <data name="Lbl_subscription_cash_in" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="Lbl_subscription_cash_out" xml:space="preserve">
+    <value>Fee</value>
+  </data>
+  <data name="Lbl_subscription_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_subscription_description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Lbl_subscription_invoice_no" xml:space="preserve">
+    <value>Transaction ID</value>
+  </data>
+  <data name="Lbl_subscription_status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Lbl_subscription_title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Lbl_subscription_type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Lbl_stock_search_all_category" xml:space="preserve">
+    <value>Search All Category</value>
+  </data>
+  <data name="Lbl_customers_delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Btn_purchase_import_file" xml:space="preserve">
+    <value>Import File</value>
+  </data>
+  <data name="Lbl_offer_search_scan_product_by_name" xml:space="preserve">
+    <value>Search/Scan Product by Name/Code</value>
+  </data>
+  <data name="Lbl_purchase_select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Lbl_purchase_track_received" xml:space="preserve">
+    <value>Track Received</value>
+  </data>
+  <data name="Lbl_purchase_write_track_received_notes" xml:space="preserve">
+    <value>Write track recived notes</value>
+  </data>
+  <data name="Lbl_service_select" xml:space="preserve">
+    <value>-- Select --</value>
+  </data>
+  <data name="Btn_damage_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Lbl_damage_damaged_date" xml:space="preserve">
+    <value>Damaged Date</value>
+  </data>
+  <data name="Lbl_damage_imei" xml:space="preserve">
+    <value>IMEI</value>
+  </data>
+  <data name="Lbl_damage_price_sell" xml:space="preserve">
+    <value>Price (Sell)</value>
+  </data>
+  <data name="Lbl_damage_size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Lbl_setting_action_invoice" xml:space="preserve">
+    <value>Action Invoice</value>
+  </data>
+  <data name="Lbl_setting_active_delivery_status" xml:space="preserve">
+    <value>Active Delivery Status</value>
+  </data>
+  <data name="Lbl_setting_active_service" xml:space="preserve">
+    <value>Active Service</value>
+  </data>
+  <data name="Lbl_setting_after_search_stay_product_name" xml:space="preserve">
+    <value>After search stay product name</value>
+  </data>
+  <data name="Lbl_setting_allow_same_product_name" xml:space="preserve">
+    <value>Allow Same Product Name</value>
+  </data>
+  <data name="Lbl_setting_arabian_standard_time" xml:space="preserve">
+    <value>Arabian Standard Time</value>
+  </data>
+  <data name="Lbl_setting_are_you_want_to_show_invoice_option_in_invoice_page" xml:space="preserve">
+    <value>are you want to show invoice option in invoice page</value>
+  </data>
+  <data name="Lbl_setting_auto_generate_barcode_type" xml:space="preserve">
+    <value>Auto Generate barcode type</value>
+  </data>
+  <data name="Lbl_setting_auto_select_search_by" xml:space="preserve">
+    <value>Auto Select Search By</value>
+  </data>
+  <data name="Lbl_setting_bangla" xml:space="preserve">
+    <value>Bangla</value>
+  </data>
+  <data name="Lbl_setting_bangladesh_standard_time" xml:space="preserve">
+    <value>Bangladesh Standard Time</value>
+  </data>
+  <data name="Lbl_setting_barcode_size" xml:space="preserve">
+    <value>Barcode Size</value>
+  </data>
+  <data name="Lbl_setting_batch_no_enable" xml:space="preserve">
+    <value>Batch no enable</value>
+  </data>
+  <data name="Lbl_setting_business_type" xml:space="preserve">
+    <value>Business Type</value>
+  </data>
+  <data name="Lbl_setting_category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Lbl_setting_category_and_product" xml:space="preserve">
+    <value>Category and Product</value>
+  </data>
+  <data name="Lbl_setting_category_name" xml:space="preserve">
+    <value>Category Name</value>
+  </data>
+  <data name="Lbl_setting_cecish_number" xml:space="preserve">
+    <value>Cecish Number</value>
+  </data>
+  <data name="Lbl_setting_challan_paper_size" xml:space="preserve">
+    <value>Challan Paper Size</value>
+  </data>
+  <data name="Lbl_setting_change_you_challan_paper_size_and_print_actual_challan_which_you_want" xml:space="preserve">
+    <value>Change you challan paper size and print actual challan which you want.</value>
+  </data>
+  <data name="Lbl_setting_company_name" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="Lbl_setting_customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Lbl_setting_customer_summary_export" xml:space="preserve">
+    <value>Customer Summary Export</value>
+  </data>
+  <data name="Lbl_setting_customer_validation_required" xml:space="preserve">
+    <value>Customer Validation Required</value>
+  </data>
+  <data name="Lbl_setting_custom_field_attribute" xml:space="preserve">
+    <value>Custom Field Attribute</value>
+  </data>
+  <data name="Lbl_setting_developer" xml:space="preserve">
+    <value>Developer</value>
+  </data>
+  <data name="Lbl_setting_diagnostic_center" xml:space="preserve">
+    <value>Diagnostic Center</value>
+  </data>
+  <data name="Lbl_setting_directly_misc_cost_save_to_expense" xml:space="preserve">
+    <value>Directly misc. cost save to expense</value>
+  </data>
+  <data name="Lbl_setting_display_add_customer" xml:space="preserve">
+    <value>Display Add Customer</value>
+  </data>
+  <data name="Lbl_setting_display_brand_name_print" xml:space="preserve">
+    <value>Display Brand Name - Print</value>
+  </data>
+  <data name="Lbl_setting_display_buy_price" xml:space="preserve">
+    <value>Display Buy Price</value>
+  </data>
+  <data name="Lbl_setting_display_cart_buy_price" xml:space="preserve">
+    <value>Display Cart Buy Price</value>
+  </data>
+  <data name="Lbl_setting_display_cart_retail_price" xml:space="preserve">
+    <value>Display Cart Retail Price</value>
+  </data>
+  <data name="Lbl_setting_display_cart_wholesale_price" xml:space="preserve">
+    <value>Display Cart Wholesale Price</value>
+  </data>
+  <data name="Lbl_setting_display_challan_address" xml:space="preserve">
+    <value>Display Challan Address</value>
+  </data>
+  <data name="Lbl_setting_display_challan_location" xml:space="preserve">
+    <value>Display challan location</value>
+  </data>
+  <data name="Lbl_setting_display_company_price" xml:space="preserve">
+    <value>Display Company Price</value>
+  </data>
+  <data name="Lbl_setting_display_dariant" xml:space="preserve">
+    <value>Display Variant</value>
+  </data>
+  <data name="Lbl_setting_display_delivery_status" xml:space="preserve">
+    <value>Display Delivery Status</value>
+  </data>
+  <data name="Lbl_setting_display_designation" xml:space="preserve">
+    <value>Display Designation</value>
+  </data>
+  <data name="Lbl_setting_display_discount" xml:space="preserve">
+    <value>Display discount</value>
+  </data>
+  <data name="Lbl_setting_display_discount_print" xml:space="preserve">
+    <value>Display Discount - Print</value>
+  </data>
+  <data name="Lbl_setting_display_draft_quotation" xml:space="preserve">
+    <value>Display Draft / Quotation</value>
+  </data>
+  <data name="Lbl_setting_display_extra_discount" xml:space="preserve">
+    <value>Display Extra Discount</value>
+  </data>
+  <data name="Lbl_setting_display_guarantor" xml:space="preserve">
+    <value>Display Guarantor</value>
+  </data>
+  <data name="Lbl_setting_display_instalment_send_message" xml:space="preserve">
+    <value>Display instalment send message</value>
+  </data>
+  <data name="Lbl_setting_display_interest" xml:space="preserve">
+    <value>Display Interest</value>
+  </data>
+  <data name="Lbl_setting_display_logo_invoice_print" xml:space="preserve">
+    <value>Display Logo Invoice Print</value>
+  </data>
+  <data name="Lbl_setting_display_print_all_stock_for_user" xml:space="preserve">
+    <value>Display Print All Stock For User</value>
+  </data>
+  <data name="Lbl_setting_display_referal_option" xml:space="preserve">
+    <value>Display Referal Option</value>
+  </data>
+  <data name="Lbl_setting_display_search_customer" xml:space="preserve">
+    <value>Display Search Customer</value>
+  </data>
+  <data name="Lbl_setting_display_supplier_schedule_payment" xml:space="preserve">
+    <value>Display Supplier Schedule Payment</value>
+  </data>
+  <data name="Lbl_setting_display_supplier_track_received" xml:space="preserve">
+    <value>Display Supplier Track Received</value>
+  </data>
+  <data name="Lbl_setting_display_total_qty" xml:space="preserve">
+    <value>Display Total Qty</value>
+  </data>
+  <data name="Lbl_setting_display_vat" xml:space="preserve">
+    <value>Display VAT</value>
+  </data>
+  <data name="Lbl_setting_d_branding" xml:space="preserve">
+    <value>D Branding</value>
+  </data>
+  <data name="Lbl_setting_ecommerce" xml:space="preserve">
+    <value>Ecommerce</value>
+  </data>
+  <data name="Lbl_setting_edit_invoice_date" xml:space="preserve">
+    <value>Edit Invoice Date</value>
+  </data>
+  <data name="Lbl_setting_edit_product_unit_price" xml:space="preserve">
+    <value>Edit Product Unit Price</value>
+  </data>
+  <data name="Lbl_setting_electronics_appliances" xml:space="preserve">
+    <value>Electronics &amp; Appliances</value>
+  </data>
+  <data name="Lbl_setting_enable_cart_category" xml:space="preserve">
+    <value>Enable Cart Category</value>
+  </data>
+  <data name="Lbl_setting_enable_cart_supplier" xml:space="preserve">
+    <value>Enable Cart Supplier</value>
+  </data>
+  <data name="Lbl_setting_enable_due_adjustment" xml:space="preserve">
+    <value>Enable Due Adjustment</value>
+  </data>
+  <data name="Lbl_setting_enable_godown_invoice" xml:space="preserve">
+    <value>Enable Godown Invoice</value>
+  </data>
+  <data name="Lbl_setting_enable_instalment" xml:space="preserve">
+    <value>Enable Instalment</value>
+  </data>
+  <data name="Lbl_setting_enable_misc_cost" xml:space="preserve">
+    <value>Enable Misc. Cost</value>
+  </data>
+  <data name="Lbl_setting_enable_opening_due" xml:space="preserve">
+    <value>Enable Opening Due</value>
+  </data>
+  <data name="Lbl_setting_enable_qty_search" xml:space="preserve">
+    <value>Enable Qty Search</value>
+  </data>
+  <data name="Lbl_setting_enable_transfer" xml:space="preserve">
+    <value>Enable Transfer</value>
+  </data>
+  <data name="Lbl_setting_engine_number" xml:space="preserve">
+    <value>Engine Number</value>
+  </data>
+  <data name="Lbl_setting_english" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Lbl_setting_expiry_date_enable" xml:space="preserve">
+    <value>Expiry Date enable</value>
+  </data>
+  <data name="Lbl_setting_fashion_beauty" xml:space="preserve">
+    <value>Fashion &amp; Beauty</value>
+  </data>
+  <data name="Lbl_setting_food_groceres" xml:space="preserve">
+    <value>Food &amp; Groceres</value>
+  </data>
+  <data name="Lbl_setting_free" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="Lbl_setting_full" xml:space="preserve">
+    <value>Full</value>
+  </data>
+  <data name="Lbl_setting_gas_cylinder_avaiable" xml:space="preserve">
+    <value>Gas Cylinder Avaiable</value>
+  </data>
+  <data name="Lbl_setting_general" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Lbl_setting_import_products" xml:space="preserve">
+    <value>Import Products</value>
+  </data>
+  <data name="Lbl_setting_inventory" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="Lbl_setting_invoice" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="Lbl_setting_invoice_in_word" xml:space="preserve">
+    <value>Invoice in Word</value>
+  </data>
+  <data name="Lbl_setting_invoice_paper_size" xml:space="preserve">
+    <value>Invoice Paper Size </value>
+  </data>
+  <data name="Lbl_setting_invoice_paper_size_option" xml:space="preserve">
+    <value>Invoice Paper Size Option</value>
+  </data>
+  <data name="Lbl_setting_invoice_print" xml:space="preserve">
+    <value>Invoice Print</value>
+  </data>
+  <data name="Lbl_setting_invoice_wise_wearch_product" xml:space="preserve">
+    <value>Invoice wise Search Product</value>
+  </data>
+  <data name="Lbl_setting_language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Lbl_setting_load_default_products_to_invoice_cart" xml:space="preserve">
+    <value>Load default products to Invoice Cart</value>
+  </data>
+  <data name="Lbl_setting_medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="Lbl_setting_month_count_for_sales_report" xml:space="preserve">
+    <value>Month count for sales report</value>
+  </data>
+  <data name="Lbl_setting_multi_payment" xml:space="preserve">
+    <value>Multi payment</value>
+  </data>
+  <data name="Lbl_setting_no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Lbl_setting_no_barcode_generate" xml:space="preserve">
+    <value>No Barcode Generate</value>
+  </data>
+  <data name="Lbl_setting_one_invoice" xml:space="preserve">
+    <value>One Invoice</value>
+  </data>
+  <data name="Lbl_setting_on_your_custom_develoment_branding_logo" xml:space="preserve">
+    <value>on your custom Develoment branding logo</value>
+  </data>
+  <data name="Lbl_setting_package" xml:space="preserve">
+    <value>Package</value>
+  </data>
+  <data name="Lbl_setting_pharmacy" xml:space="preserve">
+    <value>Pharmacy</value>
+  </data>
+  <data name="Lbl_setting_print_barcode_for" xml:space="preserve">
+    <value>Print Barcode For</value>
+  </data>
+  <data name="Lbl_setting_print_by_serial_no" xml:space="preserve">
+    <value>Print by Serial No</value>
+  </data>
+  <data name="Lbl_setting_print_by_special_date" xml:space="preserve">
+    <value>Print by Special Date</value>
+  </data>
+  <data name="Lbl_setting_print_category" xml:space="preserve">
+    <value>Print Category</value>
+  </data>
+  <data name="Lbl_setting_print_change_amount" xml:space="preserve">
+    <value>Print Change Amount</value>
+  </data>
+  <data name="Lbl_setting_print_imei" xml:space="preserve">
+    <value>Print IMEI</value>
+  </data>
+  <data name="Lbl_setting_print_invoice_in" xml:space="preserve">
+    <value>Print Invoice in</value>
+  </data>
+  <data name="Lbl_setting_print_return_qty" xml:space="preserve">
+    <value>Print Return Qty</value>
+  </data>
+  <data name="Lbl_setting_print_supplier" xml:space="preserve">
+    <value>Print Supplier</value>
+  </data>
+  <data name="Lbl_setting_print_vat" xml:space="preserve">
+    <value>Print VAT</value>
+  </data>
+  <data name="Lbl_setting_print_warranty_date" xml:space="preserve">
+    <value>Print Warranty Date</value>
+  </data>
+  <data name="Lbl_setting_print_without_previewing" xml:space="preserve">
+    <value>Print without Previewing</value>
+  </data>
+  <data name="Lbl_setting_product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Lbl_setting_product_name" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="Lbl_setting_product_search_by" xml:space="preserve">
+    <value>Product Search By</value>
+  </data>
+  <data name="Lbl_setting_promotion" xml:space="preserve">
+    <value>Promotion</value>
+  </data>
+  <data name="Lbl_setting_purchase_payment" xml:space="preserve">
+    <value>Purchase Payment</value>
+  </data>
+  <data name="Lbl_setting_purchese" xml:space="preserve">
+    <value>Purchese</value>
+  </data>
+  <data name="Lbl_setting_recived_date_enable" xml:space="preserve">
+    <value>Recived Date enable</value>
+  </data>
+  <data name="Lbl_setting_Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Lbl_setting_retail_shop" xml:space="preserve">
+    <value>Retail Shop</value>
+  </data>
+  <data name="Lbl_setting_save_auto_sales_person" xml:space="preserve">
+    <value>Save Auto Sales Person</value>
+  </data>
+  <data name="Lbl_setting_save_print_at_a_time" xml:space="preserve">
+    <value>Save &amp; Print at a Time</value>
+  </data>
+  <data name="Lbl_setting_send_invoice_mail" xml:space="preserve">
+    <value>Send Invoice Mail</value>
+  </data>
+  <data name="Lbl_setting_send_invoice_to_business_owner_by_sms" xml:space="preserve">
+    <value>Send Invoice to business owner By SMS</value>
+  </data>
+  <data name="Lbl_setting_send_invoice_to_customer_by_sms" xml:space="preserve">
+    <value>Send Invoice To Customer By SMS</value>
+  </data>
+  <data name="Lbl_setting_separate_store" xml:space="preserve">
+    <value>Separate Store</value>
+  </data>
+  <data name="Lbl_setting_serial_no_enable" xml:space="preserve">
+    <value>Serial no enable</value>
+  </data>
+  <data name="Lbl_setting_service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="Lbl_setting_show_additional_contact" xml:space="preserve">
+    <value>Show Additional Contact</value>
+  </data>
+  <data name="Lbl_setting_show_advance" xml:space="preserve">
+    <value>Show Advance</value>
+  </data>
+  <data name="Lbl_setting_show_balance_qty" xml:space="preserve">
+    <value>Show Balance Qty</value>
+  </data>
+  <data name="Lbl_setting_show_barcode_generator" xml:space="preserve">
+    <value>Show Barcode Generator</value>
+  </data>
+  <data name="Lbl_setting_show_barcode_in_stock" xml:space="preserve">
+    <value>Show barcode in Stock</value>
+  </data>
+  <data name="Lbl_setting_show_blood_group" xml:space="preserve">
+    <value>Show Blood Group</value>
+  </data>
+  <data name="Lbl_setting_show_buy_price_for_user" xml:space="preserve">
+    <value>Show Buy Price For User</value>
+  </data>
+  <data name="Lbl_setting_show_ecommerce_api" xml:space="preserve">
+    <value>Show Ecommerce API</value>
+  </data>
+  <data name="Lbl_setting_show_image_upload" xml:space="preserve">
+    <value>Show Image Upload</value>
+  </data>
+  <data name="Lbl_setting_show_imei" xml:space="preserve">
+    <value>Show IMEI</value>
+  </data>
+  <data name="Lbl_setting_show_last_qty" xml:space="preserve">
+    <value>Show Last Qty</value>
+  </data>
+  <data name="Lbl_setting_show_location" xml:space="preserve">
+    <value>Show Location</value>
+  </data>
+  <data name="Lbl_setting_show_manufacturer" xml:space="preserve">
+    <value>Show Manufacturer</value>
+  </data>
+  <data name="Lbl_setting_show_member_id" xml:space="preserve">
+    <value>Show Member Id</value>
+  </data>
+  <data name="Lbl_setting_show_money_reciept" xml:space="preserve">
+    <value>Show Money Reciept</value>
+  </data>
+  <data name="Lbl_setting_show_offer" xml:space="preserve">
+    <value>Show Offer</value>
+  </data>
+  <data name="Lbl_setting_show_paid_watermark" xml:space="preserve">
+    <value>Show Paid Watermark</value>
+  </data>
+  <data name="Lbl_setting_show_payment_history" xml:space="preserve">
+    <value>Show Payment History</value>
+  </data>
+  <data name="Lbl_setting_show_pay_date" xml:space="preserve">
+    <value>Show Pay Date</value>
+  </data>
+  <data name="Lbl_setting_show_product_size" xml:space="preserve">
+    <value>Show Product Size</value>
+  </data>
+  <data name="Lbl_setting_show_quotation_notification" xml:space="preserve">
+    <value>Show Quotation Notification</value>
+  </data>
+  <data name="Lbl_setting_show_quotation_option" xml:space="preserve">
+    <value>Show Quotation Option</value>
+  </data>
+  <data name="Lbl_setting_show_shipment_status" xml:space="preserve">
+    <value>Show Shipment Status</value>
+  </data>
+  <data name="Lbl_setting_show_sku" xml:space="preserve">
+    <value>Show Sku</value>
+  </data>
+  <data name="Lbl_setting_show_store_list" xml:space="preserve">
+    <value>Show Store list</value>
+  </data>
+  <data name="Lbl_setting_show_tax" xml:space="preserve">
+    <value>Show Tax</value>
+  </data>
+  <data name="Lbl_setting_show_unit_measurement" xml:space="preserve">
+    <value>Show Unit Measurement</value>
+  </data>
+  <data name="Lbl_setting_show_warning_qty" xml:space="preserve">
+    <value>Show Warning Qty</value>
+  </data>
+  <data name="Lbl_setting_show_warranty" xml:space="preserve">
+    <value>Show Warranty</value>
+  </data>
+  <data name="Lbl_setting_show_wholesale_option" xml:space="preserve">
+    <value>Show Wholesale Option</value>
+  </data>
+  <data name="Lbl_setting_sku" xml:space="preserve">
+    <value>SKU</value>
+  </data>
+  <data name="Lbl_setting_small" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="Lbl_setting_sports_accessories" xml:space="preserve">
+    <value>Sports &amp; Accessories</value>
+  </data>
+  <data name="Lbl_setting_standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="Lbl_setting_supplier_commission_enable" xml:space="preserve">
+    <value>Supplier Commission enable</value>
+  </data>
+  <data name="Lbl_setting_three_invoice" xml:space="preserve">
+    <value>Three Invoice</value>
+  </data>
+  <data name="Lbl_setting_time_zone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Lbl_setting_token" xml:space="preserve">
+    <value>Token</value>
+  </data>
+  <data name="Lbl_setting_try_beta_invoice_print" xml:space="preserve">
+    <value>Try Beta Invoice Print</value>
+  </data>
+  <data name="Lbl_setting_two_invoice" xml:space="preserve">
+    <value>Two Invoice</value>
+  </data>
+  <data name="Title_configuration" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="Btn_addUser_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Lbl_addUser_branch_limit" xml:space="preserve">
+    <value>Branch Limit</value>
+  </data>
+  <data name="Lbl_addUser_confirm_password" xml:space="preserve">
+    <value>Comfirm Password</value>
+  </data>
+  <data name="Lbl_addUser_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Lbl_addUser_expiry_date" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="Lbl_addUser_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Lbl_addUser_password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Lbl_addUser_select" xml:space="preserve">
+    <value>--Select--</value>
+  </data>
+  <data name="Lbl_addUser_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_addUser_subscription_fee" xml:space="preserve">
+    <value>Subscription Fee</value>
+  </data>
+  <data name="Lbl_addUser_user_limit" xml:space="preserve">
+    <value>User Limit</value>
+  </data>
+  <data name="Lbl_setting_invoice_card_discount" xml:space="preserve">
+    <value>Invoice Card Discount</value>
+  </data>
+  <data name="Title_addUser" xml:space="preserve">
+    <value>Add User</value>
+  </data>
+  <data name="Lbl_setting_inventory_small" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="Btn_stockImport_download_sample" xml:space="preserve">
+    <value> Download Sample</value>
+  </data>
+  <data name="Btn_stockImport_import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Lbl_stockImport_category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Lbl_stockImport_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_stockImport_supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Lbl_stockImport_unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Title_stockImport" xml:space="preserve">
+    <value>STOCK Import</value>
+  </data>
+  <data name="Lbl_stockReport_category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Lbl_stockReport_print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Lbl_stockReport_store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Lbl_stockReport_supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Title_stockReport" xml:space="preserve">
+    <value>Stock Report</value>
+  </data>
+  <data name="Btn_company_add_company" xml:space="preserve">
+    <value>Add Company</value>
+  </data>
+  <data name="Lbl_company_company_list" xml:space="preserve">
+    <value>Company List</value>
+  </data>
+  <data name="Lbl_stockReport_all" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Title_company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Lbl_particular_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_bank_add_bank" xml:space="preserve">
+    <value>Add Bank</value>
+  </data>
+  <data name="Lbl_bank_edit_bank_name" xml:space="preserve">
+    <value>Edit Bank Name</value>
+  </data>
+  <data name="Lbl_bank_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Lbl_card_edit_card" xml:space="preserve">
+    <value>Edit Card</value>
+  </data>
+  <data name="Lbl_card_select_a_bank" xml:space="preserve">
+    <value>Select a Bank</value>
+  </data>
+  <data name="Lbl_invoice_select_a_customer" xml:space="preserve">
+    <value>Select a Customer</value>
+  </data>
+  <data name="Title_purchase_product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Btn_purchase_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Lbl_invoice_write_notes" xml:space="preserve">
+    <value>Write Notes</value>
+  </data>
+  <data name="Lbl_servicing_select_a_customer" xml:space="preserve">
+    <value>Select a Customer</value>
+  </data>
+  <data name="Lbl_profitLoss_cashin" xml:space="preserve">
+    <value>Cashin</value>
+  </data>
+  <data name="Lbl_profitLoss_cashout" xml:space="preserve">
+    <value>Cashout</value>
+  </data>
+  <data name="Lbl_profitLoss_cash_type" xml:space="preserve">
+    <value>Cash Type</value>
+  </data>
+  <data name="Lbl_profitLoss_dated" xml:space="preserve">
+    <value>Dated</value>
+  </data>
+  <data name="Lbl_profitLoss_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Btn_ecommerce_clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Btn_ecommerce_set" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="Btn_purchase_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Lbl_ecommerce_add_ecommerce_product" xml:space="preserve">
+    <value>ADD ECOMMERCE PRODUCT</value>
+  </data>
+  <data name="Lbl_ecommerce_code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Lbl_ecommerce_delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Lbl_ecommerce_descriptions" xml:space="preserve">
+    <value>Descriptions</value>
+  </data>
+  <data name="Lbl_ecommerce_ecommerce_product" xml:space="preserve">
+    <value>ECOMMERCE PRODUCTS</value>
+  </data>
+  <data name="Lbl_ecommerce_featured_product" xml:space="preserve">
+    <value>Featured Product</value>
+  </data>
+  <data name="Lbl_ecommerce_features" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="Lbl_ecommerce_price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Lbl_ecommerce_product_code" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="Lbl_ecommerce_product_name" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="Lbl_ecommerce_product_title" xml:space="preserve">
+    <value>Product Title</value>
+  </data>
+  <data name="Lbl_ecommerce_search" xml:space="preserve">
+    <value>search...</value>
+  </data>
+  <data name="Lbl_ecommerce_search_productby_name_code" xml:space="preserve">
+    <value>Search/Scan Product by Name/Code</value>
+  </data>
+  <data name="Lbl_ecommerce_set_image" xml:space="preserve">
+    <value>Set Image</value>
+  </data>
+  <data name="Lbl_ecommerce_sl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="Lbl_ecommerce_title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Title_ecommerce" xml:space="preserve">
+    <value>Ecommerce</value>
+  </data>
+  <data name="Lbl_setting_payment_mode" xml:space="preserve">
+    <value>Payment Mode</value>
+  </data>
+  <data name="Btn_customers_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Lbl_barcode_enter_your_product_code" xml:space="preserve">
+    <value>Enter your product code</value>
+  </data>
+  <data name="Lbl_barcode_print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Lbl_customers_delete_customer" xml:space="preserve">
+    <value>Delete Customer</value>
+  </data>
+  <data name="Lbl_stock_enter_qty" xml:space="preserve">
+    <value>Enter qty</value>
+  </data>
+  <data name="Title_barcode_barcode_print" xml:space="preserve">
+    <value>Barcode Print</value>
+  </data>
+  <data name="Lbl_particular_add_particular" xml:space="preserve">
+    <value>Add Particular</value>
+  </data>
+  <data name="Lbl_particular_edit_particular" xml:space="preserve">
+    <value>Edit Particular</value>
+  </data>
+  <data name="Lbl_supply_total_balance" xml:space="preserve">
+    <value>Total Balance:</value>
+  </data>
+  <data name="Lbl_supply_total_purchase_amount" xml:space="preserve">
+    <value>Total Purchase Amount:</value>
+  </data>
+  <data name="Lbl_supply_total_supplier_payment" xml:space="preserve">
+    <value>Total Supplier Payment:</value>
+  </data>
+  <data name="Lbl_subscription_amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Lbl_subscription_enter_email" xml:space="preserve">
+    <value>Enter Email</value>
+  </data>
+  <data name="Lbl_subscription_i_want_to_receive_invoice_in_email" xml:space="preserve">
+    <value>I want to receive invoice in email</value>
+  </data>
+  <data name="Lbl_subscription_payment_amount" xml:space="preserve">
+    <value>Payment Amount</value>
+  </data>
+  <data name="Lbl_barcode_product_code_is_not_exit" xml:space="preserve">
+    <value>Product code is not exits.</value>
+  </data>
+  <data name="Lbl_location_are_you_sure_want_to_delete" xml:space="preserve">
+    <value>Are you sure want to delete?</value>
+  </data>
+  <data name="Lbl_stock_please_select_a_product" xml:space="preserve">
+    <value>Please select a product.</value>
+  </data>
+  <data name="Lbl_subscription_agreed" xml:space="preserve">
+    <value>agreed</value>
+  </data>
+  <data name="Lbl_subscription_but_failed_to_send_mail" xml:space="preserve">
+    <value>But faild to send mail.</value>
+  </data>
+  <data name="Lbl_subscription_caution" xml:space="preserve">
+    <value>Caution</value>
+  </data>
+  <data name="Lbl_subscription_in_terms_of_your_payment_and_service" xml:space="preserve">
+    <value>In terms of your payment and service</value>
+  </data>
+  <data name="Lbl_subscription_i_confirm_that_i_am_by_traking_this_box" xml:space="preserve">
+    <value>I confirm that i am by traking this box</value>
+  </data>
+  <data name="Lbl_subscription_success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="Lbl_subscription_the_balance_of_this_invoice_has_been_used" xml:space="preserve">
+    <value>The balance of this invoice has been used</value>
+  </data>
+  <data name="Lbl_subscription_your_company_information_is_not_available_please_contact_our_support_team" xml:space="preserve">
+    <value>Your company information is not available.Please contact our support team.</value>
+  </data>
+  <data name="Lbl_subscription_your_payment_has_been_failed" xml:space="preserve">
+    <value>Your payment has been failed.</value>
+  </data>
+  <data name="Lbl_subscription_your_payment_has_been_failed_please_contact_our_support_center" xml:space="preserve">
+    <value>Your payment has been failed.Please contact our support center.</value>
+  </data>
+  <data name="Lbl_subscription_your_payment_has_been_succesful" xml:space="preserve">
+    <value>Your payment has been succesful.</value>
+  </data>
+  <data name="Lbl_subscription_your_payment_is_not_succesful_please_contact_our_support_center" xml:space="preserve">
+    <value>Your payment is not succesful.Please contact our support center.</value>
+  </data>
+  <data name="Lbl_subscription_your_process_is_not_complete_please_contact_our_support_team" xml:space="preserve">
+    <value>Your process is not complete.Please contact our support team.</value>
+  </data>
+  <data name="Lbl_subscription_you_must_pay_10_tk_or_more" xml:space="preserve">
+    <value>You must pay 10 tk or more</value>
+  </data>
+  <data name="Lbl_return_product_code_is_required" xml:space="preserve">
+    <value>Product code is required</value>
+  </data>
+  <data name="Lbl_stockImport_search" xml:space="preserve">
+    <value>--search--</value>
+  </data>
+  <data name="Lbl_user_restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="Lbl_delete_are_you_sure_you_want_to_delete_selected_record" xml:space="preserve">
+    <value>Are you sure you want to delete selected record ?</value>
+  </data>
+  <data name="Lbl_supplier_add_new_supplier" xml:space="preserve">
+    <value>Add Supplier</value>
+  </data>
+  <data name="Lbl_supplier_edit_supplier" xml:space="preserve">
+    <value>Eidt Supplier</value>
+  </data>
+  <data name="Lbl_invoice_are_you_sure_want_to_susspend" xml:space="preserve">
+    <value>Are you sure want to susspend?</value>
+  </data>
+  <data name="Lbl_invoice_invoice_return" xml:space="preserve">
+    <value>Invoice Return:</value>
+  </data>
+  <data name="Btn_invoice_modal_suspend" xml:space="preserve">
+    <value>Suspend</value>
+  </data>
+  <data name="Btn_invoice_modal_suspend_as_new_invoice" xml:space="preserve">
+    <value>Suspend as New Invoice</value>
+  </data>
+  <data name="Lbl_invoice_max_return" xml:space="preserve">
+    <value>Max. Return :</value>
+  </data>
+  <data name="Lbl_invoice_total_due_advance" xml:space="preserve">
+    <value>Total Due/Advance :</value>
+  </data>
+  <data name="Lbl_purchase_product_name" xml:space="preserve">
+    <value>Product Name &lt;span class='required'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="Lbl_inventoryReport_buyPrice" xml:space="preserve">
+    <value>Buy Price</value>
+  </data>
+  <data name="Lbl_inventoryReport_inventoryAmount" xml:space="preserve">
+    <value>Inventory Amount</value>
+  </data>
+  <data name="Btn_servicing_pay_now" xml:space="preserve">
+    <value>Pay Now</value>
+  </data>
+  <data name="Lbl_servicing_customer_id" xml:space="preserve">
+    <value>Customer ID:</value>
+  </data>
+  <data name="Lbl_servicing_customer_payment" xml:space="preserve">
+    <value>Customer payment:</value>
+  </data>
+  <data name="Lbl_importProductFromApi_select_category" xml:space="preserve">
+    <value>Select Category</value>
+  </data>
+  <data name="Lbl_importProductFromApi_select_store" xml:space="preserve">
+    <value>Select Store</value>
+  </data>
+  <data name="Lbl_importProductFromApi_select_supplier" xml:space="preserve">
+    <value>Select Supplier</value>
+  </data>
+  <data name="Btn_stock_master_db" xml:space="preserve">
+    <value>Master DB</value>
+  </data>
+  <data name="Btn_masterDB_apply_filter" xml:space="preserve">
+    <value>Apply Filter</value>
+  </data>
+  <data name="Btn_masterDB_start_import" xml:space="preserve">
+    <value>Start Import</value>
+  </data>
+  <data name="Lbl_masterDB_brand" xml:space="preserve">
+    <value>Brand</value>
+  </data>
+  <data name="Lbl_masterDB_category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Lbl_masterDB_child_category" xml:space="preserve">
+    <value>Child-Category</value>
+  </data>
+  <data name="Lbl_masterDB_company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Lbl_masterDB_product_data" xml:space="preserve">
+    <value>Product Data</value>
+  </data>
+  <data name="Lbl_masterDB_sub_category" xml:space="preserve">
+    <value>Sub-Category</value>
+  </data>
+  <data name="Title_masterDB_import_product_from_master_database" xml:space="preserve">
+    <value>Import Product from Master Database</value>
+  </data>
+  <data name="Link_stockReport" xml:space="preserve">
+    <value>Stock Report</value>
+  </data>
+  <data name="Btn_addUser_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Lbl_invoice_token_rcpt" xml:space="preserve">
+    <value>TokenRcpt</value>
+  </data>
+</root>

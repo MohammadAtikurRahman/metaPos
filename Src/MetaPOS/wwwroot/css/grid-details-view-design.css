@@ -1,0 +1,197 @@
+﻿.slider div {
+    border-right: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.action-column { padding: 5px 0 5px 0 !important; }
+
+/* Gridview */
+
+.mGrid tbody { width: 250%; }
+
+.mGrid {
+    font-family: "Open Sans", sans-serif;
+    border-color: #C3D9FF;
+    float: left;
+    background: #FFF;
+}
+
+.mGrid td {
+    border-color: #e3e9f4;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0px 13px 0px 13px;
+    text-align: left;
+}
+
+.mGrid th {
+    padding: 11px;
+    /*color: #9D0E00;*/
+    font-weight: bold;
+    font-size: 15px;
+    background: #fff;
+    border-color: #e3e9f4;
+    text-align: left;
+}
+
+.mGrid th:first-child { width: 60px; }
+
+.mGrid th:last-child, .mGrid th:nth-last-child(2), .mGrid th:nth-last-child(3) { /*width: 50px;*/ }
+
+.mGrid tr:nth-last-child(2) { height: 40px; }
+
+.mGrid .alt { background: #F2F6FF; }
+
+.mGrid .pgr {
+    background: #F2F6FF;
+    border: none;
+    text-align: center !important;
+    padding: 10px 0px 5px;
+}
+
+.mGrid .pgr table {
+    margin: 5px 0;
+    text-align: center !important;
+}
+
+.mGrid .pgr td {
+    border-width: 0px;
+    padding: 6px;
+    font-weight: bold;
+    color: #436eb9;
+    line-height: 12px;
+    border: 0px solid #fff;
+    background-color: #fff;
+}
+
+.mGrid .pgr a { text-align: center !important; }
+
+.mGrid .pgr a:hover { text-decoration: none; }
+
+.pgr tr { text-align: center; }
+
+.mGrid .ftr {
+    font-weight: bold;
+    background: #8fcf72;
+    color: #fff;
+}
+
+.mGrid input[type="text"] {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 2px;
+    box-shadow: none;
+    font-size: 14px;
+    height: 30px;
+    margin-top: 5px;
+    padding: 5px 6px;
+    width: 213px;
+}
+
+.mGrid input[type="text"]:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0px none;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
+}
+
+/* */
+
+.lblDisplay { color: #9D0E00; }
+
+/* Details View*/
+
+.mDtl tbody { width: 250%; }
+
+.mDtl {
+    border-radius: 2px;
+    border-color: #C3D9FF;
+    float: left;
+    background: #FFF;
+    margin: 10px 10px 10px 10px;
+    width: 100%;
+}
+
+.mDtl td {
+    padding: 7px 7px 7px 19px;
+    font-size: 16px;
+    color: #000000;
+    border-color: #C3D9FF;
+    text-align: left;
+    width: 170px;
+}
+
+.mDtl th {
+    padding: 10px 7px 10px 17px;
+    color: #9D0E00;
+    font-weight: bold;
+    font-size: 16px;
+    background: #fff;
+    border-color: #C3D9FF;
+    border-bottom-width: 2px;
+    text-align: left;
+    width: 0;
+}
+
+.mDtl .alt { background: #F2F6FF; }
+
+.mDtl .pgr {
+    background: #F2F6FF;
+    border: none;
+}
+
+.mDtl .pgr table { margin: 5px 0; }
+
+.mDtl .pgr td {
+    border-width: 0px;
+    padding: 0 6px;
+    font-weight: bold;
+    color: #436eb9;
+    line-height: 12px;
+    border: 0px thin #fff;
+}
+
+.mDtl .pgr a { color: #193971; }
+
+.mDtl .pgr a:hover { text-decoration: none; }
+
+.mDtl .ftr {
+    font-weight: bold;
+    background: #8fcf72;
+    color: #fff;
+}
+
+.mDtl input[type="text"], .mDtl input[type="password"] {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 2px;
+    box-shadow: none;
+    font-size: 14px;
+    height: 30px;
+    margin-top: 5px;
+    padding: 5px 6px;
+    width: 330px;
+}
+
+.mDtl textarea {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 2px;
+    box-shadow: none;
+    width: 330px;
+}
+
+.mDtl input[type="text"]:focus, .mDtl input[type="password"]:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0px none;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
+}
+
+.mDtl textarea:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0px none;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
+}
+
+
+.mGrid tr {
+    height: 40px;
+}

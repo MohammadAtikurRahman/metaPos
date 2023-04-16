@@ -1,0 +1,15 @@
+﻿body {
+}
+
+.transection > .form-group {
+    padding-bottom: 10px;
+}
+
+.lang-reports-transaction {
+    padding-left: 10px;
+}
+.label-transaction-total-bal {
+    text-align: right;
+    font-size: 18px;
+    padding-top: 2%;
+}

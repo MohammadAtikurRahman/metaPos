@@ -1,0 +1,271 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="_Layout.master.cs" Inherits="MetaPOS.Site.Shared._Layout" %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        <asp:ContentPlaceHolder ID="Title" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+
+    <meta name="description" content="metaPOS is point of sale, inventory management, accounts management and customer management software that makes you easy to set up, manage and grow businesses.">
+    <meta name="keywords" content="metaPOS,metaPOS software,pos,inventory,accounts,customer,inventory management,accounts management,customer management software,pos software bangladesh,metakave software,custom software">
+    <meta name="author" content="MetaKave">
+
+    <!-- open graph -->
+    <!-- Informations -->
+    <meta property="og:description" content="metaPOS is point of sale, inventory management, accounts management and customer management software that makes you easy to set up, manage and grow businesses." />
+    <meta property="og:title" content="MetaPOS - Business is your responsibility to us" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.metaposbd.com/" />
+    <!-- Image -->
+    <meta property="og:image" content="http://www.metaposbd.com/Content/asset/img/og/banner.png" />
+    <meta property="og:image:alt" content="http://www.metaposbd.com/Content/asset/img/favicon.ico" />
+    <meta property="og:image:secure_url" content="http://www.metaposbd.com//Content/asset/img/og/banner.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="fb:app_id" content="937395106649197" />
+
+    <!-- end script for seo -->
+    <!-- Bootstrap Core CSS -->
+    <link href="<%= ResolveUrl("~/Site/Content/vendor/bootstrap/css/bootstrap.min.css?v=4.0") %>" rel="stylesheet" />
+    <!-- Custom Fonts -->
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="~/Site/Content/vendor/font-awesome/css/font-awesome.min.css?v=4.0" />
+    <!-- Design CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Atma" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="icon" href="<%= ResolveUrl("~/Site/Content/asset/img/favicon.ico")%>">
+    <link href="<%= ResolveUrl("~/Site/Content/asset/css/slider.css?v=4.0")%>" rel="stylesheet" />
+
+    <link href="<%= ResolveUrl("~/Site/Content/asset/css/design.css?v=4.0")%>" rel="stylesheet" />
+    <link rel="stylesheet" href="<%= ResolveUrl("~/Site/Content/asset/css/product_slider.css?v=4.0")%>">
+    <link href="<%= ResolveUrl("~/Site/Content/asset/css/responsive.css?v=4.0")%>" rel="stylesheet" />
+
+
+
+    <style>
+        .navbar-default.affix .nav > li.active > a, .navbar-default.affix .nav > li.active > a:focus {
+            color: #777777 !important;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+
+<body id="page-top">
+    <form id="form1" runat="server">
+        <!-- TOP NAVIGATION START -->
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i> </button>
+                    <a class="navbar-brand page-scroll" href="/web">
+                        <img src="<%= ResolveUrl("~/Site/Content/asset/img/logo.png") %>" class="logo img-responsive" alt="metaPOS" title="metaPOS logo"></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="page-scroll" href="/">মেটা পজ</a> </li>
+                        <li><a class="page-scroll" href="/features">ফিচারসমূহ</a> </li>
+                        <li><a class="page-scroll" href="/pricing">প্রাইসিং</a> </li>
+                        <li><a class="page-scroll" href="/contact">যোগাযোগ</a> </li>
+                        <li>
+                            <asp:Button ID="btnLogin" runat="server" CssClass="btn order-now" Text="লগইন করুন" OnClick="btnLogin_Click" />
+                        </li>
+                        <li>
+                            <div id="google_translate_element"></div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+        <!-- TOP NAVIGATION END -->
+
+        <asp:ContentPlaceHolder ID="Body" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+
+        <!-- GET DEMO AREA START -->
+        <%--<section class="get-demo bac">
+        <div class="get_meno_overlay">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <div class="section_heading">
+                            <h1>সাবস্ক্রাইব করুন</h1>
+                            <h2>আমারা আপনার মেইল এ মেটাপজ এর সকল আপডেট জানাবো</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3 col-sm-3 col-xs-3 col-xs-2"></div>
+                    <div class="col-md-6 col-sm-6 col-xs-8 subscribe-box">
+                        <div class="input-group" for="txtEmail" class="required">
+                            <input type="email" id="txtEmail" class="form-control" placeholder="আপনার মেইল দিন" required>
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" id="subSend" type="submit">ক্লিক করুন</button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>--%>
+        <!-- GET DEMO AREA START -->
+        <!-- FOOTER DEMO AREA START -->
+        <section class="footer" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <h3>অন্যান্য প্রোডাক্টস সমূহ</h3>
+                        <div class="left_item">
+                            <ul>
+                                <li><a href="http://metasmsbd.com/" target="_new" rel="nofollow">মেটা এস এম এস</a></li>
+                                <li><a href="http://www.metaedubd.com/" target="_new" rel="external">মেটা এডু</a></li>
+                                <li><a href="http://metahealthbd.com/login/" target="_new" rel="external">মেটা হেল্‌থ</a></li>
+                                <li><a href="http://metamorphosis.com.bd/" target="_new" rel="nofollow">মেটা ই আর পি</a></li>
+                            </ul>
+                        </div>
+                        <div class="right_item">
+                            <ul>
+
+                                <li><a href="http://metatailorbd.com/" target="_new" rel="nofollow">মেটা টেইলর</a></li>
+                                <li><a href="http://sayeddevs-001-site4.btempurl.com/admin/Home.aspx" target="_new" rel="noreferrer">মেটা ডিনার</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h3>তথ্য</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/metasmsbd/" target="_new">সাপোর্ট</a></li>
+                            <li><a href="https://metakave.com/about" target="_new">ডেভেলপারস</a></li>
+                            <li><a href="https://metakave.com/services" target="_new">সেবা সমূহ</a></li>
+                            <li><a href="https://metakave.com/contact" target="_new">সেবা নিন</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h3>কোম্পানি</h3>
+                        <ul>
+                            <li><a href="http://metakave.com.bd/meta-blog/" target="_new">ব্লগ</a></li>
+                            <li><a href="https://metakave.com/about" target="_new">উদ্দেশ্য</a></li>
+                            <li><a href="https://metakave.com/about" target="_new">কৌশল</a></li>
+                            <li><a href="https://metakave.com/portfolio" target="_new">কাজ সমূহ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-4 text-center col-xs-12">
+                        <div class="contact_us_box">
+                            <h3>কল করুন</h3>
+                            <p class="call_num">(+880) 1738 169 709</p>
+                            <a href="contact" class="btn btn-outline btn-xl">যোগাযোগ করুন</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footer_bottom text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>
+                            &copy; কপিরাইট <span class="company-name">মেটাকেভ</span>
+                            <script>
+                                document.write(new Date().getFullYear());
+
+                            </script>
+                            সর্বস্বত্ব সংরক্ষিত
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER AREA END -->
+        <!-- jQuery -->
+        <script src="<%= ResolveUrl("~/Site/Content/vendor/jquery/jquery.min.js?v=4.1.0") %>"></script>
+        <script src="<%= ResolveUrl("~/Site/Content/vendor/jquery/jssor.slider-22.2.16.mini.js?v=4.1.0") %>" type="text/javascript"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="<%= ResolveUrl("~/Site/Content/vendor/bootstrap/js/bootstrap.min.js?v=4.1.0") %>"></script>
+        <!-- Plugin JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js?v=4.1.0"></script>
+        <!-- Custom JavaScript For Get Demo Form-->
+        <script src="<%= ResolveUrl("~/Site/Content/asset/js/parallax.js?v=4.1.1") %>"></script>
+        <!-- Custom JavaScript -->
+        <script src="<%= ResolveUrl("~/Site/Content/asset/js/custom.js?v=4.1.1") %>"></script>
+        <!-- Script for parallax effect -->
+        <script>
+            // Initialize base url
+            var url = location.href;
+            //var baseUrl = url.substring(0, url.indexOf('/', 14)) + "/" + "metaSMSApp" + "/";
+            var baseUrl = url.substring(0, url.indexOf('/', 14)) + "/" + "" + "";
+
+            $('.get-demo').parallax({
+                imageSrc: baseUrl + '/Site/Content/asset/img/get-demo.png'
+            });
+            // int dynamic link tracker here BY TINY
+            $(function () {
+                var current = location.pathname;
+
+                $('.nav li a').each(function () {
+                    var $this = $(this);
+                    // if the current path is like this link, make it active
+                    if ($this.attr('href') === current) {
+                        $(this).parent().addClass('active');
+
+                        $this.attr("href", "#page-top");
+                    }
+                });
+            });
+
+        </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113453598-1"></script>
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-113453598-1');
+
+        </script>
+
+
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script>
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+
+        </script>
+
+        <!-- Your customer chat code -->
+        <div class="fb-customerchat" attribution="setup_tool" page_id="218737012205133" theme_color="#13cf13">
+        </div>
+
+
+        <asp:ContentPlaceHolder ID="Footer" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+
+</html>

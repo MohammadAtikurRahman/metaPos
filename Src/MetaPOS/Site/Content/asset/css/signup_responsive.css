@@ -1,0 +1,38 @@
+@media only screen and (max-width: 500px) {
+    .first_row {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .second_row {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 2%;
+    }
+	
+}
+@media only screen and (max-width: 991px){
+    .box a i {
+        font-size: 59px;
+        color: #585858;
+        margin-left: 37%;
+        margin-top: 0px;
+        padding-bottom: 6%;
+    }
+    .margin-bottom{
+        margin-bottom: 15px
+    }
+    .col-md-6.col-xs-12 {
+        margin-bottom: 15px;
+    }
+    .first_row {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .second_row {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 2%;
+    }
+}

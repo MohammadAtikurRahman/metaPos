@@ -1,0 +1,47 @@
+section.other_products {
+    background: #f8f9fa;
+}
+
+.other_product_header h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #404040;
+    line-height: 1.2em;
+    font-weight: 300;
+    margin: 0 0 20px;
+    padding-bottom: 5%;
+}
+
+/*logo slider css*/
+img.metaedu_logo.img-responsive.center-block2 {
+    margin-top: 23%;
+    width: 90%;
+}
+
+img.health_logo.img-responsive.center-block2 {
+    margin-top: 33%;
+    width: 100%;
+}
+
+img.metatailor_logo.img-responsive.center-block2 {
+    margin-top: 20%;
+    width: 70%;
+}
+
+img.metaerp_logo.img-responsive.center-block2 {
+    margin-top: 21%;
+    width: 70%;
+}
+
+img.metasms_logo.img-responsive.center-block2 {
+    margin-top: 30%;
+}
+
+
+/*product  slider responsive
+*/
+@media only screen and (max-width: 768px) {
+    .other_products {
+        width: 111%
+    }
+}

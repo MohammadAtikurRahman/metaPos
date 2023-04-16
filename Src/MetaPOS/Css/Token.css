@@ -1,0 +1,20 @@
+﻿.mGrid th:nth-last-child(2), .mGrid th:nth-last-child(3) { width: 124px !important; }
+
+.mGrid td { padding: 8px !important; }
+
+.control-label { text-align: left !important; }
+
+.CRglyIconPosition { margin-left: 10px; }
+
+.mGrid tr:last-child td { padding: 7px 7px 7px 11px !important; }
+
+.printMargin { margin: 10px 0px 0px 0px; }
+
+.msg-report {
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 10px;
+    word-spacing: 0px;
+}
+
+.BankingField { height: 345px !important; }
